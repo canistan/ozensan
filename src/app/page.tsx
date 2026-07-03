@@ -20,10 +20,8 @@ export default function HomePage() {
       <header className="w-full border-b border-gray-100 bg-white/80 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-[var(--color-brand-primary)] rounded flex items-center justify-center text-white font-bold text-xl">
-              ÖZ
-            </div>
-            <span className="font-bold text-xl text-[var(--color-brand-primary)] tracking-tight">ÖZEN SANAYİ</span>
+            {/* Orijinal Logo Yeri */}
+            <span className="font-bold text-xl text-[var(--color-brand-primary)] tracking-tight">ÖZENSAN SANAYİ VE MAKİNALARI</span>
           </div>
           <nav className="hidden md:flex gap-8">
             <Link href="/" className="text-[var(--color-brand-text)] hover:text-[var(--color-brand-primary)] font-medium transition-colors">Anasayfa</Link>
@@ -68,21 +66,40 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* BRANDS / SOLUTIONS SECTION */}
-      <section className="w-full py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl font-bold text-[var(--color-brand-primary)] mb-4">Küresel Temsilciliklerimiz</h2>
-            <p className="text-[var(--color-brand-text)] text-lg">Dünyanın en iyi mühendislik çözümlerini ayağınıza getiriyoruz. Her biri kendi alanında lider markalarla tam uyumlu çalışıyoruz.</p>
+      {/* BRANDS / SOLUTIONS SECTION (SCROLLING MARQUEE) */}
+      <section className="w-full py-16 bg-white overflow-hidden flex flex-col border-y border-gray-100">
+        <div className="text-center w-full mb-8">
+          <p className="text-sm font-semibold text-gray-400 uppercase tracking-widest">Küresel Temsilciliklerimiz</p>
+        </div>
+        
+        <div className="relative flex overflow-x-hidden group">
+          <div className="py-4 animate-marquee animate-marquee-hover flex items-center whitespace-nowrap">
+            {/* İlk set */}
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">CEDIMA</span>
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">TICAB</span>
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">VICTOR</span>
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">GCE</span>
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">DUSS</span>
+            {/* Kesintisiz akış için kopyası */}
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">CEDIMA</span>
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">TICAB</span>
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">VICTOR</span>
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">GCE</span>
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">DUSS</span>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center justify-items-center opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-            {/* Marka logoları gelecek */}
-            <div className="h-16 flex items-center justify-center font-bold text-2xl text-[var(--color-brand-primary)]">CEDIMA</div>
-            <div className="h-16 flex items-center justify-center font-bold text-2xl text-[var(--color-brand-primary)]">TICAB</div>
-            <div className="h-16 flex items-center justify-center font-bold text-2xl text-[var(--color-brand-primary)]">VICTOR</div>
-            <div className="h-16 flex items-center justify-center font-bold text-2xl text-[var(--color-brand-primary)]">GCE</div>
-            <div className="h-16 flex items-center justify-center font-bold text-2xl text-[var(--color-brand-primary)]">DUSS</div>
+          <div className="absolute top-0 py-4 animate-marquee animate-marquee-hover flex items-center whitespace-nowrap" aria-hidden="true">
+            {/* Sonsuz döngü için clone */}
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">CEDIMA</span>
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">TICAB</span>
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">VICTOR</span>
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">GCE</span>
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">DUSS</span>
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">CEDIMA</span>
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">TICAB</span>
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">VICTOR</span>
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">GCE</span>
+            <span className="mx-12 text-3xl font-extrabold text-[var(--color-brand-primary)] opacity-70 hover:opacity-100 transition-opacity">DUSS</span>
           </div>
         </div>
       </section>

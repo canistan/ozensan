@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Özen Sanayi Makinaları | 50 Yılı Aşkın Tecrübe",
-  description: "Endüstriyel elmas uçlar, makinalar ve sanayi çözümleri. Türkiye'nin köklü kuruluşu.",
+  title: "ÖZENSAN SANAYİ VE MAKİNALARI | 50 Yılı Aşkın Tecrübe",
+  description: "Endüstriyel elmas uçlar, makinalar ve sanayi çözümleri. Türkiye'nin köklü kuruluşu ÖZENSAN SANAYİ VE MAKİNALARI.",
   robots: {
     index: false,
     follow: false,
