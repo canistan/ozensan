@@ -1,7 +1,8 @@
 import configPromise from '@payload-config'
 import '@payloadcms/next/css'
-import { RootLayout } from '@payloadcms/next/layouts'
+import { RootLayout, handleServerFunctions } from '@payloadcms/next/layouts'
 import React from 'react'
+import { importMap } from './admin/importMap'
 
 export const metadata = {
   title: 'Özensan Admin Panel',
@@ -13,7 +14,7 @@ type Args = {
 }
 
 const Layout = ({ children }: Args) => {
-  return <RootLayout config={configPromise}>{children}</RootLayout>
+  return <RootLayout config={configPromise} importMap={importMap} serverFunction={handleServerFunctions}>{children}</RootLayout>
 }
 
 export default Layout
