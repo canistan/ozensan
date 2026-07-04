@@ -1,66 +1,26 @@
 @import "tailwindcss";
 
-@theme inline {
-  /* Enterprise B2B Core Palette */
-  --color-brand-primary: #1A1E24; /* Deep Slate Gray / Dark Charcoal */
-  --color-brand-secondary: #272C36; /* Slightly lighter slate for cards/headers */
-  --color-brand-accent: #1D4ED8; /* Premium Steel Blue */
-  --color-brand-accent-hover: #1E40AF; /* Darker Steel Blue for hover */
-  
-  --color-brand-surface: #FFFFFF; /* Crisp Premium White */
-  --color-brand-fill: #F4F6F9; /* Light Structural Fills */
-  --color-brand-border: #E2E8F0; /* Clean Light Gray Dividers */
-  
-  --color-brand-text-dark: #0F172A; /* For light backgrounds */
-  --color-brand-text-muted: #64748B; /* Secondary text */
-  --color-brand-text-light: #F8FAFC; /* For dark backgrounds */
-
-  --color-background: var(--color-brand-surface);
-  --color-foreground: var(--color-brand-text-dark);
-  --font-sans: var(--font-inter);
+@theme {
+  --color-background: #F8F9FA;
+  --color-foreground: #1A1E24;
 }
 
 :root {
-  --background: #FFFFFF;
-  --foreground: #0F172A;
-}
-
-@media (prefers-color-scheme: dark) {
-  /* We maintain a controlled light theme for content areas per B2B enterprise specs,
-     but respect dark mode for base UI if needed. However, the design explicitly 
-     calls for Crisp White and structural fills. So we enforce the palette. */
-  :root {
-    --background: #F4F6F9; 
-    --foreground: #0F172A;
-  }
+  --background: #F8F9FA;
+  --foreground: #1A1E24;
 }
 
 body {
-  background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Custom Scrollbar for Enterprise feel */
-::-webkit-scrollbar {
-  width: 8px;
-}
-::-webkit-scrollbar-track {
-  background: #F4F6F9; 
-}
-::-webkit-scrollbar-thumb {
-  background: #CBD5E1; 
-  border-radius: 4px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #94A3B8; 
+.animate-marquee {
+  animation: marquee 35s linear infinite;
 }
 
-/* Clean UI Utilities */
-.glass-header {
-  background: rgba(26, 30, 36, 0.95);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }

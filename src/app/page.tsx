@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export default function Home() {
   const brands = [
-    { name: "CEDIMA", type: "Beton & Asfalt Kesme" },
-    { name: "DUSS", type: "Karot & Delme Sistemleri" },
-    { name: "TICAB", type: "Yol Bakım Ekipmanları" },
-    { name: "VICTOR", type: "Gaz Kesme Sistemleri" },
-    { name: "GCE", type: "Endüstriyel Gaz Kontrol" },
+    { name: "CEDIMA", type: "Beton & Asfalt Kesme", logo: null },
+    { name: "DUSS", type: "Karot & Delme Sistemleri", logo: "/brands/duss.svg" },
+    { name: "TICAB", type: "Yol Bakım Ekipmanları", logo: null },
+    { name: "VICTOR", type: "Gaz Kesme Sistemleri", logo: "/brands/victor.png" },
+    { name: "GCE", type: "Endüstriyel Gaz Kontrol", logo: "/brands/gce.png" },
   ];
 
   const pillars = [
@@ -80,20 +80,55 @@ export default function Home() {
         </div>
       </section>
 
-      {/* MONOCHROME BRAND SHOWCASE STRIP */}
-      <section className="bg-white border-b border-[#8A95A5]/20 py-16 relative z-30">
-        <div className="container mx-auto px-8">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-12">
-            <div className="md:w-1/4 border-r border-[#8A95A5]/30 pr-8">
+      {/* INFINITE MARQUEE BRAND SHOWCASE STRIP */}
+      <section className="bg-white border-b border-[#8A95A5]/20 py-10 relative z-30 overflow-hidden flex items-center h-40">
+        <div className="container mx-auto px-8 relative flex h-full">
+          {/* Static Title Box that sits ON TOP of the scrolling marquee */}
+          <div className="absolute left-0 top-0 bottom-0 bg-gradient-to-r from-white via-white to-transparent w-80 z-20 flex items-center">
+            <div className="border-r border-[#8A95A5]/30 pr-8">
               <h3 className="text-lg font-black text-[#1A1E24] leading-tight uppercase tracking-tight">Temsil Ettiğimiz<br/><span className="text-[#8A95A5]">Global Devler</span></h3>
             </div>
-            <div className="md:w-3/4 flex flex-wrap justify-between items-center w-full opacity-70 grayscale hover:grayscale-0 transition-all duration-500 gap-8">
-              {brands.map((brand) => (
-                <div key={brand.name} className="flex flex-col items-center justify-center group cursor-pointer">
-                  <span className="text-3xl lg:text-4xl font-black text-[#1A1E24] tracking-tighter group-hover:text-[#C61A1A] transition-colors">{brand.name}</span>
-                  <span className="text-[10px] font-bold text-[#8A95A5] uppercase tracking-widest mt-2 opacity-0 group-hover:opacity-100 transition-opacity">{brand.type}</span>
-                </div>
-              ))}
+          </div>
+          
+          {/* Right side fade mask */}
+          <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-white to-transparent z-20 pointer-events-none"></div>
+
+          {/* Marquee Wrapper */}
+          <div className="w-full h-full flex items-center overflow-hidden ml-64 relative z-10">
+            <div className="flex animate-marquee whitespace-nowrap min-w-[200%] opacity-80 hover:opacity-100 transition-opacity duration-500 items-center">
+              
+              {/* Group 1 */}
+              <div className="flex justify-around items-center w-full px-8 gap-24">
+                {brands.map((brand) => (
+                  <div key={`${brand.name}-1`} className="flex flex-col items-center justify-center group cursor-pointer grayscale hover:grayscale-0 transition-all duration-300">
+                    <div className="relative h-14 w-40 flex items-center justify-center">
+                      {brand.logo ? (
+                        <img src={brand.logo} alt={brand.name} className="max-h-full max-w-full object-contain" />
+                      ) : (
+                        <span className="text-3xl lg:text-4xl font-black text-[#1A1E24] tracking-tighter group-hover:text-[#C61A1A] transition-colors">{brand.name}</span>
+                      )}
+                    </div>
+                    <span className="text-[10px] font-bold text-[#8A95A5] uppercase tracking-widest mt-2 opacity-0 group-hover:opacity-100 transition-opacity">{brand.type}</span>
+                  </div>
+                ))}
+              </div>
+
+              {/* Group 2 (Duplicate for infinite flow) */}
+              <div className="flex justify-around items-center w-full px-8 gap-24">
+                {brands.map((brand) => (
+                  <div key={`${brand.name}-2`} className="flex flex-col items-center justify-center group cursor-pointer grayscale hover:grayscale-0 transition-all duration-300">
+                    <div className="relative h-14 w-40 flex items-center justify-center">
+                      {brand.logo ? (
+                        <img src={brand.logo} alt={brand.name} className="max-h-full max-w-full object-contain" />
+                      ) : (
+                        <span className="text-3xl lg:text-4xl font-black text-[#1A1E24] tracking-tighter group-hover:text-[#C61A1A] transition-colors">{brand.name}</span>
+                      )}
+                    </div>
+                    <span className="text-[10px] font-bold text-[#8A95A5] uppercase tracking-widest mt-2 opacity-0 group-hover:opacity-100 transition-opacity">{brand.type}</span>
+                  </div>
+                ))}
+              </div>
+              
             </div>
           </div>
         </div>
