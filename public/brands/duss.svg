@@ -1,0 +1,1103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+      <meta charset="UTF-8">
+    <title>404 page not found - DUSS | Bohr- und Meisseltechnik | Diamantbohrtechnik</title>
+    <base href="https://www.duss.com/">
+
+          <meta name="robots" content="index,follow">
+      <meta name="description" content="">
+      <meta name="generator" content="Contao Open Source CMS">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+        <link rel="stylesheet" href="assets/css/reset.min.css,animate.min.css,bootstrap-datetimepicker.min.css,c...-cd33d240.css">        <script src="assets/js/jquery.min.js,js.cookie.min.js,popper.min.js,bootstrap.min.js,jq...-0c1ad838.js"></script><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<!--<link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/7811c613-3ecb-4531-9cfc-857b26092c66.css"/>-->
+
+<!--<link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/1e2e7ae6-fc79-4c2e-997d-041b9fa42a7e.css"/>-->
+
+<!--<link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/a13c25c3-fa4f-4b20-b2b7-2d188659b7b8.css"/>-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<style>
+	@media screen and (min-width: 1200px) {
+		.mod_dse_products_reader .main-image img {
+			max-width: 70%;
+		}
+	}
+	@media screen and (max-width: 767px) {
+		.mod_newsreader .layout_full > .col > .row,
+		.mod_newsreader .layout_full > .ce_rsce_content_wrapper_start > .row {
+			margin-left: 5px;
+			margin-right: 5px;
+		}
+	}
+</style>
+
+          <!--[if lt IE 9]><script src="assets/html5shiv/js/html5shiv-printshiv.min.js"></script><![endif]-->
+        
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback" async></script>
+
+</head>
+<body id="top" class="unknown other " itemscope itemtype="http://schema.org/WebPage">
+
+	
+<div class="offcanvas-menu">
+	<div class="menu-holder">
+		
+<!-- indexer::stop -->
+<div class="mod_search block">
+
+        
+  
+  <form action="en/search-result" method="get">
+    <div class="formbody">
+      <div class="widget widget-text">
+        <label for="ctrl_keywords_77" class="invisible">Keywords</label>
+        <input type="search" name="keywords" id="ctrl_keywords_77" class="text" value="" placeholder="Search">
+      </div>
+      <div class="widget widget-submit">
+        <button type="submit" id="ctrl_submit_77" class="submit">Search</button>
+      </div>
+          </div>
+  </form>
+
+
+    <div class="results">
+	    </div>
+
+
+</div>
+<!-- indexer::continue -->
+
+		
+<!-- indexer::stop -->
+<nav class="mod_navigation nav-mobile block" id="nav-mobile" itemscope itemtype="http://schema.org/SiteNavigationElement">
+
+  
+  <a href="en/files/public/svg/361-DUSS-LOGO.svg#skipNavigation18" class="invisible">Skip navigation</a>
+
+  
+<ul class="level_1">
+			
+            <li class="startpage sibling first"><a href="en/" title="Home" class="startpage sibling first" itemprop="url"><span itemprop="name">Home</span></a></li>
+                <li class="submenu product-item sibling"><a href="en/products" title="Products" class="submenu product-item sibling" aria-haspopup="true" itemprop="url"><span itemprop="name">Products</span></a>
+<ul class="level_2">
+				<div class="menu-back">
+			<a>Products</a>
+		</div>
+		
+            <li class="first"><a href="en/products" title="Overview" class="first" itemprop="url"><span itemprop="name">Overview</span></a></li>
+                <li class="submenu"><a href="en/products/drilling/all-drills" title="Drilling" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Drilling</span></a>
+<ul class="level_3">
+				<div class="menu-back">
+			<a>Drilling</a>
+		</div>
+		
+            <li class="first"><a href="en/products/drilling/all-drills" title="All drills" class="first" itemprop="url"><span itemprop="name">All drills</span></a></li>
+                <li><a href="en/products/drilling/rotary-drills" title="Rotary drills" itemprop="url"><span itemprop="name">Rotary drills</span></a></li>
+                <li class="last"><a href="en/products/drilling/rotary-hammers" title="Rotary hammers" class="last" itemprop="url"><span itemprop="name">Rotary hammers</span></a></li>
+        
+				</ul>
+</li>
+                <li class="submenu"><a href="en/products/diamond-core-drilling/all-diamond-core-drills" title="Diamond core drilling" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Diamond core drilling</span></a>
+<ul class="level_3">
+				<div class="menu-back">
+			<a>Diamond core drilling</a>
+		</div>
+		
+            <li class="first"><a href="en/products/diamond-core-drilling/all-diamond-core-drills" title="All diamond core drills" class="first" itemprop="url"><span itemprop="name">All diamond core drills</span></a></li>
+                <li><a href="en/products/diamond-core-drilling/dia-wet-dry" title="DIA wet + dry" itemprop="url"><span itemprop="name">DIA wet + dry</span></a></li>
+                <li><a href="en/products/diamond-core-drilling/dia-dry" title="DIA dry" itemprop="url"><span itemprop="name">DIA dry</span></a></li>
+                <li class="last"><a href="en/products/diamond-core-drilling/dia-wet" title="DIA wet" class="last" itemprop="url"><span itemprop="name">DIA wet</span></a></li>
+        
+				</ul>
+</li>
+                <li class="submenu"><a href="en/products/drilling-chiselling/all-combi-hammers" title="Drilling + chiselling" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Drilling + chiselling</span></a>
+<ul class="level_3">
+				<div class="menu-back">
+			<a>Drilling + chiselling</a>
+		</div>
+		
+            <li class="first last"><a href="en/products/drilling-chiselling/all-combi-hammers" title="All combi hammers" class="first last" itemprop="url"><span itemprop="name">All combi hammers</span></a></li>
+        
+				</ul>
+</li>
+                <li class="submenu"><a href="en/products/chiselling/all-products" title="Chiselling" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Chiselling</span></a>
+<ul class="level_3">
+				<div class="menu-back">
+			<a>Chiselling</a>
+		</div>
+		
+            <li class="first"><a href="en/products/chiselling/all-products" title="All products" class="first" itemprop="url"><span itemprop="name">All products</span></a></li>
+                <li><a href="en/products/chiselling/breakers" title="Breakers" itemprop="url"><span itemprop="name">Breakers</span></a></li>
+                <li class="last"><a href="en/products/chiselling/demolition-hammers" title="Demolition hammers" class="last" itemprop="url"><span itemprop="name">Demolition hammers</span></a></li>
+        
+				</ul>
+</li>
+                <li class="submenu last"><a href="en/products/tools-and-accessories/all-products" title="Tools and accessories" class="submenu last" aria-haspopup="true" itemprop="url"><span itemprop="name">Tools and accessories</span></a>
+<ul class="level_3">
+				<div class="menu-back">
+			<a>Tools and accessories</a>
+		</div>
+		
+            <li class="product-item no-compare first"><a href="en/products/tools-and-accessories/all-products" title="All products" class="product-item no-compare first" itemprop="url"><span itemprop="name">All products</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/drilling" title="Drilling" class="product-item no-compare" itemprop="url"><span itemprop="name">Drilling</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/chiselling" title="Chiselling" class="product-item no-compare" itemprop="url"><span itemprop="name">Chiselling</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/diamond-core-drilling" title="Diamond core drilling" class="product-item no-compare" itemprop="url"><span itemprop="name">Diamond core drilling</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/precision-core-cutters" title="Precision core cutters" class="product-item no-compare" itemprop="url"><span itemprop="name">Precision core cutters</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/adapters" title="Adapters" class="product-item no-compare" itemprop="url"><span itemprop="name">Adapters</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/centring-aids" title="Centring aids" class="product-item no-compare" itemprop="url"><span itemprop="name">Centring aids</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/drill-stands-bs" title="Drill stands BS" class="product-item no-compare" itemprop="url"><span itemprop="name">Drill stands BS</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/drill-stands-bst" title="Drill stands BST" class="product-item no-compare" itemprop="url"><span itemprop="name">Drill stands BST</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/extraction-systems" title="Extraction systems" class="product-item no-compare" itemprop="url"><span itemprop="name">Extraction systems</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/universal-hole-saws-and-arbors" title="Universal hole saws and arbors" class="product-item no-compare" itemprop="url"><span itemprop="name">Universal hole saws and arbors</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/drilling-in-tiles" title="Drilling in tiles" class="product-item no-compare" itemprop="url"><span itemprop="name">Drilling in tiles</span></a></li>
+                <li class="product-item no-compare last"><a href="en/products/tools-and-accessories/maintenance" title="Maintenance" class="product-item no-compare last" itemprop="url"><span itemprop="name">Maintenance</span></a></li>
+        
+				</ul>
+</li>
+        
+				</ul>
+</li>
+                <li class="submenu sibling"><a href="en/services" title="Services" class="submenu sibling" aria-haspopup="true" itemprop="url"><span itemprop="name">Services</span></a>
+<ul class="level_2">
+				<div class="menu-back">
+			<a>Services</a>
+		</div>
+		
+            <li class="first"><a href="de/service" title="Overview" class="first" itemprop="url"><span itemprop="name">Overview</span></a></li>
+                <li><a href="en/service/repair-service" title="Repair service" itemprop="url"><span itemprop="name">Repair service</span></a></li>
+                <li><a href="en/service/spare-parts" title="Spare parts" itemprop="url"><span itemprop="name">Spare parts</span></a></li>
+                <li><a href="en/service/technical-advice" title="Technical advice" itemprop="url"><span itemprop="name">Technical advice</span></a></li>
+                <li class="last"><a href="en/service/tailor-made-solutions" title="Tailor-made solutions" class="last" itemprop="url"><span itemprop="name">Tailor-made solutions</span></a></li>
+        
+				    <div class="page-teaser">
+	    	<div class="teaser-holder">
+						    			<div class="teaser-left teaser" style="background-image: url()"><span class="title">First teaser title</span></div>
+											    			<div class="teaser-right teaser" style="background-image: url()"><span class="title">Second teaser title</span></div>
+						    	</div>
+	    </div>
+			</ul>
+</li>
+                <li class="submenu sibling"><a href="en/company" title="Company" class="submenu sibling" aria-haspopup="true" itemprop="url"><span itemprop="name">Company</span></a>
+<ul class="level_2">
+				<div class="menu-back">
+			<a>Company</a>
+		</div>
+		
+            <li class="first"><a href="de/unternehmen" title="Overview" class="first" itemprop="url"><span itemprop="name">Overview</span></a></li>
+                <li><a href="en/company/who-we-are" title="Who we are" itemprop="url"><span itemprop="name">Who we are</span></a></li>
+                <li class="submenu"><a href="en/company/quality" title="Quality" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Quality</span></a>
+<ul class="level_3">
+				<div class="menu-back">
+			<a>Quality</a>
+		</div>
+		
+            <li class="first"><a href="en/company/quality/drilling-and-chiselling" title="Drilling and chiselling" class="first" itemprop="url"><span itemprop="name">Drilling and chiselling</span></a></li>
+                <li><a href="en/company/quality/diamond-core-drilling" title="Diamond core drilling" itemprop="url"><span itemprop="name">Diamond core drilling</span></a></li>
+                <li><a href="en/company/quality/competence-in-tools" title="Competence in tools" itemprop="url"><span itemprop="name">Competence in tools</span></a></li>
+                <li class="last"><a href="en/company/quality/motors-and-gearboxes" title="Motors and gearboxes" class="last" itemprop="url"><span itemprop="name">Motors and gearboxes</span></a></li>
+        
+				</ul>
+</li>
+                <li><a href="en/company/history" title="History" itemprop="url"><span itemprop="name">History</span></a></li>
+                <li class="last"><a href="en/company/discover-duss" title="Discover DUSS" class="last" itemprop="url"><span itemprop="name">Discover DUSS</span></a></li>
+        
+				</ul>
+</li>
+                <li class="sibling"><a href="en/news" title="News" class="sibling" itemprop="url"><span itemprop="name">News</span></a></li>
+                <li class="sibling last"><a href="en/contact-us" title="Contact us" class="sibling last" itemprop="url"><span itemprop="name">Contact us</span></a></li>
+        
+	</ul>
+
+  <a id="skipNavigation18" class="invisible">&nbsp;</a>
+
+</nav>
+
+
+<div class="ce_text mobile-nav-extra col col-12 block">
+
+        
+  
+      <ul>
+<li class="title">Do you have questions?</li>
+<li class="icon mail icon-mail"><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#x6F;&#110;&#x74;&#97;&#x6B;&#116;&#x40;&#100;&#x75;&#115;&#x73;&#46;&#x64;&#101;">&#105;&#x6E;&#102;&#x6F;&#64;&#x64;&#117;&#x73;&#115;&#x2E;&#100;&#x65;</a></li>
+<li class="icon phone icon-phone"><a href="tel:+49 7053 9692-0">+49 7053 9692-0</a></li>
+</ul>  
+  
+    
+	
+
+</div>
+
+
+<!-- indexer::continue -->
+
+	</div>
+</div>
+      
+    <div id="wrapper">
+
+                        <header id="header" itemscope itemtype="http://schema.org/WPHeader">
+            <div class="inside">
+              
+<div class="menu-overlay"></div>
+<div class="header-block">
+	<!-- indexer::stop -->
+	<div class="header-top">
+		<div class="container">
+			<div class="row">
+				
+<div class="ce_hyperlink header-logo col col-4 block">
+
+        
+  
+      <figure class="image_container">
+            <a href="en/" class="hyperlink_img">
+
+<img src="files/public/svg/361-DUSS-LOGO.svg" width="121" height="27" alt="DUSS Logo" title="DUSS Logo">
+
+</a>
+                </figure>
+  
+
+</div>
+
+				
+<div class="ce_text header-nav-extra col col-12 col-md-4 block">
+
+        
+  
+      <ul>
+<li class="icon mail icon-mail"><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#x6E;&#102;&#x6F;&#64;&#x64;&#117;&#x73;&#115;&#x2E;&#100;&#x65;">&#105;&#x6E;&#102;&#x6F;&#64;&#x64;&#117;&#x73;&#115;&#x2E;&#100;&#x65;</a></li>
+<li class="icon phone icon-phone"><a href="tel:+4970539692-0">+49 7053 9692-0</a></li>
+</ul>  
+  
+    
+	
+
+</div>
+
+				<section class="ce_rsce_slogan_popup col col-12 ">
+		<article>
+					<p class="slogan">
+				duss since 1920			</p>
+				<div class="popup">
+			<div>
+				<div class="img-holder" style="background-image: url(files/public/unternehmen%20und%20service/DussSeit1920.jpg);">
+				</div>
+				<div class="content-holder">
+											<h6 class="title">QUALITY MADE IN GERMANY</h6>
+																<div class="ce_text">
+							<p>When it comes to the quality of our products, we leave nothing to chance. We attach the utmost importance to high-quality materials and first-class manufacturing and set standards in terms of durability and robustness. <a href="en/company/who-we-are">Learn more</a></p>						</div>
+									</div>
+			</div>
+		</div>
+ 	</article>
+</section>
+ <!-- slogan -->
+				<div class="top-right">
+					<button class="search-open icon icon-search col"></button>
+					
+<!-- indexer::stop -->
+<div class="mod_search header-search col col-12 block">
+
+        
+  
+  <form action="en/search-result" method="get">
+    <div class="formbody">
+      <div class="widget widget-text">
+        <label for="ctrl_keywords_77" class="invisible">Keywords</label>
+        <input type="search" name="keywords" id="ctrl_keywords_77" class="text" value="" placeholder="Search">
+      </div>
+      <div class="widget widget-submit">
+        <button type="submit" id="ctrl_submit_77" class="submit">Search</button>
+      </div>
+          </div>
+  </form>
+
+
+    <div class="results">
+	    </div>
+
+
+</div>
+<!-- indexer::continue -->
+
+					
+<!-- indexer::stop -->
+<nav class="mod_changelanguage block">
+
+  
+  <div class="lang-active">
+					<span class="lang-en active">EN</span>
+					<div class="lang-wrapper">
+		<ul class="level_1">
+											<li class="lang-de">
+					<a href="https://www.duss.com/de/" title="404 Seite nicht gefunden" class="lang-de" role="menuitem">
+						<span>DE</span>
+					</a>
+									</li>
+																						<li class="lang-fr nofallback">
+					<a href="https://www.duss.com/fr/" title="DUSS | Bohr- und Meisseltechnik | Diamantbohrtechnik" class="lang-fr nofallback" role="menuitem">
+						<span>FR</span>
+					</a>
+									</li>
+									</ul>
+	</div>
+</div>
+
+</nav>
+<!-- indexer::continue -->
+					
+<!-- indexer::stop -->
+<nav class="mod_customnav header-nav-user col col-12 col-md-4 block">
+
+  
+  <a href="en/files/public/svg/361-DUSS-LOGO.svg#skipNavigation89" class="invisible">Skip navigation</a>
+
+  
+<ul class="level_1">
+            <li class="first"><a href="en/contact-us" title="Contact us" class="first" itemprop="url"><span itemprop="name">Contact us</span></a></li>
+                <li class="last"><a href="en/products/wishlist" title="Wishlist" class="last" itemprop="url"><span itemprop="name">Wishlist</span></a></li>
+      </ul>
+
+  <span id="skipNavigation89" class="invisible"></span>
+
+</nav>
+<!-- indexer::continue -->
+
+				</div>
+				
+<div class="ce_text burger-block col col-2 d-xl-none block">
+
+        
+  
+      <p><button class="sidebar-opener" type="button"><span class="menu-title">Menü</span><span class="menu-open">Open</span><span class="menu-close">Close</span></button></p>  
+  
+    
+	
+
+</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- indexer::continue -->
+	<div class="header-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="ce_hyperlink header-logo col col-4 col-md-3 block">
+
+        
+  
+      <figure class="image_container">
+            <a href="en/" class="hyperlink_img">
+
+<img src="files/public/svg/361-DUSS-LOGO.svg" width="121" height="27" alt="DUSS Logo" title="DUSS Logo">
+
+</a>
+                </figure>
+  
+
+</div>
+
+<!-- indexer::stop -->
+<nav class="mod_navigation col col-12 block" id="nav-desktop" itemscope itemtype="http://schema.org/SiteNavigationElement">
+
+  
+  <a href="en/files/public/svg/361-DUSS-LOGO.svg#skipNavigation3" class="invisible">Skip navigation</a>
+
+  
+<ul class="level_1">
+            
+                    <li class="startpage sibling first">
+                <a href="en/" title="Home" class="startpage sibling first">Home</a>
+
+                                                                </li>
+                    
+                    <li class="submenu product-item sibling mm_container mm_231">
+                <a href="en/products" title="Products" class="submenu product-item sibling" aria-haspopup="true">Products</a>
+
+                                                        <div class="mm_dropdown mm_231" style="border-bottom: 1px solid #333;">
+	<div class="inner">
+        <div class="row">
+		
+<div class="ce_hyperlink col col-12 block">
+
+        
+  
+          <a href="en/products" class="hyperlink_txt" title="Product overview">Product overview</a>
+      
+
+</div>
+
+
+<!-- indexer::stop -->
+<nav class="mod_navigation col col-8 block">
+
+  
+  <a href="en/files/public/svg/361-DUSS-LOGO.svg#skipNavigation86" class="invisible">Skip navigation</a>
+
+  
+<ul class="level_1">
+            <li class="first"><a href="en/products" title="Overview" class="first" itemprop="url"><span itemprop="name">Overview</span></a></li>
+                <li class="submenu"><a href="en/products/drilling/all-drills" title="Drilling" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Drilling</span></a>
+<ul class="level_2">
+            <li class="first"><a href="en/products/drilling/all-drills" title="All drills" class="first" itemprop="url"><span itemprop="name">All drills</span></a></li>
+                <li><a href="en/products/drilling/rotary-drills" title="Rotary drills" itemprop="url"><span itemprop="name">Rotary drills</span></a></li>
+                <li class="last"><a href="en/products/drilling/rotary-hammers" title="Rotary hammers" class="last" itemprop="url"><span itemprop="name">Rotary hammers</span></a></li>
+      </ul>
+</li>
+                <li class="submenu"><a href="en/products/diamond-core-drilling/all-diamond-core-drills" title="Diamond core drilling" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Diamond core drilling</span></a>
+<ul class="level_2">
+            <li class="first"><a href="en/products/diamond-core-drilling/all-diamond-core-drills" title="All diamond core drills" class="first" itemprop="url"><span itemprop="name">All diamond core drills</span></a></li>
+                <li><a href="en/products/diamond-core-drilling/dia-wet-dry" title="DIA wet + dry" itemprop="url"><span itemprop="name">DIA wet + dry</span></a></li>
+                <li><a href="en/products/diamond-core-drilling/dia-dry" title="DIA dry" itemprop="url"><span itemprop="name">DIA dry</span></a></li>
+                <li class="last"><a href="en/products/diamond-core-drilling/dia-wet" title="DIA wet" class="last" itemprop="url"><span itemprop="name">DIA wet</span></a></li>
+      </ul>
+</li>
+                <li class="submenu"><a href="en/products/drilling-chiselling/all-combi-hammers" title="Drilling + chiselling" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Drilling + chiselling</span></a>
+<ul class="level_2">
+            <li class="first last"><a href="en/products/drilling-chiselling/all-combi-hammers" title="All combi hammers" class="first last" itemprop="url"><span itemprop="name">All combi hammers</span></a></li>
+      </ul>
+</li>
+                <li class="submenu"><a href="en/products/chiselling/all-products" title="Chiselling" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Chiselling</span></a>
+<ul class="level_2">
+            <li class="first"><a href="en/products/chiselling/all-products" title="All products" class="first" itemprop="url"><span itemprop="name">All products</span></a></li>
+                <li><a href="en/products/chiselling/breakers" title="Breakers" itemprop="url"><span itemprop="name">Breakers</span></a></li>
+                <li class="last"><a href="en/products/chiselling/demolition-hammers" title="Demolition hammers" class="last" itemprop="url"><span itemprop="name">Demolition hammers</span></a></li>
+      </ul>
+</li>
+                <li class="submenu last"><a href="en/products/tools-and-accessories/all-products" title="Tools and accessories" class="submenu last" aria-haspopup="true" itemprop="url"><span itemprop="name">Tools and accessories</span></a>
+<ul class="level_2">
+            <li class="product-item no-compare first"><a href="en/products/tools-and-accessories/all-products" title="All products" class="product-item no-compare first" itemprop="url"><span itemprop="name">All products</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/drilling" title="Drilling" class="product-item no-compare" itemprop="url"><span itemprop="name">Drilling</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/chiselling" title="Chiselling" class="product-item no-compare" itemprop="url"><span itemprop="name">Chiselling</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/diamond-core-drilling" title="Diamond core drilling" class="product-item no-compare" itemprop="url"><span itemprop="name">Diamond core drilling</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/precision-core-cutters" title="Precision core cutters" class="product-item no-compare" itemprop="url"><span itemprop="name">Precision core cutters</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/adapters" title="Adapters" class="product-item no-compare" itemprop="url"><span itemprop="name">Adapters</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/centring-aids" title="Centring aids" class="product-item no-compare" itemprop="url"><span itemprop="name">Centring aids</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/drill-stands-bs" title="Drill stands BS" class="product-item no-compare" itemprop="url"><span itemprop="name">Drill stands BS</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/drill-stands-bst" title="Drill stands BST" class="product-item no-compare" itemprop="url"><span itemprop="name">Drill stands BST</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/extraction-systems" title="Extraction systems" class="product-item no-compare" itemprop="url"><span itemprop="name">Extraction systems</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/universal-hole-saws-and-arbors" title="Universal hole saws and arbors" class="product-item no-compare" itemprop="url"><span itemprop="name">Universal hole saws and arbors</span></a></li>
+                <li class="product-item no-compare"><a href="en/products/tools-and-accessories/drilling-in-tiles" title="Drilling in tiles" class="product-item no-compare" itemprop="url"><span itemprop="name">Drilling in tiles</span></a></li>
+                <li class="product-item no-compare last"><a href="en/products/tools-and-accessories/maintenance" title="Maintenance" class="product-item no-compare last" itemprop="url"><span itemprop="name">Maintenance</span></a></li>
+      </ul>
+</li>
+      </ul>
+
+  <span id="skipNavigation86" class="invisible"></span>
+
+</nav>
+<!-- indexer::continue -->
+
+<section class="ce_rsce_menuimages col col-4">
+	<article class="items-2">
+								<div class="teaser">
+									<a class="link" href="https://www.duss.com/en/products/chiselling/breakers/detail/PK2-breaker">
+								<figure class="image-holder">
+					
+
+<img src="files/public/dummy/Startseite/teaser_menu_pk2.jpg" width="370" height="180" alt="Das handliche Kraftpaket für Arbeiten über Kopf!" title="PK 2 Meisselhammer">
+
+											<span>PK 2 - The small one</span>
+									</figure>
+									</a>
+							</div>
+								<div class="teaser">
+									<a class="link" href="https://www.duss.com/en/products/diamond-core-drilling/dia-wet-dry/detail/DIA303W-diamond-core-drill">
+								<figure class="image-holder">
+					
+
+<img src="files/public/dummy/Startseite/teaser_menu_dia303w.jpg" width="370" height="180" alt="Hand- und ständergeführt einsetzbar, zum Nass- und Trockenbohren, enormer Bohrbereich von Ø 32 - 300 mm" title="DIA 303 W DIAMANT­BOHRMASCHINE">
+
+											<span>Perfect core drilling</span>
+									</figure>
+									</a>
+							</div>
+			</article>
+</section>
+		<div class="ce_text mm-close block">
+			<p><button type="button"><span class="menu-close">Close</span></button></p>  
+		</div>
+        </div>
+	</div>
+</div>
+                            </li>
+                    
+                    <li class="submenu sibling mm_container mm_192">
+                <a href="en/services" title="Services" class="submenu sibling" aria-haspopup="true">Services</a>
+
+                                                        <div class="mm_dropdown mm_192" style="border-bottom: 1px solid #333;">
+	<div class="inner">
+        <div class="row">
+		
+<div class="ce_hyperlink col col-12 block">
+
+        
+  
+          <a href="en/services" class="hyperlink_txt" title="Services">Services</a>
+      
+
+</div>
+
+
+<!-- indexer::stop -->
+<nav class="mod_navigation col col-8 block">
+
+  
+  <a href="en/files/public/svg/361-DUSS-LOGO.svg#skipNavigation87" class="invisible">Skip navigation</a>
+
+  
+<ul class="level_1">
+            <li class="first"><a href="de/service" title="Overview" class="first" itemprop="url"><span itemprop="name">Overview</span></a></li>
+                <li><a href="en/service/repair-service" title="Repair service" itemprop="url"><span itemprop="name">Repair service</span></a></li>
+                <li><a href="en/service/spare-parts" title="Spare parts" itemprop="url"><span itemprop="name">Spare parts</span></a></li>
+                <li><a href="en/service/technical-advice" title="Technical advice" itemprop="url"><span itemprop="name">Technical advice</span></a></li>
+                <li class="last"><a href="en/service/tailor-made-solutions" title="Tailor-made solutions" class="last" itemprop="url"><span itemprop="name">Tailor-made solutions</span></a></li>
+      </ul>
+
+  <span id="skipNavigation87" class="invisible"></span>
+
+</nav>
+<!-- indexer::continue -->
+
+<section class="ce_rsce_menuimages col col-4">
+	<article class="items-1">
+								<div class="teaser">
+									<a class="link" href="en/sales">
+								<figure class="image-holder">
+					
+
+<img src="files/public/unternehmen%20und%20service/Teaser_service.jpg" width="370" height="180" alt="Kompetente Beratung durch erfahrenen DUSS VertriebsmitarbeiterInnen" title="Vetrieb">
+
+											<span>Sales</span>
+									</figure>
+									</a>
+							</div>
+			</article>
+</section>
+		<div class="ce_text mm-close block">
+			<p><button type="button"><span class="menu-close">Close</span></button></p>  
+		</div>
+        </div>
+	</div>
+</div>
+                            </li>
+                    
+                    <li class="submenu sibling mm_container mm_207">
+                <a href="en/company" title="Company" class="submenu sibling" aria-haspopup="true">Company</a>
+
+                                                        <div class="mm_dropdown mm_207" style="border-bottom: 1px solid #333;">
+	<div class="inner">
+        <div class="row">
+		
+<div class="ce_hyperlink col col-12 block">
+
+        
+  
+          <a href="en/company" class="hyperlink_txt" title="Company">Company</a>
+      
+
+</div>
+
+
+<!-- indexer::stop -->
+<nav class="mod_navigation col col-8 block">
+
+  
+  <a href="en/files/public/svg/361-DUSS-LOGO.svg#skipNavigation88" class="invisible">Skip navigation</a>
+
+  
+<ul class="level_1">
+            <li class="first"><a href="de/unternehmen" title="Overview" class="first" itemprop="url"><span itemprop="name">Overview</span></a></li>
+                <li><a href="en/company/who-we-are" title="Who we are" itemprop="url"><span itemprop="name">Who we are</span></a></li>
+                <li class="submenu"><a href="en/company/quality" title="Quality" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Quality</span></a>
+<ul class="level_2">
+            <li class="first"><a href="en/company/quality/drilling-and-chiselling" title="Drilling and chiselling" class="first" itemprop="url"><span itemprop="name">Drilling and chiselling</span></a></li>
+                <li><a href="en/company/quality/diamond-core-drilling" title="Diamond core drilling" itemprop="url"><span itemprop="name">Diamond core drilling</span></a></li>
+                <li><a href="en/company/quality/competence-in-tools" title="Competence in tools" itemprop="url"><span itemprop="name">Competence in tools</span></a></li>
+                <li class="last"><a href="en/company/quality/motors-and-gearboxes" title="Motors and gearboxes" class="last" itemprop="url"><span itemprop="name">Motors and gearboxes</span></a></li>
+      </ul>
+</li>
+                <li><a href="en/company/history" title="History" itemprop="url"><span itemprop="name">History</span></a></li>
+                <li class="last"><a href="en/company/discover-duss" title="Discover DUSS" class="last" itemprop="url"><span itemprop="name">Discover DUSS</span></a></li>
+      </ul>
+
+  <span id="skipNavigation88" class="invisible"></span>
+
+</nav>
+<!-- indexer::continue -->
+
+<section class="ce_rsce_menuimages col col-4">
+	<article class="items-2">
+								<div class="teaser">
+									<a class="link" href="en/company/who-we-are">
+								<figure class="image-holder">
+					
+
+<img src="files/public/dummy/Startseite/Teaser_unternehmen2.jpg" width="370" height="180" alt="DUSS steht weltweit für höchster Produktqualität und exzellentem Service." title="Über uns">
+
+											<span>Who we are</span>
+									</figure>
+									</a>
+							</div>
+								<div class="teaser">
+									<a class="link" href="en/company/quality">
+								<figure class="image-holder">
+					
+
+<img src="files/public/dummy/Startseite/Teaser_unternehmen.jpg" width="370" height="180" alt="DUSS Produkte sind für Macher gemacht, mit schwäbischem Erfindergeist, Nachhaltigkeit und höchstem Qualitätsbewusstsein." title="Qualität">
+
+											<span>Quality</span>
+									</figure>
+									</a>
+							</div>
+			</article>
+</section>
+		<div class="ce_text mm-close block">
+			<p><button type="button"><span class="menu-close">Close</span></button></p>  
+		</div>
+        </div>
+	</div>
+</div>
+                            </li>
+                    
+                    <li class="sibling">
+                <a href="en/news" title="News" class="sibling">News</a>
+
+                                                                </li>
+                    
+                    <li class="sibling last">
+                <a href="en/contact-us" title="Contact us" class="sibling last">Contact us</a>
+
+                                                                </li>
+            </ul>
+  <div class="mm_overlay"></div>
+  <a id="skipNavigation3" class="invisible">&nbsp;</a>
+
+</nav>
+<!-- indexer::continue -->
+    
+
+			</div>
+		</div>
+	</div>
+</div>    <div  id="article-821" class="mod_article no-padding block container-fluid">
+        
+
+                        <div class="row">
+            
+<div class="ce_image col col-12 block">
+
+        
+  
+  <figure class="image_container hero" itemscope itemtype="http://schema.org/ImageObject" style="background-image: url('files/public/dummy/1920x200_header_beton.jpg');">
+
+    
+    <div style="opacity: 0; visibility: hidden">
+  <picture>
+          <source srcset="assets/images/7/1920x200_header_beton-57f50544.jpg" media="(min-width: 1200px)" width="200" height="200">
+          <source srcset="assets/images/7/1920x200_header_beton-57f50544.jpg" media="(min-width: 768px)" width="200" height="200">
+          <source srcset="assets/images/7/1920x200_header_beton-57f50544.jpg" media="(min-width: 320px)" width="200" height="200">
+    
+<img src="files/public/dummy/1920x200_header_beton.jpg" width="1920" height="200" alt="">
+
+  </picture>
+</div>
+
+    
+  </figure>
+      
+
+</div>
+        </div>
+                
+            </div>
+
+                          </div>
+          </header>
+              
+      
+              <div id="container">
+        	<div class="intro">
+				
+<!-- indexer::stop -->
+<div class="mod_breadcrumb block">
+
+        
+  
+  <ul itemscope itemtype="http://schema.org/BreadcrumbList">
+  	<li class="title"><a href="/en">Home</a></li>
+                  <li class="first" itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement"><a href="en/home" title="DUSS | Bohr- und Meisseltechnik | Diamantbohrtechnik" itemprop="url"><span itemprop="name">DUSS | Bohr- und Meisseltechnik | Diamantbohrtechnik &#40;EN&#41;</span></a></li>
+                        <li class="active last" itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement"><a href="en/files/public/svg/361-DUSS-LOGO.svg" title="404 page not found" itemprop="url"><span itemprop="name">404 page not found</span></a></li>
+            </ul>
+
+
+</div>
+<!-- indexer::continue -->
+			</div>
+                      <main id="main" itemscope itemtype="http://schema.org/WebPageElement" itemprop="mainContentOfPage">
+              <div class="inside">
+              	
+                    <div  id="article-822" class="mod_article no-padding-bottom block">
+        
+
+                        <div class="row">
+            <section data-wow-duration="0.9s" data-wow-delay="0" class="animated fadeInLeft wow ce_rsce_introtext col col-12 ">
+	<article>
+		<!-- <div class="container"> -->
+		<div class="row">
+							<h1 class="headline col col-12 col-lg-10">Content not found</h1>
+										<div class="ce_text col col-12 col-lg-10">
+					<p>Unfortunately the page you requested was not found at this point.</p>
+<p><strong>This may have various reasons:</strong></p>
+<ul>
+<li>The page you requested no longer exists</li>
+<li>You may have mistyped the address</li>
+<li>A link is out of date</li>
+</ul>
+<p><strong>Try the following options:<br></strong></p>
+<ul>
+<li>Use the main menu</li>
+<li>Visit our <a href="en/">homepage</a></li>
+<li>Use the search function</li>
+</ul>				</div>
+								</div>
+	<!-- </div> -->
+ 	</article>
+</section>
+        </div>
+                
+            </div>
+
+    <div  id="article-823" class="mod_article  block container-fluid">
+        
+
+                        <div class="row">
+            <section class="ce_rsce_boxteaser col col-12 ">
+	<article class=" ">
+				<div class="container">
+		<div class="row">
+									<div data-wow-duration="0.9s" data-wow-delay="0" class="animated fadeInLeft wow">
+														</div>
+						<div class="inside items-3">
+														<div data-wow-duration="0.9s" data-wow-delay="0.0s" class="animated fadeInUp wow teaser">
+						<div class="inner ">
+																						<p class="title">Contact</p>
+														<div class="image-holder icon icon-edit2" style="background-image: url(files/public/unternehmen%20und%20service/370x280_404_3.jpg);">
+							</div>
+							<div class="content-holder">
+																	<p>We are there for you.</p>																									<div class="button-block color-primary">
+										<a href="en/contact-us" >Contact us</a>
+									</div>
+																							</div>
+						</div>
+					</div>
+														<div data-wow-duration="0.9s" data-wow-delay="0.2s" class="animated fadeInUp wow teaser">
+						<div class="inner ">
+																						<p class="title">Product guide</p>
+														<div class="image-holder icon icon-edit2" style="background-image: url(files/public/unternehmen%20und%20service/370x280_404.jpg);">
+							</div>
+							<div class="content-holder">
+																	<p>Our products at a glance.</p>																									<div class="button-block color-primary">
+										<a href="de/produkte" >Go to our products</a>
+									</div>
+																							</div>
+						</div>
+					</div>
+														<div data-wow-duration="0.9s" data-wow-delay="0.4s" class="animated fadeInUp wow teaser">
+						<div class="inner ">
+																						<p class="title">News</p>
+														<div class="image-holder icon icon-edit2" style="background-image: url(files/public/unternehmen%20und%20service/370x280_404_2.jpg);">
+							</div>
+							<div class="content-holder">
+																	<p>Always up to date.</p>																									<div class="button-block color-primary">
+										<a href="en/news" >Go to news</a>
+									</div>
+																							</div>
+						</div>
+					</div>
+							</div>
+							</div>
+		</div>
+		 	</article>
+</section>
+        </div>
+                
+            </div>
+
+              </div>
+                          </main>
+          
+                                
+                                
+        </div>
+    	<div class="outro">
+					</div>
+      
+      
+                        <footer id="footer" itemscope itemtype="http://schema.org/WPFooter">
+            <div class="inside">
+              
+<!-- indexer::stop -->
+<div class="footer-top">
+	<div class="container">
+		<div class="row">
+			<div class="ce_text footer-info col col-12 col-lg-3 block">
+
+        
+  
+  
+      
+<figure class="image_container float_above">
+  
+  
+
+<img src="files/public/svg/361-DUSS-LOGO.svg" width="121" height="27" alt="DUSS Logo" title="DUSS Logo">
+
+
+  
+  </figure>
+
+  
+      <p>DUSS is a modern, independent family-owned firm with its roots in the Black Forest at the heart of the Baden-Württemberg region in southwest Germany. It is here that every single DUSS machine is conceived, designed and produced.</p>
+<ul>
+<li>Top quality</li>
+<li>Made in Germany</li>
+<li>Since 1920</li>
+</ul>    
+	
+
+</div>
+
+<!-- indexer::stop -->
+<nav class="mod_customnav footer-nav-products col col-12 col-md-4 col-lg-3 block">
+
+      <h6>Products</h6>
+  
+  <a href="en/files/public/svg/361-DUSS-LOGO.svg#skipNavigation81" class="invisible">Skip navigation</a>
+
+  
+<ul class="level_1">
+            <li class="first"><a href="en/products/drilling/all-drills" title="Drilling" class="first" itemprop="url"><span itemprop="name">Drilling</span></a></li>
+                <li><a href="en/products/diamond-core-drilling/all-diamond-core-drills" title="Diamond core drilling" itemprop="url"><span itemprop="name">Diamond core drilling</span></a></li>
+                <li><a href="en/products/drilling-chiselling/all-combi-hammers" title="Drilling + chiselling" itemprop="url"><span itemprop="name">Drilling + chiselling</span></a></li>
+                <li><a href="en/products/chiselling/all-products" title="Chiselling" itemprop="url"><span itemprop="name">Chiselling</span></a></li>
+                <li class="last"><a href="en/products/tools-and-accessories/all-products" title="Tools and accessories" class="last" itemprop="url"><span itemprop="name">Tools and accessories</span></a></li>
+      </ul>
+
+  <span id="skipNavigation81" class="invisible"></span>
+
+</nav>
+<!-- indexer::continue -->
+
+<!-- indexer::stop -->
+<nav class="mod_customnav footer-nav-service col col-12 col-md-4 col-lg-3 block">
+
+      <h6>Service</h6>
+  
+  <a href="en/files/public/svg/361-DUSS-LOGO.svg#skipNavigation82" class="invisible">Skip navigation</a>
+
+  
+<ul class="level_1">
+            <li class="first"><a href="en/sales" title="Sales" class="first" itemprop="url"><span itemprop="name">Sales</span></a></li>
+                <li><a href="en/service/repair-service" title="Repair service" itemprop="url"><span itemprop="name">Repair service</span></a></li>
+                <li><a href="en/service/spare-parts" title="Spare parts" itemprop="url"><span itemprop="name">Spare parts</span></a></li>
+                <li><a href="en/service/technical-advice" title="Technical advice" itemprop="url"><span itemprop="name">Technical advice</span></a></li>
+                <li class="last"><a href="en/service/tailor-made-solutions" title="Tailor-made solutions" class="last" itemprop="url"><span itemprop="name">Tailor-made solutions</span></a></li>
+      </ul>
+
+  <span id="skipNavigation82" class="invisible"></span>
+
+</nav>
+<!-- indexer::continue -->
+
+<div class="ce_text footer-buttons col col-12 col-md-4 col-lg-3 block">
+
+            <h6>We are there for you</h6>
+      
+  
+      <ul>
+<li class="phone"><a class="icon icon-phone" href="tel:+49 7053 9692-0">+49 7053 9692-0</a></li>
+<li class="mail"><a class="icon icon-mail" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#x6E;&#102;&#x6F;&#64;&#x64;&#117;&#x73;&#115;&#x2E;&#100;&#x65;">&#105;&#x6E;&#102;&#x6F;&#64;&#x64;&#117;&#x73;&#115;&#x2E;&#100;&#x65;</a></li>
+<li class="form"><a href="en/callback-form">Callback form</a></li>
+</ul>  
+  
+    
+	
+
+</div>
+    
+
+		</div>
+	</div>
+</div>
+<div class="footer-bottom">
+	<div class="container">
+		<div class="row">
+			
+<!-- indexer::stop -->
+<nav class="mod_customnav footer-nav-info col col-6 col-md-2 block">
+
+  
+  <a href="en/files/public/svg/361-DUSS-LOGO.svg#skipNavigation84" class="invisible">Skip navigation</a>
+
+  
+<ul class="level_1">
+            <li class="first"><a href="en/sales" title="Sales" class="first" itemprop="url"><span itemprop="name">Sales</span></a></li>
+                <li class="last"><a href="en/media" title="Media" class="last" itemprop="url"><span itemprop="name">Media</span></a></li>
+      </ul>
+
+  <span id="skipNavigation84" class="invisible"></span>
+
+</nav>
+<!-- indexer::continue -->
+
+			<div class="footer-socials-wrapper col col-6 col-md-6 col-lg-5">
+				<div class="row justify-content-start">
+				
+<div class="ce_hyperlink footer-socials fb col col-auto block">
+
+        
+  
+          <a href="https://facebook.com/dusspowerTools" class="hyperlink_txt" title="Facebook" target="_blank" rel="noreferrer noopener">Facebook</a>
+      
+
+</div>
+
+				
+<div class="ce_hyperlink footer-socials insta col col-auto block">
+
+        
+  
+          <a href="https://instagram.com/dusspowertools" class="hyperlink_txt" title="Instagram" target="_blank" rel="noreferrer noopener">Instagram</a>
+      
+
+</div>
+
+				
+<div class="ce_hyperlink footer-socials yt col col-auto block">
+
+        
+  
+          <a href="https://www.youtube.com/DUSSPowerTools" class="hyperlink_txt" title="Youtube" target="_blank" rel="noreferrer noopener">Youtube</a>
+      
+
+</div>
+
+				</div>
+			</div>
+			
+<!-- indexer::stop -->
+<nav class="mod_customnav footer-nav-privacy col col-6 col-md-5 block">
+
+  
+  <a href="en/files/public/svg/361-DUSS-LOGO.svg#skipNavigation85" class="invisible">Skip navigation</a>
+
+  
+<ul class="level_1">
+            <li class="first"><a href="en/imprint" title="Imprint" class="first" itemprop="url"><span itemprop="name">Imprint</span></a></li>
+                <li><a href="en/privacy_policy" title="Privacy Policy" itemprop="url"><span itemprop="name">Privacy Policy</span></a></li>
+                <li class="last"><a href="en/Terms_of_Business" title="TOB" class="last" itemprop="url"><span itemprop="name">TOB</span></a></li>
+      </ul>
+
+  <span id="skipNavigation85" class="invisible"></span>
+
+</nav>
+<!-- indexer::continue -->
+
+			
+<!-- indexer::stop -->
+<div class="ce_toplink col col-12 block">
+  <a href="en/files/public/svg/361-DUSS-LOGO.svg#top" title="nach oben">nach oben</a>
+</div>
+<!-- indexer::continue -->
+
+		</div>
+	</div>
+</div>
+<!-- indexer::continue -->            </div>
+          </footer>
+              
+    </div>
+
+      
+  
+<script>
+	;(function($, window, document, undefined) {
+	    $(document).ready(function() {
+	    	let $searchResult = $('.search-result');
+	    	if($searchResult.length > 0) {
+	    		sortSearchResult();
+	    	}
+			function sortSearchResult() {
+				let $searchResult = $('.search-result');
+				let searchQuery = $searchResult.find('input[type="search"]').val();
+				let $searchedItems = $searchResult.find('.searched-item');
+				let $resultsList = $searchResult.find('.results');
+				$searchedItems.each(function() {
+					let $this = $(this);
+					if($this.data('title').indexOf(searchQuery.toUpperCase()) !== -1) {
+						$this.prependTo($resultsList);
+					}
+				});
+			}
+	    });
+	})(jQuery, window, document);
+</script>
+  
+	<script src="files/public/extra/cloudflare.js" defer></script>
+
+<!--<script>
+;(function($, window, document, undefined) {
+    $(document).ready(function() {
+	    $.cookieBar({
+	        message: 'Diese Website verwendet Cookies, um die Nutzerfreundlichkeit zu verbessern. Durch die weitere Nutzung der Website stimmen Sie dem zu. Weitere Informationen zu Cookies und deren Deaktivierung finden Sie unter', //Message displayed on bar
+	        acceptText: 'AKZEPTIEREN', //Text on accept/enable button
+	        policyText: 'Datenschutz.', //Text on Privacy Policy button
+	        policyURL: '/de/datenschutz', //URL of Privacy Policy
+	        fixed: true, //Set to true to add the class "fixed" to the cookie bar. Default CSS should fix the position
+	        bottom: true, //Force CSS when fixed, so bar appears at bottom of website
+	        zindex: '9999', //Can be set in CSS, although some may prefer to set here
+	    });
+    });
+})(jQuery, window, document);
+</script>-->
+
+<script type="application/ld+json">
+{
+    "@context": "https:\/\/schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage"
+        }
+    ]
+}
+</script>
+<script type="application/ld+json">
+{
+    "@context": "https:\/\/schema.contao.org",
+    "@graph": [
+        {
+            "@type": "Page",
+            "fePreview": false,
+            "groups": [],
+            "noSearch": false,
+            "pageId": 191,
+            "protected": false,
+            "title": "404 page not found"
+        }
+    ]
+}
+</script></body>
+</html>

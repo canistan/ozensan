@@ -1,0 +1,1135 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+      <meta charset="UTF-8">
+    <title>404 Seite nicht gefunden - DUSS | Bohr- und Meisseltechnik | Diamantbohrtechnik</title>
+    <base href="https://www.duss.com/">
+
+          <meta name="robots" content="index,follow">
+      <meta name="description" content="">
+      <meta name="generator" content="Contao Open Source CMS">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+        <link rel="stylesheet" href="assets/css/reset.min.css,animate.min.css,bootstrap-datetimepicker.min.css,c...-cd33d240.css">        <script src="assets/js/jquery.min.js,js.cookie.min.js,popper.min.js,bootstrap.min.js,jq...-0c1ad838.js"></script><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<!--<link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/7811c613-3ecb-4531-9cfc-857b26092c66.css"/>-->
+
+<!--<link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/1e2e7ae6-fc79-4c2e-997d-041b9fa42a7e.css"/>-->
+
+<!--<link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/a13c25c3-fa4f-4b20-b2b7-2d188659b7b8.css"/>-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<style>
+	@media screen and (min-width: 1200px) {
+		.mod_dse_products_reader .main-image img {
+			max-width: 70%;
+		}
+	}
+	@media screen and (max-width: 767px) {
+		.mod_newsreader .layout_full > .col > .row,
+		.mod_newsreader .layout_full > .ce_rsce_content_wrapper_start > .row {
+			margin-left: 5px;
+			margin-right: 5px;
+		}
+	}
+</style>
+
+          <!--[if lt IE 9]><script src="assets/html5shiv/js/html5shiv-printshiv.min.js"></script><![endif]-->
+        
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback" async></script>
+
+</head>
+<body id="top" class="unknown other " itemscope itemtype="http://schema.org/WebPage">
+
+	
+<div class="offcanvas-menu">
+	<div class="menu-holder">
+		
+<!-- indexer::stop -->
+<div class="mod_search block">
+
+        
+  
+  <form action="de/suchergebnis" method="get">
+    <div class="formbody">
+      <div class="widget widget-text">
+        <label for="ctrl_keywords_8" class="invisible">Suchbegriffe</label>
+        <input type="search" name="keywords" id="ctrl_keywords_8" class="text" value="" placeholder="Suchbegriff">
+      </div>
+      <div class="widget widget-submit">
+        <button type="submit" id="ctrl_submit_8" class="submit">Suchen</button>
+      </div>
+          </div>
+  </form>
+
+
+    <div class="results">
+	    </div>
+
+
+</div>
+<!-- indexer::continue -->
+
+		
+<!-- indexer::stop -->
+<nav class="mod_navigation nav-mobile block" id="nav-mobile" itemscope itemtype="http://schema.org/SiteNavigationElement">
+
+  
+  <a href="de/fileadmin/templates/img/logo.png#skipNavigation18" class="invisible">Navigation überspringen</a>
+
+  
+<ul class="level_1">
+			
+            <li class="startpage sibling first"><a href="de/" title="Home" class="startpage sibling first" itemprop="url"><span itemprop="name">Home</span></a></li>
+                <li class="submenu product-item sibling"><a href="de/produkte" title="Unsere Produkte" class="submenu product-item sibling" aria-haspopup="true" itemprop="url"><span itemprop="name">Produkte</span></a>
+<ul class="level_2">
+				<div class="menu-back">
+			<a>Produkte</a>
+		</div>
+		
+            <li class="first"><a href="de/produkte" title="Übersicht" class="first" itemprop="url"><span itemprop="name">Übersicht</span></a></li>
+                <li class="submenu"><a href="de/produkte/bohren/uebersicht" title="Bohren" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Bohren</span></a>
+<ul class="level_3">
+				<div class="menu-back">
+			<a>Bohren</a>
+		</div>
+		
+            <li class="first"><a href="de/produkte/bohren/uebersicht" title="Alle Produkte" class="first" itemprop="url"><span itemprop="name">Alle Produkte</span></a></li>
+                <li><a href="de/produkte/bohren/bohrmaschinen" title="Bohrmaschinen" itemprop="url"><span itemprop="name">Bohrmaschinen</span></a></li>
+                <li><a href="de/produkte/bohren/bohrhaemmer" title="Bohrhämmer" itemprop="url"><span itemprop="name">Bohrhämmer</span></a></li>
+                <li class="last"><a href="de/produkte/bohren/bohrmehlentnahmeger%C3%A4t" title="Bohrmehlentnahmegerät" class="last" itemprop="url"><span itemprop="name">Bohrmehlentnahmegerät</span></a></li>
+        
+				</ul>
+</li>
+                <li class="submenu"><a href="de/produkte/diamantbohren/alle-produkte" title="Diamantbohren" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Diamantbohren</span></a>
+<ul class="level_3">
+				<div class="menu-back">
+			<a>Diamantbohren</a>
+		</div>
+		
+            <li class="first"><a href="de/produkte/diamantbohren/alle-produkte" title="Alle Diamantbohrmaschinen" class="first" itemprop="url"><span itemprop="name">Alle Diamantbohrmaschinen</span></a></li>
+                <li><a href="de/produkte/diamantbohren/nass-trocken" title="DIA nass + trocken" itemprop="url"><span itemprop="name">DIA nass + trocken</span></a></li>
+                <li><a href="de/produkte/diamantbohren/trocken" title="DIA trocken" itemprop="url"><span itemprop="name">DIA trocken</span></a></li>
+                <li class="last"><a href="de/produkte/diamantbohren/nass" title="DIA nass" class="last" itemprop="url"><span itemprop="name">DIA nass</span></a></li>
+        
+				</ul>
+</li>
+                <li class="submenu"><a href="de/produkte/bohren-meisseln/alle-produkte" title="Bohren + Meisseln" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Bohren + Meisseln</span></a>
+<ul class="level_3">
+				<div class="menu-back">
+			<a>Bohren + Meisseln</a>
+		</div>
+		
+            <li class="first last"><a href="de/produkte/bohren-meisseln/alle-produkte" title="Alle Kombihämmer" class="first last" itemprop="url"><span itemprop="name">Alle Kombihämmer</span></a></li>
+        
+				</ul>
+</li>
+                <li class="submenu"><a href="de/produkte/meisseln/alle-produkte" title="Meisseln" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Meisseln</span></a>
+<ul class="level_3">
+				<div class="menu-back">
+			<a>Meisseln</a>
+		</div>
+		
+            <li class="first"><a href="de/produkte/meisseln/alle-produkte" title="Alle Produkte" class="first" itemprop="url"><span itemprop="name">Alle Produkte</span></a></li>
+                <li><a href="de/produkte/meisseln/meisselhaemmer" title="Meisselhämmer" itemprop="url"><span itemprop="name">Meisselhämmer</span></a></li>
+                <li class="last"><a href="de/produkte/meisseln/abbruchhaemmer" title="Abbruchhämmer" class="last" itemprop="url"><span itemprop="name">Abbruchhämmer</span></a></li>
+        
+				</ul>
+</li>
+                <li class="submenu last"><a href="de/produkte/werkzeuge-und-zubehoer/alle-produkte" title="Werkzeug und Zubehör" class="submenu last" aria-haspopup="true" itemprop="url"><span itemprop="name">Werkzeug und Zubehör</span></a>
+<ul class="level_3">
+				<div class="menu-back">
+			<a>Werkzeug und Zubehör</a>
+		</div>
+		
+            <li class="product-item no-compare first"><a href="de/produkte/werkzeuge-und-zubehoer/alle-produkte" title="Alle Produkte" class="product-item no-compare first" itemprop="url"><span itemprop="name">Alle Produkte</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/bohren" title="Bohren" class="product-item no-compare" itemprop="url"><span itemprop="name">Bohren</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/meisseln" title="Meisseln" class="product-item no-compare" itemprop="url"><span itemprop="name">Meisseln</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/diamantbohren" title="Diamantbohren" class="product-item no-compare" itemprop="url"><span itemprop="name">Diamantbohren</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/praezisions-lochsaegen" title="Präzisions-Lochsägen" class="product-item no-compare" itemprop="url"><span itemprop="name">Präzisions-Lochsägen</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeug-and-zubehoer/adapter" title="Adapter" class="product-item no-compare" itemprop="url"><span itemprop="name">Adapter</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeug-and-zubehoer/zentrierhilfen" title="Zentrierhilfen" class="product-item no-compare" itemprop="url"><span itemprop="name">Zentrierhilfen</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/bohrstaender" title="Bohrständer" class="product-item no-compare" itemprop="url"><span itemprop="name">Bohrständer</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/bohrstative" title="Bohrstative" class="product-item no-compare" itemprop="url"><span itemprop="name">Bohrstative</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/absaugsysteme" title="Absaugsysteme" class="product-item no-compare" itemprop="url"><span itemprop="name">Absaugsysteme</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/universallochsaegen-aufnahmen" title="Universallochsägen + Aufnahmen" class="product-item no-compare" itemprop="url"><span itemprop="name">Universallochsägen + Aufnahmen</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/fliesenbohren" title="Fliesenbohren" class="product-item no-compare" itemprop="url"><span itemprop="name">Fliesenbohren</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/pflege" title="Pflege" class="product-item no-compare" itemprop="url"><span itemprop="name">Pflege</span></a></li>
+                <li class="product-item no-compare last"><a href="de/produkte/werkzeuge-und-zubehoer/abschaltautomatik" title="Abschaltautomatik" class="product-item no-compare last" itemprop="url"><span itemprop="name">Abschaltautomatik</span></a></li>
+        
+				</ul>
+</li>
+        
+				</ul>
+</li>
+                <li class="submenu sibling"><a href="de/service" title="Service" class="submenu sibling" aria-haspopup="true" itemprop="url"><span itemprop="name">Service</span></a>
+<ul class="level_2">
+				<div class="menu-back">
+			<a>Service</a>
+		</div>
+		
+            <li class="first"><a href="de/service" title="Übersicht" class="first" itemprop="url"><span itemprop="name">Übersicht</span></a></li>
+                <li><a href="de/service/reparatur" title="Reparatur" itemprop="url"><span itemprop="name">Reparatur</span></a></li>
+                <li><a href="de/service/garantie" title="3 Jahre Garantie" itemprop="url"><span itemprop="name">Garantie</span></a></li>
+                <li><a href="de/service/teileservice" title="Ersatzteile" itemprop="url"><span itemprop="name">Ersatzteile</span></a></li>
+                <li><a href="de/service/beratung" title="Beratung + Vorführung" itemprop="url"><span itemprop="name">Beratung + Vorführung</span></a></li>
+                <li><a href="de/service/sonderloesungen" title="Unsere Sonderlösungen" itemprop="url"><span itemprop="name">Sonderlösungen</span></a></li>
+                <li class="last"><a href="de/service/industrieloesungen" title="Industrielösungen" class="last" itemprop="url"><span itemprop="name">Industrielösungen</span></a></li>
+        
+				    <div class="page-teaser">
+	    	<div class="teaser-holder">
+						    			<div class="teaser-left teaser" style="background-image: url()"><span class="title">First teaser title</span></div>
+											    			<div class="teaser-right teaser" style="background-image: url()"><span class="title">Second teaser title</span></div>
+						    	</div>
+	    </div>
+			</ul>
+</li>
+                <li class="submenu sibling"><a href="de/unternehmen" title="Unternehmen" class="submenu sibling" aria-haspopup="true" itemprop="url"><span itemprop="name">Unternehmen</span></a>
+<ul class="level_2">
+				<div class="menu-back">
+			<a>Unternehmen</a>
+		</div>
+		
+            <li class="first"><a href="de/unternehmen" title="Übersicht" class="first" itemprop="url"><span itemprop="name">Übersicht</span></a></li>
+                <li><a href="de/unternehmen/ueber-uns" title="Über uns: Seit 1920 made in Germany" itemprop="url"><span itemprop="name">Über uns</span></a></li>
+                <li class="submenu"><a href="de/unternehmen/qualitaet" title="Qualität in jedem Detail unserer Werkzeuge" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Qualität</span></a>
+<ul class="level_3">
+				<div class="menu-back">
+			<a>Qualität</a>
+		</div>
+		
+            <li class="first"><a href="de/unternehmen/qualitaet/bohren-meisseln" title="Bohren und Meißeln" class="first" itemprop="url"><span itemprop="name">Bohren und Meißeln</span></a></li>
+                <li><a href="de/unternehmen/qualitaet/diamantbohren" title="Diamantbohrtechnik" itemprop="url"><span itemprop="name">Diamantbohren</span></a></li>
+                <li><a href="de/unternehmen/qualitaet/werkzeugkompetenz" title="Kompetenz in Werkzeugen" itemprop="url"><span itemprop="name">Kompetenz in Werkzeugen</span></a></li>
+                <li class="last"><a href="de/unternehmen/qualitaet/motoren-getriebe" title="Motoren und Getriebe" class="last" itemprop="url"><span itemprop="name">Motoren und Getriebe</span></a></li>
+        
+				</ul>
+</li>
+                <li><a href="de/unternehmen/geschichte" title="Unsere Geschichte" itemprop="url"><span itemprop="name">Geschichte</span></a></li>
+                <li><a href="de/unternehmen/betriebsrundgang" title="DUSS erleben - der starke Unterschied" itemprop="url"><span itemprop="name">DUSS erleben</span></a></li>
+                <li class="submenu"><a href="de/unternehmen/karriere" title="Karriere bei DUSS" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Karriere</span></a>
+<ul class="level_3">
+				<div class="menu-back">
+			<a>Karriere</a>
+		</div>
+		
+            <li class="first"><a href="de/unternehmen/karriere/duss-arbeitgeber" title="Arbeiten bei DUSS" class="first" itemprop="url"><span itemprop="name">Arbeiten bei DUSS</span></a></li>
+                <li><a href="de/unternehmen/karriere/stellenangebote" title="Stellenangebote bei DUSS" itemprop="url"><span itemprop="name">Stellenangebote</span></a></li>
+                <li class="last"><a href="de/unternehmen/karriere/ausbildung" title="Ausbildung" class="last" itemprop="url"><span itemprop="name">Ausbildung</span></a></li>
+        
+				</ul>
+</li>
+                <li><a href="de/unternehmen/vertrieb" title="Vertrieb" itemprop="url"><span itemprop="name">Vertrieb</span></a></li>
+                <li class="last"><a href="de/unternehmen/duss-lieferant-werden" title="Einkauf" class="last" itemprop="url"><span itemprop="name">Einkauf</span></a></li>
+        
+				</ul>
+</li>
+                <li class="sibling"><a href="de/aktuelles" title="Aktuelle Informationen und Artikel" class="sibling" itemprop="url"><span itemprop="name">Aktuelles</span></a></li>
+                <li class="sibling last"><a href="de/kontakt" title="Kontakt" class="sibling last" itemprop="url"><span itemprop="name">Kontakt</span></a></li>
+        
+	</ul>
+
+  <a id="skipNavigation18" class="invisible">&nbsp;</a>
+
+</nav>
+
+
+<div class="ce_text mobile-nav-extra col col-12 block">
+
+        
+  
+      <ul>
+<li class="title">Haben sie fragen?</li>
+<li class="icon mail icon-mail"><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#x6F;&#110;&#x74;&#97;&#x6B;&#116;&#x40;&#100;&#x75;&#115;&#x73;&#46;&#x64;&#101;">&#105;&#x6E;&#102;&#x6F;&#64;&#x64;&#117;&#x73;&#115;&#x2E;&#100;&#x65;</a></li>
+<li class="icon phone icon-phone"><a href="tel:+49 7053 9692-0">+49 7053 9692-0</a></li>
+</ul>  
+  
+    
+	
+
+</div>
+
+
+<!-- indexer::continue -->
+
+	</div>
+</div>
+      
+    <div id="wrapper">
+
+                        <header id="header" itemscope itemtype="http://schema.org/WPHeader">
+            <div class="inside">
+              
+<div class="menu-overlay"></div>
+<div class="header-block">
+	<!-- indexer::stop -->
+	<div class="header-top">
+		<div class="container">
+			<div class="row">
+				
+<div class="ce_hyperlink header-logo col col-4 block">
+
+        
+  
+      <figure class="image_container">
+            <a href="de/" class="hyperlink_img">
+
+<img src="files/public/svg/361-DUSS-LOGO.svg" width="121" height="27" alt="DUSS Logo" title="DUSS Logo">
+
+</a>
+                </figure>
+  
+
+</div>
+
+				
+<div class="ce_text header-nav-extra col col-12 col-md-4 block">
+
+        
+  
+      <ul>
+<li class="icon mail icon-mail"><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#x6E;&#102;&#x6F;&#64;&#x64;&#117;&#x73;&#115;&#x2E;&#100;&#x65;">&#105;&#x6E;&#102;&#x6F;&#64;&#x64;&#117;&#x73;&#115;&#x2E;&#100;&#x65;</a></li>
+<li class="icon phone icon-phone"><a href="tel:+4970539692-0">+49 7053 9692-0</a></li>
+</ul>  
+  
+    
+	
+
+</div>
+
+				<section class="ce_rsce_slogan_popup col col-12 ">
+		<article>
+					<p class="slogan">
+				duss seit 1920			</p>
+				<div class="popup">
+			<div>
+				<div class="img-holder" style="background-image: url(files/public/unternehmen%20und%20service/DussSeit1920.jpg);">
+				</div>
+				<div class="content-holder">
+											<h6 class="title">QUALITÄT AUS DEM SCHWARZWALD</h6>
+																<div class="ce_text">
+							<p>Wenn es um die Qualität unserer Produkte geht, überlassen wir nichts dem Zufall. Wir legen größten Wert auf hochwertige Materialien und erstklassige Verarbeitung und setzen Maßstäbe in Sachen Langlebigkeit und Robustheit. <a href="de/unternehmen/ueber-uns">Mehr erfahren</a></p>						</div>
+									</div>
+			</div>
+		</div>
+ 	</article>
+</section>
+ <!-- slogan -->
+				<div class="top-right">
+					<button class="search-open icon icon-search col"></button>
+					
+<!-- indexer::stop -->
+<div class="mod_search header-search col col-12 block">
+
+        
+  
+  <form action="de/suchergebnis" method="get">
+    <div class="formbody">
+      <div class="widget widget-text">
+        <label for="ctrl_keywords_8" class="invisible">Suchbegriffe</label>
+        <input type="search" name="keywords" id="ctrl_keywords_8" class="text" value="" placeholder="Suchbegriff">
+      </div>
+      <div class="widget widget-submit">
+        <button type="submit" id="ctrl_submit_8" class="submit">Suchen</button>
+      </div>
+          </div>
+  </form>
+
+
+    <div class="results">
+	    </div>
+
+
+</div>
+<!-- indexer::continue -->
+
+					
+<!-- indexer::stop -->
+<nav class="mod_changelanguage block">
+
+  
+  <div class="lang-active">
+			<span class="lang-de active">DE</span>
+							<div class="lang-wrapper">
+		<ul class="level_1">
+																		<li class="lang-en">
+					<a href="https://www.duss.com/en/" title="404 page not found" class="lang-en" role="menuitem">
+						<span>EN</span>
+					</a>
+									</li>
+															<li class="lang-fr nofallback">
+					<a href="https://www.duss.com/fr/" title="DUSS | Bohr- und Meisseltechnik | Diamantbohrtechnik" class="lang-fr nofallback" role="menuitem">
+						<span>FR</span>
+					</a>
+									</li>
+									</ul>
+	</div>
+</div>
+
+</nav>
+<!-- indexer::continue -->
+					
+<!-- indexer::stop -->
+<nav class="mod_customnav header-nav-user col col-12 col-md-4 block">
+
+  
+  <a href="de/fileadmin/templates/img/logo.png#skipNavigation24" class="invisible">Navigation überspringen</a>
+
+  
+<ul class="level_1">
+            <li class="first"><a href="de/kontakt" title="Kontakt" class="first" itemprop="url"><span itemprop="name">Kontakt</span></a></li>
+                <li class="last"><a href="de/produkte/merkliste" title="Merkliste" class="last" itemprop="url"><span itemprop="name">Merkliste</span></a></li>
+      </ul>
+
+  <span id="skipNavigation24" class="invisible"></span>
+
+</nav>
+<!-- indexer::continue -->
+
+				</div>
+				
+<div class="ce_text burger-block col col-2 d-xl-none block">
+
+        
+  
+      <p><button class="sidebar-opener" type="button"><span class="menu-title">Menü</span><span class="menu-open">Open</span><span class="menu-close">Close</span></button></p>  
+  
+    
+	
+
+</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- indexer::continue -->
+	<div class="header-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="ce_hyperlink header-logo col col-4 col-md-3 block">
+
+        
+  
+      <figure class="image_container">
+            <a href="de/" class="hyperlink_img">
+
+<img src="files/public/svg/361-DUSS-LOGO.svg" width="121" height="27" alt="DUSS Logo" title="DUSS Logo">
+
+</a>
+                </figure>
+  
+
+</div>
+
+<!-- indexer::stop -->
+<nav class="mod_navigation col col-12 block" id="nav-desktop" itemscope itemtype="http://schema.org/SiteNavigationElement">
+
+  
+  <a href="de/fileadmin/templates/img/logo.png#skipNavigation3" class="invisible">Navigation überspringen</a>
+
+  
+<ul class="level_1">
+            
+                    <li class="startpage sibling first">
+                <a href="de/" title="Home" class="startpage sibling first">Home</a>
+
+                                                                </li>
+                    
+                    <li class="submenu product-item sibling mm_container mm_7">
+                <a href="de/produkte" title="Unsere Produkte" class="submenu product-item sibling" aria-haspopup="true">Produkte</a>
+
+                                                        <div class="mm_dropdown mm_7" style="border-bottom: 1px solid #333;">
+	<div class="inner">
+        <div class="row">
+		
+<div class="ce_hyperlink col col-12 block">
+
+        
+  
+          <a href="de/produkte" class="hyperlink_txt" title="Produktübersicht">Produktübersicht</a>
+      
+
+</div>
+
+
+<!-- indexer::stop -->
+<nav class="mod_navigation col col-8 block">
+
+  
+  <a href="de/fileadmin/templates/img/logo.png#skipNavigation6" class="invisible">Navigation überspringen</a>
+
+  
+<ul class="level_1">
+            <li class="first"><a href="de/produkte" title="Übersicht" class="first" itemprop="url"><span itemprop="name">Übersicht</span></a></li>
+                <li class="submenu"><a href="de/produkte/bohren/uebersicht" title="Bohren" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Bohren</span></a>
+<ul class="level_2">
+            <li class="first"><a href="de/produkte/bohren/uebersicht" title="Alle Produkte" class="first" itemprop="url"><span itemprop="name">Alle Produkte</span></a></li>
+                <li><a href="de/produkte/bohren/bohrmaschinen" title="Bohrmaschinen" itemprop="url"><span itemprop="name">Bohrmaschinen</span></a></li>
+                <li><a href="de/produkte/bohren/bohrhaemmer" title="Bohrhämmer" itemprop="url"><span itemprop="name">Bohrhämmer</span></a></li>
+                <li class="last"><a href="de/produkte/bohren/bohrmehlentnahmeger%C3%A4t" title="Bohrmehlentnahmegerät" class="last" itemprop="url"><span itemprop="name">Bohrmehlentnahmegerät</span></a></li>
+      </ul>
+</li>
+                <li class="submenu"><a href="de/produkte/diamantbohren/alle-produkte" title="Diamantbohren" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Diamantbohren</span></a>
+<ul class="level_2">
+            <li class="first"><a href="de/produkte/diamantbohren/alle-produkte" title="Alle Diamantbohrmaschinen" class="first" itemprop="url"><span itemprop="name">Alle Diamantbohrmaschinen</span></a></li>
+                <li><a href="de/produkte/diamantbohren/nass-trocken" title="DIA nass + trocken" itemprop="url"><span itemprop="name">DIA nass + trocken</span></a></li>
+                <li><a href="de/produkte/diamantbohren/trocken" title="DIA trocken" itemprop="url"><span itemprop="name">DIA trocken</span></a></li>
+                <li class="last"><a href="de/produkte/diamantbohren/nass" title="DIA nass" class="last" itemprop="url"><span itemprop="name">DIA nass</span></a></li>
+      </ul>
+</li>
+                <li class="submenu"><a href="de/produkte/bohren-meisseln/alle-produkte" title="Bohren + Meisseln" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Bohren + Meisseln</span></a>
+<ul class="level_2">
+            <li class="first last"><a href="de/produkte/bohren-meisseln/alle-produkte" title="Alle Kombihämmer" class="first last" itemprop="url"><span itemprop="name">Alle Kombihämmer</span></a></li>
+      </ul>
+</li>
+                <li class="submenu"><a href="de/produkte/meisseln/alle-produkte" title="Meisseln" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Meisseln</span></a>
+<ul class="level_2">
+            <li class="first"><a href="de/produkte/meisseln/alle-produkte" title="Alle Produkte" class="first" itemprop="url"><span itemprop="name">Alle Produkte</span></a></li>
+                <li><a href="de/produkte/meisseln/meisselhaemmer" title="Meisselhämmer" itemprop="url"><span itemprop="name">Meisselhämmer</span></a></li>
+                <li class="last"><a href="de/produkte/meisseln/abbruchhaemmer" title="Abbruchhämmer" class="last" itemprop="url"><span itemprop="name">Abbruchhämmer</span></a></li>
+      </ul>
+</li>
+                <li class="submenu last"><a href="de/produkte/werkzeuge-und-zubehoer/alle-produkte" title="Werkzeug und Zubehör" class="submenu last" aria-haspopup="true" itemprop="url"><span itemprop="name">Werkzeug und Zubehör</span></a>
+<ul class="level_2">
+            <li class="product-item no-compare first"><a href="de/produkte/werkzeuge-und-zubehoer/alle-produkte" title="Alle Produkte" class="product-item no-compare first" itemprop="url"><span itemprop="name">Alle Produkte</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/bohren" title="Bohren" class="product-item no-compare" itemprop="url"><span itemprop="name">Bohren</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/meisseln" title="Meisseln" class="product-item no-compare" itemprop="url"><span itemprop="name">Meisseln</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/diamantbohren" title="Diamantbohren" class="product-item no-compare" itemprop="url"><span itemprop="name">Diamantbohren</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/praezisions-lochsaegen" title="Präzisions-Lochsägen" class="product-item no-compare" itemprop="url"><span itemprop="name">Präzisions-Lochsägen</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeug-and-zubehoer/adapter" title="Adapter" class="product-item no-compare" itemprop="url"><span itemprop="name">Adapter</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeug-and-zubehoer/zentrierhilfen" title="Zentrierhilfen" class="product-item no-compare" itemprop="url"><span itemprop="name">Zentrierhilfen</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/bohrstaender" title="Bohrständer" class="product-item no-compare" itemprop="url"><span itemprop="name">Bohrständer</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/bohrstative" title="Bohrstative" class="product-item no-compare" itemprop="url"><span itemprop="name">Bohrstative</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/absaugsysteme" title="Absaugsysteme" class="product-item no-compare" itemprop="url"><span itemprop="name">Absaugsysteme</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/universallochsaegen-aufnahmen" title="Universallochsägen + Aufnahmen" class="product-item no-compare" itemprop="url"><span itemprop="name">Universallochsägen + Aufnahmen</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/fliesenbohren" title="Fliesenbohren" class="product-item no-compare" itemprop="url"><span itemprop="name">Fliesenbohren</span></a></li>
+                <li class="product-item no-compare"><a href="de/produkte/werkzeuge-und-zubehoer/pflege" title="Pflege" class="product-item no-compare" itemprop="url"><span itemprop="name">Pflege</span></a></li>
+                <li class="product-item no-compare last"><a href="de/produkte/werkzeuge-und-zubehoer/abschaltautomatik" title="Abschaltautomatik" class="product-item no-compare last" itemprop="url"><span itemprop="name">Abschaltautomatik</span></a></li>
+      </ul>
+</li>
+      </ul>
+
+  <span id="skipNavigation6" class="invisible"></span>
+
+</nav>
+<!-- indexer::continue -->
+
+<section class="ce_rsce_menuimages col col-4">
+	<article class="items-2">
+								<div class="teaser">
+									<a class="link" href="https://www.duss.com/de/produkte/meisseln/meisselhaemmer/details/Meisselhammer-PK2">
+								<figure class="image-holder">
+					
+
+<img src="files/public/dummy/Startseite/teaser_menu_pk2.jpg" width="370" height="180" alt="Das handliche Kraftpaket für Arbeiten über Kopf!" title="PK 2 Meisselhammer">
+
+											<span>PK 2 - Der Neue</span>
+									</figure>
+									</a>
+							</div>
+								<div class="teaser">
+									<a class="link" href="https://www.duss.com/de/produkte/diamantbohren/nass-trocken/details/Diamantbohrmaschine-DIA303W">
+								<figure class="image-holder">
+					
+
+<img src="files/public/dummy/Startseite/teaser_menu_dia303w.jpg" width="370" height="180" alt="Hand- und ständergeführt einsetzbar, zum Nass- und Trockenbohren, enormer Bohrbereich von Ø 32 - 300 mm" title="DIA 303 W DIAMANT­BOHRMASCHINE">
+
+											<span>Kernbohren in Perfektion</span>
+									</figure>
+									</a>
+							</div>
+			</article>
+</section>
+		<div class="ce_text mm-close block">
+			<p><button type="button"><span class="menu-close">Close</span></button></p>  
+		</div>
+        </div>
+	</div>
+</div>
+                            </li>
+                    
+                    <li class="submenu sibling mm_container mm_18">
+                <a href="de/service" title="Service" class="submenu sibling" aria-haspopup="true">Service</a>
+
+                                                        <div class="mm_dropdown mm_18" style="border-bottom: 1px solid #333;">
+	<div class="inner">
+        <div class="row">
+		
+<div class="ce_hyperlink col col-12 block">
+
+        
+  
+          <a href="de/service" class="hyperlink_txt" title="Service">Service</a>
+      
+
+</div>
+
+
+<!-- indexer::stop -->
+<nav class="mod_navigation col col-8 block">
+
+  
+  <a href="de/fileadmin/templates/img/logo.png#skipNavigation27" class="invisible">Navigation überspringen</a>
+
+  
+<ul class="level_1">
+            <li class="first"><a href="de/service" title="Übersicht" class="first" itemprop="url"><span itemprop="name">Übersicht</span></a></li>
+                <li><a href="de/service/reparatur" title="Reparatur" itemprop="url"><span itemprop="name">Reparatur</span></a></li>
+                <li><a href="de/service/garantie" title="3 Jahre Garantie" itemprop="url"><span itemprop="name">Garantie</span></a></li>
+                <li><a href="de/service/teileservice" title="Ersatzteile" itemprop="url"><span itemprop="name">Ersatzteile</span></a></li>
+                <li><a href="de/service/beratung" title="Beratung + Vorführung" itemprop="url"><span itemprop="name">Beratung + Vorführung</span></a></li>
+                <li><a href="de/service/sonderloesungen" title="Unsere Sonderlösungen" itemprop="url"><span itemprop="name">Sonderlösungen</span></a></li>
+                <li class="last"><a href="de/service/industrieloesungen" title="Industrielösungen" class="last" itemprop="url"><span itemprop="name">Industrielösungen</span></a></li>
+      </ul>
+
+  <span id="skipNavigation27" class="invisible"></span>
+
+</nav>
+<!-- indexer::continue -->
+
+<section class="ce_rsce_menuimages col col-4">
+	<article class="items-1">
+								<div class="teaser">
+									<a class="link" href="de/vertrieb">
+								<figure class="image-holder">
+					
+
+<img src="files/public/unternehmen%20und%20service/Teaser_service.jpg" width="370" height="180" alt="Kompetente Beratung durch erfahrenen DUSS VertriebsmitarbeiterInnen" title="Vetrieb">
+
+											<span>Vertrieb</span>
+									</figure>
+									</a>
+							</div>
+			</article>
+</section>
+		<div class="ce_text mm-close block">
+			<p><button type="button"><span class="menu-close">Close</span></button></p>  
+		</div>
+        </div>
+	</div>
+</div>
+                            </li>
+                    
+                    <li class="submenu sibling mm_container mm_11">
+                <a href="de/unternehmen" title="Unternehmen" class="submenu sibling" aria-haspopup="true">Unternehmen</a>
+
+                                                        <div class="mm_dropdown mm_11" style="border-bottom: 1px solid #333;">
+	<div class="inner">
+        <div class="row">
+		
+<div class="ce_hyperlink col col-12 block">
+
+        
+  
+          <a href="de/unternehmen" class="hyperlink_txt" title="Unternehmen">Unternehmen</a>
+      
+
+</div>
+
+
+<!-- indexer::stop -->
+<nav class="mod_navigation col col-8 block">
+
+  
+  <a href="de/fileadmin/templates/img/logo.png#skipNavigation35" class="invisible">Navigation überspringen</a>
+
+  
+<ul class="level_1">
+            <li class="first"><a href="de/unternehmen" title="Übersicht" class="first" itemprop="url"><span itemprop="name">Übersicht</span></a></li>
+                <li><a href="de/unternehmen/ueber-uns" title="Über uns: Seit 1920 made in Germany" itemprop="url"><span itemprop="name">Über uns</span></a></li>
+                <li class="submenu"><a href="de/unternehmen/qualitaet" title="Qualität in jedem Detail unserer Werkzeuge" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Qualität</span></a>
+<ul class="level_2">
+            <li class="first"><a href="de/unternehmen/qualitaet/bohren-meisseln" title="Bohren und Meißeln" class="first" itemprop="url"><span itemprop="name">Bohren und Meißeln</span></a></li>
+                <li><a href="de/unternehmen/qualitaet/diamantbohren" title="Diamantbohrtechnik" itemprop="url"><span itemprop="name">Diamantbohren</span></a></li>
+                <li><a href="de/unternehmen/qualitaet/werkzeugkompetenz" title="Kompetenz in Werkzeugen" itemprop="url"><span itemprop="name">Kompetenz in Werkzeugen</span></a></li>
+                <li class="last"><a href="de/unternehmen/qualitaet/motoren-getriebe" title="Motoren und Getriebe" class="last" itemprop="url"><span itemprop="name">Motoren und Getriebe</span></a></li>
+      </ul>
+</li>
+                <li><a href="de/unternehmen/geschichte" title="Unsere Geschichte" itemprop="url"><span itemprop="name">Geschichte</span></a></li>
+                <li><a href="de/unternehmen/betriebsrundgang" title="DUSS erleben - der starke Unterschied" itemprop="url"><span itemprop="name">DUSS erleben</span></a></li>
+                <li class="submenu"><a href="de/unternehmen/karriere" title="Karriere bei DUSS" class="submenu" aria-haspopup="true" itemprop="url"><span itemprop="name">Karriere</span></a>
+<ul class="level_2">
+            <li class="first"><a href="de/unternehmen/karriere/duss-arbeitgeber" title="Arbeiten bei DUSS" class="first" itemprop="url"><span itemprop="name">Arbeiten bei DUSS</span></a></li>
+                <li><a href="de/unternehmen/karriere/stellenangebote" title="Stellenangebote bei DUSS" itemprop="url"><span itemprop="name">Stellenangebote</span></a></li>
+                <li class="last"><a href="de/unternehmen/karriere/ausbildung" title="Ausbildung" class="last" itemprop="url"><span itemprop="name">Ausbildung</span></a></li>
+      </ul>
+</li>
+                <li><a href="de/unternehmen/vertrieb" title="Vertrieb" itemprop="url"><span itemprop="name">Vertrieb</span></a></li>
+                <li class="last"><a href="de/unternehmen/duss-lieferant-werden" title="Einkauf" class="last" itemprop="url"><span itemprop="name">Einkauf</span></a></li>
+      </ul>
+
+  <span id="skipNavigation35" class="invisible"></span>
+
+</nav>
+<!-- indexer::continue -->
+
+<section class="ce_rsce_menuimages col col-4">
+	<article class="items-2">
+								<div class="teaser">
+									<a class="link" href="https://www.duss.com/de/unternehmen/ueber-uns">
+								<figure class="image-holder">
+					
+
+<img src="files/public/dummy/Startseite/Teaser_unternehmen2.jpg" width="370" height="180" alt="DUSS steht weltweit für höchster Produktqualität und exzellentem Service." title="Über uns">
+
+											<span>Über uns</span>
+									</figure>
+									</a>
+							</div>
+								<div class="teaser">
+									<a class="link" href="https://www.duss.com/de/unternehmen/qualitaet">
+								<figure class="image-holder">
+					
+
+<img src="files/public/dummy/Startseite/Teaser_unternehmen.jpg" width="370" height="180" alt="DUSS Produkte sind für Macher gemacht, mit schwäbischem Erfindergeist, Nachhaltigkeit und höchstem Qualitätsbewusstsein." title="Qualität">
+
+											<span>Qualität</span>
+									</figure>
+									</a>
+							</div>
+			</article>
+</section>
+		<div class="ce_text mm-close block">
+			<p><button type="button"><span class="menu-close">Close</span></button></p>  
+		</div>
+        </div>
+	</div>
+</div>
+                            </li>
+                    
+                    <li class="sibling">
+                <a href="de/aktuelles" title="Aktuelle Informationen und Artikel" class="sibling">Aktuelles</a>
+
+                                                                </li>
+                    
+                    <li class="sibling last">
+                <a href="de/kontakt" title="Kontakt" class="sibling last">Kontakt</a>
+
+                                                                </li>
+            </ul>
+  <div class="mm_overlay"></div>
+  <a id="skipNavigation3" class="invisible">&nbsp;</a>
+
+</nav>
+<!-- indexer::continue -->
+    
+
+			</div>
+		</div>
+	</div>
+</div>    <div  id="article-620" class="mod_article no-padding block container-fluid">
+        
+
+                        <div class="row">
+            
+<div class="ce_image col col-12 block">
+
+        
+  
+  <figure class="image_container hero" itemscope itemtype="http://schema.org/ImageObject" style="background-image: url('files/public/dummy/1920x200_header_beton.jpg');">
+
+    
+    <div style="opacity: 0; visibility: hidden">
+  <picture>
+          <source srcset="assets/images/7/1920x200_header_beton-57f50544.jpg" media="(min-width: 1200px)" width="200" height="200">
+          <source srcset="assets/images/7/1920x200_header_beton-57f50544.jpg" media="(min-width: 768px)" width="200" height="200">
+          <source srcset="assets/images/7/1920x200_header_beton-57f50544.jpg" media="(min-width: 320px)" width="200" height="200">
+    
+<img src="files/public/dummy/1920x200_header_beton.jpg" width="1920" height="200" alt="">
+
+  </picture>
+</div>
+
+    
+  </figure>
+      
+
+</div>
+        </div>
+                
+            </div>
+
+                          </div>
+          </header>
+              
+      
+              <div id="container">
+        	<div class="intro">
+				
+<!-- indexer::stop -->
+<div class="mod_breadcrumb block">
+
+        
+  
+  <ul itemscope itemtype="http://schema.org/BreadcrumbList">
+  	<li class="title"><a href="/de">Startseite</a></li>
+                  <li class="first" itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement"><a href="de/Home" title="DUSS | Bohr- und Meisseltechnik | Diamantbohrtechnik" itemprop="url"><span itemprop="name">DUSS | Bohr- und Meisseltechnik | Diamantbohrtechnik</span></a></li>
+                        <li class="active last" itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement"><a href="de/fileadmin/templates/img/logo.png" title="404 Seite nicht gefunden" itemprop="url"><span itemprop="name">404 Seite nicht gefunden</span></a></li>
+            </ul>
+
+
+</div>
+<!-- indexer::continue -->
+			</div>
+                      <main id="main" itemscope itemtype="http://schema.org/WebPageElement" itemprop="mainContentOfPage">
+              <div class="inside">
+              	
+                    <div  id="article-156" class="mod_article no-padding-bottom block">
+        
+
+                        <div class="row">
+            <section data-wow-duration="0.9s" data-wow-delay="0" class="animated fadeInLeft wow ce_rsce_introtext col col-12 ">
+	<article>
+		<!-- <div class="container"> -->
+		<div class="row">
+							<h1 class="headline col col-12 col-lg-10">Inhalt nicht gefunden</h1>
+										<div class="ce_text col col-12 col-lg-10">
+					<p>Leider wurde die von Ihnen gewünschte Seite an dieser Stelle nicht gefunden.</p>
+<p><strong>Das kann verschiedene Gründe haben:</strong></p>
+<ul>
+<li>Die gewünschte Seite existiert nicht mehr</li>
+<li>Sie haben sich bei der Eingabe der Adresse vertippt</li>
+<li>Ein Link ist veraltet</li>
+</ul>
+<p><strong>Try the following opportunities:</strong></p>
+<ul>
+<li>Nutzen Sie die Hauptnavigation</li>
+<li>Besuchen Sie unsere <a title="Startseite" href="en/">Startseite</a></li>
+<li>Verwenden Sie die Suchfunktion</li>
+</ul>				</div>
+								</div>
+	<!-- </div> -->
+ 	</article>
+</section>
+        </div>
+                
+            </div>
+
+    <div  id="article-575" class="mod_article  block container-fluid">
+        
+
+                        <div class="row">
+            <section class="ce_rsce_boxteaser col col-12 ">
+	<article class=" ">
+				<div class="container">
+		<div class="row">
+									<div data-wow-duration="0.9s" data-wow-delay="0" class="animated fadeInLeft wow">
+														</div>
+						<div class="inside items-3">
+														<div data-wow-duration="0.9s" data-wow-delay="0.0s" class="animated fadeInUp wow teaser">
+						<div class="inner ">
+																						<p class="title">Kontakt</p>
+														<div class="image-holder icon icon-edit2" style="background-image: url(files/public/unternehmen%20und%20service/370x280_404_3.jpg);">
+							</div>
+							<div class="content-holder">
+																	<p>Setzen Sie sich mit uns in Verbindung.</p>																									<div class="button-block color-primary">
+										<a href="de/kontakt" >Zu unseren Kontaktdaten</a>
+									</div>
+																							</div>
+						</div>
+					</div>
+														<div data-wow-duration="0.9s" data-wow-delay="0.2s" class="animated fadeInUp wow teaser">
+						<div class="inner ">
+																						<p class="title">Produktübersicht</p>
+														<div class="image-holder icon icon-edit2" style="background-image: url(files/public/unternehmen%20und%20service/370x280_404.jpg);">
+							</div>
+							<div class="content-holder">
+																	<p>Unsere Produkte auf einen Blick.</p>																									<div class="button-block color-primary">
+										<a href="de/produkte" >Zur Produktübersicht</a>
+									</div>
+																							</div>
+						</div>
+					</div>
+														<div data-wow-duration="0.9s" data-wow-delay="0.4s" class="animated fadeInUp wow teaser">
+						<div class="inner ">
+																						<p class="title">Aktuelles</p>
+														<div class="image-holder icon icon-edit2" style="background-image: url(files/public/unternehmen%20und%20service/370x280_404_2.jpg);">
+							</div>
+							<div class="content-holder">
+																	<p>Immer auf dem Laufenden.</p>																									<div class="button-block color-primary">
+										<a href="de/aktuelles" >Zu den Neuigkeiten</a>
+									</div>
+																							</div>
+						</div>
+					</div>
+							</div>
+							</div>
+		</div>
+		 	</article>
+</section>
+        </div>
+                
+            </div>
+
+              </div>
+                          </main>
+          
+                                
+                                
+        </div>
+    	<div class="outro">
+					</div>
+      
+      
+                        <footer id="footer" itemscope itemtype="http://schema.org/WPFooter">
+            <div class="inside">
+              
+<!-- indexer::stop -->
+<div class="footer-top">
+	<div class="container">
+		<div class="row">
+			<div class="ce_text footer-info col col-12 col-lg-3 block">
+
+        
+  
+  
+      
+<figure class="image_container float_above">
+  
+  
+
+<img src="files/public/svg/361-DUSS-LOGO.svg" width="121" height="27" alt="DUSS Logo" title="DUSS Logo">
+
+
+  
+  </figure>
+
+  
+      <p>Die Wiege des modernen und unabhängigen Familienunternehmens DUSS liegt im Herzen Baden-Württembergs, dem Schwarzwald. Hier wird jede einzelne DUSS Maschine erdacht, konstruiert und produziert.</p>
+<ul>
+<li>Spitzenqualität</li>
+<li>aus dem Schwarzwald.</li>
+<li>Seit 1920.</li>
+</ul>    
+	
+
+</div>
+
+<!-- indexer::stop -->
+<nav class="mod_customnav footer-nav-products col col-12 col-md-4 col-lg-3 block">
+
+      <h6>Produkte</h6>
+  
+  <a href="de/fileadmin/templates/img/logo.png#skipNavigation26" class="invisible">Navigation überspringen</a>
+
+  
+<ul class="level_1">
+            <li class="first"><a href="de/produkte/bohren/uebersicht" title="Bohren" class="first" itemprop="url"><span itemprop="name">Bohren</span></a></li>
+                <li><a href="de/produkte/diamantbohren/alle-produkte" title="Diamantbohren" itemprop="url"><span itemprop="name">Diamantbohren</span></a></li>
+                <li><a href="de/produkte/bohren-meisseln/alle-produkte" title="Bohren + Meisseln" itemprop="url"><span itemprop="name">Bohren + Meisseln</span></a></li>
+                <li><a href="de/produkte/meisseln/alle-produkte" title="Meisseln" itemprop="url"><span itemprop="name">Meisseln</span></a></li>
+                <li class="last"><a href="de/produkte/werkzeuge-und-zubehoer/alle-produkte" title="Werkzeug und Zubehör" class="last" itemprop="url"><span itemprop="name">Werkzeug und Zubehör</span></a></li>
+      </ul>
+
+  <span id="skipNavigation26" class="invisible"></span>
+
+</nav>
+<!-- indexer::continue -->
+
+<!-- indexer::stop -->
+<nav class="mod_customnav footer-nav-service col col-12 col-md-4 col-lg-3 block">
+
+      <h6>Service</h6>
+  
+  <a href="de/fileadmin/templates/img/logo.png#skipNavigation28" class="invisible">Navigation überspringen</a>
+
+  
+<ul class="level_1">
+            <li class="first"><a href="de/service/reparatur" title="Reparatur" class="first" itemprop="url"><span itemprop="name">Reparatur</span></a></li>
+                <li><a href="de/service/garantie" title="3 Jahre Garantie" itemprop="url"><span itemprop="name">Garantie</span></a></li>
+                <li><a href="de/service/teileservice" title="Ersatzteile" itemprop="url"><span itemprop="name">Ersatzteile</span></a></li>
+                <li><a href="de/service/beratung" title="Beratung + Vorführung" itemprop="url"><span itemprop="name">Beratung + Vorführung</span></a></li>
+                <li class="last"><a href="de/service/sonderloesungen" title="Unsere Sonderlösungen" class="last" itemprop="url"><span itemprop="name">Sonderlösungen</span></a></li>
+      </ul>
+
+  <span id="skipNavigation28" class="invisible"></span>
+
+</nav>
+<!-- indexer::continue -->
+
+<div class="ce_text footer-buttons col col-12 col-md-4 col-lg-3 block">
+
+            <h6>Wir sind für Sie da</h6>
+      
+  
+      <ul>
+<li class="phone"><a class="icon icon-phone" href="tel:+49 7053 9692-0">+49 7053 9692-0</a></li>
+<li class="mail"><a class="icon icon-mail" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#x6E;&#102;&#x6F;&#64;&#x64;&#117;&#x73;&#115;&#x2E;&#100;&#x65;">&#105;&#x6E;&#102;&#x6F;&#64;&#x64;&#117;&#x73;&#115;&#x2E;&#100;&#x65;</a></li>
+<li class="form"><a href="de/r%C3%BCckruf-formular">Rückrufformular</a></li>
+</ul>  
+  
+    
+	
+
+</div>
+    
+
+		</div>
+	</div>
+</div>
+<div class="footer-bottom">
+	<div class="container">
+		<div class="row">
+			
+<!-- indexer::stop -->
+<nav class="mod_customnav footer-nav-info col col-6 col-md-3 block">
+
+  
+  <a href="de/fileadmin/templates/img/logo.png#skipNavigation25" class="invisible">Navigation überspringen</a>
+
+  
+<ul class="level_1">
+            <li class="first"><a href="de/vertrieb" title="Vertrieb" class="first" itemprop="url"><span itemprop="name">Vertrieb</span></a></li>
+                <li><a href="de/FAQ" title="Fragen, Hilfe, Wissenswertes" itemprop="url"><span itemprop="name">FAQ</span></a></li>
+                <li class="last"><a href="de/media" title="Download: Dokumente und Unterlagen" class="last" itemprop="url"><span itemprop="name">Media</span></a></li>
+      </ul>
+
+  <span id="skipNavigation25" class="invisible"></span>
+
+</nav>
+<!-- indexer::continue -->
+
+			<div class="footer-socials-wrapper col col-6 col-md-6 col-lg-5">
+				<div class="row justify-content-start">
+				
+<div class="ce_hyperlink footer-socials fb col col-auto block">
+
+        
+  
+          <a href="https://facebook.com/dusspowerTools" class="hyperlink_txt" title="Facebook" target="_blank" rel="noreferrer noopener">Facebook</a>
+      
+
+</div>
+
+				
+<div class="ce_hyperlink footer-socials insta col col-auto block">
+
+        
+  
+          <a href="https://instagram.com/dusspowertools" class="hyperlink_txt" title="Instagram" target="_blank" rel="noreferrer noopener">Instagram</a>
+      
+
+</div>
+
+				
+<div class="ce_hyperlink footer-socials yt col col-auto block">
+
+        
+  
+          <a href="https://www.youtube.com/DUSSPowerTools" class="hyperlink_txt" title="Youtube" target="_blank" rel="noreferrer noopener">Youtube</a>
+      
+
+</div>
+
+				</div>
+			</div>
+			
+<!-- indexer::stop -->
+<nav class="mod_customnav footer-nav-privacy col col-6 col-md-4 block">
+
+  
+  <a href="de/fileadmin/templates/img/logo.png#skipNavigation4" class="invisible">Navigation überspringen</a>
+
+  
+<ul class="level_1">
+            <li class="first"><a href="de/impressum" title="Impressum" class="first" itemprop="url"><span itemprop="name">Impressum</span></a></li>
+                <li><a href="de/datenschutz" title="Datenschutz" itemprop="url"><span itemprop="name">Datenschutz</span></a></li>
+                <li class="last"><a href="de/agb" title="AGB" class="last" itemprop="url"><span itemprop="name">AGB</span></a></li>
+      </ul>
+
+  <span id="skipNavigation4" class="invisible"></span>
+
+</nav>
+<!-- indexer::continue -->
+
+			
+<!-- indexer::stop -->
+<div class="ce_toplink col col-12 block">
+  <a href="de/fileadmin/templates/img/logo.png#top" title="nach oben">nach oben</a>
+</div>
+<!-- indexer::continue -->
+
+		</div>
+	</div>
+</div>
+<!-- indexer::continue -->            </div>
+          </footer>
+              
+    </div>
+
+      
+  
+<script>
+	;(function($, window, document, undefined) {
+	    $(document).ready(function() {
+	    	let $searchResult = $('.search-result');
+	    	if($searchResult.length > 0) {
+	    		sortSearchResult();
+	    	}
+			function sortSearchResult() {
+				let $searchResult = $('.search-result');
+				let searchQuery = $searchResult.find('input[type="search"]').val();
+				let $searchedItems = $searchResult.find('.searched-item');
+				let $resultsList = $searchResult.find('.results');
+				$searchedItems.each(function() {
+					let $this = $(this);
+					if($this.data('title').indexOf(searchQuery.toUpperCase()) !== -1) {
+						$this.prependTo($resultsList);
+					}
+				});
+			}
+	    });
+	})(jQuery, window, document);
+</script>
+  
+	<script src="files/public/extra/cloudflare.js" defer></script>
+
+<!--<script>
+;(function($, window, document, undefined) {
+    $(document).ready(function() {
+	    $.cookieBar({
+	        message: 'Diese Website verwendet Cookies, um die Nutzerfreundlichkeit zu verbessern. Durch die weitere Nutzung der Website stimmen Sie dem zu. Weitere Informationen zu Cookies und deren Deaktivierung finden Sie unter', //Message displayed on bar
+	        acceptText: 'AKZEPTIEREN', //Text on accept/enable button
+	        policyText: 'Datenschutz.', //Text on Privacy Policy button
+	        policyURL: '/de/datenschutz', //URL of Privacy Policy
+	        fixed: true, //Set to true to add the class "fixed" to the cookie bar. Default CSS should fix the position
+	        bottom: true, //Force CSS when fixed, so bar appears at bottom of website
+	        zindex: '9999', //Can be set in CSS, although some may prefer to set here
+	    });
+    });
+})(jQuery, window, document);
+</script>-->
+
+<script type="application/ld+json">
+{
+    "@context": "https:\/\/schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage"
+        }
+    ]
+}
+</script>
+<script type="application/ld+json">
+{
+    "@context": "https:\/\/schema.contao.org",
+    "@graph": [
+        {
+            "@type": "Page",
+            "fePreview": false,
+            "groups": [],
+            "noSearch": false,
+            "pageId": 2,
+            "protected": false,
+            "title": "404 Seite nicht gefunden"
+        }
+    ]
+}
+</script></body>
+</html>
