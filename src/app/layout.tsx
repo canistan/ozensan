@@ -4,6 +4,9 @@ import Link from "next/link";
 import Image from "next/image";
 import "./globals.css";
 
+import Footer from "@/components/global/Footer";
+import CookieConsent from "@/components/global/CookieConsent";
+
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
