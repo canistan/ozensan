@@ -1,27 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
+import { notFound } from "next/navigation";
+import productsData from "@/data/products.json";
 
 export default function ProductDetail({ params }: { params: { slug: string } }) {
-  // Mock veri - Geliştirme sonrası Payload'dan çekilecek
-  const product = {
-    title: "CEDIMA CF-22.1 Dizel Derz Kesme Makinesi",
-    brand: "CEDIMA",
-    sku: "CF-22.1-D",
-    description: "Zorlu şantiye koşullarında yüksek performans gösteren, dayanıklı ve ergonomik tasarıma sahip profesyonel asfalt ve beton kesme makinesi. Özel şasi yapısı titreşimi minimize ederken, operatör yorgunluğunu en aza indirir.",
-    features: [
-      "Hidrostatik sürüş sistemi",
-      "Elektrikli su pompası",
-      "Ergonomik kullanım paneli",
-      "Yüksek kesme derinliği"
-    ],
-    technicalData: [
-      { param: "Maksimum Kesme Derinliği", value: "300 mm", accessory: "Cedima Elmas Disk Ø 800 mm" },
-      { param: "Motor Gücü / Kaynak", value: "11 kW (Dizel)", accessory: "Yetkili Servis Bakım Seti" },
-      { param: "İlerleme Tipi", value: "Hidrostatik Otomatik İlerleme", accessory: "Yedek Parça Kodu: HYD-P5000" },
-      { param: "Su Tankı Kapasitesi", value: "35 Litre", accessory: "Harici Su Pompası Uyumu" },
-      { param: "Ağırlık", value: "340 kg", accessory: "-" },
-    ]
-  };
+  // Find product from JSON
+  const product = productsData.find(p => p.slug === params.slug);
+
+  if (!product) {
+    notFound();
+  }
 
   return (
     <div className="min-h-screen bg-[#F8F9FA] pb-24 pt-32">
@@ -35,7 +23,7 @@ export default function ProductDetail({ params }: { params: { slug: string } }) 
           <span>/</span>
           <span className="text-[#1A1E24]">{product.brand}</span>
           <span>/</span>
-          <span className="text-[#C61A1A]">{product.sku}</span>
+          <span className="text-[#C61A1A]">{product.name}</span>
         </div>
 
         {/* Hero Section: Left Gallery, Right Summary */}
@@ -45,8 +33,8 @@ export default function ProductDetail({ params }: { params: { slug: string } }) 
           <div className="w-full lg:w-1/2 flex flex-col gap-4">
             <div className="bg-white rounded-sm border border-[#8A95A5]/20 aspect-[4/3] w-full flex items-center justify-center overflow-hidden relative group">
               <img 
-                src="https://images.unsplash.com/photo-1581092334245-d419bd3e1cd2?q=80&w=1200&auto=format&fit=crop" 
-                alt={product.title} 
+                src={product.image} 
+                alt={product.name} 
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute top-4 left-4 bg-[#C61A1A] text-white text-xs font-black px-3 py-1 uppercase tracking-widest rounded-sm">
@@ -58,7 +46,7 @@ export default function ProductDetail({ params }: { params: { slug: string } }) 
               {[1, 2, 3, 4].map((i) => (
                 <div key={i} className="bg-white rounded-sm border border-[#8A95A5]/20 aspect-square flex items-center justify-center overflow-hidden cursor-pointer hover:border-[#C61A1A] transition-colors">
                    <img 
-                    src={`https://images.unsplash.com/photo-1581092334245-d419bd3e1cd2?q=80&w=300&auto=format&fit=crop`} 
+                    src={product.image} 
                     alt={`Thumbnail ${i}`} 
                     className="w-full h-full object-cover opacity-70 hover:opacity-100 transition-opacity"
                   />
@@ -70,8 +58,8 @@ export default function ProductDetail({ params }: { params: { slug: string } }) 
           {/* Right Summary */}
           <div className="w-full lg:w-1/2 flex flex-col justify-center">
             <div className="mb-4">
-              <span className="text-sm font-bold text-[#8A95A5] uppercase tracking-widest">{product.brand} • {product.sku}</span>
-              <h1 className="text-4xl lg:text-5xl font-black text-[#1A1E24] mt-2 tracking-tight leading-tight">{product.title}</h1>
+              <span className="text-sm font-bold text-[#8A95A5] uppercase tracking-widest">{product.brand}</span>
+              <h1 className="text-4xl lg:text-5xl font-black text-[#1A1E24] mt-2 tracking-tight leading-tight">{product.name}</h1>
             </div>
             
             <p className="text-[#8A95A5] text-lg leading-relaxed mb-8 border-l-4 border-[#C61A1A] pl-6 font-medium">

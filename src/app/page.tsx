@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import WorldMap from "@/components/home/WorldMap";
+import productsData from "@/data/products.json";
 
 export default function Home() {
   const brands = [
@@ -50,26 +51,12 @@ export default function Home() {
     }
   ];
 
+  // Selecting 3 distinct products for the featured section
   const featuredProducts = [
-    {
-      brand: "CEDIMA",
-      name: "CF-22.1 Dizel Derz Kesici",
-      slug: "cedima-p5000", // Link to our prototype PDP
-      image: "https://images.unsplash.com/photo-1581092334245-d419bd3e1cd2?q=80&w=600&auto=format&fit=crop"
-    },
-    {
-      brand: "DUSS",
-      name: "PK 300 Kırıcı Delici",
-      slug: "duss-pk300",
-      image: "https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=600&auto=format&fit=crop"
-    },
-    {
-      brand: "TICAB",
-      name: "BPA-500 Asfalt Finişeri",
-      slug: "ticab-bpa500",
-      image: "https://images.unsplash.com/photo-1541888086425-d81bb19240f5?q=80&w=600&auto=format&fit=crop"
-    }
-  ];
+    productsData.find(p => p.slug === "cedima-cf-22"),
+    productsData.find(p => p.slug === "duss-pk300"),
+    productsData.find(p => p.slug === "ticab-bpa500")
+  ].filter(Boolean); // removes any undefined if not found
 
   return (
     <>

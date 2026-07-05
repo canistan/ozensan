@@ -1,6 +1,13 @@
+"use client";
+
 import Link from "next/link";
 
 export default function Footer() {
+  const openCookies = (e: React.MouseEvent) => {
+    e.preventDefault();
+    window.dispatchEvent(new Event("openCookieConsent"));
+  };
+
   return (
     <footer className="bg-[#1A1E24] text-white pt-20 pb-10 border-t-4 border-[#C61A1A]">
       <div className="container mx-auto px-8">
@@ -62,6 +69,11 @@ export default function Footer() {
               <li><Link href="/gizlilik" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">Gizlilik Politikası</Link></li>
               <li><Link href="/cerez-politikasi" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">Çerez Politikası</Link></li>
               <li><Link href="/kullanim-sartlari" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">Kullanım Şartları</Link></li>
+              <li>
+                <button onClick={openCookies} className="hover:text-[#C61A1A] transition-colors text-sm font-medium text-left">
+                  Çerez Tercihlerimi Düzenle
+                </button>
+              </li>
             </ul>
           </div>
 

@@ -139,70 +139,15 @@ export default function RootLayout({
         </header>
 
         {/* PAGE CONTENT */}
-        <main className="flex-grow flex flex-col">
+        <main className="flex-grow flex flex-col min-h-screen">
           {children}
         </main>
 
-        {/* ENTERPRISE FOOTER */}
-        <footer className="bg-[#1A1E24] text-[#8A95A5] pt-24 pb-12 border-t-4 border-[#C61A1A]">
-          <div className="container mx-auto px-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-16">
-              <div className="pr-8">
-                <div className="relative h-12 w-44 mb-8">
-                  <Image src="/logoseffaf.png" alt="Özensan Logo" fill className="object-contain object-left brightness-0 invert" />
-                </div>
-                <p className="text-[15px] leading-relaxed mb-6 font-medium text-[#8A95A5]">
-                  Dünya devlerinin gücü, Türkiye'nin altyapısında. 57 yıllık tecrübemizle ağır sanayi ve inşaat sektörüne kesintisiz mühendislik çözümleri sunuyoruz.
-                </p>
-              </div>
-              
-              <div>
-                <h4 className="text-white font-bold mb-8 text-sm tracking-widest uppercase border-b border-[#8A95A5]/30 pb-4 inline-block">Çözümler</h4>
-                <ul className="space-y-4 text-[15px] font-medium">
-                  <li><Link href="/cozumler/asfalt-beton" className="hover:text-[#C61A1A] transition-colors">Asfalt ve Beton Kesme</Link></li>
-                  <li><Link href="/cozumler/yol-yapim" className="hover:text-[#C61A1A] transition-colors">Yol Yapım Ekipmanları</Link></li>
-                  <li><Link href="/cozumler/delme-karot" className="hover:text-[#C61A1A] transition-colors">Delme ve Karot Sistemleri</Link></li>
-                  <li><Link href="/cozumler/gaz-kontrol" className="hover:text-[#C61A1A] transition-colors">Gaz Kontrol Ekipmanları</Link></li>
-                </ul>
-              </div>
-
-              <div>
-                <h4 className="text-white font-bold mb-8 text-sm tracking-widest uppercase border-b border-[#8A95A5]/30 pb-4 inline-block">Hızlı Linkler</h4>
-                <ul className="space-y-4 text-[15px] font-medium">
-                  <li><Link href="/kurumsal" className="hover:text-[#C61A1A] transition-colors">Hakkımızda</Link></li>
-                  <li><Link href="/yedek-parca" className="hover:text-[#C61A1A] transition-colors">Yedek Parça Talebi</Link></li>
-                  <li><Link href="/iletisim" className="hover:text-[#C61A1A] transition-colors">İletişim</Link></li>
-                </ul>
-              </div>
-
-              <div>
-                <h4 className="text-white font-bold mb-8 text-sm tracking-widest uppercase border-b border-[#8A95A5]/30 pb-4 inline-block">İletişim Merkezi</h4>
-                <ul className="space-y-5 text-[15px] font-medium">
-                  <li className="flex items-start gap-4">
-                    <span className="text-[#C61A1A] mt-1">
-                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                    </span>
-                    <span className="leading-relaxed">Karaköy, Tünel Cad. Medrese Sk.<br/>İstanbul / Türkiye</span>
-                  </li>
-                  <li className="flex items-center gap-4">
-                    <span className="text-[#C61A1A]">
-                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-                    </span>
-                    <span className="text-white">+90 212 244 13 50</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            
-            <div className="pt-8 border-t border-[#8A95A5]/20 flex flex-col md:flex-row justify-between items-center gap-4 text-[11px] font-bold tracking-widest text-[#8A95A5]/70 uppercase">
-              <p>COPYRIGHT © {new Date().getFullYear()} ÖZENSAN SANAYİ MAKİNE VE MALZEMELERİ A.Ş.</p>
-              <div className="flex gap-8">
-                <Link href="/kvkk" className="hover:text-white transition-colors">KVKK Aydınlatma Metni</Link>
-                <Link href="/gizlilik" className="hover:text-white transition-colors">Gizlilik Politikası</Link>
-              </div>
-            </div>
-          </div>
-        </footer>
+        {/* Global Footer */}
+        <Footer />
+        
+        {/* Global Cookie Consent Popup */}
+        <CookieConsent />
       </body>
     </html>
   );

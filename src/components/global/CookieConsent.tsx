@@ -5,32 +5,54 @@ import Link from "next/link";
 
 export default function CookieConsent() {
   const [isVisible, setIsVisible] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    // Check if user has already accepted or rejected cookies
-    const consent = localStorage.getItem("cookieConsent");
-    if (!consent) {
-      // Delay showing the popup slightly for better UX
-      const timer = setTimeout(() => setIsVisible(true), 1500);
-      return () => clearTimeout(timer);
-    }
+    setMounted(true);
+    
+    const checkConsent = () => {
+      try {
+        const consent = localStorage.getItem("cookieConsent");
+        if (!consent) {
+          setIsVisible(true);
+        }
+      } catch (e) {
+        // Handle blocked localStorage
+        setIsVisible(true);
+      }
+    };
+
+    // Check on mount
+    const timer = setTimeout(checkConsent, 1000);
+
+    // Listen for custom event from footer to re-open
+    const handleOpenConsent = () => setIsVisible(true);
+    window.addEventListener('openCookieConsent', handleOpenConsent);
+
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('openCookieConsent', handleOpenConsent);
+    };
   }, []);
 
   const acceptCookies = () => {
-    localStorage.setItem("cookieConsent", "accepted");
-    // Here you would initialize Google Analytics
+    try {
+      localStorage.setItem("cookieConsent", "accepted");
+    } catch(e) {}
     setIsVisible(false);
   };
 
   const declineCookies = () => {
-    localStorage.setItem("cookieConsent", "declined");
+    try {
+      localStorage.setItem("cookieConsent", "declined");
+    } catch(e) {}
     setIsVisible(false);
   };
 
-  if (!isVisible) return null;
+  if (!mounted || !isVisible) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 md:bottom-8 md:left-8 md:right-auto md:max-w-md bg-white border border-[#8A95A5]/20 shadow-2xl p-6 z-50 rounded-sm">
+    <div className="fixed bottom-0 left-0 right-0 md:bottom-8 md:left-8 md:right-auto md:max-w-md bg-white border border-[#8A95A5]/20 shadow-2xl p-6 z-50 rounded-sm animate-in fade-in slide-in-from-bottom-10 duration-500">
       <div className="flex items-start gap-4">
         <div className="bg-[#F8F9FA] p-3 rounded-full hidden sm:block">
           <svg className="w-6 h-6 text-[#1A1E24]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
