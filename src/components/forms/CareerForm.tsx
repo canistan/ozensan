@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { useToast } from "@/components/ui/ToastContext";
-import Link from 'next/link';
+import { Link } from "@/i18n/routing";
 import { submitContactMessage } from "@/app/actions/submitForm";
 
 export default function CareerForm() {

@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import { useState } from "react";
 import { useToast } from "@/components/ui/ToastContext";
 import { subscribeNewsletter } from "@/app/actions/submitForm";
@@ -86,7 +86,6 @@ export default function Footer() {
               <li><Link href="/vizyon-misyon" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">Vizyon & Misyon</Link></li>
               <li><Link href="/sikca-sorulan-sorular" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">Sıkça Sorulan Sorular</Link></li>
               <li><Link href="/kariyer" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">Kariyer</Link></li>
-              <li><Link href="/insan-kaynaklari" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">İnsan Kaynakları</Link></li>
             </ul>
           </div>
 

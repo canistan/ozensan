@@ -3,35 +3,55 @@
     "slug": "cedima",
     "name": "CEDIMA",
     "logo": "/cedima.svg",
-    "coverImage": "https://placehold.co/1920x600/1A1E24/FFFFFF/webp?text=CEDIMA+Cover",
-    "description": "Elmas u\u00e7lu testereler ve delme ekipmanlar\u0131 konusunda d\u00fcnya lideri. 1984 y\u0131l\u0131ndan beri a\u011f\u0131r sanayi, yol yap\u0131m ve profesyonel yap\u0131 y\u0131k\u0131m i\u015flerinde profesyonellere g\u00fcvenilir \u00e7\u00f6z\u00fcmler sunmaktad\u0131r. Yenilik\u00e7i Alman m\u00fchendisli\u011fi ile \u00fcretilen Cedima makineleri, en zorlu \u015fantiye ko\u015fullar\u0131nda y\u00fcksek verim ve dayan\u0131kl\u0131l\u0131k garantisi verir."
+    "coverImage": "/brands/cedima_hero.png",
+    "description": {
+      "tr": "Elmas uçlu testereler ve delme ekipmanları konusunda dünya lideri. 1984 yılından beri ağır sanayi, yol yapım ve profesyonel yapı yıkım işlerinde profesyonellere güvenilir çözümler sunmaktadır. Yenilikçi Alman mühendisliği ile üretilen Cedima makineleri, en zorlu şantiye koşullarında yüksek verim ve dayanıklılık garantisi verir.",
+      "en": "Global leader in diamond saws and drilling equipment. Since 1984, it has been providing reliable solutions for professionals in heavy industry, road construction, and professional demolition. Cedima machines, produced with innovative German engineering, guarantee high efficiency and durability in the toughest site conditions."
+    },
+    "website": "https://www.cedima.com"
   },
   {
     "slug": "duss",
     "name": "DUSS",
     "logo": "/DUSS.svg",
-    "coverImage": "https://placehold.co/1920x600/1A1E24/FFFFFF/webp?text=DUSS+Cover",
-    "description": "Profesyonel k\u0131rma ve delme teknolojisinde Alman kalitesi. DUSS, hafif tasar\u0131m\u0131 ve s\u0131n\u0131f\u0131n\u0131n en y\u00fcksek darbe g\u00fcc\u00fcyle \u00f6n plana \u00e7\u0131kar. Tozsuz \u00e7al\u0131\u015fma sistemleri ve titre\u015fim emici teknolojileri sayesinde operat\u00f6r sa\u011fl\u0131\u011f\u0131n\u0131 korurken maksimum performans sa\u011flar."
+    "coverImage": "/brands/duss_hero.png",
+    "description": {
+      "tr": "Profesyonel kırma ve delme teknolojisinde Alman kalitesi. DUSS, hafif tasarımı ve sınıfının en yüksek darbe gücüyle ön plana çıkar. Tozsuz çalışma sistemleri ve titreşim emici teknolojileri sayesinde operatör sağlığını korurken maksimum performans sağlar.",
+      "en": "German quality in professional breaking and drilling technology. DUSS stands out with its lightweight design and the highest impact power in its class. Thanks to dust-free working systems and vibration-absorbing technologies, it ensures maximum performance while protecting operator health."
+    },
+    "website": "https://www.duss.de"
   },
   {
     "slug": "ticab",
     "name": "TICAB",
     "logo": "/brands/ticab_logo.png",
-    "coverImage": "https://placehold.co/1920x600/1A1E24/FFFFFF/webp?text=TICAB+Cover",
-    "description": "Yol bak\u0131m, onar\u0131m ve asfalt ekipmanlar\u0131nda modern \u00e7\u00f6z\u00fcmler. TICAB makine ve ekipmanlar\u0131, pratik kullan\u0131m ve y\u00fcksek manevra kabiliyeti ile belediyeler ve yol yap\u0131m firmalar\u0131 i\u00e7in vazge\u00e7ilmezdir."
+    "coverImage": "/brands/ticab_hero.png",
+    "description": {
+      "tr": "Yol bakım, onarım ve asfalt ekipmanlarında modern çözümler. TICAB makine ve ekipmanları, pratik kullanım ve yüksek manevra kabiliyeti ile belediyeler ve yol yapım firmaları için vazgeçilmezdir.",
+      "en": "Modern solutions in road maintenance, repair, and asphalt equipment. TICAB machinery and equipment are indispensable for municipalities and road construction companies with their practical use and high maneuverability."
+    },
+    "website": "https://ticab.eu"
   },
   {
     "slug": "victor",
     "name": "VICTOR",
     "logo": "/victor.svg",
-    "coverImage": "https://placehold.co/1920x600/1A1E24/FFFFFF/webp?text=VICTOR+Cover",
-    "description": "ESAB ailesinin bir par\u00e7as\u0131 olan Victor, as\u0131rl\u0131k tecr\u00fcbesiyle gaz kesme ve kaynak sistemlerinde d\u00fcnya standartlar\u0131n\u0131 belirler. G\u00fcvenlik ve hassasiyetin kritik oldu\u011fu a\u011f\u0131r sanayi uygulamalar\u0131nda tart\u0131\u015fmas\u0131z liderdir."
+    "coverImage": "/brands/victor_hero.png",
+    "description": {
+      "tr": "ESAB ailesinin bir parçası olan Victor, asırlık tecrübesiyle gaz kesme ve kaynak sistemlerinde dünya standartlarını belirler. Güvenlik ve hassasiyetin kritik olduğu ağır sanayi uygulamalarında tartışmasız liderdir.",
+      "en": "As a part of the ESAB family, Victor sets global standards in gas cutting and welding systems with a century of experience. It is the undisputed leader in heavy industry applications where safety and precision are critical."
+    },
+    "website": "https://esab.com/tr/eur_tr/brands/esab-family-brands/victor/"
   },
   {
     "slug": "gce",
     "name": "GCE",
     "logo": "/brands/gce.png",
-    "coverImage": "https://placehold.co/1920x600/1A1E24/FFFFFF/webp?text=GCE+Cover",
-    "description": "Gaz kontrol ekipmanlar\u0131nda Avrupa'n\u0131n lider markas\u0131. T\u0131bbi gazlardan end\u00fcstriyel proseslere kadar geni\u015f bir yelpazede y\u00fcksek g\u00fcvenlikli reg\u00fclat\u00f6rler ve valf sistemleri sunar."
+    "coverImage": "/brands/gce_hero.png",
+    "description": {
+      "tr": "Gaz kontrol ekipmanlarında Avrupa'nın lider markası. Tıbbi gazlardan endüstriyel proseslere kadar geniş bir yelpazede yüksek güvenlikli regülatörler ve valf sistemleri sunar.",
+      "en": "Europe's leading brand in gas control equipment. Provides highly secure regulators and valve systems across a wide range of applications, from medical gases to industrial processes."
+    },
+    "website": "https://www.gcegroup.com"
   }
 ]

@@ -1,0 +1,20 @@
+{
+  "Navigation": {
+    "home": "Ana Sayfa",
+    "solutions": "Çözümler & Uygulamalar",
+    "brands": "Markalarımız",
+    "corporate": "Kurumsal",
+    "contact": "İletişim",
+    "getQuote": "Fiyat Teklifi Al"
+  },
+  "Footer": {
+    "corporate": "Kurumsal",
+    "about": "Hakkımızda",
+    "visionMission": "Vizyon & Misyon",
+    "career": "Kariyer",
+    "allProducts": "Tüm Ürünler",
+    "contact": "İletişim",
+    "rights": "Tüm hakları saklıdır.",
+    "address": "Perpa Ticaret Merkezi A Blok Kat:11 No:1584\nŞişli / İstanbul"
+  }
+}
