@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "yol-yapim-ve-bakim",
+    "name": "Yol Yapım ve Bakım",
+    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Yol+Yapim",
+    "description": "Asfalt kesimi, serimi ve yama işlemleri için ihtiyaç duyulan tüm profesyonel makine ve ekipmanlar. Otoyol şantiyelerinden şehir içi altyapı çalışmalarına kadar kesintisiz performans sunan çözümlerimizle projelerinizi hızlandırın."
+  },
+  {
+    "slug": "agir-sanayi-ve-metal",
+    "name": "Ağır Sanayi ve Metal İşleme",
+    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Agir+Sanayi",
+    "description": "Gemi inşaası, çelik konstrüksiyon ve dökümhaneler için tasarlanmış, üst düzey güvenlik standartlarına sahip endüstriyel gaz kesme ve basınç kontrol sistemleri."
+  },
+  {
+    "slug": "profesyonel-delme-yikim",
+    "name": "Profesyonel Delme ve Yıkım",
+    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Delme+Yikim",
+    "description": "Betonarme yapılarda hassas karot alımı, duvar kesme, halatlı kesim ve ağır kırım işlemleri için Alman teknolojisi ile üretilmiş güçlü, dayanıklı ve ergonomik makineler."
+  }
+]

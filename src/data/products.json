@@ -1,9 +1,9 @@
 [
   {
     "slug": "cedima-cf-22",
-    "brand": "CEDIMA",
+    "brand": "cedima",
     "name": "CF-22.1 Dizel Derz Kesici",
-    "image": "https://images.unsplash.com/photo-1541888086425-d81bb19240f5?q=80&w=800&auto=format&fit=crop",
+    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Cedima+CF-22.1",
     "description": "Zorlu şantiye koşullarında yüksek performans gösteren, dayanıklı ve ergonomik tasarıma sahip profesyonel asfalt ve beton kesme makinesi. Özel şasi yapısı titreşimi minimize ederken, operatör yorgunluğunu en aza indirir.",
     "features": ["Hidrostatik sürüş sistemi", "Elektrikli su pompası", "Ergonomik kullanım paneli", "Maksimum 300mm kesme derinliği"],
     "technicalData": [
@@ -12,13 +12,15 @@
       { "param": "İlerleme Tipi", "value": "Hidrostatik Otomatik İlerleme", "accessory": "Yedek Parça Kodu: HYD-P5000" },
       { "param": "Su Tankı Kapasitesi", "value": "35 Litre", "accessory": "Harici Su Pompası Uyumu" },
       { "param": "Ağırlık", "value": "340 kg", "accessory": "-" }
-    ]
+    ],
+    "solutions": ["yol-yapim-ve-bakim", "profesyonel-delme-yikim"],
+    "isFeatured": true
   },
   {
     "slug": "cedima-cts-57",
-    "brand": "CEDIMA",
+    "brand": "cedima",
     "name": "CTS-57 G Masa Tipi Testere",
-    "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=800&auto=format&fit=crop",
+    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Cedima+CTS-57+G",
     "description": "Tuğla, kiremit ve doğaltaş kesimleri için tasarlanmış, şantiyede yüksek hareket kabiliyetine sahip masa tipi sulu kesim makinesi.",
     "features": ["Ayarlanabilir kesim açısı", "Galvanizli su teknesi", "Kolay taşınabilir tasarım", "Yüksek devirli motor"],
     "technicalData": [
@@ -27,13 +29,15 @@
       { "param": "Motor Gücü", "value": "2.2 kW (230V)", "accessory": "Elektrik Motoru" },
       { "param": "Su Pompası", "value": "Elektrikli Dalgıç Pompa", "accessory": "WP-12 Yedek Pompa" },
       { "param": "Ağırlık", "value": "75 kg", "accessory": "-" }
-    ]
+    ],
+    "solutions": ["profesyonel-delme-yikim"],
+    "isFeatured": false
   },
   {
     "slug": "cedima-cm-10",
-    "brand": "CEDIMA",
+    "brand": "cedima",
     "name": "CM-10 Karot Motoru",
-    "image": "https://images.unsplash.com/photo-1581092334245-d419bd3e1cd2?q=80&w=800&auto=format&fit=crop",
+    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Cedima+CM-10",
     "description": "Betonarme yapılarda hassas delik açmak için kullanılan kompakt, yüksek torklu karot delme motoru.",
     "features": ["3 vitesli şanzıman", "Aşırı yük koruma sistemi", "Sulu ve kuru delme opsiyonu", "Alüminyum gövde"],
     "technicalData": [
@@ -42,13 +46,15 @@
       { "param": "Devir Hızları", "value": "320 / 800 / 1200 rpm", "accessory": "Şanzıman Yağı" },
       { "param": "Bağlantı Tipi", "value": "1 1/4\" UNC", "accessory": "Adaptör Pulu" },
       { "param": "Ağırlık", "value": "11.5 kg", "accessory": "-" }
-    ]
+    ],
+    "solutions": ["profesyonel-delme-yikim"],
+    "isFeatured": true
   },
   {
     "slug": "cedima-ws-296",
-    "brand": "CEDIMA",
+    "brand": "cedima",
     "name": "WS-296 Duvar Kesme Sistemi",
-    "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800&auto=format&fit=crop",
+    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Cedima+WS-296",
     "description": "Ağır betonarme perdelerde raylı sistem üzerinden hareket eden tam otomatik hidrolik duvar kesme makinesi.",
     "features": ["Modüler ray sistemi", "Uzaktan kumandalı operasyon", "Hidrolik tahrik mekanizması", "Geniş disk çapı uyumu"],
     "technicalData": [
@@ -57,13 +63,15 @@
       { "param": "Çalışma Basıncı", "value": "260 bar", "accessory": "Hidrolik Hortum Seti" },
       { "param": "Gerekli Hidrolik Ünite", "value": "HAG-12", "accessory": "Hidrolik Ünite" },
       { "param": "Kafa Ağırlığı", "value": "28 kg", "accessory": "Montaj Braketi" }
-    ]
+    ],
+    "solutions": ["profesyonel-delme-yikim"],
+    "isFeatured": false
   },
   {
     "slug": "cedima-bw-65",
-    "brand": "CEDIMA",
+    "brand": "cedima",
     "name": "BW-65 Halatlı Kesme",
-    "image": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=800&auto=format&fit=crop",
+    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Cedima+BW-65",
     "description": "Büyük kütleli beton ve köprü ayaklarının kesiminde kullanılan pnömatik kontrollü elmas halat kesme makinesi.",
     "features": ["Geniş kasnak depolama", "Pnömatik germe sistemi", "Hızlı kurulum", "Yüksek kesim hızı"],
     "technicalData": [
@@ -72,13 +80,15 @@
       { "param": "Sürüş Tipi", "value": "Elektrik / Hidrolik", "accessory": "Tahrik Motoru" },
       { "param": "Minimum Hava İhtiyacı", "value": "6 bar", "accessory": "Bağlantı Rekorları" },
       { "param": "Sistem Ağırlığı", "value": "145 kg", "accessory": "-" }
-    ]
+    ],
+    "solutions": ["profesyonel-delme-yikim", "yol-yapim-ve-bakim"],
+    "isFeatured": false
   },
   {
     "slug": "cedima-cbm-350",
-    "brand": "CEDIMA",
+    "brand": "cedima",
     "name": "CBM-350 Tam Otomatik Karot",
-    "image": "https://images.unsplash.com/photo-1574360773950-6ce3a258c70d?q=80&w=800&auto=format&fit=crop",
+    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Cedima+CBM-350",
     "description": "Laboratuvar ve test işlemleri için özel üretilmiş, asfalt ve betondan silindirik numune alan sondaj sistemi.",
     "features": ["Dahili su deposu", "Otomatik ilerleme", "Römork üstü mobil tasarım", "Honda benzinli motor"],
     "technicalData": [
@@ -87,13 +97,15 @@
       { "param": "Motor Seçeneği", "value": "Honda GX 390", "accessory": "Buji Seti" },
       { "param": "Su Tankı", "value": "400 Litre", "accessory": "Su Pompası" },
       { "param": "Montaj Tipi", "value": "Römork / Kamyonet", "accessory": "-" }
-    ]
+    ],
+    "solutions": ["profesyonel-delme-yikim"],
+    "isFeatured": false
   },
   {
     "slug": "duss-pk300",
-    "brand": "DUSS",
+    "brand": "duss",
     "name": "PK 300 Kırıcı Delici",
-    "image": "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?q=80&w=800&auto=format&fit=crop",
+    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=DUSS+PK+300",
     "description": "Alman DUSS mühendisliği ile üretilmiş, sınıfının en iyi darbe gücüne sahip hafif ve ergonomik kırıcı delici matkap.",
     "features": ["Titreşim emici sap (RVA)", "Elektronik hız ayarı", "Sürekli çalışma kilidi", "Toz korumalı ayna"],
     "technicalData": [
@@ -102,13 +114,15 @@
       { "param": "Darbe Sayısı", "value": "1500 - 2700 darbe/dk", "accessory": "-" },
       { "param": "Takım Tutucu", "value": "SDS Max", "accessory": "Mandren Adaptörü" },
       { "param": "Ağırlık", "value": "7.3 kg", "accessory": "Özel Taşıma Çantası" }
-    ]
+    ],
+    "solutions": ["profesyonel-delme-yikim"],
+    "isFeatured": true
   },
   {
     "slug": "ticab-bpa500",
-    "brand": "TICAB",
+    "brand": "ticab",
     "name": "BPA-500 Asfalt Finişeri",
-    "image": "https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?q=80&w=800&auto=format&fit=crop",
+    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=TICAB+BPA-500",
     "description": "Yol bakım ve onarım projeleri için tasarlanmış, hızlı serim yapan manevra kabiliyeti yüksek kompakt asfalt finişeri.",
     "features": ["Kompakt ebatlar", "Ayarlanabilir serim genişliği", "Isıtmalı tabla sistemi", "Joystick kontrolü"],
     "technicalData": [
@@ -117,13 +131,15 @@
       { "param": "Motor", "value": "Kubota Dizel", "accessory": "Hava ve Yağ Filtreleri" },
       { "param": "Isıtma Sistemi", "value": "Elektrikli Isıtma", "accessory": "Rezistans Çubukları" },
       { "param": "Çalışma Ağırlığı", "value": "4.500 kg", "accessory": "Konveyör Bantları" }
-    ]
+    ],
+    "solutions": ["yol-yapim-ve-bakim"],
+    "isFeatured": true
   },
   {
     "slug": "victor-journeyman",
-    "brand": "VICTOR",
+    "brand": "victor",
     "name": "Journeyman 450 Gaz Kesme Sistemi",
-    "image": "https://images.unsplash.com/photo-1504917595217-d4ce5eb3e21c?q=80&w=800&auto=format&fit=crop",
+    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=VICTOR+Journeyman+450",
     "description": "Endüstriyel metal kesimi için geliştirilmiş, yüksek güvenlik standartlarına sahip ağır hizmet tipi oksi-yakıt kesme seti.",
     "features": ["Dahili alev geri tepme ventili", "Hassas regülatörler", "Ergonomik hamlaç", "Yüksek kesim kapasitesi"],
     "technicalData": [
@@ -132,13 +148,15 @@
       { "param": "Regülatör Tipi", "value": "Tek Kademeli Edge 2.0", "accessory": "Manometre Camı" },
       { "param": "Hamlaç Boyu", "value": "530 mm", "accessory": "Temizleme Çakısı" },
       { "param": "Sistem Sınıfı", "value": "Ağır Hizmet (Heavy Duty)", "accessory": "-" }
-    ]
+    ],
+    "solutions": ["agir-sanayi-ve-metal"],
+    "isFeatured": true
   },
   {
     "slug": "gce-procontrol",
-    "brand": "GCE",
+    "brand": "gce",
     "name": "ProControl Endüstriyel Regülatör",
-    "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=800&auto=format&fit=crop",
+    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=GCE+ProControl",
     "description": "GCE kalitesiyle üretilmiş, basınçlı gaz tüplerinde hassas kontrol sağlayan dayanıklı ve uzun ömürlü endüstriyel gaz regülatörü.",
     "features": ["Pirinç gövde tasarımı", "Kolay okunabilir manometreler", "Korumalı arka kapak", "Geniş gaz uyumluluğu"],
     "technicalData": [
@@ -147,6 +165,8 @@
       { "param": "Uyumlu Gazlar", "value": "Oksijen, Argon, Karışım Gaz", "accessory": "Conta Seti" },
       { "param": "Gövde Malzemesi", "value": "Dövme Pirinç", "accessory": "-" },
       { "param": "Standart", "value": "ISO 2503 Uyumlu", "accessory": "-" }
-    ]
+    ],
+    "solutions": ["agir-sanayi-ve-metal"],
+    "isFeatured": true
   }
 ]

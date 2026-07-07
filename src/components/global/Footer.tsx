@@ -1,11 +1,37 @@
 "use client";
 
 import Link from "next/link";
+import { useState } from "react";
+import { useToast } from "@/components/ui/ToastContext";
+import { subscribeNewsletter } from "@/app/actions/submitForm";
 
 export default function Footer() {
+  const { addToast } = useToast();
+  const [email, setEmail] = useState("");
+  const [loading, setLoading] = useState(false);
+
   const openCookies = (e: React.MouseEvent) => {
     e.preventDefault();
     window.dispatchEvent(new Event("openCookieConsent"));
+  };
+
+  const handleSubscribe = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!email || !email.includes('@')) {
+      addToast("Lütfen geçerli bir e-posta adresi giriniz.", "error");
+      return;
+    }
+    
+    setLoading(true);
+    const result = await subscribeNewsletter(email);
+    setLoading(false);
+
+    if (result.success) {
+      addToast("Bültene başarıyla abone oldunuz!", "success");
+      setEmail("");
+    } else {
+      addToast(result.error || "Bir hata oluştu.", "error");
+    }
   };
 
   return (
@@ -26,16 +52,18 @@ export default function Footer() {
             </p>
             <div className="mt-4">
               <h4 className="text-sm font-bold uppercase tracking-widest mb-3">E-Bülten Aboneliği</h4>
-              <div className="flex">
+              <form onSubmit={handleSubscribe} className="flex">
                 <input 
                   type="email" 
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   placeholder="E-posta adresiniz" 
                   className="bg-[#2A303A] text-white px-4 py-3 rounded-l-sm focus:outline-none focus:ring-1 focus:ring-[#C61A1A] w-full text-sm"
                 />
-                <button className="bg-[#C61A1A] px-6 py-3 rounded-r-sm hover:bg-[#9D1414] transition-colors">
+                <button type="submit" className="bg-[#C61A1A] px-6 py-3 rounded-r-sm hover:bg-[#9D1414] transition-colors">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                 </button>
-              </div>
+              </form>
             </div>
           </div>
 
@@ -66,7 +94,7 @@ export default function Footer() {
             <h4 className="text-[#8A95A5] text-sm font-bold uppercase tracking-widest mb-6">Yasal</h4>
             <ul className="flex flex-col gap-4">
               <li><Link href="/kvkk" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">KVKK Aydınlatma Metni</Link></li>
-              <li><Link href="/gizlilik" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">Gizlilik Politikası</Link></li>
+              <li><Link href="/gizlilik-politikasi" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">Gizlilik Politikası</Link></li>
               <li><Link href="/cerez-politikasi" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">Çerez Politikası</Link></li>
               <li><Link href="/kullanim-sartlari" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">Kullanım Şartları</Link></li>
               <li>

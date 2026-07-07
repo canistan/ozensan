@@ -132,6 +132,50 @@ export default buildConfig({
           type: 'text',
         },
       ],
+    },
+    {
+      slug: 'contact-messages',
+      labels: {
+        singular: 'İletişim Mesajı',
+        plural: 'İletişim Mesajları',
+      },
+      admin: {
+        useAsTitle: 'name',
+        defaultColumns: ['name', 'email', 'phone', 'subject', 'createdAt'],
+      },
+      access: {
+        create: () => true, // Allow anyone to submit a contact message
+        read: ({ req: { user } }) => Boolean(user), // Only admins can read
+        update: ({ req: { user } }) => Boolean(user),
+        delete: ({ req: { user } }) => Boolean(user),
+      },
+      fields: [
+        { name: 'name', type: 'text', required: true, label: 'Ad Soyad' },
+        { name: 'email', type: 'email', required: true, label: 'E-Posta' },
+        { name: 'phone', type: 'text', required: true, label: 'Telefon' },
+        { name: 'subject', type: 'text', required: true, label: 'Konu' },
+        { name: 'message', type: 'textarea', required: true, label: 'Mesaj' },
+      ],
+    },
+    {
+      slug: 'newsletter-subscribers',
+      labels: {
+        singular: 'Bülten Abonesi',
+        plural: 'Bülten Aboneleri',
+      },
+      admin: {
+        useAsTitle: 'email',
+        defaultColumns: ['email', 'createdAt'],
+      },
+      access: {
+        create: () => true, // Allow anyone to subscribe
+        read: ({ req: { user } }) => Boolean(user), // Only admins can read
+        update: ({ req: { user } }) => Boolean(user),
+        delete: ({ req: { user } }) => Boolean(user),
+      },
+      fields: [
+        { name: 'email', type: 'email', required: true, label: 'E-Posta' },
+      ],
     }
   ],
   editor: lexicalEditor(),

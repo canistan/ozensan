@@ -6,6 +6,7 @@ import "./globals.css";
 
 import Footer from "@/components/global/Footer";
 import CookieConsent from "@/components/global/CookieConsent";
+import { ToastProvider } from "@/components/ui/ToastContext";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -139,15 +140,17 @@ export default function RootLayout({
         </header>
 
         {/* PAGE CONTENT */}
-        <main className="flex-grow flex flex-col min-h-screen">
-          {children}
-        </main>
+        <ToastProvider>
+          <main className="flex-grow flex flex-col min-h-screen">
+            {children}
+          </main>
 
-        {/* Global Footer */}
-        <Footer />
-        
-        {/* Global Cookie Consent Popup */}
-        <CookieConsent />
+          {/* Global Footer */}
+          <Footer />
+          
+          {/* Global Cookie Consent Popup */}
+          <CookieConsent />
+        </ToastProvider>
       </body>
     </html>
   );

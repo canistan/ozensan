@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "cedima",
+    "name": "CEDIMA",
+    "logo": "/brands/cedima.png",
+    "coverImage": "https://placehold.co/1920x600/1A1E24/FFFFFF/webp?text=CEDIMA+Cover",
+    "description": "Elmas uçlu testereler ve delme ekipmanları konusunda dünya lideri. 1984 yılından beri ağır sanayi, yol yapım ve profesyonel yapı yıkım işlerinde profesyonellere güvenilir çözümler sunmaktadır. Yenilikçi Alman mühendisliği ile üretilen Cedima makineleri, en zorlu şantiye koşullarında yüksek verim ve dayanıklılık garantisi verir."
+  },
+  {
+    "slug": "duss",
+    "name": "DUSS",
+    "logo": "/brands/duss.png",
+    "coverImage": "https://placehold.co/1920x600/1A1E24/FFFFFF/webp?text=DUSS+Cover",
+    "description": "Profesyonel kırma ve delme teknolojisinde Alman kalitesi. DUSS, hafif tasarımı ve sınıfının en yüksek darbe gücüyle ön plana çıkar. Tozsuz çalışma sistemleri ve titreşim emici teknolojileri sayesinde operatör sağlığını korurken maksimum performans sağlar."
+  },
+  {
+    "slug": "ticab",
+    "name": "TICAB",
+    "logo": "/brands/ticab.png",
+    "coverImage": "https://placehold.co/1920x600/1A1E24/FFFFFF/webp?text=TICAB+Cover",
+    "description": "Yol bakım, onarım ve asfalt ekipmanlarında modern çözümler. TICAB makine ve ekipmanları, pratik kullanım ve yüksek manevra kabiliyeti ile belediyeler ve yol yapım firmaları için vazgeçilmezdir."
+  },
+  {
+    "slug": "victor",
+    "name": "VICTOR",
+    "logo": "/brands/victor.png",
+    "coverImage": "https://placehold.co/1920x600/1A1E24/FFFFFF/webp?text=VICTOR+Cover",
+    "description": "ESAB ailesinin bir parçası olan Victor, asırlık tecrübesiyle gaz kesme ve kaynak sistemlerinde dünya standartlarını belirler. Güvenlik ve hassasiyetin kritik olduğu ağır sanayi uygulamalarında tartışmasız liderdir."
+  },
+  {
+    "slug": "gce",
+    "name": "GCE",
+    "logo": "/brands/gce.png",
+    "coverImage": "https://placehold.co/1920x600/1A1E24/FFFFFF/webp?text=GCE+Cover",
+    "description": "Gaz kontrol ekipmanlarında Avrupa'nın lider markası. Tıbbi gazlardan endüstriyel proseslere kadar geniş bir yelpazede yüksek güvenlikli regülatörler ve valf sistemleri sunar."
+  }
+]
