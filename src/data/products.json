@@ -5,15 +5,43 @@
     "name": "CF-22.1 Dizel Derz Kesici",
     "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Cedima+CF-22.1",
     "description": "Zorlu şantiye koşullarında yüksek performans gösteren, dayanıklı ve ergonomik tasarıma sahip profesyonel asfalt ve beton kesme makinesi. Özel şasi yapısı titreşimi minimize ederken, operatör yorgunluğunu en aza indirir.",
-    "features": ["Hidrostatik sürüş sistemi", "Elektrikli su pompası", "Ergonomik kullanım paneli", "Maksimum 300mm kesme derinliği"],
-    "technicalData": [
-      { "param": "Maksimum Kesme Derinliği", "value": "300 mm", "accessory": "Cedima Elmas Disk Ø 800 mm" },
-      { "param": "Motor Gücü / Kaynak", "value": "11 kW (Dizel)", "accessory": "Yetkili Servis Bakım Seti" },
-      { "param": "İlerleme Tipi", "value": "Hidrostatik Otomatik İlerleme", "accessory": "Yedek Parça Kodu: HYD-P5000" },
-      { "param": "Su Tankı Kapasitesi", "value": "35 Litre", "accessory": "Harici Su Pompası Uyumu" },
-      { "param": "Ağırlık", "value": "340 kg", "accessory": "-" }
+    "features": [
+      "Hidrostatik sürüş sistemi",
+      "Elektrikli su pompası",
+      "Ergonomik kullanım paneli",
+      "Maksimum 300mm kesme derinliği"
     ],
-    "solutions": ["yol-yapim-ve-bakim", "profesyonel-delme-yikim"],
+    "technicalData": [
+      {
+        "param": "Maksimum Kesme Derinliği",
+        "value": "300 mm",
+        "accessory": "Cedima Elmas Disk Ø 800 mm"
+      },
+      {
+        "param": "Motor Gücü / Kaynak",
+        "value": "11 kW (Dizel)",
+        "accessory": "Yetkili Servis Bakım Seti"
+      },
+      {
+        "param": "İlerleme Tipi",
+        "value": "Hidrostatik Otomatik İlerleme",
+        "accessory": "Yedek Parça Kodu: HYD-P5000"
+      },
+      {
+        "param": "Su Tankı Kapasitesi",
+        "value": "35 Litre",
+        "accessory": "Harici Su Pompası Uyumu"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "340 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-yikim"
+    ],
     "isFeatured": true
   },
   {
@@ -22,15 +50,42 @@
     "name": "CTS-57 G Masa Tipi Testere",
     "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Cedima+CTS-57+G",
     "description": "Tuğla, kiremit ve doğaltaş kesimleri için tasarlanmış, şantiyede yüksek hareket kabiliyetine sahip masa tipi sulu kesim makinesi.",
-    "features": ["Ayarlanabilir kesim açısı", "Galvanizli su teknesi", "Kolay taşınabilir tasarım", "Yüksek devirli motor"],
-    "technicalData": [
-      { "param": "Maksimum Kesme Derinliği", "value": "125 mm", "accessory": "Sulu Kesim Diski Ø 400 mm" },
-      { "param": "Maksimum Kesme Uzunluğu", "value": "600 mm", "accessory": "-" },
-      { "param": "Motor Gücü", "value": "2.2 kW (230V)", "accessory": "Elektrik Motoru" },
-      { "param": "Su Pompası", "value": "Elektrikli Dalgıç Pompa", "accessory": "WP-12 Yedek Pompa" },
-      { "param": "Ağırlık", "value": "75 kg", "accessory": "-" }
+    "features": [
+      "Ayarlanabilir kesim açısı",
+      "Galvanizli su teknesi",
+      "Kolay taşınabilir tasarım",
+      "Yüksek devirli motor"
     ],
-    "solutions": ["profesyonel-delme-yikim"],
+    "technicalData": [
+      {
+        "param": "Maksimum Kesme Derinliği",
+        "value": "125 mm",
+        "accessory": "Sulu Kesim Diski Ø 400 mm"
+      },
+      {
+        "param": "Maksimum Kesme Uzunluğu",
+        "value": "600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor Gücü",
+        "value": "2.2 kW (230V)",
+        "accessory": "Elektrik Motoru"
+      },
+      {
+        "param": "Su Pompası",
+        "value": "Elektrikli Dalgıç Pompa",
+        "accessory": "WP-12 Yedek Pompa"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "75 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "profesyonel-delme-yikim"
+    ],
     "isFeatured": false
   },
   {
@@ -39,15 +94,42 @@
     "name": "CM-10 Karot Motoru",
     "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Cedima+CM-10",
     "description": "Betonarme yapılarda hassas delik açmak için kullanılan kompakt, yüksek torklu karot delme motoru.",
-    "features": ["3 vitesli şanzıman", "Aşırı yük koruma sistemi", "Sulu ve kuru delme opsiyonu", "Alüminyum gövde"],
-    "technicalData": [
-      { "param": "Delme Çapı Aralığı", "value": "Ø 20 - 250 mm", "accessory": "Elmas Karot Uçları" },
-      { "param": "Motor Gücü", "value": "3.0 kW", "accessory": "Karot Sehpası P-3000" },
-      { "param": "Devir Hızları", "value": "320 / 800 / 1200 rpm", "accessory": "Şanzıman Yağı" },
-      { "param": "Bağlantı Tipi", "value": "1 1/4\" UNC", "accessory": "Adaptör Pulu" },
-      { "param": "Ağırlık", "value": "11.5 kg", "accessory": "-" }
+    "features": [
+      "3 vitesli şanzıman",
+      "Aşırı yük koruma sistemi",
+      "Sulu ve kuru delme opsiyonu",
+      "Alüminyum gövde"
     ],
-    "solutions": ["profesyonel-delme-yikim"],
+    "technicalData": [
+      {
+        "param": "Delme Çapı Aralığı",
+        "value": "Ø 20 - 250 mm",
+        "accessory": "Elmas Karot Uçları"
+      },
+      {
+        "param": "Motor Gücü",
+        "value": "3.0 kW",
+        "accessory": "Karot Sehpası P-3000"
+      },
+      {
+        "param": "Devir Hızları",
+        "value": "320 / 800 / 1200 rpm",
+        "accessory": "Şanzıman Yağı"
+      },
+      {
+        "param": "Bağlantı Tipi",
+        "value": "1 1/4\" UNC",
+        "accessory": "Adaptör Pulu"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "11.5 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "profesyonel-delme-yikim"
+    ],
     "isFeatured": true
   },
   {
@@ -56,15 +138,42 @@
     "name": "WS-296 Duvar Kesme Sistemi",
     "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Cedima+WS-296",
     "description": "Ağır betonarme perdelerde raylı sistem üzerinden hareket eden tam otomatik hidrolik duvar kesme makinesi.",
-    "features": ["Modüler ray sistemi", "Uzaktan kumandalı operasyon", "Hidrolik tahrik mekanizması", "Geniş disk çapı uyumu"],
-    "technicalData": [
-      { "param": "Maksimum Kesme Derinliği", "value": "730 mm", "accessory": "Duvar Kesme Diski Ø 1600 mm" },
-      { "param": "Sürüş Sistemi", "value": "Hidrolik Kremayer", "accessory": "Uzatma Rayı 2m" },
-      { "param": "Çalışma Basıncı", "value": "260 bar", "accessory": "Hidrolik Hortum Seti" },
-      { "param": "Gerekli Hidrolik Ünite", "value": "HAG-12", "accessory": "Hidrolik Ünite" },
-      { "param": "Kafa Ağırlığı", "value": "28 kg", "accessory": "Montaj Braketi" }
+    "features": [
+      "Modüler ray sistemi",
+      "Uzaktan kumandalı operasyon",
+      "Hidrolik tahrik mekanizması",
+      "Geniş disk çapı uyumu"
     ],
-    "solutions": ["profesyonel-delme-yikim"],
+    "technicalData": [
+      {
+        "param": "Maksimum Kesme Derinliği",
+        "value": "730 mm",
+        "accessory": "Duvar Kesme Diski Ø 1600 mm"
+      },
+      {
+        "param": "Sürüş Sistemi",
+        "value": "Hidrolik Kremayer",
+        "accessory": "Uzatma Rayı 2m"
+      },
+      {
+        "param": "Çalışma Basıncı",
+        "value": "260 bar",
+        "accessory": "Hidrolik Hortum Seti"
+      },
+      {
+        "param": "Gerekli Hidrolik Ünite",
+        "value": "HAG-12",
+        "accessory": "Hidrolik Ünite"
+      },
+      {
+        "param": "Kafa Ağırlığı",
+        "value": "28 kg",
+        "accessory": "Montaj Braketi"
+      }
+    ],
+    "solutions": [
+      "profesyonel-delme-yikim"
+    ],
     "isFeatured": false
   },
   {
@@ -73,15 +182,43 @@
     "name": "BW-65 Halatlı Kesme",
     "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Cedima+BW-65",
     "description": "Büyük kütleli beton ve köprü ayaklarının kesiminde kullanılan pnömatik kontrollü elmas halat kesme makinesi.",
-    "features": ["Geniş kasnak depolama", "Pnömatik germe sistemi", "Hızlı kurulum", "Yüksek kesim hızı"],
-    "technicalData": [
-      { "param": "Halat Depolama Kapasitesi", "value": "14.5 Metre", "accessory": "Cedima Elmas Tel Halat" },
-      { "param": "Germe Tipi", "value": "Pnömatik", "accessory": "Hava Kompresörü" },
-      { "param": "Sürüş Tipi", "value": "Elektrik / Hidrolik", "accessory": "Tahrik Motoru" },
-      { "param": "Minimum Hava İhtiyacı", "value": "6 bar", "accessory": "Bağlantı Rekorları" },
-      { "param": "Sistem Ağırlığı", "value": "145 kg", "accessory": "-" }
+    "features": [
+      "Geniş kasnak depolama",
+      "Pnömatik germe sistemi",
+      "Hızlı kurulum",
+      "Yüksek kesim hızı"
     ],
-    "solutions": ["profesyonel-delme-yikim", "yol-yapim-ve-bakim"],
+    "technicalData": [
+      {
+        "param": "Halat Depolama Kapasitesi",
+        "value": "14.5 Metre",
+        "accessory": "Cedima Elmas Tel Halat"
+      },
+      {
+        "param": "Germe Tipi",
+        "value": "Pnömatik",
+        "accessory": "Hava Kompresörü"
+      },
+      {
+        "param": "Sürüş Tipi",
+        "value": "Elektrik / Hidrolik",
+        "accessory": "Tahrik Motoru"
+      },
+      {
+        "param": "Minimum Hava İhtiyacı",
+        "value": "6 bar",
+        "accessory": "Bağlantı Rekorları"
+      },
+      {
+        "param": "Sistem Ağırlığı",
+        "value": "145 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "profesyonel-delme-yikim",
+      "yol-yapim-ve-bakim"
+    ],
     "isFeatured": false
   },
   {
@@ -90,15 +227,42 @@
     "name": "CBM-350 Tam Otomatik Karot",
     "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Cedima+CBM-350",
     "description": "Laboratuvar ve test işlemleri için özel üretilmiş, asfalt ve betondan silindirik numune alan sondaj sistemi.",
-    "features": ["Dahili su deposu", "Otomatik ilerleme", "Römork üstü mobil tasarım", "Honda benzinli motor"],
-    "technicalData": [
-      { "param": "Maksimum Delme Çapı", "value": "Ø 350 mm", "accessory": "Test Karot Uçları" },
-      { "param": "İlerleme Mesafesi", "value": "600 mm", "accessory": "Uzatma Kolu" },
-      { "param": "Motor Seçeneği", "value": "Honda GX 390", "accessory": "Buji Seti" },
-      { "param": "Su Tankı", "value": "400 Litre", "accessory": "Su Pompası" },
-      { "param": "Montaj Tipi", "value": "Römork / Kamyonet", "accessory": "-" }
+    "features": [
+      "Dahili su deposu",
+      "Otomatik ilerleme",
+      "Römork üstü mobil tasarım",
+      "Honda benzinli motor"
     ],
-    "solutions": ["profesyonel-delme-yikim"],
+    "technicalData": [
+      {
+        "param": "Maksimum Delme Çapı",
+        "value": "Ø 350 mm",
+        "accessory": "Test Karot Uçları"
+      },
+      {
+        "param": "İlerleme Mesafesi",
+        "value": "600 mm",
+        "accessory": "Uzatma Kolu"
+      },
+      {
+        "param": "Motor Seçeneği",
+        "value": "Honda GX 390",
+        "accessory": "Buji Seti"
+      },
+      {
+        "param": "Su Tankı",
+        "value": "400 Litre",
+        "accessory": "Su Pompası"
+      },
+      {
+        "param": "Montaj Tipi",
+        "value": "Römork / Kamyonet",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "profesyonel-delme-yikim"
+    ],
     "isFeatured": false
   },
   {
@@ -107,15 +271,42 @@
     "name": "PK 300 Kırıcı Delici",
     "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=DUSS+PK+300",
     "description": "Alman DUSS mühendisliği ile üretilmiş, sınıfının en iyi darbe gücüne sahip hafif ve ergonomik kırıcı delici matkap.",
-    "features": ["Titreşim emici sap (RVA)", "Elektronik hız ayarı", "Sürekli çalışma kilidi", "Toz korumalı ayna"],
-    "technicalData": [
-      { "param": "Darbe Gücü", "value": "11 Joule", "accessory": "SDS Max Keskiler" },
-      { "param": "Motor Gücü", "value": "1300 Watt", "accessory": "Karbon Fırça Seti" },
-      { "param": "Darbe Sayısı", "value": "1500 - 2700 darbe/dk", "accessory": "-" },
-      { "param": "Takım Tutucu", "value": "SDS Max", "accessory": "Mandren Adaptörü" },
-      { "param": "Ağırlık", "value": "7.3 kg", "accessory": "Özel Taşıma Çantası" }
+    "features": [
+      "Titreşim emici sap (RVA)",
+      "Elektronik hız ayarı",
+      "Sürekli çalışma kilidi",
+      "Toz korumalı ayna"
     ],
-    "solutions": ["profesyonel-delme-yikim"],
+    "technicalData": [
+      {
+        "param": "Darbe Gücü",
+        "value": "11 Joule",
+        "accessory": "SDS Max Keskiler"
+      },
+      {
+        "param": "Motor Gücü",
+        "value": "1300 Watt",
+        "accessory": "Karbon Fırça Seti"
+      },
+      {
+        "param": "Darbe Sayısı",
+        "value": "1500 - 2700 darbe/dk",
+        "accessory": "-"
+      },
+      {
+        "param": "Takım Tutucu",
+        "value": "SDS Max",
+        "accessory": "Mandren Adaptörü"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "7.3 kg",
+        "accessory": "Özel Taşıma Çantası"
+      }
+    ],
+    "solutions": [
+      "profesyonel-delme-yikim"
+    ],
     "isFeatured": true
   },
   {
@@ -124,15 +315,42 @@
     "name": "BPA-500 Asfalt Finişeri",
     "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=TICAB+BPA-500",
     "description": "Yol bakım ve onarım projeleri için tasarlanmış, hızlı serim yapan manevra kabiliyeti yüksek kompakt asfalt finişeri.",
-    "features": ["Kompakt ebatlar", "Ayarlanabilir serim genişliği", "Isıtmalı tabla sistemi", "Joystick kontrolü"],
-    "technicalData": [
-      { "param": "Temel Serim Genişliği", "value": "1.5 - 3.2 Metre", "accessory": "Tabla Uzatma Aparatı" },
-      { "param": "Hazne Kapasitesi", "value": "5 Ton", "accessory": "-" },
-      { "param": "Motor", "value": "Kubota Dizel", "accessory": "Hava ve Yağ Filtreleri" },
-      { "param": "Isıtma Sistemi", "value": "Elektrikli Isıtma", "accessory": "Rezistans Çubukları" },
-      { "param": "Çalışma Ağırlığı", "value": "4.500 kg", "accessory": "Konveyör Bantları" }
+    "features": [
+      "Kompakt ebatlar",
+      "Ayarlanabilir serim genişliği",
+      "Isıtmalı tabla sistemi",
+      "Joystick kontrolü"
     ],
-    "solutions": ["yol-yapim-ve-bakim"],
+    "technicalData": [
+      {
+        "param": "Temel Serim Genişliği",
+        "value": "1.5 - 3.2 Metre",
+        "accessory": "Tabla Uzatma Aparatı"
+      },
+      {
+        "param": "Hazne Kapasitesi",
+        "value": "5 Ton",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor",
+        "value": "Kubota Dizel",
+        "accessory": "Hava ve Yağ Filtreleri"
+      },
+      {
+        "param": "Isıtma Sistemi",
+        "value": "Elektrikli Isıtma",
+        "accessory": "Rezistans Çubukları"
+      },
+      {
+        "param": "Çalışma Ağırlığı",
+        "value": "4.500 kg",
+        "accessory": "Konveyör Bantları"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
     "isFeatured": true
   },
   {
@@ -141,15 +359,42 @@
     "name": "Journeyman 450 Gaz Kesme Sistemi",
     "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=VICTOR+Journeyman+450",
     "description": "Endüstriyel metal kesimi için geliştirilmiş, yüksek güvenlik standartlarına sahip ağır hizmet tipi oksi-yakıt kesme seti.",
-    "features": ["Dahili alev geri tepme ventili", "Hassas regülatörler", "Ergonomik hamlaç", "Yüksek kesim kapasitesi"],
-    "technicalData": [
-      { "param": "Maksimum Kesme Kalınlığı", "value": "200 mm", "accessory": "Victor Kesme Lüleleri" },
-      { "param": "Kullanım Gazları", "value": "Oksijen / Asetilen / Propan", "accessory": "Gaz Hortumları" },
-      { "param": "Regülatör Tipi", "value": "Tek Kademeli Edge 2.0", "accessory": "Manometre Camı" },
-      { "param": "Hamlaç Boyu", "value": "530 mm", "accessory": "Temizleme Çakısı" },
-      { "param": "Sistem Sınıfı", "value": "Ağır Hizmet (Heavy Duty)", "accessory": "-" }
+    "features": [
+      "Dahili alev geri tepme ventili",
+      "Hassas regülatörler",
+      "Ergonomik hamlaç",
+      "Yüksek kesim kapasitesi"
     ],
-    "solutions": ["agir-sanayi-ve-metal"],
+    "technicalData": [
+      {
+        "param": "Maksimum Kesme Kalınlığı",
+        "value": "200 mm",
+        "accessory": "Victor Kesme Lüleleri"
+      },
+      {
+        "param": "Kullanım Gazları",
+        "value": "Oksijen / Asetilen / Propan",
+        "accessory": "Gaz Hortumları"
+      },
+      {
+        "param": "Regülatör Tipi",
+        "value": "Tek Kademeli Edge 2.0",
+        "accessory": "Manometre Camı"
+      },
+      {
+        "param": "Hamlaç Boyu",
+        "value": "530 mm",
+        "accessory": "Temizleme Çakısı"
+      },
+      {
+        "param": "Sistem Sınıfı",
+        "value": "Ağır Hizmet (Heavy Duty)",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "agir-sanayi-ve-metal"
+    ],
     "isFeatured": true
   },
   {
@@ -158,15 +403,42 @@
     "name": "ProControl Endüstriyel Regülatör",
     "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=GCE+ProControl",
     "description": "GCE kalitesiyle üretilmiş, basınçlı gaz tüplerinde hassas kontrol sağlayan dayanıklı ve uzun ömürlü endüstriyel gaz regülatörü.",
-    "features": ["Pirinç gövde tasarımı", "Kolay okunabilir manometreler", "Korumalı arka kapak", "Geniş gaz uyumluluğu"],
-    "technicalData": [
-      { "param": "Giriş Basıncı", "value": "Max 230 bar", "accessory": "Bağlantı Somunu" },
-      { "param": "Çıkış Basıncı", "value": "0 - 10 bar", "accessory": "Çıkış Rakoru" },
-      { "param": "Uyumlu Gazlar", "value": "Oksijen, Argon, Karışım Gaz", "accessory": "Conta Seti" },
-      { "param": "Gövde Malzemesi", "value": "Dövme Pirinç", "accessory": "-" },
-      { "param": "Standart", "value": "ISO 2503 Uyumlu", "accessory": "-" }
+    "features": [
+      "Pirinç gövde tasarımı",
+      "Kolay okunabilir manometreler",
+      "Korumalı arka kapak",
+      "Geniş gaz uyumluluğu"
     ],
-    "solutions": ["agir-sanayi-ve-metal"],
+    "technicalData": [
+      {
+        "param": "Giriş Basıncı",
+        "value": "Max 230 bar",
+        "accessory": "Bağlantı Somunu"
+      },
+      {
+        "param": "Çıkış Basıncı",
+        "value": "0 - 10 bar",
+        "accessory": "Çıkış Rakoru"
+      },
+      {
+        "param": "Uyumlu Gazlar",
+        "value": "Oksijen, Argon, Karışım Gaz",
+        "accessory": "Conta Seti"
+      },
+      {
+        "param": "Gövde Malzemesi",
+        "value": "Dövme Pirinç",
+        "accessory": "-"
+      },
+      {
+        "param": "Standart",
+        "value": "ISO 2503 Uyumlu",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "agir-sanayi-ve-metal"
+    ],
     "isFeatured": true
   }
 ]

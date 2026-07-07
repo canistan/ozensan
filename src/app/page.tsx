@@ -99,20 +99,25 @@ export default function Home() {
           <div className="flex animate-marquee whitespace-nowrap items-center group-hover:[animation-play-state:paused]">
             {/* First set of logos */}
             {brandsData.map((brand, idx) => (
-              <Link href={`/markalar/${brand.slug}`} key={`brand-1-${brand.slug}`} className="mx-12 md:mx-20 flex-shrink-0 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300 w-32 md:w-48 h-16 flex items-center justify-center">
-                <img src={brand.logo} alt={brand.name} className="max-h-full max-w-full object-contain" />
+              <Link href={`/markalar/${brand.slug}`} key={`brand-1-${brand.slug}`} className="mx-12 md:mx-16 flex-shrink-0 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300 w-28 md:w-40 flex flex-col items-center justify-center gap-3 group/brand">
+                <div className="w-full h-10 md:h-14 relative">
+                  <Image src={brand.logo} alt={brand.name} fill className="object-contain" sizes="(max-width: 768px) 112px, 160px" />
+                </div>
+                <span className="text-[10px] md:text-xs font-black tracking-widest uppercase text-[#8A95A5] group-hover/brand:text-[#C61A1A] transition-colors">{brand.name}</span>
               </Link>
             ))}
             {/* Duplicate set for infinite effect */}
             {brandsData.map((brand, idx) => (
-              <Link href={`/markalar/${brand.slug}`} key={`brand-2-${brand.slug}`} className="mx-12 md:mx-20 flex-shrink-0 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300 w-32 md:w-48 h-16 flex items-center justify-center">
-                <img src={brand.logo} alt={brand.name} className="max-h-full max-w-full object-contain" />
+              <Link href={`/markalar/${brand.slug}`} key={`brand-2-${brand.slug}`} className="mx-12 md:mx-16 flex-shrink-0 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300 w-28 md:w-40 flex flex-col items-center justify-center gap-3 group/brand">
+                <div className="w-full h-10 md:h-14 relative">
+                  <Image src={brand.logo} alt={brand.name} fill className="object-contain" sizes="(max-width: 768px) 112px, 160px" />
+                </div>
+                <span className="text-[10px] md:text-xs font-black tracking-widest uppercase text-[#8A95A5] group-hover/brand:text-[#C61A1A] transition-colors">{brand.name}</span>
               </Link>
             ))}
           </div>
         </div>
       </section>
-
 
       {/* 3. ÖNE ÇIKAN ÜRÜNLER (FEATURED PRODUCTS) */}
       <section className="py-24 bg-[#F8F9FA] relative">
@@ -131,8 +136,9 @@ export default function Home() {
             {featuredProducts.map((prod, idx) => (
               <Link href={`/urunler/${prod.slug}`} key={idx} className="bg-white rounded-sm border border-[#8A95A5]/20 overflow-hidden group hover:shadow-xl transition-all duration-300 flex flex-col">
                 <div className="aspect-[4/3] w-full relative overflow-hidden bg-[#F8F9FA] p-6">
-                  <img src={prod.image} alt={prod.name} className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700" />
-                  <div className="absolute top-4 left-4 bg-[#1A1E24] text-white text-[10px] font-black px-3 py-1 uppercase tracking-widest rounded-sm">
+                  {/* Using next/image for automatic WebP optimization */}
+                  <Image src={prod.image} alt={prod.name} fill className="object-contain p-4 group-hover:scale-105 transition-transform duration-700" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
+                  <div className="absolute top-4 left-4 bg-[#1A1E24] text-white text-[10px] font-black px-3 py-1 uppercase tracking-widest rounded-sm z-10">
                     {prod.brand.toUpperCase()}
                   </div>
                 </div>
