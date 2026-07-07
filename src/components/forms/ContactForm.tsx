@@ -44,27 +44,33 @@ export default function ContactForm() {
     }
 
     setLoading(true);
-    const result = await submitContactMessage({
-      name: formData.name,
-      email: formData.email,
-      phone: formData.phone,
-      subject: formData.subject,
-      message: formData.message,
-    });
-    setLoading(false);
-
-    if (result.success) {
-      addToast("Mesajınız başarıyla iletildi. En kısa sürede dönüş yapacağız.", "success");
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        subject: '',
-        message: '',
-        kvkk: false
+    try {
+      const result = await submitContactMessage({
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        subject: formData.subject,
+        message: formData.message,
       });
-    } else {
-      addToast(result.error || "Bir hata oluştu.", "error");
+
+      if (result.success) {
+        addToast("Mesajınız başarıyla iletildi. En kısa sürede dönüş yapacağız.", "success");
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          subject: '',
+          message: '',
+          kvkk: false
+        });
+      } else {
+        addToast(result.error || "Bir hata oluştu.", "error");
+      }
+    } catch (error) {
+      console.error("Contact form error:", error);
+      addToast("Bağlantı hatası oluştu. Lütfen tekrar deneyin.", "error");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -155,10 +161,11 @@ export default function ContactForm() {
 
       <button 
         type="submit" 
-        className="bg-[#C61A1A] hover:bg-[#a51515] text-white font-bold py-4 px-8 rounded-lg transition-all w-full md:w-auto shadow-[0_8px_20px_rgba(198,26,26,0.25)] hover:shadow-[0_8px_25px_rgba(198,26,26,0.4)] hover:-translate-y-0.5 flex items-center justify-center gap-2"
+        disabled={loading}
+        className="bg-[#C61A1A] hover:bg-[#a51515] text-white font-bold py-4 px-8 rounded-lg transition-all w-full md:w-auto shadow-[0_8px_20px_rgba(198,26,26,0.25)] hover:shadow-[0_8px_25px_rgba(198,26,26,0.4)] hover:-translate-y-0.5 flex items-center justify-center gap-2 disabled:opacity-70 disabled:hover:translate-y-0 disabled:cursor-not-allowed"
       >
-        Mesajı Gönder
-        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+        {loading ? 'Gönderiliyor...' : 'Mesajı Gönder'}
+        {!loading && <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>}
       </button>
     </form>
   );

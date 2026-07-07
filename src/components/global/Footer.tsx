@@ -84,6 +84,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-4">
               <li><Link href="/hakkimizda" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">Hakkımızda</Link></li>
               <li><Link href="/vizyon-misyon" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">Vizyon & Misyon</Link></li>
+              <li><Link href="/sikca-sorulan-sorular" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">Sıkça Sorulan Sorular</Link></li>
               <li><Link href="/blog" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">Endüstri Blogu</Link></li>
               <li><Link href="/insan-kaynaklari" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">İnsan Kaynakları</Link></li>
             </ul>

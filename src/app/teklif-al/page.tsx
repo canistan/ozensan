@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { Metadata } from 'next';
 import QuoteForm from '@/components/forms/QuoteForm';
 
@@ -39,7 +39,9 @@ export default function QuotePage() {
               <h2 className="text-2xl md:text-3xl font-bold text-[#1A1E24] mb-2">Teklif Talep Formu</h2>
               <p className="text-[#8A95A5] mb-10">Lütfen aşağıdaki alanları eksiksiz doldurarak talebinizi bize iletin.</p>
               
-              <QuoteForm />
+              <Suspense fallback={<div className="h-64 flex items-center justify-center text-[#8A95A5]">Yükleniyor...</div>}>
+                <QuoteForm />
+              </Suspense>
               
             </div>
           </div>

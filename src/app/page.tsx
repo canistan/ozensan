@@ -2,16 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import WorldMap from "@/components/home/WorldMap";
 import productsData from "@/data/products.json";
+import brandsData from "@/data/brands.json";
 
 export default function Home() {
-  const brands = [
-    { name: "CEDIMA", type: "Beton & Asfalt Kesme", logo: null },
-    { name: "DUSS", type: "Karot & Delme Sistemleri", logo: null },
-    { name: "TICAB", type: "Yol Bakım Ekipmanları", logo: null },
-    { name: "VICTOR", type: "Gaz Kesme Sistemleri", logo: "/brands/victor.png" },
-    { name: "GCE", type: "Endüstriyel Gaz Kontrol", logo: "/brands/gce.png" },
-  ];
-
   const pillars = [
     {
       icon: (
@@ -51,12 +44,8 @@ export default function Home() {
     }
   ];
 
-  // Selecting 3 distinct products for the featured section
-  const featuredProducts = [
-    productsData.find(p => p.slug === "cedima-cf-22"),
-    productsData.find(p => p.slug === "duss-pk300"),
-    productsData.find(p => p.slug === "ticab-bpa500")
-  ].filter(Boolean); // removes any undefined if not found
+  // Get featured products dynamically
+  const featuredProducts = productsData.filter(p => p.isFeatured).slice(0, 6);
 
   return (
     <>
@@ -85,7 +74,7 @@ export default function Home() {
                 Ürünlerimizi İnceleyin
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
               </Link>
-              <Link href="/iletisim" className="bg-transparent border-2 border-[#8A95A5] text-[#8A95A5] hover:bg-[#8A95A5] hover:text-[#1A1E24] text-base font-black px-10 py-5 uppercase tracking-widest rounded-sm transition-all flex items-center justify-center">
+              <Link href="/teklif-al" className="bg-transparent border-2 border-[#8A95A5] text-[#8A95A5] hover:bg-[#8A95A5] hover:text-[#1A1E24] text-base font-black px-10 py-5 uppercase tracking-widest rounded-sm transition-all flex items-center justify-center">
                 Teklif Alın
               </Link>
             </div>
@@ -93,49 +82,43 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 2. INFINITE MARQUEE BRAND SHOWCASE STRIP */}
-      <section className="bg-white border-b border-[#8A95A5]/20 py-10 relative z-30 overflow-hidden flex items-center h-40">
-        <div className="container mx-auto px-8 relative flex h-full">
-          <div className="absolute left-0 top-0 bottom-0 bg-gradient-to-r from-white via-white to-transparent w-80 z-20 flex items-center">
-            <div className="border-r border-[#8A95A5]/30 pr-8">
-              <h3 className="text-lg font-black text-[#1A1E24] leading-tight uppercase tracking-tight">Temsil Ettiğimiz<br/><span className="text-[#8A95A5]">Global Devler</span></h3>
+      {/* 2. DYNAMIC BRAND CARDS (PORTRAIT) */}
+      <section className="py-24 bg-white relative z-30">
+        <div className="container mx-auto px-8">
+          <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-black text-[#1A1E24] tracking-tight">Temsil Ettiğimiz Global Devler</h2>
             </div>
+            <Link href="/markalar" className="text-[#8A95A5] hover:text-[#1A1E24] font-bold uppercase tracking-widest text-sm flex items-center gap-2 transition-colors">
+              TÜM MARKALAR
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </Link>
           </div>
-          <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-white to-transparent z-20 pointer-events-none"></div>
-          <div className="w-full h-full flex items-center overflow-hidden ml-64 relative z-10">
-            <div 
-              className="flex whitespace-nowrap min-w-[200%] opacity-80 hover:opacity-100 transition-opacity duration-500 items-center"
-              style={{ animation: 'marquee 35s linear infinite' }}
-            >
-              <div className="flex justify-around items-center w-full px-8 gap-24">
-                {brands.map((brand) => (
-                  <div key={`${brand.name}-1`} className="flex flex-col items-center justify-center group cursor-pointer grayscale hover:grayscale-0 transition-all duration-300">
-                    <div className="relative h-14 w-40 flex items-center justify-center">
-                      {brand.logo ? (
-                        <img src={brand.logo} alt={brand.name} className="max-h-full max-w-full object-contain" />
-                      ) : (
-                        <span className="text-3xl lg:text-4xl font-black text-[#1A1E24] tracking-tighter group-hover:text-[#C61A1A] transition-colors">{brand.name}</span>
-                      )}
-                    </div>
-                    <span className="text-[10px] font-bold text-[#8A95A5] uppercase tracking-widest mt-2 opacity-0 group-hover:opacity-100 transition-opacity">{brand.type}</span>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
+            {brandsData.map((brand) => (
+              <Link href={`/markalar/${brand.slug}`} key={brand.slug} className="group relative aspect-[3/4] md:aspect-[2/3] w-full overflow-hidden block">
+                {/* Background Cover Image */}
+                <img 
+                  src={brand.coverImage} 
+                  alt={`${brand.name} Uygulama`} 
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
+                />
+                {/* Gradient Overlay for better contrast */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent transition-opacity duration-300 group-hover:opacity-90"></div>
+                
+                {/* Logo Area */}
+                <div className="absolute bottom-6 left-0 right-0 px-6 flex justify-center">
+                  <div className="h-12 w-full max-w-[120px] flex items-center justify-center">
+                    <img 
+                      src={brand.logo} 
+                      alt={brand.name} 
+                      className="max-h-full max-w-full object-contain brightness-0 invert opacity-90 group-hover:opacity-100 transition-all duration-300" 
+                    />
                   </div>
-                ))}
-              </div>
-              <div className="flex justify-around items-center w-full px-8 gap-24">
-                {brands.map((brand) => (
-                  <div key={`${brand.name}-2`} className="flex flex-col items-center justify-center group cursor-pointer grayscale hover:grayscale-0 transition-all duration-300">
-                    <div className="relative h-14 w-40 flex items-center justify-center">
-                      {brand.logo ? (
-                        <img src={brand.logo} alt={brand.name} className="max-h-full max-w-full object-contain" />
-                      ) : (
-                        <span className="text-3xl lg:text-4xl font-black text-[#1A1E24] tracking-tighter group-hover:text-[#C61A1A] transition-colors">{brand.name}</span>
-                      )}
-                    </div>
-                    <span className="text-[10px] font-bold text-[#8A95A5] uppercase tracking-widest mt-2 opacity-0 group-hover:opacity-100 transition-opacity">{brand.type}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
+                </div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
@@ -153,17 +136,18 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {featuredProducts.map((prod, idx) => (
               <Link href={`/urunler/${prod.slug}`} key={idx} className="bg-white rounded-sm border border-[#8A95A5]/20 overflow-hidden group hover:shadow-xl transition-all duration-300 flex flex-col">
-                <div className="aspect-[4/3] w-full relative overflow-hidden bg-[#F8F9FA]">
-                  <img src={prod.image} alt={prod.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <div className="aspect-[4/3] w-full relative overflow-hidden bg-[#F8F9FA] p-6">
+                  <img src={prod.image} alt={prod.name} className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700" />
                   <div className="absolute top-4 left-4 bg-[#1A1E24] text-white text-[10px] font-black px-3 py-1 uppercase tracking-widest rounded-sm">
-                    {prod.brand}
+                    {prod.brand.toUpperCase()}
                   </div>
                 </div>
                 <div className="p-8 flex flex-col flex-grow">
-                  <h3 className="text-xl font-black text-[#1A1E24] group-hover:text-[#C61A1A] transition-colors">{prod.name}</h3>
+                  <h3 className="text-xl font-black text-[#1A1E24] group-hover:text-[#C61A1A] transition-colors line-clamp-2">{prod.name}</h3>
+                  <p className="text-sm text-[#8A95A5] mt-3 line-clamp-2">{prod.description}</p>
                   <div className="mt-auto pt-6 flex items-center gap-2 text-[#8A95A5] font-bold uppercase tracking-widest text-xs group-hover:text-[#C61A1A] transition-colors">
                     İncele
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>

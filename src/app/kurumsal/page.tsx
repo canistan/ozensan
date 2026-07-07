@@ -1,6 +1,9 @@
 import React from 'react';
 import { Metadata } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
+import FAQAccordion from "@/components/ui/FAQAccordion";
+import FAQSchema from "@/components/seo/FAQSchema";
 
 export const metadata: Metadata = {
   title: 'Kurumsal | Özensan',
@@ -87,41 +90,6 @@ export default function CorporatePage() {
         </div>
       </section>
 
-      {/* Vizyon & Misyon Section */}
-      <section className="py-20 md:py-32 bg-white">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            
-            {/* Misyon */}
-            <div className="bg-[#F8F9FA] p-10 md:p-14 rounded-2xl border border-neutral-100 shadow-sm hover:shadow-xl transition-shadow duration-300">
-              <div className="w-16 h-16 bg-[#C61A1A]/10 text-[#C61A1A] rounded-xl flex items-center justify-center mb-8">
-                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-bold text-[#1A1E24] mb-4">Misyonumuz</h3>
-              <p className="text-[#1A1E24]/70 leading-relaxed text-lg">
-                Müşterilerimizin operasyonel verimliliklerini en üst seviyeye çıkarmak için dünya standartlarında sanayi makine ve malzemelerini, kusursuz bir servis anlayışıyla sunmak. Sürdürülebilirlik, iş güvenliği ve inovasyonu tüm iş süreçlerimizin merkezinde tutarak değer yaratmak.
-              </p>
-            </div>
-
-            {/* Vizyon */}
-            <div className="bg-[#1A1E24] p-10 md:p-14 rounded-2xl shadow-xl text-white">
-              <div className="w-16 h-16 bg-white/10 text-white rounded-xl flex items-center justify-center mb-8">
-                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-bold mb-4">Vizyonumuz</h3>
-              <p className="text-[#8A95A5] leading-relaxed text-lg">
-                Sürekli değişen endüstriyel dinamiklere yön veren, Türkiye'de ve global pazarda güvenilirliği ve yenilikçi çözümleri ile akla ilk gelen endüstriyel teknoloji sağlayıcısı olmak. Teknoloji ile insan potansiyelini birleştirerek sektöre liderlik etmek.
-              </p>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
       {/* Yönetimimiz Section */}
       <section className="py-20 md:py-32 bg-white border-t border-neutral-100">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -166,6 +134,41 @@ export default function CorporatePage() {
         </div>
       </section>
 
+      {/* Vizyon & Misyon Section */}
+      <section className="py-20 md:py-32 bg-[#F8F9FA]">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            
+            {/* Misyon */}
+            <div className="bg-white p-10 md:p-14 rounded-2xl border border-neutral-100 shadow-sm hover:shadow-xl transition-shadow duration-300">
+              <div className="w-16 h-16 bg-[#C61A1A]/10 text-[#C61A1A] rounded-xl flex items-center justify-center mb-8">
+                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-[#1A1E24] mb-4">Misyonumuz</h3>
+              <p className="text-[#1A1E24]/70 leading-relaxed text-lg">
+                Müşterilerimizin operasyonel verimliliklerini en üst seviyeye çıkarmak için dünya standartlarında sanayi makine ve malzemelerini, kusursuz bir servis anlayışıyla sunmak. Sürdürülebilirlik, iş güvenliği ve inovasyonu tüm iş süreçlerimizin merkezinde tutarak değer yaratmak.
+              </p>
+            </div>
+
+            {/* Vizyon */}
+            <div className="bg-[#1A1E24] p-10 md:p-14 rounded-2xl shadow-xl text-white">
+              <div className="w-16 h-16 bg-white/10 text-white rounded-xl flex items-center justify-center mb-8">
+                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold mb-4">Vizyonumuz</h3>
+              <p className="text-[#8A95A5] leading-relaxed text-lg">
+                Sürekli değişen endüstriyel dinamiklere yön veren, Türkiye'de ve global pazarda güvenilirliği ve yenilikçi çözümleri ile akla ilk gelen endüstriyel teknoloji sağlayıcısı olmak. Teknoloji ile insan potansiyelini birleştirerek sektöre liderlik etmek.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       {/* Değerlerimiz */}
       <section className="py-20 md:py-32 bg-[#F8F9FA]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -202,7 +205,23 @@ export default function CorporatePage() {
           </div>
         </div>
       </section>
-      
+
+      {/* SSS (FAQ) Section */}
+      <section className="py-20 md:py-32 bg-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <div className="inline-block px-4 py-1.5 bg-[#C61A1A]/10 text-[#C61A1A] font-bold tracking-wider text-sm rounded-full mb-6">
+              BİLGİ MERKEZİ
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#1A1E24] tracking-tight">
+              Sıkça Sorulan Sorular
+            </h2>
+          </div>
+          <FAQAccordion />
+        </div>
+      </section>
+
+      <FAQSchema />
     </div>
   );
 }

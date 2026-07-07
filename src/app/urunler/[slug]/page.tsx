@@ -1,123 +1,150 @@
-import Image from "next/image";
-import Link from "next/link";
-import { notFound } from "next/navigation";
-import productsData from "@/data/products.json";
+import React from 'react';
+import { Metadata } from 'next';
+import { notFound } from 'next/navigation';
+import Link from 'next/link';
+import productsData from '@/data/products.json';
+import brandsData from '@/data/brands.json';
 
-export default function ProductDetail({ params }: { params: { slug: string } }) {
-  // Find product from JSON
-  const product = productsData.find(p => p.slug === params.slug);
+type Props = {
+  params: Promise<{ slug: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const resolvedParams = await params;
+  const product = productsData.find((p) => p.slug === resolvedParams.slug);
+  
+  if (!product) {
+    return { title: 'Ürün Bulunamadı | Özensan' };
+  }
+
+  return {
+    title: `${product.name} - ${product.brand.toUpperCase()} | Özensan`,
+    description: product.description,
+  };
+}
+
+export async function generateStaticParams() {
+  return productsData.map((product) => ({
+    slug: product.slug,
+  }));
+}
+
+export default async function ProductDetailPage({ params }: Props) {
+  const resolvedParams = await params;
+  const product = productsData.find((p) => p.slug === resolvedParams.slug);
 
   if (!product) {
     notFound();
   }
 
+  const brandInfo = brandsData.find(b => b.slug.toLowerCase() === product.brand.toLowerCase());
+
   return (
-    <div className="min-h-screen bg-[#F8F9FA] pb-24 pt-32">
-      <div className="container mx-auto px-8">
+    <div className="bg-[#F8F9FA] min-h-screen pt-32 pb-24">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Breadcrumb */}
-        <div className="flex items-center gap-2 text-xs font-bold text-[#8A95A5] uppercase tracking-widest mb-12">
-          <Link href="/" className="hover:text-[#C61A1A] transition-colors">Ana Sayfa</Link>
+        <nav className="flex items-center gap-2 text-sm text-[#8A95A5] mb-8 font-medium">
+          <Link href="/" className="hover:text-[#C61A1A] transition-colors">Anasayfa</Link>
           <span>/</span>
           <Link href="/urunler" className="hover:text-[#C61A1A] transition-colors">Ürünler</Link>
           <span>/</span>
-          <span className="text-[#1A1E24]">{product.brand}</span>
+          <Link href={`/markalar/${product.brand}`} className="hover:text-[#C61A1A] transition-colors uppercase">{product.brand}</Link>
           <span>/</span>
-          <span className="text-[#C61A1A]">{product.name}</span>
-        </div>
+          <span className="text-[#1A1E24] truncate">{product.name}</span>
+        </nav>
 
-        {/* Hero Section: Left Gallery, Right Summary */}
-        <div className="flex flex-col lg:flex-row gap-16 mb-24">
+        <div className="bg-white rounded-2xl border border-neutral-200 overflow-hidden shadow-sm flex flex-col lg:flex-row">
           
-          {/* Left Gallery */}
-          <div className="w-full lg:w-1/2 flex flex-col gap-4">
-            <div className="bg-white rounded-sm border border-[#8A95A5]/20 aspect-[4/3] w-full flex items-center justify-center overflow-hidden relative group">
-              <img 
-                src={product.image} 
-                alt={product.name} 
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-              />
-              <div className="absolute top-4 left-4 bg-[#C61A1A] text-white text-xs font-black px-3 py-1 uppercase tracking-widest rounded-sm">
-                Stokta Var
-              </div>
+          {/* Product Image Area */}
+          <div className="w-full lg:w-1/2 bg-white p-8 lg:p-16 flex items-center justify-center border-b lg:border-b-0 lg:border-r border-neutral-100 relative">
+            <div className="absolute top-8 left-8">
+              {brandInfo?.logo ? (
+                <img src={brandInfo.logo} alt={brandInfo.name} className="h-8 object-contain opacity-50" />
+              ) : (
+                <span className="font-black text-[#1A1E24] opacity-50 uppercase tracking-widest">{product.brand}</span>
+              )}
             </div>
-            {/* Thumbnails */}
-            <div className="grid grid-cols-4 gap-4">
-              {[1, 2, 3, 4].map((i) => (
-                <div key={i} className="bg-white rounded-sm border border-[#8A95A5]/20 aspect-square flex items-center justify-center overflow-hidden cursor-pointer hover:border-[#C61A1A] transition-colors">
-                   <img 
-                    src={product.image} 
-                    alt={`Thumbnail ${i}`} 
-                    className="w-full h-full object-cover opacity-70 hover:opacity-100 transition-opacity"
-                  />
-                </div>
-              ))}
-            </div>
+            <img 
+              src={product.image} 
+              alt={product.name} 
+              className="w-full max-w-md h-auto object-contain hover:scale-105 transition-transform duration-500" 
+            />
           </div>
 
-          {/* Right Summary */}
-          <div className="w-full lg:w-1/2 flex flex-col justify-center">
+          {/* Product Details Area */}
+          <div className="w-full lg:w-1/2 p-8 lg:p-16 flex flex-col">
             <div className="mb-4">
-              <span className="text-sm font-bold text-[#8A95A5] uppercase tracking-widest">{product.brand}</span>
-              <h1 className="text-4xl lg:text-5xl font-black text-[#1A1E24] mt-2 tracking-tight leading-tight">{product.name}</h1>
-            </div>
-            
-            <p className="text-[#8A95A5] text-lg leading-relaxed mb-8 border-l-4 border-[#C61A1A] pl-6 font-medium">
-              {product.description}
-            </p>
-
-            <div className="mb-10">
-              <h3 className="text-[#1A1E24] font-black uppercase tracking-widest text-sm mb-4">Öne Çıkan Özellikler</h3>
-              <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                {product.features.map((feature, idx) => (
-                  <li key={idx} className="flex items-center gap-3 text-[#1A1E24] font-medium">
-                    <svg className="w-5 h-5 text-[#C61A1A]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M5 13l4 4L19 7"></path></svg>
-                    {feature}
-                  </li>
-                ))}
-              </ul>
+              <span className="inline-block px-3 py-1 bg-[#1A1E24] text-white text-[10px] font-black uppercase tracking-widest rounded-sm mb-4">
+                {product.brand}
+              </span>
+              <h1 className="text-3xl lg:text-4xl font-black text-[#1A1E24] tracking-tight leading-tight mb-6">
+                {product.name}
+              </h1>
+              <p className="text-[#8A95A5] text-lg leading-relaxed">
+                {product.description}
+              </p>
             </div>
 
-            <div className="flex gap-4">
-              <button className="flex-1 bg-[#C61A1A] text-white font-black uppercase tracking-widest py-5 rounded-sm hover:bg-[#1A1E24] transition-colors flex items-center justify-center gap-3 shadow-[0_10px_30px_rgba(198,26,26,0.2)]">
-                Fiyat Teklifi Al
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-              </button>
-              <button className="bg-white border-2 border-[#1A1E24] text-[#1A1E24] font-black uppercase tracking-widest px-8 py-5 rounded-sm hover:bg-[#F8F9FA] transition-colors flex items-center justify-center gap-2">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-                PDF
-              </button>
+            {/* Key Features */}
+            {product.features && product.features.length > 0 && (
+              <div className="mt-8 mb-8">
+                <h3 className="text-sm font-bold text-[#1A1E24] uppercase tracking-widest mb-4">Öne Çıkan Özellikler</h3>
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {product.features.map((feature, idx) => (
+                    <li key={idx} className="flex items-start text-[#8A95A5] text-sm">
+                      <svg className="w-5 h-5 text-[#C61A1A] mr-2 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+                      {feature}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Actions */}
+            <div className="mt-auto pt-8 border-t border-neutral-100 flex flex-col sm:flex-row gap-4">
+              <Link 
+                href={`/teklif-al?product=${product.name}`} 
+                className="bg-[#C61A1A] hover:bg-[#9D1414] text-white text-sm font-black px-8 py-4 uppercase tracking-widest rounded-sm transition-all shadow-[0_10px_30px_rgba(198,26,26,0.2)] hover:-translate-y-1 flex items-center justify-center flex-1 text-center"
+              >
+                Hemen Teklif İste
+              </Link>
+              <Link 
+                href={`/markalar/${product.brand}`} 
+                className="bg-[#F8F9FA] hover:bg-[#E9ECEF] border border-neutral-200 text-[#1A1E24] text-sm font-black px-8 py-4 uppercase tracking-widest rounded-sm transition-all flex items-center justify-center"
+              >
+                Markaya Git
+              </Link>
             </div>
           </div>
         </div>
 
-        {/* Technical Data Table (Brand Guide Spec) */}
-        <section className="mb-24">
-          <div className="border-b-2 border-[#1A1E24] pb-4 mb-8 flex items-center justify-between">
-            <h2 className="text-3xl font-black text-[#1A1E24] tracking-tight">Teknik Veriler</h2>
-            <span className="text-[#8A95A5] font-bold uppercase tracking-widest text-sm hidden md:block">B2B Endüstriyel Şablon</span>
-          </div>
-
-          <div className="bg-white rounded-sm border border-[#8A95A5]/20 overflow-hidden shadow-sm">
-            <div className="grid grid-cols-3 bg-[#1A1E24] text-white p-6 font-black uppercase tracking-widest text-sm">
-              <div>Teknik Parametre</div>
-              <div>Fabrika Verisi / Değer</div>
-              <div>Uyumlu Ataşman & Sarf</div>
+        {/* Technical Data Table */}
+        {product.technicalData && product.technicalData.length > 0 && (
+          <div className="mt-16 max-w-4xl">
+            <h2 className="text-2xl font-black text-[#1A1E24] mb-8">Teknik Spesifikasyonlar</h2>
+            <div className="bg-white rounded-xl border border-neutral-200 overflow-hidden">
+              <table className="w-full text-left border-collapse">
+                <thead>
+                  <tr className="bg-[#F8F9FA] border-b border-neutral-200">
+                    <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">Parametre</th>
+                    <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">Değer</th>
+                    <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">Önerilen Aksesuar</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-neutral-100">
+                  {product.technicalData.map((data, idx) => (
+                    <tr key={idx} className="hover:bg-[#F8F9FA]/50 transition-colors">
+                      <td className="py-4 px-6 text-[#8A95A5] font-medium">{data.param}</td>
+                      <td className="py-4 px-6 text-[#1A1E24] font-bold">{data.value}</td>
+                      <td className="py-4 px-6 text-[#8A95A5]">{data.accessory}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
-            <div className="flex flex-col">
-              {product.technicalData.map((data, idx) => (
-                <div key={idx} className={`grid grid-cols-3 p-6 font-medium border-b border-[#8A95A5]/10 hover:bg-[#F8F9FA] transition-colors ${idx % 2 === 0 ? 'bg-white' : 'bg-[#F8F9FA]/50'}`}>
-                  <div className="text-[#1A1E24] font-bold">{data.param}</div>
-                  <div className="text-[#C61A1A] font-black">{data.value}</div>
-                  <div className="text-[#8A95A5] flex items-center gap-2">
-                    {data.accessory !== "-" && <svg className="w-4 h-4 text-[#C61A1A] opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>}
-                    {data.accessory}
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
-        </section>
+        )}
 
       </div>
     </div>

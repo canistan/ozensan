@@ -1,12 +1,14 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useToast } from "@/components/ui/ToastContext";
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import { submitContactMessage } from "@/app/actions/submitForm";
 
 export default function QuoteForm() {
   const { addToast } = useToast();
+  const searchParams = useSearchParams();
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
@@ -17,6 +19,16 @@ export default function QuoteForm() {
     message: '',
     kvkk: false
   });
+
+  useEffect(() => {
+    const productParam = searchParams.get('product');
+    if (productParam) {
+      setFormData(prev => ({
+        ...prev,
+        productOfInterest: productParam
+      }));
+    }
+  }, [searchParams]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value, type } = e.target as HTMLInputElement;
@@ -47,28 +59,34 @@ export default function QuoteForm() {
     setLoading(true);
     const subjectLine = `[TEKLİF TALEBİ] ${formData.company ? formData.company + ' - ' : ''}${formData.productOfInterest}`;
     
-    const result = await submitContactMessage({
-      name: formData.name,
-      email: formData.email,
-      phone: formData.phone,
-      subject: subjectLine,
-      message: formData.message,
-    });
-    setLoading(false);
-
-    if (result.success) {
-      addToast("Teklif talebiniz başarıyla alındı. İlgili ekibimiz en kısa sürede size dönüş yapacaktır.", "success");
-      setFormData({
-        name: '',
-        company: '',
-        email: '',
-        phone: '',
-        productOfInterest: '',
-        message: '',
-        kvkk: false
+    try {
+      const result = await submitContactMessage({
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        subject: subjectLine,
+        message: formData.message,
       });
-    } else {
-      addToast(result.error || "Bir hata oluştu.", "error");
+
+      if (result.success) {
+        addToast("Teklif talebiniz başarıyla alındı. İlgili ekibimiz en kısa sürede size dönüş yapacaktır.", "success");
+        setFormData({
+          name: '',
+          company: '',
+          email: '',
+          phone: '',
+          productOfInterest: '',
+          message: '',
+          kvkk: false
+        });
+      } else {
+        addToast(result.error || "Bir hata oluştu.", "error");
+      }
+    } catch (error) {
+      console.error("Form submit error:", error);
+      addToast("Bağlantı hatası oluştu. Lütfen tekrar deneyin.", "error");
+    } finally {
+      setLoading(false);
     }
   };
 
