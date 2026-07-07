@@ -82,46 +82,37 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 2. DYNAMIC BRAND CARDS (PORTRAIT) */}
-      <section className="py-24 bg-white relative z-30">
-        <div className="container mx-auto px-8">
-          <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-black text-[#1A1E24] tracking-tight">Temsil Ettiğimiz Global Devler</h2>
-            </div>
-            <Link href="/markalar" className="text-[#8A95A5] hover:text-[#1A1E24] font-bold uppercase tracking-widest text-sm flex items-center gap-2 transition-colors">
-              TÜM MARKALAR
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-            </Link>
-          </div>
+      {/* 2. BRAND TICKER (INFINITE MARQUEE) */}
+      <section className="py-16 bg-white border-y border-[#8A95A5]/20 overflow-hidden relative z-30">
+        <div className="container mx-auto px-4 mb-8 text-center">
+          <Link href="/markalar" className="inline-flex items-center gap-2 text-sm font-bold text-[#8A95A5] hover:text-[#C61A1A] uppercase tracking-widest transition-colors">
+            Temsil Ettiğimiz Global Devler
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M9 5l7 7-7 7"></path></svg>
+          </Link>
+        </div>
+        
+        <div className="flex w-full overflow-hidden relative group">
+          {/* Fading edges for smooth entry/exit */}
+          <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-white to-transparent z-10"></div>
+          <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-white to-transparent z-10"></div>
           
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
-            {brandsData.map((brand) => (
-              <Link href={`/markalar/${brand.slug}`} key={brand.slug} className="group relative aspect-[3/4] md:aspect-[2/3] w-full overflow-hidden block">
-                {/* Background Cover Image */}
-                <img 
-                  src={brand.coverImage} 
-                  alt={`${brand.name} Uygulama`} 
-                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
-                />
-                {/* Gradient Overlay for better contrast */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent transition-opacity duration-300 group-hover:opacity-90"></div>
-                
-                {/* Logo Area */}
-                <div className="absolute bottom-6 left-0 right-0 px-6 flex justify-center">
-                  <div className="h-12 w-full max-w-[120px] flex items-center justify-center">
-                    <img 
-                      src={brand.logo} 
-                      alt={brand.name} 
-                      className="max-h-full max-w-full object-contain brightness-0 invert opacity-90 group-hover:opacity-100 transition-all duration-300" 
-                    />
-                  </div>
-                </div>
+          <div className="flex animate-marquee whitespace-nowrap items-center group-hover:[animation-play-state:paused]">
+            {/* First set of logos */}
+            {brandsData.map((brand, idx) => (
+              <Link href={`/markalar/${brand.slug}`} key={`brand-1-${brand.slug}`} className="mx-12 md:mx-20 flex-shrink-0 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300 w-32 md:w-48 h-16 flex items-center justify-center">
+                <img src={brand.logo} alt={brand.name} className="max-h-full max-w-full object-contain" />
+              </Link>
+            ))}
+            {/* Duplicate set for infinite effect */}
+            {brandsData.map((brand, idx) => (
+              <Link href={`/markalar/${brand.slug}`} key={`brand-2-${brand.slug}`} className="mx-12 md:mx-20 flex-shrink-0 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300 w-32 md:w-48 h-16 flex items-center justify-center">
+                <img src={brand.logo} alt={brand.name} className="max-h-full max-w-full object-contain" />
               </Link>
             ))}
           </div>
         </div>
       </section>
+
 
       {/* 3. ÖNE ÇIKAN ÜRÜNLER (FEATURED PRODUCTS) */}
       <section className="py-24 bg-[#F8F9FA] relative">

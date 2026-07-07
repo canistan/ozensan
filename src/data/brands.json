@@ -16,14 +16,14 @@
   {
     "slug": "ticab",
     "name": "TICAB",
-    "logo": "/brands/ticab.png",
+    "logo": "https://static.wixstatic.com/media/4ab130_6c73dba063e943f28fcef5bbd0d52b3c~mv2.png",
     "coverImage": "https://placehold.co/1920x600/1A1E24/FFFFFF/webp?text=TICAB+Cover",
     "description": "Yol bakım, onarım ve asfalt ekipmanlarında modern çözümler. TICAB makine ve ekipmanları, pratik kullanım ve yüksek manevra kabiliyeti ile belediyeler ve yol yapım firmaları için vazgeçilmezdir."
   },
   {
     "slug": "victor",
     "name": "VICTOR",
-    "logo": "/brands/victor.png",
+    "logo": "https://www.esab.com/assets/components/esab/assets/img/logos/victor.svg",
     "coverImage": "https://placehold.co/1920x600/1A1E24/FFFFFF/webp?text=VICTOR+Cover",
     "description": "ESAB ailesinin bir parçası olan Victor, asırlık tecrübesiyle gaz kesme ve kaynak sistemlerinde dünya standartlarını belirler. Güvenlik ve hassasiyetin kritik olduğu ağır sanayi uygulamalarında tartışmasız liderdir."
   },

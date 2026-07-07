@@ -17,9 +17,9 @@ export async function submitContactMessage(data: { name: string; email: string; 
       },
     });
     return { success: true };
-  } catch (error) {
+  } catch (error: any) {
     console.error("Error submitting contact message:", error);
-    return { success: false, error: 'Mesaj gönderilirken bir hata oluştu.' };
+    return { success: false, error: error.message || 'Mesaj gönderilirken bir hata oluştu.' };
   }
 }
 
