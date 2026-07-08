@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { useToast } from "@/components/ui/ToastContext";
 import { Link } from "@/i18n/routing";
 import { useSearchParams } from 'next/navigation';
+import { useTranslations } from 'next-intl';
 import { submitContactMessage } from "@/app/actions/submitForm";
 
 export default function QuoteForm() {

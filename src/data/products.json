@@ -77,7 +77,11 @@
       "yol-yapim-ve-bakim",
       "profesyonel-delme-yikim"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "https://www.youtube.com/embed/tgbNymZ7vqY"
+    ]
   },
   {
     "slug": "cedima-cts-57",

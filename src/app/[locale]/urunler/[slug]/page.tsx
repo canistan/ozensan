@@ -62,7 +62,7 @@ export default async function ProductDetailPage({ params }: Props) {
         <Breadcrumb items={[
           { label: tn("products"), href: "/urunler" },
           { label: product.brand, href: `/markalar/${brandInfo?.slug || product.brand.toLowerCase()}` },
-          { label: product.title }
+          { label: product.name }
         ]} />
         
         <div className="bg-white rounded-2xl border border-neutral-200 overflow-hidden shadow-sm flex flex-col lg:flex-row">
@@ -130,30 +130,59 @@ export default async function ProductDetailPage({ params }: Props) {
           </div>
         </div>
 
-        {/* Technical Data Table */}
-        {product.technicalData && product.technicalData.length > 0 && (
-          <div className="mt-16 max-w-4xl">
-            <h2 className="text-2xl font-black text-[#1A1E24] mb-8">Teknik Spesifikasyonlar</h2>
-            <div className="bg-white rounded-xl border border-neutral-200 overflow-hidden">
-              <table className="w-full text-left border-collapse">
-                <thead>
-                  <tr className="bg-[#F8F9FA] border-b border-neutral-200">
-                    <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">Parametre</th>
-                    <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">Değer</th>
-                    <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">Önerilen Aksesuar</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-neutral-100">
-                  {product.technicalData.map((data, idx) => (
-                    <tr key={idx} className="hover:bg-[#F8F9FA]/50 transition-colors">
-                      <td className="py-4 px-6 text-[#8A95A5] font-medium">{data.param}</td>
-                      <td className="py-4 px-6 text-[#1A1E24] font-bold">{data.value}</td>
-                      <td className="py-4 px-6 text-[#8A95A5]">{data.accessory}</td>
-                    </tr>
+        {/* Technical Data Table and Videos Section */}
+        {((product.technicalData?.length ?? 0) > 0 || (product.videos?.length ?? 0) > 0) && (
+          <div className="mt-16 grid grid-cols-1 lg:grid-cols-3 gap-12">
+            
+            {/* Technical Data Table */}
+            {product.technicalData && product.technicalData.length > 0 && (
+              <div className={`lg:col-span-${product.videos && product.videos.length > 0 ? '2' : '3'}`}>
+                <h2 className="text-2xl font-black text-[#1A1E24] mb-8">{t("techSpecs")}</h2>
+                <div className="bg-white rounded-xl border border-neutral-200 overflow-hidden">
+                  <table className="w-full text-left border-collapse">
+                    <thead>
+                      <tr className="bg-[#F8F9FA] border-b border-neutral-200">
+                        <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">Parametre</th>
+                        <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">Değer</th>
+                        <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">Önerilen Aksesuar</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-neutral-100">
+                      {product.technicalData.map((data: any, idx: number) => (
+                        <tr key={idx} className="hover:bg-[#F8F9FA]/50 transition-colors">
+                          <td className="py-4 px-6 text-[#8A95A5] font-medium">{data.param}</td>
+                          <td className="py-4 px-6 text-[#1A1E24] font-bold">{data.value}</td>
+                          <td className="py-4 px-6 text-[#8A95A5]">{data.accessory}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            )}
+
+            {/* Videos Gallery */}
+            {product.videos && product.videos.length > 0 && (
+              <div className="lg:col-span-1 space-y-6">
+                <h2 className="text-2xl font-black text-[#1A1E24] mb-8">{t("videos")}</h2>
+                <div className="flex flex-col gap-6">
+                  {product.videos.map((vid: string, idx: number) => (
+                    <div key={idx} className="w-full aspect-video rounded-xl overflow-hidden shadow-lg border border-neutral-100 bg-neutral-900">
+                      <iframe 
+                        width="100%" 
+                        height="100%" 
+                        src={vid} 
+                        title="YouTube video player" 
+                        frameBorder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowFullScreen
+                      ></iframe>
+                    </div>
                   ))}
-                </tbody>
-              </table>
-            </div>
+                </div>
+              </div>
+            )}
+            
           </div>
         )}
 

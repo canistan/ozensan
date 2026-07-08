@@ -79,7 +79,10 @@
     "brandEngineering": "Mühendisliği",
     "allProducts": "Tüm Ürünler",
     "productsFound": "Toplam {count} ürün bulundu",
-    "viewAndQuote": "İncele ve Teklif Al"
+    "viewAndQuote": "İncele ve Teklif Al",
+    "features": "Öne Çıkan Özellikler",
+    "techSpecs": "Teknik Spesifikasyonlar",
+    "videos": "Ürün Videoları"
   },
   "Catalog": {
     "search": "Ürün ara...",

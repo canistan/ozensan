@@ -79,7 +79,10 @@
     "brandEngineering": "Engineering",
     "allProducts": "All Products",
     "productsFound": "Total {count} products found",
-    "viewAndQuote": "View Details & Get Quote"
+    "viewAndQuote": "View Details & Get Quote",
+    "features": "Key Features",
+    "techSpecs": "Technical Specifications",
+    "videos": "Product Videos"
   },
   "Catalog": {
     "search": "Search products...",
