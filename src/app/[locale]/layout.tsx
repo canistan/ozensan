@@ -80,7 +80,7 @@ export default async function RootLayout({
           <div className="container mx-auto px-4 sm:px-8 h-20 sm:h-24 flex items-center justify-between">
             {/* Logo */}
             <Link href="/" className="flex-shrink-0 group z-50 relative">
-              <div className="relative h-12 w-48 sm:h-14 sm:w-56 transition-transform group-hover:scale-[1.02]">
+              <div className="relative h-16 w-64 sm:h-20 sm:w-80 transition-transform group-hover:scale-[1.02]">
                 <Image 
                   src="/logoseffaf.webp" 
                   alt="Özensan Logo" 
@@ -140,19 +140,7 @@ export default async function RootLayout({
               </div>
 
               
-              {/* Path C: {t("corporate")} */}
-              <div className="group relative py-9 cursor-pointer">
-                <span className="flex items-center gap-1.5 hover:text-[#C61A1A] transition-colors">
-                  {t("corporate")}
-                  <svg className="w-4 h-4 text-[#8A95A5] group-hover:text-[#C61A1A] transition-colors group-hover:rotate-180 duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 9l-7 7-7-7"></path></svg>
-                </span>
-                <div className="absolute top-full left-1/2 -translate-x-1/2 w-56 bg-white border border-[#8A95A5]/20 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 translate-y-2 group-hover:translate-y-0 rounded-b-xl overflow-hidden">
-                  <div className="p-3 flex flex-col gap-1">
-                    <Link href="/kurumsal/yonetim" className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">{t("management")}</Link>
-                    <Link href="/hakkimizda" className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">{t("about")}</Link>
-                  </div>
-                </div>
-              </div>
+              <Link href="/kurumsal" className="hover:text-[#C61A1A] transition-colors">{t("corporate")}</Link>
 
               <Link href="/iletisim" className="hover:text-[#C61A1A] transition-colors">{t("contact")}</Link>
             </nav>

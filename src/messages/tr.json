@@ -36,7 +36,8 @@
     "allRights": "Tüm hakları saklıdır.",
     "emailError": "Lütfen geçerli bir e-posta adresi giriniz.",
     "subSuccess": "Bültene başarıyla abone oldunuz!",
-    "subError": "Bir hata oluştu."
+    "subError": "Bir hata oluştu.",
+    "hours": "09:00 - 18:00"
   },
   "HomePage": {
     "Hero": {
@@ -60,11 +61,11 @@
       "badge": "Operasyonel Mükemmellik",
       "title": "Mühendislikte<br/>Sıfır Taviz.",
       "p1_title": "Yetkili Servis Ağı",
-      "p1_desc": "Türkiye'nin her noktasına ulaşan sertifikalı teknisyenlerimizle, makineleriniz için 7/24 orijinal yedek parça ve bakım garantisi.",
+      "p1_desc": "Türkiye'nin her noktasına ulaşan hizmet ağımızla, makineleriniz için orijinal yedek parça ve 7/24 bakım desteği sunuyoruz.",
       "p2_title": "Maksimum İş Güvenliği",
       "p2_desc": "Temsilcisi olduğumuz tüm global markalar, en ağır endüstriyel koşullarda bile operatör güvenliğini garanti eden Avrupa mühendisliği standartlarına sahiptir.",
       "p3_title": "Kesintisiz Lojistik",
-      "p3_desc": "Geniş stok ağımız sayesinde sahada yaşanabilecek duruş sürelerini minimize ediyor, sarf malzemelerini en hızlı şekilde şantiyenize ulaştırıyoruz.",
+      "p3_desc": "Geniş stok ağımız sayesinde sahada yaşanabilecek duruş sürelerini minimize ediyor, ürünleri ve sarf malzemelerini en hızlı şekilde antrepoya kadar ulaştırıyoruz.",
       "p4_title": "Global Marka Güvencesi",
       "p4_desc": "Temsil ettiğimiz markaların üretim gücünü ve inovasyon yeteneğini, Türkiye'deki projelerinize orijinal garanti standartlarıyla taşıyoruz."
     },
@@ -212,7 +213,7 @@
     "submit": "Gönder",
     "sending": "Gönderiliyor...",
     "kvkk": "KVKK Aydınlatma Metni",
-    "kvkk_read": "ni okudum ve kabul ediyorum.",
+    "kvkk_read": "'ni okudum ve kabul ediyorum.",
     "select_subject": "Konu Seçiniz",
     "general": "Genel Bilgi/Soru",
     "technical": "Teknik Destek",
@@ -237,12 +238,67 @@
       "contact": "Mesajınız başarıyla iletildi. En kısa sürede dönüş yapacağız.",
       "quote": "Teklif talebiniz başarıyla alındı. Satış mühendislerimiz sizinle iletişime geçecektir.",
       "career": "Başvurunuz başarıyla alınmıştır. Değerlendirme süreci sonrasında sizinle iletişime geçilecektir."
-    }
+    },
+    "kvkk_prefix": ""
   },
   "CTA": {
     "title": "Projeniz İçin En İdeal Çözümü Birlikte Bulalım",
     "desc": "Uzman satış mühendislerimizden projenize özel teklif almak veya makinelerimiz hakkında detaylı bilgi edinmek için bizimle iletişime geçin.",
     "btnQuote": "Hemen Teklif Alın",
     "btnContact": "İletişime Geçin"
+  },
+  "Countries": {
+    "turkey": "Türkiye",
+    "iraq": "Irak",
+    "afghanistan": "Afganistan",
+    "libya": "Libya",
+    "djibouti": "Cibuti",
+    "indonesia": "Endonezya"
+  },
+  "CorporatePage": {
+    "Hero": {
+      "title1": "Endüstrinin ",
+      "title2": "Güçlü",
+      "title3": " Yüzü.",
+      "desc": "Yarım asrı aşan tecrübemizle, ağır sanayi ve altyapı projelerinizde dünyanın en güçlü markalarının güvencesini sunuyoruz."
+    },
+    "Management": {
+      "tag": "YÖNETİMİMİZ",
+      "title": "Gücümüzü Tecrübeden Alıyoruz",
+      "p1_role": "Onursal Yönetim Kurulu Başkanı",
+      "p1_desc": "Özensan'ın temellerini atarak vizyonuyla yarım asırlık bu endüstriyel devin doğmasını sağlayan kurucumuz.",
+      "p2_role": "Yönetim Kurulu Başkanı",
+      "p2_desc": "Yenilikçi yönetim anlayışı ve global vizyonuyla Özensan'ı geleceğe taşıyan, modern dönüşümün lideri."
+    },
+    "About": {
+      "tag": "HAKKIMIZDA",
+      "title": "Geleceği İnşa Eden Projelerin Görünmez Gücü",
+      "desc1": "1970'li yıllarda başlayan serüvenimiz, bugün Türkiye'nin ve bölgenin en büyük endüstriyel çözüm ortaklarından biri olmamızla devam ediyor. Özensan olarak, başından beri kalite ve güvenilirlikten asla ödün vermedik.",
+      "desc2": "Cedima, DUSS, Ticab, Victor ve GCE gibi alanında dünya lideri markaların Türkiye resmi distribütörü olarak, sektördeki en ileri teknolojileri yerel projelerle buluşturuyoruz. Sadece ürün tedariği değil, aynı zamanda satış sonrası mühendislik ve yedek parça hizmetleriyle de 360 derece çözümler üretiyoruz.",
+      "stat1": "Yıllık Tecrübe",
+      "stat2": "Tamamlanan Proje",
+      "img_title": "Yenilikçi Çözümler",
+      "img_desc": "Sürekli gelişen teknoloji altyapısı"
+    },
+    "MissionVision": {
+      "m_title": "Misyonumuz",
+      "m_desc": "Müşterilerimizin operasyonel verimliliklerini en üst seviyeye çıkarmak için dünya standartlarında sanayi makine ve malzemelerini, kusursuz bir servis anlayışıyla sunmak. Sürdürülebilirlik, iş güvenliği ve inovasyonu tüm iş süreçlerimizin merkezinde tutarak değer yaratmak.",
+      "v_title": "Vizyonumuz",
+      "v_desc": "Sürekli değişen endüstriyel dinamiklere yön veren, Türkiye'de ve global pazarda güvenilirliği ve yenilikçi çözümleri ile akla ilk gelen endüstriyel teknoloji sağlayıcısı olmak. Teknoloji ile insan potansiyelini birleştirerek sektöre liderlik etmek."
+    },
+    "Values": {
+      "tag": "KÜLTÜRÜMÜZ",
+      "title": "Temel Değerlerimiz",
+      "v1_title": "Kalite Odaklılık",
+      "v1_desc": "Sunduğumuz her üründe ve hizmette, tavizsiz bir kalite anlayışıyla hareket ederiz.",
+      "v2_title": "Güvenilirlik",
+      "v2_desc": "Verdiğimiz sözleri tutar, iş ortaklarımızla şeffaf ve dürüst ilişkiler kurarız.",
+      "v3_title": "İnovasyon",
+      "v3_desc": "Endüstrideki teknolojik gelişmeleri yakından takip eder ve müşterilerimize uyarlarız."
+    },
+    "FAQ": {
+      "tag": "BİLGİ MERKEZİ",
+      "title": "Sıkça Sorulan Sorular"
+    }
   }
 }

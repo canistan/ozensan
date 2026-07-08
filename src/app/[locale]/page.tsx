@@ -24,6 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default function Home() {
   const t = useTranslations("HomePage");
+  const tc = useTranslations("Countries");
   const locale = useLocale();
   const pillars = [
     {
@@ -208,6 +209,32 @@ export default function Home() {
             <p className="text-[#8A95A5] text-lg mt-6 font-medium">
               {t("Map.desc")}
             </p>
+            <div className="flex flex-wrap justify-center gap-8 mt-10" aria-label="Export Countries">
+              <div className="flex flex-col items-center gap-2 hover:scale-110 transition-transform">
+                <span className="text-3xl" title={tc("turkey")}>🇹🇷</span>
+                <span className="text-sm font-semibold text-neutral-300">{tc("turkey")}</span>
+              </div>
+              <div className="flex flex-col items-center gap-2 hover:scale-110 transition-transform">
+                <span className="text-3xl" title={tc("iraq")}>🇮🇶</span>
+                <span className="text-sm font-semibold text-neutral-300">{tc("iraq")}</span>
+              </div>
+              <div className="flex flex-col items-center gap-2 hover:scale-110 transition-transform">
+                <span className="text-3xl" title={tc("afghanistan")}>🇦🇫</span>
+                <span className="text-sm font-semibold text-neutral-300">{tc("afghanistan")}</span>
+              </div>
+              <div className="flex flex-col items-center gap-2 hover:scale-110 transition-transform">
+                <span className="text-3xl" title={tc("libya")}>🇱🇾</span>
+                <span className="text-sm font-semibold text-neutral-300">{tc("libya")}</span>
+              </div>
+              <div className="flex flex-col items-center gap-2 hover:scale-110 transition-transform">
+                <span className="text-3xl" title={tc("djibouti")}>🇩🇯</span>
+                <span className="text-sm font-semibold text-neutral-300">{tc("djibouti")}</span>
+              </div>
+              <div className="flex flex-col items-center gap-2 hover:scale-110 transition-transform">
+                <span className="text-3xl" title={tc("indonesia")}>🇮🇩</span>
+                <span className="text-sm font-semibold text-neutral-300">{tc("indonesia")}</span>
+              </div>
+            </div>
           </div>
           
           {/* React Simple Maps component */}

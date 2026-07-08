@@ -59,14 +59,7 @@ export default function MobileMenu() {
               </div>
             </div>
 
-            {/* Corporate */}
-            <div className="flex flex-col gap-3">
-              <span className="text-[#8A95A5] uppercase text-sm tracking-widest">{t("corporate")}</span>
-              <div className="flex flex-col gap-3 pl-4 border-l-2 border-[#C61A1A]/20">
-                <Link href="/kurumsal/yonetim" onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors text-lg">{t("management")}</Link>
-                <Link href="/hakkimizda" onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors text-lg">{t("about")}</Link>
-              </div>
-            </div>
+            <Link href="/kurumsal" onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors">{t("corporate")}</Link>
 
             <Link href="/iletisim" onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors">{t("contact")}</Link>
 

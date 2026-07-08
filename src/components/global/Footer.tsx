@@ -1,6 +1,7 @@
 "use client";
 
 import { Link } from "@/i18n/routing";
+import Image from "next/image";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { useToast } from "@/components/ui/ToastContext";
@@ -46,12 +47,15 @@ export default function Footer() {
             
             {/* Column 1: Brand & Newsletter */}
             <div className="flex flex-col gap-6">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-[#C61A1A] flex items-center justify-center rounded-sm">
-                  <span className="font-black text-xl tracking-tighter">Ö</span>
-                </div>
-                <span className="font-black text-2xl tracking-tight">ÖZENSAN</span>
-              </div>
+              <Link href="/" className="inline-block bg-white p-3 px-4 rounded-md w-fit">
+                <Image
+                  src="/logoseffaf.webp"
+                  alt="Özensan Logo"
+                  width={240}
+                  height={65}
+                  className="h-12 w-auto"
+                />
+              </Link>
             <p className="text-[#8A95A5] text-sm leading-relaxed">
               {t("desc")}
             </p>
@@ -87,7 +91,7 @@ export default function Footer() {
           <div>
             <h4 className="text-[#8A95A5] text-sm font-bold uppercase tracking-widest mb-6">{t("corporate")}</h4>
             <ul className="flex flex-col gap-4">
-              <li><Link href="/hakkimizda" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">{t("about")}</Link></li>
+              <li><Link href="/kurumsal" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">{t("about")}</Link></li>
               <li><Link href="/vizyon-misyon" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">{t("visionMission")}</Link></li>
               <li><Link href="/sikca-sorulan-sorular" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">{t("faq")}</Link></li>
               <li><Link href="/kariyer" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">{t("career")}</Link></li>

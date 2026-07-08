@@ -157,7 +157,7 @@ export default function ContactForm() {
           />
         </div>
         <label htmlFor="kvkk" className="ml-2 text-sm text-neutral-600">
-          <Link href="/kvkk" className="text-[#C61A1A] hover:underline font-medium">{t("kvkk")}</Link>{t("kvkk_read")}
+          {t("kvkk_prefix")} <Link href="/kvkk" className="text-[#C61A1A] hover:underline font-medium">{t("kvkk")}</Link>{t("kvkk_read")}
         </label>
       </div>
 

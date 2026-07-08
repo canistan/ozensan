@@ -1,5 +1,14 @@
 [
   {
+    "slug": "ticab",
+    "name": "TICAB",
+    "logo": "/brands/ticab_logo.png",
+    "coverImage": "/brands/ticab_hero.png",
+    "description": "Yol bakım, onarım ve asfalt ekipmanlarında modern çözümler. TICAB makine ve ekipmanları, pratik kullanım ve yüksek manevra kabiliyeti ile belediyeler ve yol yapım firmaları için vazgeçilmezdir.",
+    "descriptionEn": "Modern solutions in road maintenance, repair, and asphalt equipment. TICAB machinery and equipment are indispensable for municipalities and road construction companies with their practical use and high maneuverability.",
+    "website": "https://ticab.eu"
+  },
+  {
     "slug": "cedima",
     "name": "CEDIMA",
     "logo": "/cedima.svg",
@@ -16,15 +25,6 @@
     "description": "Profesyonel kırma ve delme teknolojisinde Alman kalitesi. DUSS, hafif tasarımı ve sınıfının en yüksek darbe gücüyle ön plana çıkar. Tozsuz çalışma sistemleri ve titreşim emici teknolojileri sayesinde operatör sağlığını korurken maksimum performans sağlar.",
     "descriptionEn": "German quality in professional breaking and drilling technology. DUSS stands out with its lightweight design and the highest impact power in its class. Thanks to dust-free working systems and vibration-absorbing technologies, it ensures maximum performance while protecting operator health.",
     "website": "https://www.duss.de"
-  },
-  {
-    "slug": "ticab",
-    "name": "TICAB",
-    "logo": "/brands/ticab_logo.png",
-    "coverImage": "/brands/ticab_hero.png",
-    "description": "Yol bakım, onarım ve asfalt ekipmanlarında modern çözümler. TICAB makine ve ekipmanları, pratik kullanım ve yüksek manevra kabiliyeti ile belediyeler ve yol yapım firmaları için vazgeçilmezdir.",
-    "descriptionEn": "Modern solutions in road maintenance, repair, and asphalt equipment. TICAB machinery and equipment are indispensable for municipalities and road construction companies with their practical use and high maneuverability.",
-    "website": "https://ticab.eu"
   },
   {
     "slug": "victor",

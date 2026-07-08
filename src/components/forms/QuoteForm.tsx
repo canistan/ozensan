@@ -169,7 +169,7 @@ export default function QuoteForm() {
           onChange={handleChange} 
           rows={5}
           className="w-full bg-[#F8F9FA] border border-neutral-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#C61A1A] focus:border-transparent transition-shadow text-[#1A1E24] resize-none"
-          placeholder="Proje detaylarınız, adet veya özel isteklerinizden bahsedebilirsiniz."
+          placeholder={t("message")}
         ></textarea>
       </div>
 
@@ -185,7 +185,7 @@ export default function QuoteForm() {
           />
         </div>
         <label htmlFor="kvkk" className="ml-2 text-sm text-neutral-600">
-          <Link href="/kvkk" className="text-[#C61A1A] hover:underline font-medium">{t("kvkk")}</Link>{t("kvkk_read")}
+          {t("kvkk_prefix")} <Link href="/kvkk" className="text-[#C61A1A] hover:underline font-medium">{t("kvkk")}</Link>{t("kvkk_read")}
         </label>
       </div>
 
@@ -194,7 +194,7 @@ export default function QuoteForm() {
         disabled={loading}
         className="bg-[#C61A1A] hover:bg-[#a51515] text-white font-bold py-4 px-8 rounded-lg transition-all w-full md:w-auto shadow-[0_8px_20px_rgba(198,26,26,0.25)] hover:shadow-[0_8px_25px_rgba(198,26,26,0.4)] hover:-translate-y-0.5 flex items-center justify-center gap-2 disabled:opacity-70 disabled:hover:translate-y-0 disabled:cursor-not-allowed"
       >
-        {loading ? t('sending') : 'Teklif Talebini Gönder'}
+        {loading ? t('sending') : t('submit')}
         {!loading && <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>}
       </button>
     </form>

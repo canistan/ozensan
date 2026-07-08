@@ -24,7 +24,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   });
 }
 
+import { useLocale } from 'next-intl';
+
+import { useTranslations } from 'next-intl';
+
 export default function CorporatePage() {
+  const locale = useLocale();
+  const t = useTranslations('CorporatePage');
   return (
     <div className="bg-[#F8F9FA] min-h-screen">
       
@@ -45,11 +51,61 @@ export default function CorporatePage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-6xl font-black tracking-tighter mb-6">
-              Endüstrinin <span className="text-[#C61A1A]">Güçlü</span> Yüzü.
+              {t('Hero.title1')} <span className="text-[#C61A1A]">{t('Hero.title2')}</span> {t('Hero.title3')}
             </h1>
             <p className="text-lg md:text-xl text-[#8A95A5] font-medium leading-relaxed max-w-2xl">
-              Yarım asrı aşan tecrübemizle, ağır sanayi ve altyapı projelerinizde dünyanın en güçlü markalarının güvencesini sunuyoruz.
+              {t('Hero.desc')}
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Yönetimimiz Section */}
+      <section className="py-20 md:py-32 bg-white border-t border-neutral-100">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <div className="inline-block px-4 py-1.5 bg-[#C61A1A]/10 text-[#C61A1A] font-bold tracking-wider text-sm rounded-full mb-6">
+              {t('Management.tag')}
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#1A1E24] tracking-tight">
+              {t('Management.title')}
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+            {/* Engin Çelik */}
+            <div className="flex flex-col items-center text-center group">
+              <div className="relative w-48 h-48 rounded-full overflow-hidden mb-6 bg-neutral-200 border-4 border-white shadow-xl group-hover:scale-105 transition-transform duration-300">
+                <Image 
+                  src="/EnginCelik.jpg" 
+                  alt="Engin Çelik" 
+                  fill 
+                  className="object-cover scale-[1.3] object-top"
+                />
+              </div>
+              <h3 className="text-2xl font-bold text-[#1A1E24] mb-2">Engin Çelik</h3>
+              <p className="text-[#C61A1A] font-medium tracking-wide uppercase text-sm mb-4">{t('Management.p1_role')}</p>
+              <p className="text-[#8A95A5] leading-relaxed max-w-sm">
+                {t('Management.p1_desc')}
+              </p>
+            </div>
+
+            {/* Pelin Çelik */}
+            <div className="flex flex-col items-center text-center group">
+              <div className="relative w-48 h-48 rounded-full overflow-hidden mb-6 bg-neutral-200 border-4 border-white shadow-xl group-hover:scale-105 transition-transform duration-300">
+                <Image 
+                  src="/PelinCelik.png" 
+                  alt="Pelin Çelik" 
+                  fill 
+                  className="object-cover"
+                />
+              </div>
+              <h3 className="text-2xl font-bold text-[#1A1E24] mb-2">Pelin Çelik</h3>
+              <p className="text-[#C61A1A] font-medium tracking-wide uppercase text-sm mb-4">{t('Management.p2_role')}</p>
+              <p className="text-[#8A95A5] leading-relaxed max-w-sm">
+                {t('Management.p2_desc')}
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -60,28 +116,28 @@ export default function CorporatePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
               <div className="inline-block px-4 py-1.5 bg-[#C61A1A]/10 text-[#C61A1A] font-bold tracking-wider text-sm rounded-full">
-                HAKKIMIZDA
+                {t('About.tag')}
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-[#1A1E24] tracking-tight">
-                Geleceği İnşa Eden Projelerin Görünmez Gücü
+                {t('About.title')}
               </h2>
               <div className="space-y-6 text-[#1A1E24]/70 text-lg leading-relaxed">
                 <p>
-                  1970'li yıllarda başlayan serüvenimiz, bugün Türkiye'nin ve bölgenin en büyük endüstriyel çözüm ortaklarından biri olmamızla devam ediyor. Özensan olarak, başından beri kalite ve güvenilirlikten asla ödün vermedik.
+                  {t('About.desc1')}
                 </p>
                 <p>
-                  Cedima, DUSS, Ticab, Victor ve GCE gibi alanında dünya lideri markaların Türkiye resmi distribütörü olarak, sektördeki en ileri teknolojileri yerel projelerle buluşturuyoruz. Sadece ürün tedariği değil, aynı zamanda satış sonrası mühendislik ve yedek parça hizmetleriyle de 360 derece çözümler üretiyoruz.
+                  {t('About.desc2')}
                 </p>
               </div>
               
               <div className="grid grid-cols-2 gap-8 pt-6 border-t border-neutral-200">
                 <div>
                   <div className="text-4xl font-black text-[#C61A1A] mb-2">50+</div>
-                  <div className="text-sm font-bold text-[#1A1E24] tracking-wide uppercase">Yıllık Tecrübe</div>
+                  <div className="text-sm font-bold text-[#1A1E24] tracking-wide uppercase">{t('About.stat1')}</div>
                 </div>
                 <div>
                   <div className="text-4xl font-black text-[#C61A1A] mb-2">10K+</div>
-                  <div className="text-sm font-bold text-[#1A1E24] tracking-wide uppercase">Tamamlanan Proje</div>
+                  <div className="text-sm font-bold text-[#1A1E24] tracking-wide uppercase">{t('About.stat2')}</div>
                 </div>
               </div>
             </div>
@@ -89,60 +145,18 @@ export default function CorporatePage() {
             <div className="relative">
               <div className="absolute inset-0 bg-[#C61A1A] translate-x-4 translate-y-4 rounded-xl opacity-20"></div>
               <div className="relative bg-[#1A1E24] p-1 rounded-xl h-full min-h-[400px] overflow-hidden group">
+                <Image 
+                  src="/endustriyel-gorsel.png" 
+                  alt="Özensan Endüstriyel Çözümler" 
+                  fill 
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10"></div>
-                {/* Placeholder for an actual company/industrial image */}
-                <div className="w-full h-full bg-neutral-800 absolute inset-0 flex items-center justify-center">
-                  <span className="text-neutral-500 font-medium">Endüstriyel Görsel Alanı</span>
-                </div>
                 <div className="absolute bottom-6 left-6 z-20">
-                  <div className="text-white font-bold text-xl tracking-wide">Yenilikçi Çözümler</div>
-                  <div className="text-[#8A95A5] text-sm mt-1">Sürekli gelişen teknoloji altyapısı</div>
+                  <div className="text-white font-bold text-xl tracking-wide">{t('About.img_title')}</div>
+                  <div className="text-[#8A95A5] text-sm mt-1">{t('About.img_desc')}</div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Yönetimimiz Section */}
-      <section className="py-20 md:py-32 bg-white border-t border-neutral-100">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <div className="inline-block px-4 py-1.5 bg-[#C61A1A]/10 text-[#C61A1A] font-bold tracking-wider text-sm rounded-full mb-6">
-              YÖNETİMİMİZ
-            </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-[#1A1E24] tracking-tight">
-              Gücümüzü Tecrübeden Alıyoruz
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
-            {/* Engin Çelik */}
-            <div className="flex flex-col items-center text-center group">
-              <div className="relative w-48 h-48 rounded-full overflow-hidden mb-6 bg-neutral-200 border-4 border-white shadow-xl group-hover:scale-105 transition-transform duration-300">
-                <div className="absolute inset-0 flex items-center justify-center text-neutral-400">
-                  <svg className="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
-                </div>
-              </div>
-              <h3 className="text-2xl font-bold text-[#1A1E24] mb-2">Engin Çelik</h3>
-              <p className="text-[#C61A1A] font-medium tracking-wide uppercase text-sm mb-4">Onursal Yönetim Kurulu Başkanı</p>
-              <p className="text-[#8A95A5] leading-relaxed max-w-sm">
-                Özensan'ın temellerini atarak vizyonuyla yarım asırlık bu endüstriyel devin doğmasını sağlayan kurucumuz.
-              </p>
-            </div>
-
-            {/* Pelin Çelik */}
-            <div className="flex flex-col items-center text-center group">
-              <div className="relative w-48 h-48 rounded-full overflow-hidden mb-6 bg-neutral-200 border-4 border-white shadow-xl group-hover:scale-105 transition-transform duration-300">
-                <div className="absolute inset-0 flex items-center justify-center text-neutral-400">
-                  <svg className="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
-                </div>
-              </div>
-              <h3 className="text-2xl font-bold text-[#1A1E24] mb-2">Pelin Çelik</h3>
-              <p className="text-[#C61A1A] font-medium tracking-wide uppercase text-sm mb-4">Yönetim Kurulu Başkanı</p>
-              <p className="text-[#8A95A5] leading-relaxed max-w-sm">
-                Yenilikçi yönetim anlayışı ve global vizyonuyla Özensan'ı geleceğe taşıyan, modern dönüşümün lideri.
-              </p>
             </div>
           </div>
         </div>
@@ -160,9 +174,9 @@ export default function CorporatePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-[#1A1E24] mb-4">Misyonumuz</h3>
+              <h3 className="text-2xl font-bold text-[#1A1E24] mb-4">{t('MissionVision.m_title')}</h3>
               <p className="text-[#1A1E24]/70 leading-relaxed text-lg">
-                Müşterilerimizin operasyonel verimliliklerini en üst seviyeye çıkarmak için dünya standartlarında sanayi makine ve malzemelerini, kusursuz bir servis anlayışıyla sunmak. Sürdürülebilirlik, iş güvenliği ve inovasyonu tüm iş süreçlerimizin merkezinde tutarak değer yaratmak.
+                {t('MissionVision.m_desc')}
               </p>
             </div>
 
@@ -173,9 +187,9 @@ export default function CorporatePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-4">Vizyonumuz</h3>
+              <h3 className="text-2xl font-bold mb-4">{t('MissionVision.v_title')}</h3>
               <p className="text-[#8A95A5] leading-relaxed text-lg">
-                Sürekli değişen endüstriyel dinamiklere yön veren, Türkiye'de ve global pazarda güvenilirliği ve yenilikçi çözümleri ile akla ilk gelen endüstriyel teknoloji sağlayıcısı olmak. Teknoloji ile insan potansiyelini birleştirerek sektöre liderlik etmek.
+                {t('MissionVision.v_desc')}
               </p>
             </div>
 
@@ -187,25 +201,25 @@ export default function CorporatePage() {
       <section className="py-20 md:py-32 bg-[#F8F9FA]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-block px-4 py-1.5 bg-[#C61A1A]/10 text-[#C61A1A] font-bold tracking-wider text-sm rounded-full mb-6">
-            KÜLTÜRÜMÜZ
+            {t('Values.tag')}
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-[#1A1E24] tracking-tight mb-16">
-            Temel Değerlerimiz
+            {t('Values.title')}
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {[
               {
-                title: 'Kalite Odaklılık',
-                desc: 'Sunduğumuz her üründe ve hizmette, tavizsiz bir kalite anlayışıyla hareket ederiz.'
+                title: t('Values.v1_title'),
+                desc: t('Values.v1_desc')
               },
               {
-                title: 'Güvenilirlik',
-                desc: 'Verdiğimiz sözleri tutar, iş ortaklarımızla şeffaf ve dürüst ilişkiler kurarız.'
+                title: t('Values.v2_title'),
+                desc: t('Values.v2_desc')
               },
               {
-                title: 'İnovasyon',
-                desc: 'Endüstrideki teknolojik gelişmeleri yakından takip eder ve müşterilerimize uyarlarız.'
+                title: t('Values.v3_title'),
+                desc: t('Values.v3_desc')
               }
             ].map((value, idx) => (
               <div key={idx} className="bg-white p-10 rounded-2xl shadow-sm border border-neutral-100 hover:-translate-y-2 transition-transform duration-300">
@@ -225,10 +239,10 @@ export default function CorporatePage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <div className="inline-block px-4 py-1.5 bg-[#C61A1A]/10 text-[#C61A1A] font-bold tracking-wider text-sm rounded-full mb-6">
-              BİLGİ MERKEZİ
+              {t('FAQ.tag')}
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-[#1A1E24] tracking-tight">
-              Sıkça Sorulan Sorular
+              {t('FAQ.title')}
             </h2>
           </div>
           <FAQAccordion />

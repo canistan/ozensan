@@ -28,7 +28,7 @@
     "faq": "Frequently Asked Questions",
     "career": "Careers",
     "legal": "Legal",
-    "kvkk": "KVKK Clarification Text",
+    "kvkk": "Privacy Policy",
     "privacy": "Privacy Policy",
     "cookie": "Cookie Policy",
     "terms": "Terms of Use",
@@ -36,13 +36,14 @@
     "allRights": "All rights reserved.",
     "emailError": "Please enter a valid email address.",
     "subSuccess": "Successfully subscribed to the newsletter!",
-    "subError": "An error occurred."
+    "subError": "An error occurred.",
+    "hours": "09:00 - 18:00"
   },
   "HomePage": {
     "Hero": {
       "badge": "AUTHORIZED TURKEY DISTRIBUTOR",
       "title1": "The Power of Global Giants,",
-      "title2": "In Turkey's Infrastructure.",
+      "title2": "In Türkiye's Infrastructure.",
       "desc": "As the official distributor of Cedima, DUSS, Ticab, Victor, and GCE brands, we offer uninterrupted engineering and spare part solutions for your heavy industry, road construction, and professional drilling processes.",
       "btnProducts": "Explore Our Products",
       "btnQuote": "Get a Quote"
@@ -60,18 +61,18 @@
       "badge": "Operational Excellence",
       "title": "Zero Compromise<br/>in Engineering.",
       "p1_title": "Authorized Service Network",
-      "p1_desc": "With our certified technicians reaching every point in Turkey, we provide 24/7 original spare parts and maintenance guarantee for your machines.",
+      "p1_desc": "With our extensive service network reaching every point in Türkiye, we provide original spare parts and 24/7 maintenance support for your machines.",
       "p2_title": "Maximum Workplace Safety",
       "p2_desc": "All the global brands we represent meet European engineering standards that guarantee operator safety even in the heaviest industrial conditions.",
       "p3_title": "Uninterrupted Logistics",
-      "p3_desc": "Thanks to our extensive stock network, we minimize potential downtime on-site and deliver consumables to your site as quickly as possible.",
+      "p3_desc": "Thanks to our extensive stock network, we minimize potential downtime on-site and deliver products and consumables to the warehouse as quickly as possible.",
       "p4_title": "Global Brand Assurance",
-      "p4_desc": "We bring the production power and innovation capability of the brands we represent to your projects in Turkey with original warranty standards."
+      "p4_desc": "We bring the production power and innovation capability of the brands we represent to your projects in Türkiye with original warranty standards."
     },
     "Map": {
       "badge": "International Trade Network",
       "title": "Engineering Without Borders",
-      "desc": "With our Turkey-based logistics network, we export industrial machinery and spare parts to a wide geography, primarily Poland, Ukraine, Iraq, Libya, Syria, Afghanistan, and Egypt."
+      "desc": "With our Türkiye-based logistics network, we export industrial machinery and spare parts to a wide geography, particularly Iraq, Afghanistan, Libya, Djibouti, and Indonesia."
     }
   },
   "Product": {
@@ -125,7 +126,7 @@
   "BrandsPage": {
     "hero1": "The Global Giants",
     "hero2": "We Represent",
-    "heroDesc": "We are the authorized engineering and supply point in Turkey for pioneering international brands that set industry standards in technology and durability.",
+    "heroDesc": "We are the authorized engineering and supply point in Türkiye for pioneering international brands that set industry standards in technology and durability.",
     "viewBrand": "View Brand",
     "formerTitle": "Our Former Representations",
     "formerDesc": "Representations we successfully carried out in the past, adding value to Özensan's sector experience.",
@@ -181,7 +182,7 @@
   },
   "BrandsSEO": {
     "title": "Our Brands | Özensan",
-    "description": "World-leading industrial machinery and equipment manufacturers for which Özensan is the sole authorized distributor in Turkey."
+    "description": "World-leading industrial machinery and equipment manufacturers for which Özensan is the sole authorized distributor in Türkiye."
   },
   "FAQSEO": {
     "title": "FAQ | Özensan",
@@ -197,7 +198,7 @@
   },
   "HomeSEO": {
     "title": "Özensan Industrial Machinery and Materials Inc. | Official Distributor",
-    "description": "Official Turkey distributor for Cedima, DUSS, Ticab, Victor, and GCE brands. We provide uninterrupted engineering and spare part solutions for your heavy industry, road construction, and professional drilling processes."
+    "description": "Official Türkiye distributor for Cedima, DUSS, Ticab, Victor, and GCE brands. We provide uninterrupted engineering and spare part solutions for your heavy industry, road construction, and professional drilling processes."
   },
   "TermsSEO": {
     "title": "Terms of Use | Özensan",
@@ -211,8 +212,8 @@
     "message": "Your Message",
     "submit": "Submit",
     "sending": "Sending...",
-    "kvkk": "KVKK Clarification Text",
-    "kvkk_read": "I have read and accept.",
+    "kvkk": "Privacy Policy",
+    "kvkk_read": ".",
     "select_subject": "Select Subject",
     "general": "General Inquiry",
     "technical": "Technical Support",
@@ -237,12 +238,67 @@
       "contact": "Your message has been sent successfully. We will get back to you shortly.",
       "quote": "Your quote request has been received successfully. Our sales engineers will contact you.",
       "career": "Your application has been received successfully. We will contact you after the evaluation process."
-    }
+    },
+    "kvkk_prefix": "I have read and accept the "
   },
   "CTA": {
     "title": "Let's Find the Ideal Solution for Your Project Together",
     "desc": "Contact us to get a project-specific quote from our expert sales engineers or to get detailed information about our machines.",
     "btnQuote": "Get a Quote Now",
     "btnContact": "Contact Us"
+  },
+  "Countries": {
+    "turkey": "Türkiye",
+    "iraq": "Iraq",
+    "afghanistan": "Afghanistan",
+    "libya": "Libya",
+    "djibouti": "Djibouti",
+    "indonesia": "Indonesia"
+  },
+  "CorporatePage": {
+    "Hero": {
+      "title1": "The ",
+      "title2": "Strong",
+      "title3": " Face of the Industry.",
+      "desc": "With over half a century of experience, we provide the assurance of the world's strongest brands in your heavy industry and infrastructure projects."
+    },
+    "Management": {
+      "tag": "OUR MANAGEMENT",
+      "title": "Our Strength Comes From Experience",
+      "p1_role": "Honorary Chairman of the Board",
+      "p1_desc": "Our founder who laid the foundations of Özensan and enabled the birth of this industrial giant with his vision.",
+      "p2_role": "Chairman of the Board",
+      "p2_desc": "The leader of modern transformation carrying Özensan to the future with her innovative management approach and global vision."
+    },
+    "About": {
+      "tag": "ABOUT US",
+      "title": "The Invisible Power of Projects Building the Future",
+      "desc1": "Our journey, which began in the 1970s, continues today as one of the largest industrial solution partners in Turkey and the region. At Özensan, we have never compromised on quality and reliability since the beginning.",
+      "desc2": "As the official distributor of world-leading brands such as Cedima, DUSS, Ticab, Victor, and GCE in Turkey, we bring the most advanced technologies in the sector to local projects. We provide 360-degree solutions not only with product supply but also with after-sales engineering and spare parts services.",
+      "stat1": "Years of Experience",
+      "stat2": "Completed Projects",
+      "img_title": "Innovative Solutions",
+      "img_desc": "Constantly evolving technological infrastructure"
+    },
+    "MissionVision": {
+      "m_title": "Our Mission",
+      "m_desc": "To provide world-class industrial machinery and materials with flawless service to maximize the operational efficiency of our customers. To create value by keeping sustainability, occupational safety, and innovation at the center of all our business processes.",
+      "v_title": "Our Vision",
+      "v_desc": "To be the first industrial technology provider that comes to mind with its reliability and innovative solutions in the Turkish and global markets, shaping the constantly changing industrial dynamics. To lead the sector by combining technology and human potential."
+    },
+    "Values": {
+      "tag": "OUR CULTURE",
+      "title": "Our Core Values",
+      "v1_title": "Quality Focus",
+      "v1_desc": "We act with an uncompromising understanding of quality in every product and service we offer.",
+      "v2_title": "Reliability",
+      "v2_desc": "We keep our promises and establish transparent and honest relationships with our business partners.",
+      "v3_title": "Innovation",
+      "v3_desc": "We closely follow technological developments in the industry and adapt them for our customers."
+    },
+    "FAQ": {
+      "tag": "INFORMATION CENTER",
+      "title": "Frequently Asked Questions"
+    }
   }
 }
