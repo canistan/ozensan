@@ -4,10 +4,8 @@
     "name": "CEDIMA",
     "logo": "/cedima.svg",
     "coverImage": "/brands/cedima_hero.png",
-    "description": {
-      "tr": "Elmas uçlu testereler ve delme ekipmanları konusunda dünya lideri. 1984 yılından beri ağır sanayi, yol yapım ve profesyonel yapı yıkım işlerinde profesyonellere güvenilir çözümler sunmaktadır. Yenilikçi Alman mühendisliği ile üretilen Cedima makineleri, en zorlu şantiye koşullarında yüksek verim ve dayanıklılık garantisi verir.",
-      "en": "Global leader in diamond saws and drilling equipment. Since 1984, it has been providing reliable solutions for professionals in heavy industry, road construction, and professional demolition. Cedima machines, produced with innovative German engineering, guarantee high efficiency and durability in the toughest site conditions."
-    },
+    "description": "Elmas uçlu testereler ve delme ekipmanları konusunda dünya lideri. 1984 yılından beri ağır sanayi, yol yapım ve profesyonel yapı yıkım işlerinde profesyonellere güvenilir çözümler sunmaktadır. Yenilikçi Alman mühendisliği ile üretilen Cedima makineleri, en zorlu şantiye koşullarında yüksek verim ve dayanıklılık garantisi verir.",
+    "descriptionEn": "Global leader in diamond saws and drilling equipment. Since 1984, it has been providing reliable solutions for professionals in heavy industry, road construction, and professional demolition. Cedima machines, produced with innovative German engineering, guarantee high efficiency and durability in the toughest site conditions.",
     "website": "https://www.cedima.com"
   },
   {
@@ -15,10 +13,8 @@
     "name": "DUSS",
     "logo": "/DUSS.svg",
     "coverImage": "/brands/duss_hero.png",
-    "description": {
-      "tr": "Profesyonel kırma ve delme teknolojisinde Alman kalitesi. DUSS, hafif tasarımı ve sınıfının en yüksek darbe gücüyle ön plana çıkar. Tozsuz çalışma sistemleri ve titreşim emici teknolojileri sayesinde operatör sağlığını korurken maksimum performans sağlar.",
-      "en": "German quality in professional breaking and drilling technology. DUSS stands out with its lightweight design and the highest impact power in its class. Thanks to dust-free working systems and vibration-absorbing technologies, it ensures maximum performance while protecting operator health."
-    },
+    "description": "Profesyonel kırma ve delme teknolojisinde Alman kalitesi. DUSS, hafif tasarımı ve sınıfının en yüksek darbe gücüyle ön plana çıkar. Tozsuz çalışma sistemleri ve titreşim emici teknolojileri sayesinde operatör sağlığını korurken maksimum performans sağlar.",
+    "descriptionEn": "German quality in professional breaking and drilling technology. DUSS stands out with its lightweight design and the highest impact power in its class. Thanks to dust-free working systems and vibration-absorbing technologies, it ensures maximum performance while protecting operator health.",
     "website": "https://www.duss.de"
   },
   {
@@ -26,10 +22,8 @@
     "name": "TICAB",
     "logo": "/brands/ticab_logo.png",
     "coverImage": "/brands/ticab_hero.png",
-    "description": {
-      "tr": "Yol bakım, onarım ve asfalt ekipmanlarında modern çözümler. TICAB makine ve ekipmanları, pratik kullanım ve yüksek manevra kabiliyeti ile belediyeler ve yol yapım firmaları için vazgeçilmezdir.",
-      "en": "Modern solutions in road maintenance, repair, and asphalt equipment. TICAB machinery and equipment are indispensable for municipalities and road construction companies with their practical use and high maneuverability."
-    },
+    "description": "Yol bakım, onarım ve asfalt ekipmanlarında modern çözümler. TICAB makine ve ekipmanları, pratik kullanım ve yüksek manevra kabiliyeti ile belediyeler ve yol yapım firmaları için vazgeçilmezdir.",
+    "descriptionEn": "Modern solutions in road maintenance, repair, and asphalt equipment. TICAB machinery and equipment are indispensable for municipalities and road construction companies with their practical use and high maneuverability.",
     "website": "https://ticab.eu"
   },
   {
@@ -37,10 +31,8 @@
     "name": "VICTOR",
     "logo": "/victor.svg",
     "coverImage": "/brands/victor_hero.png",
-    "description": {
-      "tr": "ESAB ailesinin bir parçası olan Victor, asırlık tecrübesiyle gaz kesme ve kaynak sistemlerinde dünya standartlarını belirler. Güvenlik ve hassasiyetin kritik olduğu ağır sanayi uygulamalarında tartışmasız liderdir.",
-      "en": "As a part of the ESAB family, Victor sets global standards in gas cutting and welding systems with a century of experience. It is the undisputed leader in heavy industry applications where safety and precision are critical."
-    },
+    "description": "ESAB ailesinin bir parçası olan Victor, asırlık tecrübesiyle gaz kesme ve kaynak sistemlerinde dünya standartlarını belirler. Güvenlik ve hassasiyetin kritik olduğu ağır sanayi uygulamalarında tartışmasız liderdir.",
+    "descriptionEn": "As a part of the ESAB family, Victor sets global standards in gas cutting and welding systems with a century of experience. It is the undisputed leader in heavy industry applications where safety and precision are critical.",
     "website": "https://esab.com/tr/eur_tr/brands/esab-family-brands/victor/"
   },
   {
@@ -48,10 +40,8 @@
     "name": "GCE",
     "logo": "/brands/gce.png",
     "coverImage": "/brands/gce_hero.png",
-    "description": {
-      "tr": "Gaz kontrol ekipmanlarında Avrupa'nın lider markası. Tıbbi gazlardan endüstriyel proseslere kadar geniş bir yelpazede yüksek güvenlikli regülatörler ve valf sistemleri sunar.",
-      "en": "Europe's leading brand in gas control equipment. Provides highly secure regulators and valve systems across a wide range of applications, from medical gases to industrial processes."
-    },
+    "description": "Gaz kontrol ekipmanlarında Avrupa'nın lider markası. Tıbbi gazlardan endüstriyel proseslere kadar geniş bir yelpazede yüksek güvenlikli regülatörler ve valf sistemleri sunar.",
+    "descriptionEn": "Europe's leading brand in gas control equipment. Provides highly secure regulators and valve systems across a wide range of applications, from medical gases to industrial processes.",
     "website": "https://www.gcegroup.com"
   }
 ]

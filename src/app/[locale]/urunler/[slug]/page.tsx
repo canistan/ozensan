@@ -29,8 +29,13 @@ export async function generateStaticParams() {
   }));
 }
 
+import { getTranslations } from "next-intl/server";
+
 export default async function ProductDetailPage({ params }: Props) {
   const resolvedParams = await params;
+  const locale = (resolvedParams as any).locale;
+  const t = await getTranslations({locale, namespace: "Product"});
+  const tn = await getTranslations({locale, namespace: "Navigation"});
   const product = productsData.find((p) => p.slug === resolvedParams.slug);
 
   if (!product) {
@@ -45,13 +50,13 @@ export default async function ProductDetailPage({ params }: Props) {
         
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-sm text-[#8A95A5] mb-8 font-medium">
-          <Link href="/" className="hover:text-[#C61A1A] transition-colors">Anasayfa</Link>
+          <Link href="/" className="hover:text-[#C61A1A] transition-colors">{tn("home") || "Anasayfa"}</Link>
           <span>/</span>
-          <Link href="/urunler" className="hover:text-[#C61A1A] transition-colors">Ürünler</Link>
+          <Link href="/urunler" className="hover:text-[#C61A1A] transition-colors">{tn("products") || "Ürünler"}</Link>
           <span>/</span>
-          <Link href={`/markalar/${product.brand}`} className="hover:text-[#C61A1A] transition-colors uppercase">{product.brand}</Link>
+          <Link href={{ pathname: "/markalar/[slug]", "params": { "slug": product.brand } }} className="hover:text-[#C61A1A] transition-colors uppercase">{product.brand}</Link>
           <span>/</span>
-          <span className="text-[#1A1E24] truncate">{product.name}</span>
+          <span className="text-[#1A1E24] truncate">{locale === "en" && product.nameEn ? product.nameEn : product.name}</span>
         </nav>
 
         <div className="bg-white rounded-2xl border border-neutral-200 overflow-hidden shadow-sm flex flex-col lg:flex-row">
@@ -67,7 +72,7 @@ export default async function ProductDetailPage({ params }: Props) {
             </div>
             <img 
               src={product.image} 
-              alt={product.name} 
+              alt={locale === "en" && product.nameEn ? product.nameEn : product.name} 
               className="w-full max-w-md h-auto object-contain hover:scale-105 transition-transform duration-500" 
             />
           </div>
@@ -89,7 +94,7 @@ export default async function ProductDetailPage({ params }: Props) {
             {/* Key Features */}
             {product.features && product.features.length > 0 && (
               <div className="mt-8 mb-8">
-                <h3 className="text-sm font-bold text-[#1A1E24] uppercase tracking-widest mb-4">Öne Çıkan Özellikler</h3>
+                <h3 className="text-sm font-bold text-[#1A1E24] uppercase tracking-widest mb-4">{t("features")}</h3>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {product.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start text-[#8A95A5] text-sm">
@@ -104,13 +109,13 @@ export default async function ProductDetailPage({ params }: Props) {
             {/* Actions */}
             <div className="mt-auto pt-8 border-t border-neutral-100 flex flex-col sm:flex-row gap-4">
               <Link 
-                href={`/teklif-al?product=${product.name}`} 
+                href={`/teklif-al?product=${product.name}` as any} 
                 className="bg-[#C61A1A] hover:bg-[#9D1414] text-white text-sm font-black px-8 py-4 uppercase tracking-widest rounded-sm transition-all shadow-[0_10px_30px_rgba(198,26,26,0.2)] hover:-translate-y-1 flex items-center justify-center flex-1 text-center"
               >
                 Hemen Teklif İste
               </Link>
               <Link 
-                href={`/markalar/${product.brand}`} 
+                href={{ pathname: "/markalar/[slug]", "params": { "slug": product.brand } }} 
                 className="bg-[#F8F9FA] hover:bg-[#E9ECEF] border border-neutral-200 text-[#1A1E24] text-sm font-black px-8 py-4 uppercase tracking-widest rounded-sm transition-all flex items-center justify-center"
               >
                 Markaya Git

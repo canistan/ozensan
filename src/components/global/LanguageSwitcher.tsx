@@ -2,15 +2,17 @@
 
 import { useLocale } from 'next-intl';
 import { usePathname, useRouter } from '@/i18n/routing';
+import { useParams } from 'next/navigation';
 
 export default function LanguageSwitcher() {
   const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
+  const params = useParams();
 
   const switchLocale = (newLocale: string) => {
-    // Navigate to the current pathname using the new locale
-    router.replace(pathname, { locale: newLocale });
+    // @ts-expect-error -- Using runtime params for dynamic segments
+    router.replace({ pathname, params }, { locale: newLocale });
   };
 
   return (

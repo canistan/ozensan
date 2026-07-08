@@ -38,7 +38,7 @@ export default function SolutionsPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {solutionsData.map((solution) => (
               <Link 
-                href={`/cozumler/${solution.slug}`} 
+                href={{ pathname: "/cozumler/[slug]", "params": { "slug": solution.slug } }} 
                 key={solution.slug} 
                 className="group flex flex-col bg-white border border-neutral-100 rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-1"
               >

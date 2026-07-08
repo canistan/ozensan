@@ -1,20 +1,125 @@
 {
   "Navigation": {
-    "home": "Ana Sayfa",
     "solutions": "Çözümler & Uygulamalar",
+    "asphalt": "Asfalt & Beton Kesme",
+    "road": "Yol Yapım Ekipmanları",
+    "drilling": "Delme & Karot Sistemleri",
+    "gas": "Endüstriyel Gaz Kontrol",
     "brands": "Markalarımız",
     "corporate": "Kurumsal",
+    "management": "Yönetimimiz",
+    "about": "Hakkımızda",
     "contact": "İletişim",
-    "getQuote": "Fiyat Teklifi Al"
+    "getQuote": "Fiyat Teklifi Al",
+    "allBrands": "TÜM MARKALAR"
   },
   "Footer": {
+    "desc": "Yarım asrı aşkın tecrübemizle, ağır sanayi ve altyapı projelerinizde dünyanın en güçlü markalarının güvencesini sunuyoruz.",
+    "newsletter": "E-Bülten Aboneliği",
+    "emailPlaceholder": "E-posta adresiniz",
+    "quickLinks": "Hızlı Linkler",
+    "allProducts": "Tüm Ürünlerimiz",
+    "agencies": "Temsilciliklerimiz",
+    "afterSales": "Satış Sonrası Hizmetler",
+    "contactUs": "Bize Ulaşın",
     "corporate": "Kurumsal",
     "about": "Hakkımızda",
     "visionMission": "Vizyon & Misyon",
+    "faq": "Sıkça Sorulan Sorular",
     "career": "Kariyer",
+    "legal": "Yasal",
+    "kvkk": "KVKK Aydınlatma Metni",
+    "privacy": "Gizlilik Politikası",
+    "cookie": "Çerez Politikası",
+    "terms": "Kullanım Şartları",
+    "cookieSettings": "Çerez Tercihlerimi Düzenle",
+    "allRights": "Tüm hakları saklıdır.",
+    "emailError": "Lütfen geçerli bir e-posta adresi giriniz.",
+    "subSuccess": "Bültene başarıyla abone oldunuz!",
+    "subError": "Bir hata oluştu."
+  },
+  "HomePage": {
+    "Hero": {
+      "badge": "YETKİLİ TÜRKİYE DİSTRİBÜTÖRÜ",
+      "title1": "Dünya Devlerinin Gücü,",
+      "title2": "Türkiye'nin Altyapısında.",
+      "desc": "Cedima, DUSS, Ticab, Victor ve GCE markalarının resmi distribütörü olarak ağır sanayi, yol yapım ve profesyonel delme süreçlerinize kesintisiz mühendislik ve yedek parça çözümleri sunuyoruz.",
+      "btnProducts": "Ürünlerimizi İnceleyin",
+      "btnQuote": "Teklif Alın"
+    },
+    "Brands": {
+      "title": "Temsil Ettiğimiz Global Devler"
+    },
+    "Featured": {
+      "badge": "PREMIUM SEÇKİ",
+      "title": "Öne Çıkan Ürünler",
+      "viewAll": "Tüm Ürünleri Gör",
+      "inspect": "İncele"
+    },
+    "Pillars": {
+      "badge": "Operasyonel Mükemmellik",
+      "title": "Mühendislikte<br/>Sıfır Taviz.",
+      "p1_title": "Yetkili Servis Ağı",
+      "p1_desc": "Türkiye'nin her noktasına ulaşan sertifikalı teknisyenlerimizle, makineleriniz için 7/24 orijinal yedek parça ve bakım garantisi.",
+      "p2_title": "Maksimum İş Güvenliği",
+      "p2_desc": "Temsilcisi olduğumuz tüm global markalar, en ağır endüstriyel koşullarda bile operatör güvenliğini garanti eden Avrupa mühendisliği standartlarına sahiptir.",
+      "p3_title": "Kesintisiz Lojistik",
+      "p3_desc": "Geniş stok ağımız sayesinde sahada yaşanabilecek duruş sürelerini minimize ediyor, sarf malzemelerini en hızlı şekilde şantiyenize ulaştırıyoruz.",
+      "p4_title": "Global Marka Güvencesi",
+      "p4_desc": "Temsil ettiğimiz markaların üretim gücünü ve inovasyon yeteneğini, Türkiye'deki projelerinize orijinal garanti standartlarıyla taşıyoruz."
+    },
+    "Map": {
+      "badge": "Uluslararası Ticaret Ağı",
+      "title": "Sınır Tanımayan Mühendislik",
+      "desc": "Türkiye merkezli lojistik ağımızla Polonya, Ukrayna, Irak, Libya, Suriye, Afganistan ve Mısır başta olmak üzere geniş bir coğrafyaya endüstriyel makine ve yedek parça ihraç ediyoruz."
+    }
+  },
+  "Product": {
     "allProducts": "Tüm Ürünler",
-    "contact": "İletişim",
-    "rights": "Tüm hakları saklıdır.",
-    "address": "Perpa Ticaret Merkezi A Blok Kat:11 No:1584\nŞişli / İstanbul"
+    "brandEngineering": "Mühendisliği",
+    "techSpecs": "Teknik Özellikler",
+    "features": "Öne Çıkan Özellikler",
+    "compatible": "Uyumlu Donanımlar",
+    "requestQuote": "Bu Ürün İçin Teklif Alın",
+    "viewBrand": "Tüm {brand} Ürünleri",
+    "productsFound": "Toplam {count} ürün bulundu"
+  },
+  "Catalog": {
+    "search": "Ürün ara...",
+    "allBrands": "Tüm Markalar",
+    "allSolutions": "Tüm Çözümler"
+  },
+  "CatalogPage": {
+    "heroTitle1": "Kapsamlı",
+    "heroTitle2": "Ürün Kataloğu",
+    "heroDesc": "Temsilciliğini yürüttüğümüz global markaların, projenizin ihtiyacına uygun tüm makine ve yedek parçalarını buradan inceleyebilir, anında teklif isteyebilirsiniz.",
+    "search": "ÜRÜN ARA",
+    "searchPlaceholder": "Makine modeli veya özelliği...",
+    "brands": "MARKALAR",
+    "solutions": "ÇÖZÜMLER",
+    "productsListed": "{count} ürün listeleniyor"
+  },
+  "ContactPage": {
+    "title1": "Bize",
+    "title2": "Ulaşın",
+    "desc": "Projeleriniz, teknik destek talepleriniz veya iş ortaklığı için uzman ekibimizle iletişime geçin.",
+    "info": "İletişim Bilgileri",
+    "hq": "Merkez Ofis",
+    "phone": "Telefon",
+    "email": "E-Posta",
+    "hours": "Çalışma Saatleri",
+    "weekdays": "Pzt - Cum:",
+    "weekends": "Cmt - Paz:",
+    "closed": "Kapalı",
+    "sendMessage": "Mesaj Gönderin"
+  },
+  "QuotePage": {
+    "title1": "Projeniz İçin",
+    "title2": "Hemen Teklif",
+    "title3": "Alın",
+    "desc": "İhtiyaç duyduğunuz ürün veya çözümleri bize iletin, satış ekibimiz en kısa sürede size özel fiyatlandırma ve detaylı bilgi ile dönüş yapsın.",
+    "formTitle": "Teklif Talep Formu",
+    "formDesc": "Lütfen aşağıdaki alanları eksiksiz doldurarak talebinizi bize iletin.",
+    "loading": "Yükleniyor..."
   }
 }

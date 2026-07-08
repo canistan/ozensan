@@ -7,7 +7,12 @@ export const metadata: Metadata = {
   description: 'Özensan ürünleri ve çözümleri için detaylı teklif talebinde bulunun.',
 };
 
-export default function QuotePage() {
+import { getTranslations } from "next-intl/server";
+
+export default async function QuotePage({ params }: { params: Promise<{ locale: string }> }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
+  const t = await getTranslations({locale, namespace: "QuotePage"});
   return (
     <div className="bg-[#F8F9FA] min-h-screen">
       {/* Hero Section */}
@@ -22,10 +27,10 @@ export default function QuotePage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tight mb-6 leading-tight">
-              Projeniz İçin <span className="text-[#C61A1A]">Hemen Teklif</span> Alın
+              {t("title1")} <span className="text-[#C61A1A]">{t("title2")}</span> {t("title3")}
             </h1>
             <p className="text-lg md:text-xl text-[#8A95A5] leading-relaxed max-w-2xl font-light">
-              İhtiyaç duyduğunuz ürün veya çözümleri bize iletin, satış ekibimiz en kısa sürede size özel fiyatlandırma ve detaylı bilgi ile dönüş yapsın.
+              {t("desc")}
             </p>
           </div>
         </div>
@@ -36,10 +41,10 @@ export default function QuotePage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-2xl shadow-xl p-8 md:p-14 border border-neutral-100">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#1A1E24] mb-2">Teklif Talep Formu</h2>
-              <p className="text-[#8A95A5] mb-10">Lütfen aşağıdaki alanları eksiksiz doldurarak talebinizi bize iletin.</p>
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1A1E24] mb-2">{t("formTitle")}</h2>
+              <p className="text-[#8A95A5] mb-10">{t("formDesc")}</p>
               
-              <Suspense fallback={<div className="h-64 flex items-center justify-center text-[#8A95A5]">Yükleniyor...</div>}>
+              <Suspense fallback={<div className="h-64 flex items-center justify-center text-[#8A95A5]">{t("loading")}</div>}>
                 <QuoteForm />
               </Suspense>
               

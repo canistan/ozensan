@@ -10,7 +10,11 @@ export const metadata: Metadata = {
   description: 'Ağır sanayi, yol yapım ve profesyonel delme/yıkım sektörlerine yönelik dünya devlerinin sunduğu makine ve ekipman kataloğumuz.',
 };
 
-export default function ProductsPage() {
+import { getTranslations } from "next-intl/server";
+export default async function ProductsPage({ params }: { params: Promise<{ locale: string }> }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
+  const t = await getTranslations({locale, namespace: "CatalogPage"});
   return (
     <div className="bg-[#F8F9FA] min-h-screen">
       {/* Hero Section */}
@@ -25,10 +29,10 @@ export default function ProductsPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tight mb-6 leading-tight">
-              Kapsamlı <span className="text-[#C61A1A]">Ürün Kataloğu</span>
+              {t("heroTitle1")} <span className="text-[#C61A1A]">{t("heroTitle2")}</span>
             </h1>
             <p className="text-lg md:text-xl text-[#8A95A5] leading-relaxed max-w-2xl font-light">
-              Temsilciliğini yürüttüğümüz global markaların, projenizin ihtiyacına uygun tüm makine ve yedek parçalarını buradan inceleyebilir, anında teklif isteyebilirsiniz.
+              {t("heroDesc")}
             </p>
           </div>
         </div>

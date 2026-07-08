@@ -2,6 +2,7 @@
 
 import React, { useState, useMemo } from 'react';
 import { Link } from "@/i18n/routing";
+import { useTranslations, useLocale } from "next-intl";
 
 type Product = {
   slug: string;
@@ -29,6 +30,8 @@ interface ProductCatalogProps {
 }
 
 export default function ProductCatalog({ initialProducts, brands, solutions }: ProductCatalogProps) {
+  const t = useTranslations("CatalogPage");
+  const locale = useLocale();
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [selectedSolutions, setSelectedSolutions] = useState<string[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
@@ -77,7 +80,7 @@ export default function ProductCatalog({ initialProducts, brands, solutions }: P
           <h3 className="font-bold text-[#1A1E24] mb-4 uppercase tracking-widest text-sm">Ürün Ara</h3>
           <input 
             type="text" 
-            placeholder="Makine modeli veya özelliği..." 
+            placeholder={t("searchPlaceholder")} 
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="w-full bg-[#F8F9FA] border border-neutral-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#C61A1A] focus:border-transparent transition-shadow text-[#1A1E24]"
@@ -147,7 +150,7 @@ export default function ProductCatalog({ initialProducts, brands, solutions }: P
         {filteredProducts.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredProducts.map((prod) => (
-              <Link href={`/urunler/${prod.slug}`} key={prod.slug} className="bg-white rounded-xl border border-neutral-200 overflow-hidden group hover:shadow-xl hover:border-[#C61A1A]/30 transition-all duration-300 flex flex-col relative">
+              <Link href={{ pathname: "/urunler/[slug]", "params": { "slug": prod.slug } }} key={prod.slug} className="bg-white rounded-xl border border-neutral-200 overflow-hidden group hover:shadow-xl hover:border-[#C61A1A]/30 transition-all duration-300 flex flex-col relative">
                 <div className="absolute top-4 left-4 z-10 bg-[#1A1E24] text-white text-[10px] font-black px-3 py-1 uppercase tracking-widest rounded-sm shadow-md">
                   {prod.brand}
                 </div>

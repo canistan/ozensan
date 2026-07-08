@@ -86,7 +86,7 @@ export default async function SolutionDetailPage({ params }: Props) {
           {solutionProducts.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {solutionProducts.map((prod) => (
-                <Link href={`/urunler/${prod.slug}`} key={prod.slug} className="bg-white rounded-xl border border-neutral-200 overflow-hidden group hover:shadow-xl hover:border-[#C61A1A]/30 transition-all duration-300 flex flex-col relative">
+                <Link href={{ pathname: "/urunler/[slug]", "params": { "slug": prod.slug } }} key={prod.slug} className="bg-white rounded-xl border border-neutral-200 overflow-hidden group hover:shadow-xl hover:border-[#C61A1A]/30 transition-all duration-300 flex flex-col relative">
                   {/* Brand Badge */}
                   <div className="absolute top-4 left-4 z-10 bg-[#1A1E24] text-white text-[10px] font-black px-3 py-1 uppercase tracking-widest rounded-sm shadow-md">
                     {prod.brand}

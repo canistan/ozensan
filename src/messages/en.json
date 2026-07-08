@@ -1,20 +1,125 @@
 {
   "Navigation": {
-    "home": "Home",
     "solutions": "Solutions & Applications",
+    "asphalt": "Asphalt & Concrete Cutting",
+    "road": "Road Construction Equipment",
+    "drilling": "Drilling & Coring Systems",
+    "gas": "Industrial Gas Control",
     "brands": "Our Brands",
     "corporate": "Corporate",
+    "management": "Our Management",
+    "about": "About Us",
     "contact": "Contact",
-    "getQuote": "Get a Quote"
+    "getQuote": "Get a Quote",
+    "allBrands": "ALL BRANDS"
   },
   "Footer": {
+    "desc": "With over half a century of experience, we provide the assurance of the world's most powerful brands in your heavy industry and infrastructure projects.",
+    "newsletter": "Newsletter Subscription",
+    "emailPlaceholder": "Your email address",
+    "quickLinks": "Quick Links",
+    "allProducts": "All Our Products",
+    "agencies": "Our Agencies",
+    "afterSales": "After-Sales Services",
+    "contactUs": "Contact Us",
     "corporate": "Corporate",
     "about": "About Us",
     "visionMission": "Vision & Mission",
+    "faq": "Frequently Asked Questions",
     "career": "Careers",
+    "legal": "Legal",
+    "kvkk": "KVKK Clarification Text",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie Policy",
+    "terms": "Terms of Use",
+    "cookieSettings": "Manage Cookie Preferences",
+    "allRights": "All rights reserved.",
+    "emailError": "Please enter a valid email address.",
+    "subSuccess": "Successfully subscribed to the newsletter!",
+    "subError": "An error occurred."
+  },
+  "HomePage": {
+    "Hero": {
+      "badge": "AUTHORIZED TURKEY DISTRIBUTOR",
+      "title1": "The Power of Global Giants,",
+      "title2": "In Turkey's Infrastructure.",
+      "desc": "As the official distributor of Cedima, DUSS, Ticab, Victor, and GCE brands, we provide uninterrupted engineering and spare part solutions for your heavy industry, road construction, and professional drilling processes.",
+      "btnProducts": "Explore Our Products",
+      "btnQuote": "Get a Quote"
+    },
+    "Brands": {
+      "title": "Global Giants We Represent"
+    },
+    "Featured": {
+      "badge": "PREMIUM SELECTION",
+      "title": "Featured Products",
+      "viewAll": "View All Products",
+      "inspect": "View Details"
+    },
+    "Pillars": {
+      "badge": "Operational Excellence",
+      "title": "Zero Compromise<br/>in Engineering.",
+      "p1_title": "Authorized Service Network",
+      "p1_desc": "With our certified technicians reaching every point in Turkey, we provide 24/7 original spare parts and maintenance guarantee for your machines.",
+      "p2_title": "Maximum Workplace Safety",
+      "p2_desc": "All the global brands we represent meet European engineering standards that guarantee operator safety even in the heaviest industrial conditions.",
+      "p3_title": "Uninterrupted Logistics",
+      "p3_desc": "Thanks to our extensive stock network, we minimize potential downtime on-site and deliver consumables to your site as quickly as possible.",
+      "p4_title": "Global Brand Assurance",
+      "p4_desc": "We bring the production power and innovation capability of the brands we represent to your projects in Turkey with original warranty standards."
+    },
+    "Map": {
+      "badge": "International Trade Network",
+      "title": "Engineering Without Borders",
+      "desc": "With our Turkey-based logistics network, we export industrial machinery and spare parts to a wide geography, primarily Poland, Ukraine, Iraq, Libya, Syria, Afghanistan, and Egypt."
+    }
+  },
+  "Product": {
     "allProducts": "All Products",
-    "contact": "Contact Us",
-    "rights": "All rights reserved.",
-    "address": "Perpa Trade Center A Block Floor:11 No:1584\nSisli / Istanbul"
+    "brandEngineering": "Engineering",
+    "techSpecs": "Technical Specifications",
+    "features": "Key Features",
+    "compatible": "Compatible Equipment",
+    "requestQuote": "Request Quote for this Product",
+    "viewBrand": "All {brand} Products",
+    "productsFound": "Total {count} products found"
+  },
+  "Catalog": {
+    "search": "Search products...",
+    "allBrands": "All Brands",
+    "allSolutions": "All Solutions"
+  },
+  "CatalogPage": {
+    "heroTitle1": "Comprehensive",
+    "heroTitle2": "Product Catalog",
+    "heroDesc": "You can examine all the machinery and spare parts of the global brands we represent, suitable for your project needs, and request a quote instantly.",
+    "search": "SEARCH PRODUCTS",
+    "searchPlaceholder": "Machine model or feature...",
+    "brands": "BRANDS",
+    "solutions": "SOLUTIONS",
+    "productsListed": "{count} products listed"
+  },
+  "ContactPage": {
+    "title1": "Contact",
+    "title2": "Us",
+    "desc": "Contact our expert team for your projects, technical support requests, or business partnerships.",
+    "info": "Contact Information",
+    "hq": "Headquarters",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Working Hours",
+    "weekdays": "Mon - Fri:",
+    "weekends": "Sat - Sun:",
+    "closed": "Closed",
+    "sendMessage": "Send a Message"
+  },
+  "QuotePage": {
+    "title1": "Get a",
+    "title2": "Quote",
+    "title3": "Now",
+    "desc": "Send us the products or solutions you need, and our sales team will get back to you with custom pricing and detailed information as soon as possible.",
+    "formTitle": "Quote Request Form",
+    "formDesc": "Please fill out the fields below completely to submit your request.",
+    "loading": "Loading..."
   }
 }

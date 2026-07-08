@@ -7,7 +7,12 @@ export const metadata: Metadata = {
   description: 'Özensan Sanayi Makine ve Malzemeleri A.Ş. ile iletişime geçin.',
 };
 
-export default function ContactPage() {
+import { getTranslations } from "next-intl/server";
+
+export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
+  const t = await getTranslations({locale, namespace: "ContactPage"});
   return (
     <div className="bg-[#F8F9FA] min-h-screen">
       
@@ -16,10 +21,10 @@ export default function ContactPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-black tracking-tighter mb-4">
-              Bize <span className="text-[#C61A1A]">Ulaşın</span>
+              {t("title1")} <span className="text-[#C61A1A]">{t("title2")}</span>
             </h1>
             <p className="text-[#8A95A5] text-lg font-medium">
-              Projeleriniz, teknik destek talepleriniz veya iş ortaklığı için uzman ekibimizle iletişime geçin.
+              {t("desc")}
             </p>
           </div>
         </div>
@@ -46,7 +51,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="relative z-10">
-                  <h3 className="text-2xl font-bold mb-8">İletişim Bilgileri</h3>
+                  <h3 className="text-2xl font-bold mb-8">{t("info")}</h3>
                   <div className="space-y-8">
                     
                     <div className="flex items-start group">
@@ -57,7 +62,7 @@ export default function ContactPage() {
                         </svg>
                       </div>
                       <div className="ml-5">
-                        <h4 className="text-sm font-bold text-[#8A95A5] uppercase tracking-wider mb-1">Merkez Ofis</h4>
+                        <h4 className="text-sm font-bold text-[#8A95A5] uppercase tracking-wider mb-1">{t("hq")}</h4>
                         <p className="text-lg font-medium leading-relaxed">
                           Arap Cami, Bereketzade Medresesi Sk.<br />
                           No:12/A, 34421 Karaköy<br />
@@ -73,7 +78,7 @@ export default function ContactPage() {
                         </svg>
                       </div>
                       <div className="ml-5">
-                        <h4 className="text-sm font-bold text-[#8A95A5] uppercase tracking-wider mb-1">Telefon</h4>
+                        <h4 className="text-sm font-bold text-[#8A95A5] uppercase tracking-wider mb-1">{t("phone")}</h4>
                         <p className="text-lg font-medium">+90 212 244 13 50</p>
                       </div>
                     </div>
@@ -85,7 +90,7 @@ export default function ContactPage() {
                         </svg>
                       </div>
                       <div className="ml-5">
-                        <h4 className="text-sm font-bold text-[#8A95A5] uppercase tracking-wider mb-1">E-Posta</h4>
+                        <h4 className="text-sm font-bold text-[#8A95A5] uppercase tracking-wider mb-1">{t("email")}</h4>
                         <p className="text-lg font-medium">info@ozensanas.com</p>
                       </div>
                     </div>
@@ -94,21 +99,21 @@ export default function ContactPage() {
                 </div>
                 
                 <div className="relative z-10 mt-16 pt-8 border-t border-[#8A95A5]/20">
-                  <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-4">Çalışma Saatleri</h4>
+                  <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-4">{t("hours")}</h4>
                   <div className="flex justify-between text-[#8A95A5] text-sm">
-                    <span>Pzt - Cum:</span>
+                    <span>{t("weekdays")}</span>
                     <span className="font-medium text-white">08:30 - 18:00</span>
                   </div>
                   <div className="flex justify-between text-[#8A95A5] text-sm mt-2">
-                    <span>Cmt - Paz:</span>
-                    <span className="font-medium text-white">Kapalı</span>
+                    <span>{t("weekends")}</span>
+                    <span className="font-medium text-white">{t("closed")}</span>
                   </div>
                 </div>
               </div>
 
               {/* Contact Form (Right Side) */}
               <div className="lg:col-span-3 p-10 md:p-14 bg-white">
-                <h3 className="text-2xl font-bold text-[#1A1E24] mb-8">Mesaj Gönderin</h3>
+                <h3 className="text-2xl font-bold text-[#1A1E24] mb-8">{t("sendMessage")}</h3>
                 <ContactForm />
               </div>
 

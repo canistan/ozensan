@@ -7,7 +7,7 @@ import Footer from "@/components/global/Footer";
 import CookieConsent from "@/components/global/CookieConsent";
 import { ToastProvider } from "@/components/ui/ToastContext";
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import LanguageSwitcher from "@/components/global/LanguageSwitcher";
@@ -44,6 +44,7 @@ export default async function RootLayout({
   }
 
   const messages = await getMessages();
+  const t = await getTranslations({locale, namespace: "Navigation"});
 
   return (
     <html lang={locale} className={`${inter.className} h-full antialiased scroll-smooth`}>
@@ -64,10 +65,6 @@ export default async function RootLayout({
               </span>
             </div>
             <div className="flex gap-8 items-center">
-              <Link href="/yedek-parca" className="hover:text-[#C61A1A] transition-colors flex items-center gap-1.5">
-                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                Yedek Parça
-              </Link>
               <LanguageSwitcher />
             </div>
           </div>
@@ -95,56 +92,70 @@ export default async function RootLayout({
               {/* Path A: Uygulama Alanları */}
               <div className="group relative py-9 cursor-pointer">
                 <span className="flex items-center gap-1.5 hover:text-[#C61A1A] transition-colors">
-                  Çözümler & Uygulamalar
+                  {t("solutions")}
                   <svg className="w-4 h-4 text-[#8A95A5] group-hover:text-[#C61A1A] transition-colors group-hover:rotate-180 duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 9l-7 7-7-7"></path></svg>
                 </span>
                 <div className="absolute top-full left-1/2 -translate-x-1/2 w-80 bg-white border border-[#8A95A5]/20 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 translate-y-2 group-hover:translate-y-0 rounded-b-xl overflow-hidden">
                   <div className="p-3 flex flex-col gap-1">
-                    <Link href="/cozumler/asfalt-beton" className="px-5 py-3.5 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-semibold flex items-center justify-between group/link">
-                      Asfalt & Beton Kesme
+                    <Link href={{ pathname: '/cozumler/[slug]', params: { slug: 'asfalt-beton' } }} className="px-5 py-3.5 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-semibold flex items-center justify-between group/link">
+                      {t("asphalt")}
                       <svg className="w-4 h-4 opacity-0 -translate-x-2 group-hover/link:opacity-100 group-hover/link:translate-x-0 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
                     </Link>
-                    <Link href="/cozumler/yol-yapim" className="px-5 py-3.5 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-semibold flex items-center justify-between group/link">
-                      Yol Yapım Ekipmanları
+                    <Link href={{ pathname: '/cozumler/[slug]', params: { slug: 'yol-yapim' } }} className="px-5 py-3.5 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-semibold flex items-center justify-between group/link">
+                      {t("road")}
                       <svg className="w-4 h-4 opacity-0 -translate-x-2 group-hover/link:opacity-100 group-hover/link:translate-x-0 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
                     </Link>
-                    <Link href="/cozumler/delme-karot" className="px-5 py-3.5 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-semibold flex items-center justify-between group/link">
-                      Delme & Karot Sistemleri
+                    <Link href={{ pathname: '/cozumler/[slug]', params: { slug: 'delme-karot' } }} className="px-5 py-3.5 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-semibold flex items-center justify-between group/link">
+                      {t("drilling")}
                       <svg className="w-4 h-4 opacity-0 -translate-x-2 group-hover/link:opacity-100 group-hover/link:translate-x-0 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
                     </Link>
-                    <Link href="/cozumler/gaz-kontrol" className="px-5 py-3.5 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-semibold flex items-center justify-between group/link">
-                      Endüstriyel Gaz Kontrol
+                    <Link href={{ pathname: '/cozumler/[slug]', params: { slug: 'gaz-kontrol' } }} className="px-5 py-3.5 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-semibold flex items-center justify-between group/link">
+                      {t("gas")}
                       <svg className="w-4 h-4 opacity-0 -translate-x-2 group-hover/link:opacity-100 group-hover/link:translate-x-0 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
                     </Link>
                   </div>
                 </div>
               </div>
 
-              {/* Path B: Markalarımız */}
+              {/* Path B: {t("brands")} */}
               <div className="group relative py-9 cursor-pointer">
                 <span className="flex items-center gap-1.5 hover:text-[#C61A1A] transition-colors">
-                  Markalarımız
+                  {t("brands")}
                   <svg className="w-4 h-4 text-[#8A95A5] group-hover:text-[#C61A1A] transition-colors group-hover:rotate-180 duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 9l-7 7-7-7"></path></svg>
                 </span>
                 <div className="absolute top-full left-1/2 -translate-x-1/2 w-56 bg-white border border-[#8A95A5]/20 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 translate-y-2 group-hover:translate-y-0 rounded-b-xl overflow-hidden">
                   <div className="p-3 flex flex-col gap-1">
-                    <Link href="/markalar/cedima" className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">CEDIMA</Link>
-                    <Link href="/markalar/duss" className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">DUSS</Link>
-                    <Link href="/markalar/ticab" className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">TICAB</Link>
-                    <Link href="/markalar/victor" className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">VICTOR</Link>
-                    <Link href="/markalar/gce" className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">GCE</Link>
+                    <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'cedima' } }} className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">CEDIMA</Link>
+                    <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'duss' } }} className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">DUSS</Link>
+                    <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'ticab' } }} className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">TICAB</Link>
+                    <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'victor' } }} className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">VICTOR</Link>
+                    <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'gce' } }} className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">GCE</Link>
                   </div>
                 </div>
               </div>
 
-              <Link href="/kurumsal" className="hover:text-[#C61A1A] transition-colors">Kurumsal</Link>
-              <Link href="/iletisim" className="hover:text-[#C61A1A] transition-colors">İletişim</Link>
+              
+              {/* Path C: Kurumsal */}
+              <div className="group relative py-9 cursor-pointer">
+                <span className="flex items-center gap-1.5 hover:text-[#C61A1A] transition-colors">
+                  {t("corporate")}
+                  <svg className="w-4 h-4 text-[#8A95A5] group-hover:text-[#C61A1A] transition-colors group-hover:rotate-180 duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 9l-7 7-7-7"></path></svg>
+                </span>
+                <div className="absolute top-full left-1/2 -translate-x-1/2 w-56 bg-white border border-[#8A95A5]/20 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 translate-y-2 group-hover:translate-y-0 rounded-b-xl overflow-hidden">
+                  <div className="p-3 flex flex-col gap-1">
+                    <Link href="/kurumsal/yonetim" className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">{t("management")}</Link>
+                    <Link href="/hakkimizda" className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">{t("about")}</Link>
+                  </div>
+                </div>
+              </div>
+
+              <Link href="/iletisim" className="hover:text-[#C61A1A] transition-colors">{t("contact")}</Link>
             </nav>
 
             {/* CTAs */}
             <div className="hidden lg:flex items-center gap-5">
               <Link href="/teklif-al" className="bg-[#C61A1A] hover:bg-[#a51515] text-white px-8 py-3.5 rounded text-sm font-bold transition-all shadow-[0_8px_20px_rgba(198,26,26,0.25)] hover:shadow-[0_8px_25px_rgba(198,26,26,0.4)] hover:-translate-y-0.5 flex items-center gap-2">
-                Fiyat Teklifi Al
+                {t("getQuote")}
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
               </Link>
             </div>
