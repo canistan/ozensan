@@ -74,7 +74,7 @@ export default async function BrandsPage({ params }: { params: Promise<{ locale:
                 <div className="p-8 flex flex-col flex-grow">
                   <h2 className="text-2xl font-black text-[#1A1E24] mb-4 group-hover:text-[#C61A1A] transition-colors">{brand.name}</h2>
                   <p className="text-[#8A95A5] text-sm leading-relaxed mb-8 flex-grow">
-                    {brand.description}
+                    {locale === 'en' && brand.descriptionEn ? brand.descriptionEn : brand.description}
                   </p>
                   
                   <div className="flex items-center text-[#C61A1A] font-bold text-sm tracking-widest uppercase mt-auto">

@@ -108,7 +108,7 @@ export default function QuoteForm() {
           />
         </div>
         <div>
-          <label htmlFor="company" className="block text-sm font-bold text-[#1A1E24] mb-2">Firma Adı (Opsiyonel)</label>
+          <label htmlFor="company" className="block text-sm font-bold text-[#1A1E24] mb-2">{t("company")}</label>
           <input 
             type="text" 
             id="company" 
@@ -149,7 +149,7 @@ export default function QuoteForm() {
       </div>
 
       <div>
-        <label htmlFor="productOfInterest" className="block text-sm font-bold text-[#1A1E24] mb-2">İlgilendiğiniz Marka / Ürün / Çözüm *</label>
+        <label htmlFor="productOfInterest" className="block text-sm font-bold text-[#1A1E24] mb-2">{t("productOfInterest")} *</label>
         <input 
           type="text" 
           id="productOfInterest" 
@@ -157,12 +157,12 @@ export default function QuoteForm() {
           value={formData.productOfInterest}
           onChange={handleChange}
           className="w-full bg-[#F8F9FA] border border-neutral-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#C61A1A] focus:border-transparent transition-shadow text-[#1A1E24]"
-          placeholder="Örn: Cedima Karot Makineleri, Husqvarna Kesiciler..."
+          placeholder={t("productPlaceholder")}
         />
       </div>
 
       <div>
-        <label htmlFor="message" className="block text-sm font-bold text-[#1A1E24] mb-2">Talebinizin Detayları *</label>
+        <label htmlFor="message" className="block text-sm font-bold text-[#1A1E24] mb-2">{t("messageLabel")} *</label>
         <textarea 
           id="message"
           name="message"

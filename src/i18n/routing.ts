@@ -76,7 +76,7 @@ export const routing = defineRouting({
     },
     '/kvkk': {
       tr: '/kvkk',
-      en: '/kvkk'
+      en: '/clarification-text'
     },
     '/kullanim-sartlari': {
       tr: '/kullanim-sartlari',

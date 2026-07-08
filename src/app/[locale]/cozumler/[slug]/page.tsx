@@ -94,11 +94,11 @@ export default async function SolutionDetailPage({ params }: Props) {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6 border-b border-neutral-200 pb-6">
             <div>
-              <span className="text-[#C61A1A] font-bold tracking-widest uppercase text-sm block mb-2">{solution.name}</span>
-              <h2 className="text-3xl font-black text-[#1A1E24] tracking-tight">Önerilen Ürünler</h2>
+              <span className="text-[#C61A1A] font-bold tracking-widest uppercase text-sm block mb-2">{isEn ? solution.nameEn : solution.name}</span>
+              <h2 className="text-3xl font-black text-[#1A1E24] tracking-tight">{isEn ? 'Recommended Products' : 'Önerilen Ürünler'}</h2>
             </div>
             <div className="text-[#8A95A5] font-medium">
-              Toplam {solutionProducts.length} ekipman bulundu
+              {isEn ? `Total ${solutionProducts.length} equipment found` : `Toplam ${solutionProducts.length} ekipman bulundu`}
             </div>
           </div>
 
@@ -112,14 +112,14 @@ export default async function SolutionDetailPage({ params }: Props) {
                   </div>
                   
                   <div className="aspect-[4/3] w-full relative overflow-hidden bg-white p-8">
-                    <img src={prod.image} alt={prod.name} className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700" />
+                    <img src={prod.image} alt={isEn && (prod as any).nameEn ? (prod as any).nameEn : prod.name} className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700" />
                   </div>
                   <div className="p-8 flex flex-col flex-grow bg-[#F8F9FA] border-t border-neutral-100 group-hover:bg-white transition-colors">
-                    <h3 className="text-xl font-black text-[#1A1E24] group-hover:text-[#C61A1A] transition-colors mb-3 line-clamp-2">{prod.name}</h3>
-                    <p className="text-sm text-[#8A95A5] line-clamp-2 mb-6">{prod.description}</p>
+                    <h3 className="text-xl font-black text-[#1A1E24] group-hover:text-[#C61A1A] transition-colors mb-3 line-clamp-2">{isEn && (prod as any).nameEn ? (prod as any).nameEn : prod.name}</h3>
+                    <p className="text-sm text-[#8A95A5] line-clamp-2 mb-6">{isEn && (prod as any).descriptionEn ? (prod as any).descriptionEn : prod.description}</p>
                     
                     <div className="mt-auto flex items-center gap-2 text-[#1A1E24] font-bold uppercase tracking-widest text-xs group-hover:text-[#C61A1A] transition-colors">
-                      Ürünü İncele
+                      {isEn ? 'View Product' : 'Ürünü İncele'}
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                     </div>
                   </div>
@@ -129,8 +129,8 @@ export default async function SolutionDetailPage({ params }: Props) {
           ) : (
             <div className="text-center py-20 bg-white rounded-xl border border-neutral-200">
               <svg className="w-16 h-16 text-neutral-300 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" /></svg>
-              <h3 className="text-xl font-bold text-[#1A1E24] mb-2">Ekipman Bulunamadı</h3>
-              <p className="text-[#8A95A5]">Bu çözüm alanına ait ürün kayıtları güncellenmektedir.</p>
+              <h3 className="text-xl font-bold text-[#1A1E24] mb-2">{isEn ? 'No Equipment Found' : 'Ekipman Bulunamadı'}</h3>
+              <p className="text-[#8A95A5]">{isEn ? 'Product records for this solution area are being updated.' : 'Bu çözüm alanına ait ürün kayıtları güncellenmektedir.'}</p>
             </div>
           )}
         </div>

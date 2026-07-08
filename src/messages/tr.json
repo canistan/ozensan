@@ -218,7 +218,7 @@
     "technical": "Teknik Destek",
     "sales": "Satış/Teklif",
     "other": "Diğer",
-    "company": "Firma Adı",
+    "company": "Firma Adı (Opsiyonel)",
     "machine": "Makine/Ürün",
     "select_machine": "Makine/Ürün Seçiniz",
     "project_details": "Proje Detayları ve Talep",
@@ -240,7 +240,10 @@
     },
     "kvkk_prefix": "",
     "email_placeholder": "ornek@firma.com",
-    "phone_placeholder": "0555 555 55 55"
+    "phone_placeholder": "0555 555 55 55",
+    "productOfInterest": "İlgilendiğiniz Marka / Ürün / Çözüm",
+    "productPlaceholder": "Örn: Cedima Karot Makineleri, Husqvarna Kesiciler...",
+    "messageLabel": "Talebinizin Detayları"
   },
   "CTA": {
     "title": "Projeniz İçin En İdeal Çözümü Birlikte Bulalım",
