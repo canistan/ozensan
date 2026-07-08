@@ -71,7 +71,7 @@ export default function QuoteForm() {
       });
 
       if (result.success) {
-        addToast("Teklif talebiniz başarıyla alındı. İlgili ekibimiz en kısa sürede size dönüş yapacaktır.", "success");
+        addToast(t("success.quote"), "success");
         setFormData({
           name: '',
           company: '',
@@ -82,7 +82,7 @@ export default function QuoteForm() {
           kvkk: false
         });
       } else {
-        addToast(result.error || t("errors.general_error"), "error");
+        addToast(result.errorKey ? t(`errors.${result.errorKey}`) : t("errors.general_error"), "error");
       }
     } catch (error) {
       console.error("Form submit error:", error);

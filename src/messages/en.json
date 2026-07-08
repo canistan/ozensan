@@ -82,7 +82,12 @@
     "viewAndQuote": "View Details & Get Quote",
     "features": "Key Features",
     "techSpecs": "Technical Specifications",
-    "videos": "Product Videos"
+    "videos": "Product Videos",
+    "getQuote": "Get a Quote",
+    "viewBrand": "View Brand",
+    "parameter": "Parameter",
+    "value": "Value",
+    "accessory": "Recommended Accessory"
   },
   "Catalog": {
     "search": "Search products...",
@@ -231,12 +236,13 @@
       "required": "Please fill in all required fields.",
       "email": "Please enter a valid email address.",
       "kvkk": "You must accept the KVKK Clarification Text to continue.",
-      "general_error": "An error occurred, please try again later."
+      "general_error": "An error occurred, please try again later.",
+      "contactError": "An error occurred while sending the message."
     },
     "success": {
       "contact": "Your message has been sent successfully. We will get back to you shortly.",
-      "quote": "Your quote request has been received successfully. Our sales engineers will contact you.",
-      "career": "Your application has been received successfully. We will contact you after the evaluation process."
+      "quote": "Your quote request has been received successfully. Our relevant team will get back to you as soon as possible.",
+      "career": "Your application has been received successfully. Our Human Resources department will get back to you as soon as possible."
     },
     "kvkk_prefix": "I have read and accept the ",
     "email_placeholder": "example@company.com",
@@ -307,5 +313,11 @@
   },
   "Global": {
     "home": "Home"
+  },
+  "CookieConsent": {
+    "title": "Privacy Preferences",
+    "text": "We use cookies to offer you a better industrial experience and to optimize our site. For more details, you can read our <link>Cookie Policy</link>.",
+    "decline": "Strictly Necessary",
+    "accept": "Accept All"
   }
 }

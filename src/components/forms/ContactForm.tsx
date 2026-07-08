@@ -66,7 +66,7 @@ export default function ContactForm() {
           kvkk: false
         });
       } else {
-        addToast(result.error || t("errors.general_error"), "error");
+        addToast(result.errorKey ? t(`errors.${result.errorKey}`) : t("errors.general_error"), "error");
       }
     } catch (error) {
       console.error("Contact form error:", error);

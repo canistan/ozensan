@@ -66,7 +66,7 @@ ${formData.coverLetter}
       });
 
       if (result.success) {
-        addToast("Başvurunuz başarıyla alındı. İnsan Kaynakları departmanımız en kısa sürede size dönüş yapacaktır.", "success");
+        addToast(t("success.career"), "success");
         setFormData({
           name: '',
           linkedinUrl: '',
@@ -77,7 +77,7 @@ ${formData.coverLetter}
           kvkk: false
         });
       } else {
-        addToast(result.error || t("errors.general_error"), "error");
+        addToast(result.errorKey ? t(`errors.${result.errorKey}`) : t("errors.general_error"), "error");
       }
     } catch (error) {
       console.error("Form submit error:", error);

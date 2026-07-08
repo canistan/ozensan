@@ -19,7 +19,7 @@ export async function submitContactMessage(data: { name: string; email: string; 
     return { success: true };
   } catch (error: any) {
     console.error("Error submitting contact message:", error);
-    return { success: false, error: error.message || 'Mesaj gönderilirken bir hata oluştu.' };
+    return { success: false, errorKey: 'contactError' };
   }
 }
 
@@ -50,6 +50,6 @@ export async function subscribeNewsletter(email: string) {
     return { success: true };
   } catch (error) {
     console.error("Error subscribing to newsletter:", error);
-    return { success: false, error: 'Abone olunurken bir hata oluştu.' };
+    return { success: false, errorKey: 'subError' };
   }
 }

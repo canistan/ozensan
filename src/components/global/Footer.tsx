@@ -31,10 +31,10 @@ export default function Footer() {
     setLoading(false);
 
     if (result.success) {
-      addToast(t("newsletterSuccess"), "success");
+      addToast(t("subSuccess"), "success");
       setEmail("");
     } else {
-      addToast(result.error || t("generalError"), "error");
+      addToast(result.errorKey ? t(result.errorKey) : t("subError"), "error");
     }
   };
 

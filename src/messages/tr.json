@@ -82,7 +82,12 @@
     "viewAndQuote": "İncele ve Teklif Al",
     "features": "Öne Çıkan Özellikler",
     "techSpecs": "Teknik Spesifikasyonlar",
-    "videos": "Ürün Videoları"
+    "videos": "Ürün Videoları",
+    "getQuote": "Hemen Teklif İste",
+    "viewBrand": "Markaya Git",
+    "parameter": "Parametre",
+    "value": "Değer",
+    "accessory": "Önerilen Aksesuar"
   },
   "Catalog": {
     "search": "Ürün ara...",
@@ -231,12 +236,13 @@
       "required": "Lütfen tüm zorunlu alanları doldurunuz.",
       "email": "Lütfen geçerli bir e-posta adresi giriniz.",
       "kvkk": "Devam etmek için KVKK Aydınlatma Metni'ni onaylamalısınız.",
-      "general_error": "Bir hata oluştu, lütfen daha sonra tekrar deneyin."
+      "general_error": "Bir hata oluştu, lütfen daha sonra tekrar deneyin.",
+      "contactError": "Mesaj gönderilirken bir hata oluştu."
     },
     "success": {
       "contact": "Mesajınız başarıyla iletildi. En kısa sürede dönüş yapacağız.",
-      "quote": "Teklif talebiniz başarıyla alındı. Satış mühendislerimiz sizinle iletişime geçecektir.",
-      "career": "Başvurunuz başarıyla alınmıştır. Değerlendirme süreci sonrasında sizinle iletişime geçilecektir."
+      "quote": "Teklif talebiniz başarıyla alındı. İlgili ekibimiz en kısa sürede size dönüş yapacaktır.",
+      "career": "Başvurunuz başarıyla alındı. İnsan Kaynakları departmanımız en kısa sürede size dönüş yapacaktır."
     },
     "kvkk_prefix": "",
     "email_placeholder": "ornek@firma.com",
@@ -307,5 +313,11 @@
   },
   "Global": {
     "home": "Anasayfa"
+  },
+  "CookieConsent": {
+    "title": "Gizlilik Tercihleri",
+    "text": "Size daha iyi bir endüstriyel deneyim sunabilmek ve sitemizi optimize etmek için çerezleri kullanıyoruz. Daha fazla detay için <link>Çerez Politikamızı</link> okuyabilirsiniz.",
+    "decline": "Yalnızca Zorunlu",
+    "accept": "Tümünü Kabul Et"
   }
 }

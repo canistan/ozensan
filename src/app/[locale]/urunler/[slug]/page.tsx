@@ -90,19 +90,19 @@ export default async function ProductDetailPage({ params }: Props) {
                 {product.brand}
               </span>
               <h1 className="text-3xl lg:text-4xl font-black text-[#1A1E24] tracking-tight leading-tight mb-6">
-                {product.name}
+                {locale === "en" && (product as any).nameEn ? (product as any).nameEn : product.name}
               </h1>
               <p className="text-[#8A95A5] text-lg leading-relaxed">
-                {product.description}
+                {locale === "en" && (product as any).descriptionEn ? (product as any).descriptionEn : product.description}
               </p>
             </div>
 
             {/* Key Features */}
-            {product.features && product.features.length > 0 && (
+            {((locale === "en" ? (product as any).featuresEn : product.features) || product.features) && ((locale === "en" ? (product as any).featuresEn : product.features) || product.features).length > 0 && (
               <div className="mt-8 mb-8">
                 <h3 className="text-sm font-bold text-[#1A1E24] uppercase tracking-widest mb-4">{t("features")}</h3>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                  {product.features.map((feature, idx) => (
+                  {((locale === "en" ? (product as any).featuresEn : product.features) || product.features).map((feature: string, idx: number) => (
                     <li key={idx} className="flex items-start text-[#8A95A5] text-sm">
                       <svg className="w-5 h-5 text-[#C61A1A] mr-2 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
                       {feature}
@@ -118,13 +118,13 @@ export default async function ProductDetailPage({ params }: Props) {
                 href={`/teklif-al?product=${product.name}` as any} 
                 className="bg-[#C61A1A] hover:bg-[#9D1414] text-white text-sm font-black px-8 py-4 uppercase tracking-widest rounded-sm transition-all shadow-[0_10px_30px_rgba(198,26,26,0.2)] hover:-translate-y-1 flex items-center justify-center flex-1 text-center"
               >
-                Hemen Teklif İste
+                {t("getQuote")}
               </Link>
               <Link 
                 href={{ pathname: "/markalar/[slug]", "params": { "slug": product.brand } }} 
                 className="bg-[#F8F9FA] hover:bg-[#E9ECEF] border border-neutral-200 text-[#1A1E24] text-sm font-black px-8 py-4 uppercase tracking-widest rounded-sm transition-all flex items-center justify-center"
               >
-                Markaya Git
+                {t("viewBrand")}
               </Link>
             </div>
           </div>
@@ -135,20 +135,20 @@ export default async function ProductDetailPage({ params }: Props) {
           <div className="mt-16 grid grid-cols-1 lg:grid-cols-3 gap-12">
             
             {/* Technical Data Table */}
-            {product.technicalData && product.technicalData.length > 0 && (
+            {((locale === "en" ? (product as any).technicalDataEn : product.technicalData) || product.technicalData) && ((locale === "en" ? (product as any).technicalDataEn : product.technicalData) || product.technicalData).length > 0 && (
               <div className={`lg:col-span-${product.videos && product.videos.length > 0 ? '2' : '3'}`}>
                 <h2 className="text-2xl font-black text-[#1A1E24] mb-8">{t("techSpecs")}</h2>
                 <div className="bg-white rounded-xl border border-neutral-200 overflow-hidden">
                   <table className="w-full text-left border-collapse">
                     <thead>
                       <tr className="bg-[#F8F9FA] border-b border-neutral-200">
-                        <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">Parametre</th>
-                        <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">Değer</th>
-                        <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">Önerilen Aksesuar</th>
+                        <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">{t("parameter") || 'Parametre'}</th>
+                        <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">{t("value") || 'Değer'}</th>
+                        <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">{t("accessory") || 'Önerilen Aksesuar'}</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-neutral-100">
-                      {product.technicalData.map((data: any, idx: number) => (
+                      {((locale === "en" ? (product as any).technicalDataEn : product.technicalData) || product.technicalData).map((data: any, idx: number) => (
                         <tr key={idx} className="hover:bg-[#F8F9FA]/50 transition-colors">
                           <td className="py-4 px-6 text-[#8A95A5] font-medium">{data.param}</td>
                           <td className="py-4 px-6 text-[#1A1E24] font-bold">{data.value}</td>
