@@ -239,7 +239,9 @@
       "quote": "Your quote request has been received successfully. Our sales engineers will contact you.",
       "career": "Your application has been received successfully. We will contact you after the evaluation process."
     },
-    "kvkk_prefix": "I have read and accept the "
+    "kvkk_prefix": "I have read and accept the ",
+    "email_placeholder": "example@company.com",
+    "phone_placeholder": "+1 234 567 8900"
   },
   "CTA": {
     "title": "Let's Find the Ideal Solution for Your Project Together",

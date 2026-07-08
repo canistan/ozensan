@@ -58,7 +58,7 @@ export default function OrganizationSchema() {
         "Thursday",
         "Friday"
       ],
-      "opens": "08:30",
+      "opens": "09:00",
       "closes": "18:00"
     }
   };

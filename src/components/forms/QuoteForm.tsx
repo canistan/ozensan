@@ -130,7 +130,7 @@ export default function QuoteForm() {
             value={formData.email}
             onChange={handleChange}
             className="w-full bg-[#F8F9FA] border border-neutral-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#C61A1A] focus:border-transparent transition-shadow text-[#1A1E24]"
-            placeholder="ornek@firma.com"
+            placeholder={t("email_placeholder")}
           />
         </div>
         <div>
@@ -142,7 +142,7 @@ export default function QuoteForm() {
             value={formData.phone}
             onChange={handleChange}
             className="w-full bg-[#F8F9FA] border border-neutral-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#C61A1A] focus:border-transparent transition-shadow text-[#1A1E24]"
-            placeholder="0555 555 55 55"
+            placeholder={t("phone_placeholder")}
           />
         </div>
       </div>

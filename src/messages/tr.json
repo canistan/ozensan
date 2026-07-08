@@ -239,7 +239,9 @@
       "quote": "Teklif talebiniz başarıyla alındı. Satış mühendislerimiz sizinle iletişime geçecektir.",
       "career": "Başvurunuz başarıyla alınmıştır. Değerlendirme süreci sonrasında sizinle iletişime geçilecektir."
     },
-    "kvkk_prefix": ""
+    "kvkk_prefix": "",
+    "email_placeholder": "ornek@firma.com",
+    "phone_placeholder": "0555 555 55 55"
   },
   "CTA": {
     "title": "Projeniz İçin En İdeal Çözümü Birlikte Bulalım",

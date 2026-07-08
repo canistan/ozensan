@@ -113,8 +113,8 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                 
                 <div className="relative z-10 mt-16 pt-8 border-t border-[#8A95A5]/20">
                   <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-4">{t("hours")}</h4>
-                  <div className="flex justify-between items-center pb-3 border-b border-white/10">
-                    <span className="text-neutral-400">Mon - Fri:</span>
+                  <div className="flex justify-between text-[#8A95A5] text-sm">
+                    <span>{t("weekdays")}</span>
                     <span className="font-medium text-white">09:00 - 18:00</span>
                   </div>
                   <div className="flex justify-between text-[#8A95A5] text-sm mt-2">
