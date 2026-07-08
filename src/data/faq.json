@@ -1,22 +1,32 @@
 [
   {
-    "question": "Özensan hangi markaların resmi distribütörüdür?",
-    "answer": "Özensan; Cedima, DUSS, Ticab, Victor ve GCE gibi alanında dünya lideri endüstriyel markaların Türkiye resmi distribütörüdür."
+    "questionTr": "Özensan hangi markaların resmi distribütörüdür?",
+    "answerTr": "Özensan; Cedima, DUSS, Ticab, Victor ve GCE gibi alanında dünya lideri endüstriyel markaların Türkiye resmi distribütörüdür.",
+    "questionEn": "Which brands does Özensan officially distribute?",
+    "answerEn": "Özensan is the official distributor in Turkey for world-leading industrial brands such as Cedima, DUSS, Ticab, Victor, and GCE."
   },
   {
-    "question": "Distribütörü olduğunuz ürünler için garanti süresi nedir?",
-    "answer": "Tüm ürünlerimiz üretici firmanın uluslararası garanti standartlarına (genellikle 1 veya 2 yıl) tabidir. Ayrıca Özensan güvencesiyle geniş kapsamlı teknik destek sağlanmaktadır."
+    "questionTr": "Distribütörü olduğunuz ürünler için garanti süresi nedir?",
+    "answerTr": "Tüm ürünlerimiz üretici firmanın uluslararası garanti standartlarına (genellikle 1 veya 2 yıl) tabidir. Ayrıca Özensan güvencesiyle geniş kapsamlı teknik destek sağlanmaktadır.",
+    "questionEn": "What is the warranty period for the products you distribute?",
+    "answerEn": "All our products are subject to the manufacturer's international warranty standards (usually 1 or 2 years). Additionally, comprehensive technical support is provided with Özensan's assurance."
   },
   {
-    "question": "Yedek parça ve teknik servis hizmetiniz var mı?",
-    "answer": "Evet. Temsilcisi olduğumuz tüm markalar için orijinal yedek parça temini ve Türkiye geneline yayılan sertifikalı yetkili servis ağımız ile 7/24 teknik destek hizmeti sunuyoruz."
+    "questionTr": "Yedek parça ve teknik servis hizmetiniz var mı?",
+    "answerTr": "Evet. Temsilcisi olduğumuz tüm markalar için orijinal yedek parça temini ve Türkiye geneline yayılan sertifikalı yetkili servis ağımız ile 7/24 teknik destek hizmeti sunuyoruz.",
+    "questionEn": "Do you provide spare parts and technical service?",
+    "answerEn": "Yes. We offer original spare parts for all the brands we represent and provide 24/7 technical support through our certified authorized service network spread across Turkey."
   },
   {
-    "question": "Projeye özel toptan alımlarda veya ihalelerde özel fiyatlandırma yapıyor musunuz?",
-    "answer": "Kesinlikle. Büyük ölçekli şantiye, otoyol projeleri ve endüstriyel ihaleler için satış mühendislerimiz projenize özel optimum çözümleri ve fiyat avantajlarını sunmaktadır. Bunun için sitemizdeki 'Teklif Al' formunu doldurabilirsiniz."
+    "questionTr": "Projeye özel toptan alımlarda veya ihalelerde özel fiyatlandırma yapıyor musunuz?",
+    "answerTr": "Kesinlikle. Büyük ölçekli şantiye, otoyol projeleri ve endüstriyel ihaleler için satış mühendislerimiz projenize özel optimum çözümleri ve fiyat avantajlarını sunmaktadır. Bunun için sitemizdeki 'Teklif Al' formunu doldurabilirsiniz.",
+    "questionEn": "Do you offer special pricing for project-specific bulk purchases or tenders?",
+    "answerEn": "Absolutely. For large-scale construction sites, highway projects, and industrial tenders, our sales engineers offer optimum solutions and price advantages tailored to your project. You can fill out the 'Get a Quote' form on our website for this."
   },
   {
-    "question": "Makine kurulumu ve operatör eğitimi sağlıyor musunuz?",
-    "answer": "Evet, özellikle asfalt finişerleri, tam otomatik karot makineleri ve raylı duvar kesme sistemleri gibi kompleks makinelerin teslimatında uzman mühendislerimiz tarafından şantiyenizde uygulamalı operatör eğitimi verilmektedir."
+    "questionTr": "Makine kurulumu ve operatör eğitimi sağlıyor musunuz?",
+    "answerTr": "Evet, özellikle asfalt finişerleri, tam otomatik karot makineleri ve raylı duvar kesme sistemleri gibi kompleks makinelerin teslimatında uzman mühendislerimiz tarafından şantiyenizde uygulamalı operatör eğitimi verilmektedir.",
+    "questionEn": "Do you provide machine installation and operator training?",
+    "answerEn": "Yes, especially during the delivery of complex machines such as asphalt pavers, fully automatic core drilling machines, and rail wall saw systems, our expert engineers provide practical operator training at your construction site."
   }
 ]

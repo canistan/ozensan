@@ -1,14 +1,32 @@
 import React from 'react';
+import { getTranslations } from "next-intl/server";
+import { generateSEOMetadata } from '@/utils/seo';
+
 import { Metadata } from 'next';
 import { Link } from "@/i18n/routing";
 import brandsData from '@/data/brands.json';
 
-export const metadata: Metadata = {
-  title: 'Markalarımız | Özensan',
-  description: 'Özensan\'ın Türkiye tek yetkili distribütörü olduğu, dünyanın önde gelen endüstriyel makine ve ekipman üreticileri.',
-};
 
-export default function BrandsPage() {
+
+
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
+  const t = await getTranslations({locale, namespace: "BrandsSEO"});
+  return generateSEOMetadata({
+    title: t("title"),
+    description: t("description"),
+    locale,
+    pathnameTr: '/markalar',
+    pathnameEn: '/brands',
+  });
+}
+
+export default async function BrandsPage({ params }: { params: Promise<{ locale: string }> }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
+  const t = await getTranslations({locale, namespace: "BrandsPage"});
   return (
     <div className="bg-[#F8F9FA] min-h-screen">
       {/* Hero Section */}
@@ -23,10 +41,10 @@ export default function BrandsPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tight mb-6 leading-tight">
-              Temsil Ettiğimiz <span className="text-[#C61A1A]">Global Devler</span>
+              {t("hero1")} <span className="text-[#C61A1A]">{t("hero2")}</span>
             </h1>
             <p className="text-lg md:text-xl text-[#8A95A5] leading-relaxed max-w-2xl font-light">
-              Endüstri standartlarını belirleyen, teknoloji ve dayanıklılıkta öncü uluslararası markaların Türkiye'deki yetkili mühendislik ve tedarik noktasıyız.
+              {t("heroDesc")}
             </p>
           </div>
         </div>
@@ -60,7 +78,7 @@ export default function BrandsPage() {
                   </p>
                   
                   <div className="flex items-center text-[#C61A1A] font-bold text-sm tracking-widest uppercase mt-auto">
-                    Markayı İncele
+                    {t("viewBrand")}
                     <svg className="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                     </svg>
@@ -76,8 +94,8 @@ export default function BrandsPage() {
       <section className="py-16 md:py-24 bg-white border-t border-neutral-100">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="text-3xl font-black text-[#1A1E24] mb-4">Geçmiş Temsilciliklerimiz</h2>
-            <p className="text-[#8A95A5]">Özensan'ın sektörel tecrübesine değer katan, geçmişte başarıyla yürüttüğümüz temsilciliklerimiz.</p>
+            <h2 className="text-3xl font-black text-[#1A1E24] mb-4">{t("formerTitle")}</h2>
+            <p className="text-[#8A95A5]">{t("formerDesc")}</p>
           </div>
           
           <div className="flex justify-center">
@@ -91,7 +109,7 @@ export default function BrandsPage() {
               </div>
               <div className="p-6 text-center">
                 <h3 className="text-xl font-bold text-[#1A1E24] mb-2">FEIN</h3>
-                <p className="text-[#8A95A5] text-sm">Eski Temsilciliğimiz</p>
+                <p className="text-[#8A95A5] text-sm">{t("formerBadge")}</p>
               </div>
             </div>
           </div>

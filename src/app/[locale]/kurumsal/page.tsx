@@ -1,14 +1,28 @@
 import React from 'react';
+import { getTranslations } from "next-intl/server";
+import { generateSEOMetadata } from '@/utils/seo';
+
 import { Metadata } from 'next';
 import Image from 'next/image';
 import { Link } from "@/i18n/routing";
 import FAQAccordion from "@/components/ui/FAQAccordion";
 import FAQSchema from "@/components/seo/FAQSchema";
 
-export const metadata: Metadata = {
-  title: 'Kurumsal | Özensan',
-  description: 'Özensan Sanayi Makine ve Malzemeleri A.Ş. hakkında, vizyonumuz, misyonumuz ve tarihimiz.',
-};
+
+
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
+  const t = await getTranslations({locale, namespace: "CorporateSEO"});
+  return generateSEOMetadata({
+    title: t("title"),
+    description: t("description"),
+    locale,
+    pathnameTr: '/kurumsal',
+    pathnameEn: '/corporate',
+  });
+}
 
 export default function CorporatePage() {
   return (
@@ -221,7 +235,7 @@ export default function CorporatePage() {
         </div>
       </section>
 
-      <FAQSchema />
+      <FAQSchema locale={locale} />
     </div>
   );
 }

@@ -121,5 +121,128 @@
     "formTitle": "Teklif Talep Formu",
     "formDesc": "Lütfen aşağıdaki alanları eksiksiz doldurarak talebinizi bize iletin.",
     "loading": "Yükleniyor..."
+  },
+  "BrandsPage": {
+    "hero1": "Temsil Ettiğimiz",
+    "hero2": "Global Devler",
+    "heroDesc": "Endüstri standartlarını belirleyen, teknoloji ve dayanıklılıkta öncü uluslararası markaların Türkiye'deki yetkili mühendislik ve tedarik noktasıyız.",
+    "viewBrand": "Markayı İncele",
+    "formerTitle": "Geçmiş Temsilciliklerimiz",
+    "formerDesc": "Özensan'ın sektörel tecrübesine değer katan, geçmişte başarıyla yürüttüğümüz temsilciliklerimiz.",
+    "formerBadge": "Eski Temsilciliğimiz"
+  },
+  "CareerPage": {
+    "hero1": "Özensan Ailesine",
+    "hero2": "Katılın",
+    "heroDesc": "Yarım asrı aşan tecrübemiz ve global iş ortaklıklarımızla büyümeye devam ediyoruz. Yenilikçi ve dinamik ekibimizin bir parçası olmak için başvurunuzu bekliyoruz.",
+    "formTitle": "İş Başvurusu",
+    "formDesc": "Lütfen aşağıdaki alanları doldurarak uzmanlık alanınız ve deneyimleriniz hakkında bize bilgi verin. İnsan Kaynakları ekibimiz özgeçmişinizi değerlendirip size geri dönüş yapacaktır."
+  },
+  "FAQPage": {
+    "hero1": "Sıkça Sorulan",
+    "hero2": "Sorular",
+    "heroDesc": "Hizmetlerimiz, distribütörlüklerimiz ve satış sonrası süreçlerimizle ilgili aklınıza takılan soruların yanıtlarını burada bulabilirsiniz.",
+    "notfound": "Aradığınız cevabı bulamadınız mı? Size özel çözümler ve detaylı bilgi için ekibimizle iletişime geçebilirsiniz.",
+    "contactBtn": "İletişime Geçin"
+  },
+  "SolutionsPage": {
+    "hero1": "Sektörünüze Özel",
+    "hero2": "Çözümler",
+    "heroDesc": "Farklı endüstrilerin zorlu taleplerini karşılayan, yüksek verimlilik ve iş güvenliği sağlayan entegre mühendislik çözümleri sunuyoruz.",
+    "viewSolutions": "Çözümleri İncele"
+  },
+  "CookieSEO": {
+    "title": "Çerez Politikası | Özensan",
+    "description": "Özensan Sanayi Makine ve Malzemeleri A.Ş. Çerez (Cookie) Politikası ve aydınlatma metni."
+  },
+  "SolutionsSEO": {
+    "title": "Çözümler ve Uygulamalar | Özensan",
+    "description": "Endüstriyel delme, yol yapım, gaz kontrol ve metal işleme sektörlerine yönelik sunduğumuz global mühendislik çözümleri."
+  },
+  "PrivacySEO": {
+    "title": "Gizlilik Politikası | Özensan",
+    "description": "Özensan Web Sitesi Gizlilik Politikası"
+  },
+  "ContactSEO": {
+    "title": "İletişim | Özensan",
+    "description": "Özensan Sanayi Makine ve Malzemeleri A.Ş. ile iletişime geçin."
+  },
+  "CareerSEO": {
+    "title": "Kariyer | Özensan",
+    "description": "Özensan ailesine katılın, kariyerinize yön verin."
+  },
+  "CorporateSEO": {
+    "title": "Kurumsal | Özensan",
+    "description": "Özensan Sanayi Makine ve Malzemeleri A.Ş. hakkında, vizyonumuz, misyonumuz ve tarihimiz."
+  },
+  "KVKKSEO": {
+    "title": "KVKK Aydınlatma Metni | Özensan",
+    "description": "Özensan Kişisel Verilerin Korunması Kanunu (KVKK) Aydınlatma Metni"
+  },
+  "BrandsSEO": {
+    "title": "Markalarımız | Özensan",
+    "description": "Özensan'ın Türkiye tek yetkili distribütörü olduğu, dünyanın önde gelen endüstriyel makine ve ekipman üreticileri."
+  },
+  "FAQSEO": {
+    "title": "Sıkça Sorulan Sorular | Özensan",
+    "description": "Özensan ürünleri, hizmetleri ve satış sonrası destek süreçleri hakkında en çok merak edilen soruların cevapları."
+  },
+  "QuoteSEO": {
+    "title": "Teklif Al | Özensan",
+    "description": "Projeniz için ihtiyaç duyduğunuz makineler ve yedek parçalar için hemen fiyat teklifi alın."
+  },
+  "ProductsSEO": {
+    "title": "Tüm Ürünler ve Makineler | Özensan",
+    "description": "Ağır sanayi, yol yapım ve profesyonel delme/yıkım sektörlerine yönelik dünya devlerinin sunduğu makine ve ekipman kataloğumuz."
+  },
+  "HomeSEO": {
+    "title": "Özensan Sanayi Makine ve Malzemeleri A.Ş. | Resmi Distribütör",
+    "description": "Cedima, DUSS, Ticab, Victor ve GCE markalarının Türkiye resmi distribütörü. Ağır sanayi, yol yapım ve profesyonel delme süreçlerinize kesintisiz mühendislik ve yedek parça çözümleri sunuyoruz."
+  },
+  "TermsSEO": {
+    "title": "Kullanım Şartları | Özensan",
+    "description": "Özensan Sanayi Makine ve Malzemeleri A.Ş. web sitesi kullanım şartları ve koşulları."
+  },
+  "Forms": {
+    "name": "Ad Soyad",
+    "email": "E-posta",
+    "phone": "Telefon Numarası",
+    "subject": "Konu",
+    "message": "Mesajınız",
+    "submit": "Gönder",
+    "sending": "Gönderiliyor...",
+    "kvkk": "KVKK Aydınlatma Metni",
+    "kvkk_read": "ni okudum ve kabul ediyorum.",
+    "select_subject": "Konu Seçiniz",
+    "general": "Genel Bilgi/Soru",
+    "technical": "Teknik Destek",
+    "sales": "Satış/Teklif",
+    "other": "Diğer",
+    "company": "Firma Adı",
+    "machine": "Makine/Ürün",
+    "select_machine": "Makine/Ürün Seçiniz",
+    "project_details": "Proje Detayları ve Talep",
+    "get_quote": "Teklif İste",
+    "position": "Başvurulan Pozisyon",
+    "cv": "Özgeçmiş (CV) Linki veya Metni",
+    "cover_letter": "Önyazı",
+    "apply": "Başvuruyu Tamamla",
+    "errors": {
+      "required": "Lütfen tüm zorunlu alanları doldurunuz.",
+      "email": "Lütfen geçerli bir e-posta adresi giriniz.",
+      "kvkk": "Devam etmek için KVKK Aydınlatma Metni'ni onaylamalısınız.",
+      "general_error": "Bir hata oluştu, lütfen daha sonra tekrar deneyin."
+    },
+    "success": {
+      "contact": "Mesajınız başarıyla iletildi. En kısa sürede dönüş yapacağız.",
+      "quote": "Teklif talebiniz başarıyla alındı. Satış mühendislerimiz sizinle iletişime geçecektir.",
+      "career": "Başvurunuz başarıyla alınmıştır. Değerlendirme süreci sonrasında sizinle iletişime geçilecektir."
+    }
+  },
+  "CTA": {
+    "title": "Projeniz İçin En İdeal Çözümü Birlikte Bulalım",
+    "desc": "Uzman satış mühendislerimizden projenize özel teklif almak veya makinelerimiz hakkında detaylı bilgi edinmek için bizimle iletişime geçin.",
+    "btnQuote": "Hemen Teklif Alın",
+    "btnContact": "İletişime Geçin"
   }
 }

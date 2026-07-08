@@ -5,22 +5,33 @@ import { Link } from "@/i18n/routing";
 import solutionsData from '@/data/solutions.json';
 import productsData from '@/data/products.json';
 
+import { generateSEOMetadata } from '@/utils/seo';
+
 type Props = {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params;
-  const solution = solutionsData.find((s) => s.slug === resolvedParams.slug);
+  const { locale, slug } = resolvedParams;
+  const solution = solutionsData.find((s) => s.slug === slug);
   
   if (!solution) {
-    return { title: 'Çözüm Bulunamadı | Özensan' };
+    return { title: locale === 'en' ? 'Solution Not Found | Özensan' : 'Çözüm Bulunamadı | Özensan' };
   }
 
-  return {
-    title: `${solution.name} Çözümleri | Özensan`,
-    description: solution.description,
-  };
+  const isEn = locale === 'en';
+  const name = isEn && (solution as any).nameEn ? (solution as any).nameEn : solution.name;
+  const description = isEn && (solution as any).descriptionEn ? (solution as any).descriptionEn : solution.description;
+
+  return generateSEOMetadata({
+    title: isEn ? `${name} Solutions | Özensan` : `${name} Çözümleri | Özensan`,
+    description: description,
+    locale,
+    pathnameTr: `/cozumler/${slug}`,
+    pathnameEn: `/solutions/${slug}`,
+    image: solution.image,
+  });
 }
 
 export async function generateStaticParams() {
@@ -29,8 +40,14 @@ export async function generateStaticParams() {
   }));
 }
 
+import { getTranslations } from "next-intl/server";
+import Breadcrumb from "@/components/ui/Breadcrumb";
+
 export default async function SolutionDetailPage({ params }: Props) {
   const resolvedParams = await params;
+  const locale = (resolvedParams as any).locale;
+  const isEn = locale === 'en';
+  const tn = await getTranslations({locale, namespace: "Navigation"});
   const solution = solutionsData.find((s) => s.slug === resolvedParams.slug);
 
   if (!solution) {
@@ -55,10 +72,12 @@ export default async function SolutionDetailPage({ params }: Props) {
         
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
           <div className="max-w-3xl">
-            <Link href="/cozumler" className="inline-flex items-center text-[#8A95A5] hover:text-[#C61A1A] font-bold uppercase tracking-widest text-xs mb-6 transition-colors">
-              <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
-              TÜM ÇÖZÜMLER
-            </Link>
+            <div className="mb-8">
+              <Breadcrumb items={[
+                { label: tn("solutions"), href: "/cozumler" },
+                { label: isEn ? solution.nameEn : solution.name }
+              ]} />
+            </div>
             
             <h1 className="text-4xl md:text-5xl font-black text-white tracking-tight mb-6">
               {solution.name}

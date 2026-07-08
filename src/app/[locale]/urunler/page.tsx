@@ -1,16 +1,29 @@
 import React from 'react';
+import { getTranslations } from "next-intl/server";
+import { generateSEOMetadata } from '@/utils/seo';
+
 import { Metadata } from 'next';
 import ProductCatalog from '@/components/products/ProductCatalog';
 import productsData from '@/data/products.json';
 import brandsData from '@/data/brands.json';
 import solutionsData from '@/data/solutions.json';
 
-export const metadata: Metadata = {
-  title: 'Tüm Ürünler ve Makineler | Özensan',
-  description: 'Ağır sanayi, yol yapım ve profesyonel delme/yıkım sektörlerine yönelik dünya devlerinin sunduğu makine ve ekipman kataloğumuz.',
-};
 
-import { getTranslations } from "next-intl/server";
+
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
+  const t = await getTranslations({locale, namespace: "ProductsSEO"});
+  return generateSEOMetadata({
+    title: t("title"),
+    description: t("description"),
+    locale,
+    pathnameTr: '/urunler',
+    pathnameEn: '/products',
+  });
+}
+
 export default async function ProductsPage({ params }: { params: Promise<{ locale: string }> }) {
   const resolvedParams = await params;
   const locale = resolvedParams.locale;

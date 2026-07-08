@@ -5,22 +5,33 @@ import { Link } from "@/i18n/routing";
 import brandsData from '@/data/brands.json';
 import productsData from '@/data/products.json';
 
+import { generateSEOMetadata } from '@/utils/seo';
+
 type Props = {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params;
-  const brand = brandsData.find((b) => b.slug === resolvedParams.slug);
+  const { locale, slug } = resolvedParams;
+  const brand = brandsData.find((b) => b.slug === slug);
   
   if (!brand) {
-    return { title: 'Marka Bulunamadı | Özensan' };
+    return { title: locale === 'en' ? 'Brand Not Found | Özensan' : 'Marka Bulunamadı | Özensan' };
   }
 
-  return {
-    title: `${brand.name} Ürünleri ve Çözümleri | Özensan`,
-    description: brand.description,
-  };
+  const isEn = locale === 'en';
+  const name = brand.name;
+  const description = isEn && (brand as any).descriptionEn ? (brand as any).descriptionEn : brand.description;
+
+  return generateSEOMetadata({
+    title: isEn ? `${name} Products & Solutions | Özensan` : `${name} Ürünleri ve Çözümleri | Özensan`,
+    description: description,
+    locale,
+    pathnameTr: `/markalar/${slug}`,
+    pathnameEn: `/brands/${slug}`,
+    image: brand.logo,
+  });
 }
 
 // Generate static params for fast rendering
@@ -31,7 +42,7 @@ export async function generateStaticParams() {
 }
 
 import { getTranslations } from "next-intl/server";
-
+import Breadcrumb from "@/components/ui/Breadcrumb";
 export default async function BrandDetailPage({ params }: Props) {
   const resolvedParams = await params;
   const locale = (resolvedParams as any).locale; // next-intl will pass this when configured correctly, but just in case
@@ -61,11 +72,12 @@ export default async function BrandDetailPage({ params }: Props) {
         
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
           <div className="max-w-3xl">
-            <Link href="/markalar" className="inline-flex items-center text-[#8A95A5] hover:text-[#C61A1A] font-bold uppercase tracking-widest text-xs mb-8 transition-colors">
-              <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
-              {tn("allBrands")}
-            </Link>
-            
+            <div className="mb-8">
+              <Breadcrumb items={[
+                { label: tn("brands"), href: "/markalar" },
+                { label: brand.name }
+              ]} />
+            </div>
             <div className="h-24 min-w-[200px] max-w-[280px] bg-white rounded-xl px-4 py-2 flex items-center justify-center mb-8 shadow-2xl">
               <img 
                 src={brand.logo} 

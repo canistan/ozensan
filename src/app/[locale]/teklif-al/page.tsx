@@ -1,13 +1,26 @@
 import React, { Suspense } from 'react';
+import { getTranslations } from "next-intl/server";
+import { generateSEOMetadata } from '@/utils/seo';
+
 import { Metadata } from 'next';
 import QuoteForm from '@/components/forms/QuoteForm';
 
-export const metadata: Metadata = {
-  title: 'Teklif Al | Özensan',
-  description: 'Özensan ürünleri ve çözümleri için detaylı teklif talebinde bulunun.',
-};
 
-import { getTranslations } from "next-intl/server";
+
+
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
+  const t = await getTranslations({locale, namespace: "QuoteSEO"});
+  return generateSEOMetadata({
+    title: t("title"),
+    description: t("description"),
+    locale,
+    pathnameTr: '/teklif-al',
+    pathnameEn: '/get-quote',
+  });
+}
 
 export default async function QuotePage({ params }: { params: Promise<{ locale: string }> }) {
   const resolvedParams = await params;

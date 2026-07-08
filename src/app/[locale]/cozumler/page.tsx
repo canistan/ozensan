@@ -1,14 +1,32 @@
 import React from 'react';
+import { getTranslations } from "next-intl/server";
+import { generateSEOMetadata } from '@/utils/seo';
+
 import { Metadata } from 'next';
 import { Link } from "@/i18n/routing";
 import solutionsData from '@/data/solutions.json';
 
-export const metadata: Metadata = {
-  title: 'Çözümlerimiz & Uygulama Alanları | Özensan',
-  description: 'Yol yapım, ağır sanayi ve profesyonel delme/yıkım sektörlerine yönelik uzman endüstriyel çözümlerimiz.',
-};
 
-export default function SolutionsPage() {
+
+
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
+  const t = await getTranslations({locale, namespace: "SolutionsSEO"});
+  return generateSEOMetadata({
+    title: t("title"),
+    description: t("description"),
+    locale,
+    pathnameTr: '/cozumler',
+    pathnameEn: '/solutions',
+  });
+}
+
+export default async function SolutionsPage({ params }: { params: Promise<{ locale: string }> }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
+  const t = await getTranslations({locale, namespace: "SolutionsPage"});
   return (
     <div className="bg-[#F8F9FA] min-h-screen">
       {/* Hero Section */}
@@ -23,10 +41,10 @@ export default function SolutionsPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tight mb-6 leading-tight">
-              Sektörünüze Özel <span className="text-[#C61A1A]">Çözümler</span>
+              {t("hero1")} <span className="text-[#C61A1A]">{t("hero2")}</span>
             </h1>
             <p className="text-lg md:text-xl text-[#8A95A5] leading-relaxed max-w-2xl font-light">
-              Farklı endüstrilerin zorlu taleplerini karşılayan, yüksek verimlilik ve iş güvenliği sağlayan entegre mühendislik çözümleri sunuyoruz.
+              {t("heroDesc")}
             </p>
           </div>
         </div>
@@ -46,25 +64,25 @@ export default function SolutionsPage() {
                 <div className="h-64 w-full relative overflow-hidden bg-neutral-900">
                   <img 
                     src={solution.image} 
-                    alt={solution.name} 
+                    alt={locale === "en" && (solution as any).nameEn ? (solution as any).nameEn : solution.name} 
                     className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 group-hover:opacity-100 transition-all duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#1A1E24] via-transparent to-transparent opacity-80"></div>
                   
                   {/* Title overlay */}
                   <h2 className="absolute bottom-6 left-6 text-2xl font-black text-white group-hover:text-[#C61A1A] transition-colors">
-                    {solution.name}
+                    {locale === "en" && (solution as any).nameEn ? (solution as any).nameEn : solution.name}
                   </h2>
                 </div>
                 
                 {/* Content Area */}
                 <div className="p-8 flex flex-col flex-grow">
                   <p className="text-[#8A95A5] text-sm leading-relaxed mb-8 flex-grow">
-                    {solution.description}
+                    {locale === "en" && (solution as any).descriptionEn ? (solution as any).descriptionEn : solution.description}
                   </p>
                   
                   <div className="flex items-center text-[#C61A1A] font-bold text-sm tracking-widest uppercase mt-auto">
-                    Çözümleri İncele
+                    {t("viewSolutions")}
                     <svg className="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                     </svg>

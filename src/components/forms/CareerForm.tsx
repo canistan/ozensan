@@ -1,11 +1,13 @@
 "use client";
 
 import React, { useState } from 'react';
+import { useTranslations } from "next-intl";
 import { useToast } from "@/components/ui/ToastContext";
 import { Link } from "@/i18n/routing";
 import { submitContactMessage } from "@/app/actions/submitForm";
 
 export default function CareerForm() {
+  const t = useTranslations("Forms");
   const { addToast } = useToast();
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
@@ -30,17 +32,17 @@ export default function CareerForm() {
     e.preventDefault();
 
     if (!formData.name || !formData.email || !formData.phone || !formData.position || !formData.coverLetter) {
-      addToast("Lütfen tüm zorunlu alanları doldurunuz.", "error");
+      addToast(t("errors.required"), "error");
       return;
     }
 
     if (!formData.email.includes('@')) {
-      addToast("Lütfen geçerli bir e-posta adresi giriniz.", "error");
+      addToast(t("errors.email"), "error");
       return;
     }
 
     if (!formData.kvkk) {
-      addToast("Devam etmek için KVKK Aydınlatma Metni'ni onaylamalısınız.", "error");
+      addToast(t("errors.kvkk"), "error");
       return;
     }
 
@@ -75,11 +77,11 @@ ${formData.coverLetter}
           kvkk: false
         });
       } else {
-        addToast(result.error || "Bir hata oluştu.", "error");
+        addToast(result.error || t("errors.general_error"), "error");
       }
     } catch (error) {
       console.error("Form submit error:", error);
-      addToast("Bağlantı hatası oluştu. Lütfen tekrar deneyin.", "error");
+      addToast(t("errors.general_error"), "error");
     } finally {
       setLoading(false);
     }
@@ -89,7 +91,7 @@ ${formData.coverLetter}
     <form onSubmit={handleSubmit} className="space-y-6">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <label htmlFor="name" className="block text-sm font-bold text-[#1A1E24] mb-2">Ad Soyad *</label>
+          <label htmlFor="name" className="block text-sm font-bold text-[#1A1E24] mb-2">{t("name")} *</label>
           <input 
             type="text" 
             id="name" 
@@ -97,7 +99,7 @@ ${formData.coverLetter}
             value={formData.name}
             onChange={handleChange}
             className="w-full bg-[#F8F9FA] border border-neutral-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#C61A1A] focus:border-transparent transition-shadow text-[#1A1E24]"
-            placeholder="Adınızı giriniz"
+            placeholder={t("name")}
           />
         </div>
         <div>
@@ -116,7 +118,7 @@ ${formData.coverLetter}
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <label htmlFor="email" className="block text-sm font-bold text-[#1A1E24] mb-2">E-Posta Adresi *</label>
+          <label htmlFor="email" className="block text-sm font-bold text-[#1A1E24] mb-2">{t("email")} *</label>
           <input 
             type="email" 
             id="email" 
@@ -128,7 +130,7 @@ ${formData.coverLetter}
           />
         </div>
         <div>
-          <label htmlFor="phone" className="block text-sm font-bold text-[#1A1E24] mb-2">Telefon Numarası *</label>
+          <label htmlFor="phone" className="block text-sm font-bold text-[#1A1E24] mb-2">{t("phone")} *</label>
           <input 
             type="tel" 
             id="phone" 
@@ -179,7 +181,7 @@ ${formData.coverLetter}
           />
         </div>
         <label htmlFor="kvkk" className="ml-2 text-sm text-neutral-600">
-          <Link href="/kvkk" className="text-[#C61A1A] hover:underline font-medium">KVKK Aydınlatma Metni</Link>'ni okudum ve kabul ediyorum.
+          <Link href="/kvkk" className="text-[#C61A1A] hover:underline font-medium">{t("kvkk")}</Link>{t("kvkk_read")}
         </label>
       </div>
 
@@ -188,7 +190,7 @@ ${formData.coverLetter}
         disabled={loading}
         className="bg-[#C61A1A] hover:bg-[#a51515] text-white font-bold py-4 px-8 rounded-lg transition-all w-full md:w-auto shadow-[0_8px_20px_rgba(198,26,26,0.25)] hover:shadow-[0_8px_25px_rgba(198,26,26,0.4)] hover:-translate-y-0.5 flex items-center justify-center gap-2 disabled:opacity-70 disabled:hover:translate-y-0 disabled:cursor-not-allowed"
       >
-        {loading ? 'Gönderiliyor...' : 'Başvurumu Tamamla'}
+        {loading ? t('sending') : 'Başvurumu Tamamla'}
         {!loading && <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>}
       </button>
     </form>

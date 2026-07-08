@@ -1,13 +1,31 @@
 import React from 'react';
+import { getTranslations } from "next-intl/server";
+import { generateSEOMetadata } from '@/utils/seo';
+
 import { Metadata } from 'next';
 import CareerForm from '@/components/forms/CareerForm';
 
-export const metadata: Metadata = {
-  title: 'Kariyer | Özensan',
-  description: 'Özensan ailesine katılın. Kariyer fırsatları ve iş başvuruları için sayfamızı ziyaret edin.',
-};
 
-export default function CareerPage() {
+
+
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
+  const t = await getTranslations({locale, namespace: "CareerSEO"});
+  return generateSEOMetadata({
+    title: t("title"),
+    description: t("description"),
+    locale,
+    pathnameTr: '/kariyer',
+    pathnameEn: '/careers',
+  });
+}
+
+export default async function CareerPage({ params }: { params: Promise<{ locale: string }> }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
+  const t = await getTranslations({locale, namespace: "CareerPage"});
   return (
     <div className="bg-[#F8F9FA] min-h-screen">
       {/* Hero Section */}
@@ -22,10 +40,10 @@ export default function CareerPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tight mb-6 leading-tight">
-              Özensan Ailesine <span className="text-[#C61A1A]">Katılın</span>
+              {t("hero1")} <span className="text-[#C61A1A]">{t("hero2")}</span>
             </h1>
             <p className="text-lg md:text-xl text-[#8A95A5] leading-relaxed max-w-2xl font-light">
-              Yarım asrı aşan tecrübemiz ve global iş ortaklıklarımızla büyümeye devam ediyoruz. Yenilikçi ve dinamik ekibimizin bir parçası olmak için başvurunuzu bekliyoruz.
+              {t("heroDesc")}
             </p>
           </div>
         </div>
@@ -36,8 +54,8 @@ export default function CareerPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-2xl shadow-xl p-8 md:p-14 border border-neutral-100">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#1A1E24] mb-2">İş Başvurusu</h2>
-              <p className="text-[#8A95A5] mb-10">Lütfen aşağıdaki alanları doldurarak uzmanlık alanınız ve deneyimleriniz hakkında bize bilgi verin. İnsan Kaynakları ekibimiz özgeçmişinizi değerlendirip size geri dönüş yapacaktır.</p>
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1A1E24] mb-2">{t("formTitle")}</h2>
+              <p className="text-[#8A95A5] mb-10">{t("formDesc")}</p>
               
               <CareerForm />
               

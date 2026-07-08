@@ -10,29 +10,14 @@ export default function NotFound() {
   const isEn = pathname.startsWith('/en');
   
   return (
-    <div className="bg-[#F8F9FA] min-h-[80vh] flex flex-col items-center justify-center py-20">
+    <div className="bg-[#F8F9FA] flex-grow flex flex-col items-center justify-center py-12 md:py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         
         {/* Animated 404 text */}
-        <div className="relative inline-block mb-8">
-          <h1 className="text-[120px] md:text-[180px] font-black text-[#1A1E24] leading-none tracking-tighter select-none">
+        <div className="relative inline-block mb-6 md:mb-8">
+          <h1 className="text-[100px] md:text-[180px] font-black text-[#1A1E24] leading-none tracking-tighter select-none drop-shadow-sm">
             404
           </h1>
-          <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20 pointer-events-none mix-blend-overlay"></div>
-          {/* Decorative gear/industrial element */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full animate-[spin_30s_linear_infinite] opacity-5 pointer-events-none z-[-1]">
-            <svg viewBox="0 0 100 100" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path d="M50 0 C22.4 0 0 22.4 0 50 C0 77.6 22.4 100 50 100 C77.6 100 100 77.6 100 50 C100 22.4 77.6 0 50 0 Z M50 85 C30.7 85 15 69.3 15 50 C15 30.7 30.7 15 50 15 C69.3 15 85 30.7 85 50 C85 69.3 69.3 85 50 85 Z"/>
-              <path d="M45 5 H55 V20 H45 Z" transform="rotate(0 50 50)"/>
-              <path d="M45 5 H55 V20 H45 Z" transform="rotate(45 50 50)"/>
-              <path d="M45 5 H55 V20 H45 Z" transform="rotate(90 50 50)"/>
-              <path d="M45 5 H55 V20 H45 Z" transform="rotate(135 50 50)"/>
-              <path d="M45 5 H55 V20 H45 Z" transform="rotate(180 50 50)"/>
-              <path d="M45 5 H55 V20 H45 Z" transform="rotate(225 50 50)"/>
-              <path d="M45 5 H55 V20 H45 Z" transform="rotate(270 50 50)"/>
-              <path d="M45 5 H55 V20 H45 Z" transform="rotate(315 50 50)"/>
-            </svg>
-          </div>
         </div>
 
         <h2 className="text-3xl md:text-4xl font-bold text-[#1A1E24] mb-4">

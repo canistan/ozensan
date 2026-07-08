@@ -11,6 +11,7 @@ import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import LanguageSwitcher from "@/components/global/LanguageSwitcher";
+import MobileMenu from "@/components/global/MobileMenu";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -18,16 +19,19 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.ozensanas.com'),
   title: "Özensan Sanayi Makine ve Malzemeleri A.Ş. | Resmi Distribütör",
   description: "Cedima, DUSS, Ticab, Victor ve GCE markalarının Türkiye resmi distribütörü. Ağır sanayi, yol yapım ve profesyonel delme süreçlerinize kesintisiz mühendislik ve yedek parça çözümleri sunuyoruz.",
   icons: {
-    icon: "/favicon.png",
+    icon: "/faviconseffaf.webp",
   },
   robots: {
-    index: false,
+    index: false, // Intentionally kept false for subdomain development phase
     follow: false,
   },
 };
+
+import OrganizationSchema from "@/components/seo/OrganizationSchema";
 
 export default async function RootLayout({
   children,
@@ -50,6 +54,7 @@ export default async function RootLayout({
     <html lang={locale} className={`${inter.className} h-full antialiased scroll-smooth`}>
       {/* Genel site zemini: Yapısal Açık Gri (#F8F9FA), Tipografi: Endüstriyel Antrasit (#1A1E24) */}
       <body className="min-h-full flex flex-col bg-[#F8F9FA] text-[#1A1E24]">
+        <OrganizationSchema />
         <NextIntlClientProvider messages={messages}>
         {/* TOP CONTACT BAR */}
         <div className="hidden lg:flex w-full bg-[#1A1E24] text-[#8A95A5] py-2.5 text-xs font-medium tracking-wide border-b border-[#8A95A5]/20">
@@ -57,7 +62,7 @@ export default async function RootLayout({
             <div className="flex gap-8">
               <span className="flex items-center gap-2.5 hover:text-white transition-colors cursor-pointer">
                 <svg className="w-3.5 h-3.5 text-[#C61A1A]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-                +90 212 244 13 50
+                +90 312 385 23 45
               </span>
               <span className="flex items-center gap-2.5 hover:text-white transition-colors cursor-pointer">
                 <svg className="w-3.5 h-3.5 text-[#C61A1A]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
@@ -72,12 +77,12 @@ export default async function RootLayout({
 
         {/* MAIN NAVIGATION */}
         <header className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-md border-b border-[#8A95A5]/20 shadow-sm">
-          <div className="container mx-auto px-8 h-24 flex items-center justify-between">
+          <div className="container mx-auto px-4 sm:px-8 h-20 sm:h-24 flex items-center justify-between">
             {/* Logo */}
-            <Link href="/" className="flex-shrink-0 group">
-              <div className="relative h-14 w-56 transition-transform group-hover:scale-[1.02]">
+            <Link href="/" className="flex-shrink-0 group z-50 relative">
+              <div className="relative h-12 w-48 sm:h-14 sm:w-56 transition-transform group-hover:scale-[1.02]">
                 <Image 
-                  src="/logoseffaf.png" 
+                  src="/logoseffaf.webp" 
                   alt="Özensan Logo" 
                   fill 
                   className="object-contain object-left"
@@ -135,7 +140,7 @@ export default async function RootLayout({
               </div>
 
               
-              {/* Path C: Kurumsal */}
+              {/* Path C: {t("corporate")} */}
               <div className="group relative py-9 cursor-pointer">
                 <span className="flex items-center gap-1.5 hover:text-[#C61A1A] transition-colors">
                   {t("corporate")}
@@ -152,19 +157,25 @@ export default async function RootLayout({
               <Link href="/iletisim" className="hover:text-[#C61A1A] transition-colors">{t("contact")}</Link>
             </nav>
 
-            {/* CTAs */}
-            <div className="hidden lg:flex items-center gap-5">
-              <Link href="/teklif-al" className="bg-[#C61A1A] hover:bg-[#a51515] text-white px-8 py-3.5 rounded text-sm font-bold transition-all shadow-[0_8px_20px_rgba(198,26,26,0.25)] hover:shadow-[0_8px_25px_rgba(198,26,26,0.4)] hover:-translate-y-0.5 flex items-center gap-2">
-                {t("getQuote")}
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-              </Link>
+            {/* CTAs and Mobile Menu */}
+            <div className="flex items-center gap-3 sm:gap-5 z-50 relative">
+              <div className="hidden lg:block">
+                <Link href="/teklif-al" className="bg-[#C61A1A] hover:bg-[#a51515] text-white px-8 py-3.5 rounded text-sm font-bold transition-all shadow-[0_8px_20px_rgba(198,26,26,0.25)] hover:shadow-[0_8px_25px_rgba(198,26,26,0.4)] hover:-translate-y-0.5 flex items-center gap-2">
+                  {t("getQuote")}
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                </Link>
+              </div>
+              <div className="lg:hidden flex items-center gap-3">
+                <LanguageSwitcher />
+                <MobileMenu />
+              </div>
             </div>
           </div>
         </header>
 
         {/* PAGE CONTENT */}
         <ToastProvider>
-          <main className="flex-grow flex flex-col min-h-screen">
+          <main className="flex-grow flex flex-col">
             {children}
           </main>
 

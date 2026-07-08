@@ -1,13 +1,26 @@
 import React from 'react';
+import { getTranslations } from "next-intl/server";
+import { generateSEOMetadata } from '@/utils/seo';
+
 import { Metadata } from 'next';
 import ContactForm from '@/components/forms/ContactForm';
 
-export const metadata: Metadata = {
-  title: 'İletişim | Özensan',
-  description: 'Özensan Sanayi Makine ve Malzemeleri A.Ş. ile iletişime geçin.',
-};
 
-import { getTranslations } from "next-intl/server";
+
+
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
+  const t = await getTranslations({locale, namespace: "ContactSEO"});
+  return generateSEOMetadata({
+    title: t("title"),
+    description: t("description"),
+    locale,
+    pathnameTr: '/iletisim',
+    pathnameEn: '/contact',
+  });
+}
 
 export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {
   const resolvedParams = await params;

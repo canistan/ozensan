@@ -5,22 +5,33 @@ import { Link } from "@/i18n/routing";
 import productsData from '@/data/products.json';
 import brandsData from '@/data/brands.json';
 
+import { generateSEOMetadata } from '@/utils/seo';
+
 type Props = {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params;
-  const product = productsData.find((p) => p.slug === resolvedParams.slug);
+  const { locale, slug } = resolvedParams;
+  const product = productsData.find((p) => p.slug === slug);
   
   if (!product) {
-    return { title: 'Ürün Bulunamadı | Özensan' };
+    return { title: locale === 'en' ? 'Product Not Found | Özensan' : 'Ürün Bulunamadı | Özensan' };
   }
 
-  return {
-    title: `${product.name} - ${product.brand.toUpperCase()} | Özensan`,
-    description: product.description,
-  };
+  const isEn = locale === 'en';
+  const name = isEn && (product as any).nameEn ? (product as any).nameEn : product.name;
+  const description = isEn && (product as any).descriptionEn ? (product as any).descriptionEn : product.description;
+
+  return generateSEOMetadata({
+    title: `${name} - ${product.brand.toUpperCase()} | Özensan`,
+    description: description,
+    locale,
+    pathnameTr: `/urunler/${slug}`,
+    pathnameEn: `/products/${slug}`,
+    image: product.image,
+  });
 }
 
 export async function generateStaticParams() {
@@ -30,6 +41,7 @@ export async function generateStaticParams() {
 }
 
 import { getTranslations } from "next-intl/server";
+import Breadcrumb from "@/components/ui/Breadcrumb";
 
 export default async function ProductDetailPage({ params }: Props) {
   const resolvedParams = await params;
@@ -47,18 +59,12 @@ export default async function ProductDetailPage({ params }: Props) {
   return (
     <div className="bg-[#F8F9FA] min-h-screen pt-32 pb-24">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <Breadcrumb items={[
+          { label: tn("products"), href: "/urunler" },
+          { label: product.brand, href: `/markalar/${brandInfo?.slug || product.brand.toLowerCase()}` },
+          { label: product.title }
+        ]} />
         
-        {/* Breadcrumb */}
-        <nav className="flex items-center gap-2 text-sm text-[#8A95A5] mb-8 font-medium">
-          <Link href="/" className="hover:text-[#C61A1A] transition-colors">{tn("home") || "Anasayfa"}</Link>
-          <span>/</span>
-          <Link href="/urunler" className="hover:text-[#C61A1A] transition-colors">{tn("products") || "Ürünler"}</Link>
-          <span>/</span>
-          <Link href={{ pathname: "/markalar/[slug]", "params": { "slug": product.brand } }} className="hover:text-[#C61A1A] transition-colors uppercase">{product.brand}</Link>
-          <span>/</span>
-          <span className="text-[#1A1E24] truncate">{locale === "en" && product.nameEn ? product.nameEn : product.name}</span>
-        </nav>
-
         <div className="bg-white rounded-2xl border border-neutral-200 overflow-hidden shadow-sm flex flex-col lg:flex-row">
           
           {/* Product Image Area */}

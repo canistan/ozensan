@@ -1,16 +1,18 @@
 import React from 'react';
 import faqData from '@/data/faq.json';
 
-export default function FAQSchema() {
+export default function FAQSchema({ locale = 'tr' }: { locale?: string }) {
+  const isEn = locale === 'en';
+  
   const schema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": faqData.map(item => ({
       "@type": "Question",
-      "name": item.question,
+      "name": isEn ? item.questionEn : item.questionTr,
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": item.answer
+        "text": isEn ? item.answerEn : item.answerTr
       }
     }))
   };

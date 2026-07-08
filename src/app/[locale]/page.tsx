@@ -1,9 +1,26 @@
 import Image from "next/image";
+import { getTranslations } from "next-intl/server";
+import { generateSEOMetadata } from '@/utils/seo';
+
 import { Link } from "@/i18n/routing";
 import { useTranslations, useLocale } from "next-intl";
 import WorldMap from "@/components/home/WorldMap";
 import productsData from "@/data/products.json";
 import brandsData from "@/data/brands.json";
+
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
+  const t = await getTranslations({locale, namespace: "HomeSEO"});
+  return generateSEOMetadata({
+    title: t("title"),
+    description: t("description"),
+    locale,
+    pathnameTr: '/',
+    pathnameEn: '/',
+  });
+}
 
 export default function Home() {
   const t = useTranslations("HomePage");
@@ -70,7 +87,7 @@ export default function Home() {
               <span className="text-[#8A95A5]">{t("Hero.title2")}</span>
             </h1>
             <p className="text-[#8A95A5] text-xl md:text-2xl leading-relaxed max-w-2xl mb-12 font-medium">
-              Cedima, DUSS, Ticab, Victor ve GCE markalarının resmi distribütörü olarak ağır sanayi, yol yapım ve profesyonel delme süreçlerinize kesintisiz mühendislik ve yedek parça çözümleri sunuyoruz.
+              {t("Hero.desc")}
             </p>
             <div className="flex flex-col sm:flex-row gap-6">
               <Link href="/urunler" className="bg-[#C61A1A] hover:bg-[#9D1414] text-white text-base font-black px-10 py-5 uppercase tracking-widest rounded-sm transition-all shadow-[0_10px_30px_rgba(198,26,26,0.3)] hover:-translate-y-1 flex items-center justify-center gap-3">
