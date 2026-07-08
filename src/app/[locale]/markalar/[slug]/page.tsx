@@ -90,7 +90,7 @@ export default async function BrandDetailPage({ params }: Props) {
               {brand.name} <span className="text-[#8A95A5]">{t("brandEngineering")}</span>
             </h1>
             <p className="text-[#8A95A5] text-lg leading-relaxed mb-8">
-              {brand.description}
+              {locale === 'en' && brand.descriptionEn ? brand.descriptionEn : brand.description}
             </p>
           </div>
         </div>

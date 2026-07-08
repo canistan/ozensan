@@ -76,14 +76,10 @@
     }
   },
   "Product": {
-    "allProducts": "Tüm Ürünler",
     "brandEngineering": "Mühendisliği",
-    "techSpecs": "Teknik Özellikler",
-    "features": "Öne Çıkan Özellikler",
-    "compatible": "Uyumlu Donanımlar",
-    "requestQuote": "Bu Ürün İçin Teklif Alın",
-    "viewBrand": "Tüm {brand} Ürünleri",
-    "productsFound": "Toplam {count} ürün bulundu"
+    "allProducts": "Tüm Ürünler",
+    "productsFound": "Toplam {count} ürün bulundu",
+    "viewAndQuote": "İncele ve Teklif Al"
   },
   "Catalog": {
     "search": "Ürün ara...",
@@ -302,5 +298,8 @@
       "tag": "BİLGİ MERKEZİ",
       "title": "Sıkça Sorulan Sorular"
     }
+  },
+  "Global": {
+    "home": "Anasayfa"
   }
 }

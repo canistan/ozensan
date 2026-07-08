@@ -76,14 +76,10 @@
     }
   },
   "Product": {
-    "allProducts": "All Products",
     "brandEngineering": "Engineering",
-    "techSpecs": "Technical Specifications",
-    "features": "Key Features",
-    "compatible": "Compatible Equipment",
-    "requestQuote": "Request Quote for this Product",
-    "viewBrand": "All {brand} Products",
-    "productsFound": "Total {count} products found"
+    "allProducts": "All Products",
+    "productsFound": "Total {count} products found",
+    "viewAndQuote": "View Details & Get Quote"
   },
   "Catalog": {
     "search": "Search products...",
@@ -302,5 +298,8 @@
       "tag": "INFORMATION CENTER",
       "title": "Frequently Asked Questions"
     }
+  },
+  "Global": {
+    "home": "Home"
   }
 }
