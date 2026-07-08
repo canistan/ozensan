@@ -85,10 +85,10 @@ export default async function SolutionDetailPage({ params }: Props) {
             </div>
             
             <h1 className="text-4xl md:text-5xl font-black text-white tracking-tight mb-6">
-              {solution.name}
+              {isEn && (solution as any).nameEn ? (solution as any).nameEn : solution.name}
             </h1>
             <p className="text-[#8A95A5] text-lg leading-relaxed max-w-2xl">
-              {solution.description}
+              {isEn && (solution as any).descriptionEn ? (solution as any).descriptionEn : solution.description}
             </p>
           </div>
         </div>
