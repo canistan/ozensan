@@ -14,10 +14,10 @@
       "Maksimum 300mm kesme derinliği"
     ],
     "featuresEn": [
-      "Hidrostatik sürüş sistemi (EN)",
-      "Elektrikli su pompası (EN)",
-      "Ergonomik kullanım paneli (EN)",
-      "Maksimum 300mm kesme derinliği (EN)"
+      "Hydrostatic drive system",
+      "Electric water pump",
+      "Ergonomic control panel",
+      "Max 300mm cutting depth"
     ],
     "technicalData": [
       {
@@ -48,27 +48,27 @@
     ],
     "technicalDataEn": [
       {
-        "param": "Maksimum Kesme Derinliği (EN)",
+        "param": "Max Cutting Depth",
         "value": "300 mm",
-        "accessory": "Cedima Elmas Disk Ø 800 mm"
+        "accessory": "Cedima Diamond Blade Ø 800 mm"
       },
       {
-        "param": "Motor Gücü / Kaynak (EN)",
-        "value": "11 kW (Dizel)",
-        "accessory": "Yetkili Servis Bakım Seti"
+        "param": "Motor Power / Source",
+        "value": "11 kW (Diesel)",
+        "accessory": "Authorized Service Maintenance Kit"
       },
       {
-        "param": "İlerleme Tipi (EN)",
-        "value": "Hidrostatik Otomatik İlerleme",
-        "accessory": "Yedek Parça Kodu: HYD-P5000"
+        "param": "Feed Type",
+        "value": "Hydrostatic Auto Feed",
+        "accessory": "Spare Part Code: HYD-P5000"
       },
       {
-        "param": "Su Tankı Kapasitesi (EN)",
-        "value": "35 Litre",
-        "accessory": "Harici Su Pompası Uyumu"
+        "param": "Water Tank Capacity",
+        "value": "35 Liters",
+        "accessory": "External Water Pump Compatible"
       },
       {
-        "param": "Ağırlık (EN)",
+        "param": "Weight",
         "value": "340 kg",
         "accessory": "-"
       }
@@ -98,10 +98,10 @@
       "Yüksek devirli motor"
     ],
     "featuresEn": [
-      "Ayarlanabilir kesim açısı (EN)",
-      "Galvanizli su teknesi (EN)",
-      "Kolay taşınabilir tasarım (EN)",
-      "Yüksek devirli motor (EN)"
+      "Adjustable cutting angle",
+      "Galvanized water tank",
+      "Easily portable design",
+      "High-speed motor"
     ],
     "technicalData": [
       {
@@ -132,27 +132,27 @@
     ],
     "technicalDataEn": [
       {
-        "param": "Maksimum Kesme Derinliği (EN)",
+        "param": "Max Cutting Depth",
         "value": "125 mm",
-        "accessory": "Sulu Kesim Diski Ø 400 mm"
+        "accessory": "Wet Cutting Blade Ø 400 mm"
       },
       {
-        "param": "Maksimum Kesme Uzunluğu (EN)",
+        "param": "Max Cutting Length",
         "value": "600 mm",
         "accessory": "-"
       },
       {
-        "param": "Motor Gücü (EN)",
+        "param": "Motor Power",
         "value": "2.2 kW (230V)",
-        "accessory": "Elektrik Motoru"
+        "accessory": "Electric Motor"
       },
       {
-        "param": "Su Pompası (EN)",
-        "value": "Elektrikli Dalgıç Pompa",
-        "accessory": "WP-12 Yedek Pompa"
+        "param": "Water Pump",
+        "value": "Electric Submersible Pump",
+        "accessory": "WP-12 Spare Pump"
       },
       {
-        "param": "Ağırlık (EN)",
+        "param": "Weight",
         "value": "75 kg",
         "accessory": "-"
       }
@@ -177,10 +177,10 @@
       "Alüminyum gövde"
     ],
     "featuresEn": [
-      "3 vitesli şanzıman (EN)",
-      "Aşırı yük koruma sistemi (EN)",
-      "Sulu ve kuru delme opsiyonu (EN)",
-      "Alüminyum gövde (EN)"
+      "3-speed gearbox",
+      "Overload protection system",
+      "Wet and dry drilling option",
+      "Aluminum body"
     ],
     "technicalData": [
       {
@@ -211,27 +211,27 @@
     ],
     "technicalDataEn": [
       {
-        "param": "Delme Çapı Aralığı (EN)",
+        "param": "Drilling Diameter Range",
         "value": "Ø 20 - 250 mm",
-        "accessory": "Elmas Karot Uçları"
+        "accessory": "Diamond Core Bits"
       },
       {
-        "param": "Motor Gücü (EN)",
+        "param": "Motor Power",
         "value": "3.0 kW",
-        "accessory": "Karot Sehpası P-3000"
+        "accessory": "Core Stand P-3000"
       },
       {
-        "param": "Devir Hızları (EN)",
+        "param": "Rotation Speeds",
         "value": "320 / 800 / 1200 rpm",
-        "accessory": "Şanzıman Yağı"
+        "accessory": "Gear Oil"
       },
       {
-        "param": "Bağlantı Tipi (EN)",
+        "param": "Connection Type",
         "value": "1 1/4\" UNC",
-        "accessory": "Adaptör Pulu"
+        "accessory": "Adapter Washer"
       },
       {
-        "param": "Ağırlık (EN)",
+        "param": "Weight",
         "value": "11.5 kg",
         "accessory": "-"
       }
@@ -256,10 +256,10 @@
       "Geniş disk çapı uyumu"
     ],
     "featuresEn": [
-      "Modüler ray sistemi (EN)",
-      "Uzaktan kumandalı operasyon (EN)",
-      "Hidrolik tahrik mekanizması (EN)",
-      "Geniş disk çapı uyumu (EN)"
+      "Modular rail system",
+      "Remote-controlled operation",
+      "Hydraulic drive mechanism",
+      "Wide blade diameter compatibility"
     ],
     "technicalData": [
       {
@@ -290,29 +290,29 @@
     ],
     "technicalDataEn": [
       {
-        "param": "Maksimum Kesme Derinliği (EN)",
+        "param": "Max Cutting Depth",
         "value": "730 mm",
-        "accessory": "Duvar Kesme Diski Ø 1600 mm"
+        "accessory": "Wall Saw Blade Ø 1600 mm"
       },
       {
-        "param": "Sürüş Sistemi (EN)",
-        "value": "Hidrolik Kremayer",
-        "accessory": "Uzatma Rayı 2m"
+        "param": "Drive System",
+        "value": "Hydraulic Rack",
+        "accessory": "Extension Rail 2m"
       },
       {
-        "param": "Çalışma Basıncı (EN)",
+        "param": "Working Pressure",
         "value": "260 bar",
-        "accessory": "Hidrolik Hortum Seti"
+        "accessory": "Hydraulic Hose Set"
       },
       {
-        "param": "Gerekli Hidrolik Ünite (EN)",
+        "param": "Required Hydraulic Unit",
         "value": "HAG-12",
-        "accessory": "Hidrolik Ünite"
+        "accessory": "Hydraulic Unit"
       },
       {
-        "param": "Kafa Ağırlığı (EN)",
+        "param": "Head Weight",
         "value": "28 kg",
-        "accessory": "Montaj Braketi"
+        "accessory": "Mounting Bracket"
       }
     ],
     "solutions": [
@@ -335,10 +335,10 @@
       "Yüksek kesim hızı"
     ],
     "featuresEn": [
-      "Geniş kasnak depolama (EN)",
-      "Pnömatik germe sistemi (EN)",
-      "Hızlı kurulum (EN)",
-      "Yüksek kesim hızı (EN)"
+      "Large pulley storage",
+      "Pneumatic tensioning system",
+      "Quick setup",
+      "High cutting speed"
     ],
     "technicalData": [
       {
@@ -369,27 +369,27 @@
     ],
     "technicalDataEn": [
       {
-        "param": "Halat Depolama Kapasitesi (EN)",
+        "param": "Wire Storage Capacity",
         "value": "14.5 Metre",
-        "accessory": "Cedima Elmas Tel Halat"
+        "accessory": "Cedima Diamond Wire"
       },
       {
-        "param": "Germe Tipi (EN)",
-        "value": "Pnömatik",
-        "accessory": "Hava Kompresörü"
+        "param": "Tensioning Type",
+        "value": "Pneumatic",
+        "accessory": "Air Compressor"
       },
       {
-        "param": "Sürüş Tipi (EN)",
-        "value": "Elektrik / Hidrolik",
-        "accessory": "Tahrik Motoru"
+        "param": "Drive Type",
+        "value": "Electric / Hydraulic",
+        "accessory": "Drive Motor"
       },
       {
-        "param": "Minimum Hava İhtiyacı (EN)",
+        "param": "Min Air Requirement",
         "value": "6 bar",
-        "accessory": "Bağlantı Rekorları"
+        "accessory": "Connection Fittings"
       },
       {
-        "param": "Sistem Ağırlığı (EN)",
+        "param": "System Weight",
         "value": "145 kg",
         "accessory": "-"
       }
@@ -415,10 +415,10 @@
       "Honda benzinli motor"
     ],
     "featuresEn": [
-      "Dahili su deposu (EN)",
-      "Otomatik ilerleme (EN)",
-      "Römork üstü mobil tasarım (EN)",
-      "Honda benzinli motor (EN)"
+      "Built-in water tank",
+      "Automatic feed",
+      "Trailer-mounted mobile design",
+      "Honda petrol engine"
     ],
     "technicalData": [
       {
@@ -449,28 +449,28 @@
     ],
     "technicalDataEn": [
       {
-        "param": "Maksimum Delme Çapı (EN)",
+        "param": "Max Drilling Diameter",
         "value": "Ø 350 mm",
-        "accessory": "Test Karot Uçları"
+        "accessory": "Test Core Bits"
       },
       {
-        "param": "İlerleme Mesafesi (EN)",
+        "param": "Feed Distance",
         "value": "600 mm",
-        "accessory": "Uzatma Kolu"
+        "accessory": "Extension Arm"
       },
       {
-        "param": "Motor Seçeneği (EN)",
+        "param": "Engine Option",
         "value": "Honda GX 390",
-        "accessory": "Buji Seti"
+        "accessory": "Spark Plug Set"
       },
       {
-        "param": "Su Tankı (EN)",
-        "value": "400 Litre",
-        "accessory": "Su Pompası"
+        "param": "Water Tank",
+        "value": "400 Liters",
+        "accessory": "Water Pump"
       },
       {
-        "param": "Montaj Tipi (EN)",
-        "value": "Römork / Kamyonet",
+        "param": "Mounting Type",
+        "value": "Trailer / Truck",
         "accessory": "-"
       }
     ],
@@ -494,10 +494,10 @@
       "Toz korumalı ayna"
     ],
     "featuresEn": [
-      "Titreşim emici sap (RVA) (EN)",
-      "Elektronik hız ayarı (EN)",
-      "Sürekli çalışma kilidi (EN)",
-      "Toz korumalı ayna (EN)"
+      "Vibration-absorbing handle (RVA)",
+      "Electronic speed control",
+      "Continuous operation lock",
+      "Dust-protected chuck"
     ],
     "technicalData": [
       {
@@ -528,29 +528,29 @@
     ],
     "technicalDataEn": [
       {
-        "param": "Darbe Gücü (EN)",
+        "param": "Impact Energy",
         "value": "11 Joule",
-        "accessory": "SDS Max Keskiler"
+        "accessory": "SDS Max Chisels"
       },
       {
-        "param": "Motor Gücü (EN)",
+        "param": "Motor Power",
         "value": "1300 Watt",
-        "accessory": "Karbon Fırça Seti"
+        "accessory": "Carbon Brush Set"
       },
       {
-        "param": "Darbe Sayısı (EN)",
-        "value": "1500 - 2700 darbe/dk",
+        "param": "Impact Rate",
+        "value": "1500 - 2700 bpm",
         "accessory": "-"
       },
       {
-        "param": "Takım Tutucu (EN)",
+        "param": "Tool Holder",
         "value": "SDS Max",
-        "accessory": "Mandren Adaptörü"
+        "accessory": "Chuck Adapter"
       },
       {
-        "param": "Ağırlık (EN)",
+        "param": "Weight",
         "value": "7.3 kg",
-        "accessory": "Özel Taşıma Çantası"
+        "accessory": "Special Carrying Case"
       }
     ],
     "solutions": [
@@ -573,10 +573,10 @@
       "Joystick kontrolü"
     ],
     "featuresEn": [
-      "Kompakt ebatlar (EN)",
-      "Ayarlanabilir serim genişliği (EN)",
-      "Isıtmalı tabla sistemi (EN)",
-      "Joystick kontrolü (EN)"
+      "Compact dimensions",
+      "Adjustable paving width",
+      "Heated screed system",
+      "Joystick control"
     ],
     "technicalData": [
       {
@@ -607,29 +607,29 @@
     ],
     "technicalDataEn": [
       {
-        "param": "Temel Serim Genişliği (EN)",
+        "param": "Basic Paving Width",
         "value": "1.5 - 3.2 Metre",
-        "accessory": "Tabla Uzatma Aparatı"
+        "accessory": "Screed Extension Kit"
       },
       {
-        "param": "Hazne Kapasitesi (EN)",
+        "param": "Hopper Capacity",
         "value": "5 Ton",
         "accessory": "-"
       },
       {
-        "param": "Motor (EN)",
-        "value": "Kubota Dizel",
-        "accessory": "Hava ve Yağ Filtreleri"
+        "param": "Engine",
+        "value": "Kubota Diesel",
+        "accessory": "Air and Oil Filters"
       },
       {
-        "param": "Isıtma Sistemi (EN)",
-        "value": "Elektrikli Isıtma",
-        "accessory": "Rezistans Çubukları"
+        "param": "Heating System",
+        "value": "Electric Heating",
+        "accessory": "Heating Elements"
       },
       {
-        "param": "Çalışma Ağırlığı (EN)",
+        "param": "Operating Weight",
         "value": "4.500 kg",
-        "accessory": "Konveyör Bantları"
+        "accessory": "Conveyor Belts"
       }
     ],
     "solutions": [
@@ -652,10 +652,10 @@
       "Yüksek kesim kapasitesi"
     ],
     "featuresEn": [
-      "Dahili alev geri tepme ventili (EN)",
-      "Hassas regülatörler (EN)",
-      "Ergonomik hamlaç (EN)",
-      "Yüksek kesim kapasitesi (EN)"
+      "Built-in flashback arrestor",
+      "Precision regulators",
+      "Ergonomic torch",
+      "High cutting capacity"
     ],
     "technicalData": [
       {
@@ -686,28 +686,28 @@
     ],
     "technicalDataEn": [
       {
-        "param": "Maksimum Kesme Kalınlığı (EN)",
+        "param": "Max Cutting Thickness",
         "value": "200 mm",
-        "accessory": "Victor Kesme Lüleleri"
+        "accessory": "Victor Cutting Tips"
       },
       {
-        "param": "Kullanım Gazları (EN)",
-        "value": "Oksijen / Asetilen / Propan",
-        "accessory": "Gaz Hortumları"
+        "param": "Applicable Gases",
+        "value": "Oxygen / Acetylene / Propane",
+        "accessory": "Gas Hoses"
       },
       {
-        "param": "Regülatör Tipi (EN)",
-        "value": "Tek Kademeli Edge 2.0",
-        "accessory": "Manometre Camı"
+        "param": "Regulator Type",
+        "value": "Single Stage Edge 2.0",
+        "accessory": "Pressure Gauge Glass"
       },
       {
-        "param": "Hamlaç Boyu (EN)",
+        "param": "Torch Length",
         "value": "530 mm",
-        "accessory": "Temizleme Çakısı"
+        "accessory": "Cleaning Tip"
       },
       {
-        "param": "Sistem Sınıfı (EN)",
-        "value": "Ağır Hizmet (Heavy Duty)",
+        "param": "System Class",
+        "value": "Heavy Duty",
         "accessory": "-"
       }
     ],
@@ -731,10 +731,10 @@
       "Geniş gaz uyumluluğu"
     ],
     "featuresEn": [
-      "Pirinç gövde tasarımı (EN)",
-      "Kolay okunabilir manometreler (EN)",
-      "Korumalı arka kapak (EN)",
-      "Geniş gaz uyumluluğu (EN)"
+      "Brass body design",
+      "Easy-to-read pressure gauges",
+      "Protected rear cover",
+      "Wide gas compatibility"
     ],
     "technicalData": [
       {
@@ -765,28 +765,28 @@
     ],
     "technicalDataEn": [
       {
-        "param": "Giriş Basıncı (EN)",
+        "param": "Inlet Pressure",
         "value": "Max 230 bar",
-        "accessory": "Bağlantı Somunu"
+        "accessory": "Connection Nut"
       },
       {
-        "param": "Çıkış Basıncı (EN)",
+        "param": "Outlet Pressure",
         "value": "0 - 10 bar",
-        "accessory": "Çıkış Rakoru"
+        "accessory": "Outlet Fitting"
       },
       {
-        "param": "Uyumlu Gazlar (EN)",
-        "value": "Oksijen, Argon, Karışım Gaz",
-        "accessory": "Conta Seti"
+        "param": "Compatible Gases",
+        "value": "Oxygen, Argon, Mixed Gas",
+        "accessory": "Seal Kit"
       },
       {
-        "param": "Gövde Malzemesi (EN)",
-        "value": "Dövme Pirinç",
+        "param": "Body Material",
+        "value": "Forged Brass",
         "accessory": "-"
       },
       {
-        "param": "Standart (EN)",
-        "value": "ISO 2503 Uyumlu",
+        "param": "Standard",
+        "value": "ISO 2503 Compliant",
         "accessory": "-"
       }
     ],
@@ -811,11 +811,11 @@
       "Porozitesiz, mükemmel kaynak kalitesi"
     ],
     "featuresEn": [
-      "Cylinder regulator with gas saver and flow meter",
-      "Applicable with all shielding gases for MIG/MAG/TIG",
-      "Provides consistent and stable gas conditions",
-      "Less downtime from changing cylinders",
-      "Improved weld quality with less porosity"
+      "Gas saving unit and flowmeter",
+      "Compatible with all shielding gases for MIG/MAG/TIG",
+      "Stable gas flow around the weld",
+      "Fewer cylinder changes and higher efficiency",
+      "Porosity-free, excellent welding quality"
     ],
     "technicalData": [
       {
@@ -846,13 +846,13 @@
     ],
     "technicalDataEn": [
       {
-        "param": "Maximal Inlet Pressure",
-        "value": "200 or 300 bar",
-        "accessory": "Cylinder Connection"
+        "param": "Max Inlet Pressure",
+        "value": "200 - 300 bar",
+        "accessory": "Cylinder Connection Fitting"
       },
       {
         "param": "Outlet Flow Range",
-        "value": "0 - 30 l/min",
+        "value": "0 - 30 l/dk",
         "accessory": "Flowmeter Glass"
       },
       {
@@ -861,7 +861,7 @@
         "accessory": "-"
       },
       {
-        "param": "Temperature Range",
+        "param": "Operating Temperature",
         "value": "-20°C to +60°C",
         "accessory": "-"
       },
@@ -892,11 +892,11 @@
       "Ergonomik kullanım volanı"
     ],
     "featuresEn": [
-      "Single-stage with superior performance",
-      "Robust design for heavy-duty daily use",
-      "Downwards oriented outlet",
-      "High pressure accuracy",
-      "Ergonomic handwheel"
+      "Single-stage superior performance",
+      "Heavy-duty body",
+      "Downward outlet design",
+      "High pressure precision",
+      "Ergonomic control wheel"
     ],
     "technicalData": [
       {
@@ -927,9 +927,9 @@
     ],
     "technicalDataEn": [
       {
-        "param": "Maximal Inlet Pressure",
+        "param": "Max Inlet Pressure",
         "value": "200 or 300 bar",
-        "accessory": "Inlet Nut"
+        "accessory": "Connection Nut"
       },
       {
         "param": "Body Material",
@@ -937,9 +937,9 @@
         "accessory": "-"
       },
       {
-        "param": "Bonnet Material",
-        "value": "Zn/Al alloy Die Cast",
-        "accessory": "Protective Cap"
+        "param": "Cover Material",
+        "value": "Zn/Al Alloy Die Cast",
+        "accessory": "Protective Cover"
       },
       {
         "param": "Application Area",
@@ -947,7 +947,7 @@
         "accessory": "-"
       },
       {
-        "param": "ISO Standard",
+        "param": "ISO Class",
         "value": "ISO 2503 Compliant",
         "accessory": "-"
       }

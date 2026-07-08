@@ -14,7 +14,7 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params;
   const { locale, slug } = resolvedParams;
-  const solution = solutionsData.find((s) => s.slug === slug);
+  const solution = solutionsData.find((s) => s.slug === slug || (s as any).slugEn === slug);
   
   if (!solution) {
     return { title: locale === 'en' ? 'Solution Not Found | Özensan' : 'Çözüm Bulunamadı | Özensan' };
@@ -35,9 +35,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export async function generateStaticParams() {
-  return solutionsData.map((solution) => ({
-    slug: solution.slug,
-  }));
+  const params: { locale: string, slug: string }[] = [];
+  solutionsData.forEach((solution) => {
+    params.push({ locale: 'tr', slug: solution.slug });
+    if ((solution as any).slugEn) {
+      params.push({ locale: 'en', slug: (solution as any).slugEn });
+    }
+  });
+  return params;
 }
 
 import { getTranslations } from "next-intl/server";
@@ -48,7 +53,7 @@ export default async function SolutionDetailPage({ params }: Props) {
   const locale = (resolvedParams as any).locale;
   const isEn = locale === 'en';
   const tn = await getTranslations({locale, namespace: "Navigation"});
-  const solution = solutionsData.find((s) => s.slug === resolvedParams.slug);
+  const solution = solutionsData.find((s) => s.slug === resolvedParams.slug || (s as any).slugEn === resolvedParams.slug);
 
   if (!solution) {
     notFound();

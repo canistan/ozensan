@@ -2,11 +2,12 @@
 
 import React, { useState } from 'react';
 import { Link } from "@/i18n/routing";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 
 export default function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false);
   const t = useTranslations("Navigation");
+  const locale = useLocale();
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
@@ -40,10 +41,9 @@ export default function MobileMenu() {
             <div className="flex flex-col gap-3">
               <span className="text-[#8A95A5] uppercase text-sm tracking-widest">{t("solutions")}</span>
               <div className="flex flex-col gap-3 pl-4 border-l-2 border-[#C61A1A]/20">
-                <Link href={{ pathname: '/cozumler/[slug]', params: { slug: 'asfalt-beton' } }} onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors text-lg">{t("asphalt")}</Link>
-                <Link href={{ pathname: '/cozumler/[slug]', params: { slug: 'yol-yapim' } }} onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors text-lg">{t("road")}</Link>
-                <Link href={{ pathname: '/cozumler/[slug]', params: { slug: 'delme-karot' } }} onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors text-lg">{t("drilling")}</Link>
-                <Link href={{ pathname: '/cozumler/[slug]', params: { slug: 'gaz-kontrol' } }} onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors text-lg">{t("gas")}</Link>
+                <Link href={{ pathname: '/cozumler/[slug]', params: { slug: locale === 'en' ? 'road-construction-and-maintenance' : 'yol-yapim-ve-bakim' } }} onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors text-lg">{t("solution_road")}</Link>
+                <Link href={{ pathname: '/cozumler/[slug]', params: { slug: locale === 'en' ? 'heavy-industry-and-metalworking' : 'agir-sanayi-ve-metal' } }} onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors text-lg">{t("solution_heavy")}</Link>
+                <Link href={{ pathname: '/cozumler/[slug]', params: { slug: locale === 'en' ? 'professional-drilling-and-demolition' : 'profesyonel-delme-yikim' } }} onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors text-lg">{t("solution_drilling")}</Link>
               </div>
             </div>
 

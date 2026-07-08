@@ -5,7 +5,8 @@
     "nameEn": "Road Construction and Maintenance",
     "image": "/solutions/road.png",
     "description": "Asfalt kesimi, serimi ve yama işlemleri için ihtiyaç duyulan tüm profesyonel makine ve ekipmanlar. Otoyol şantiyelerinden şehir içi altyapı çalışmalarına kadar kesintisiz performans sunan çözümlerimizle projelerinizi hızlandırın.",
-    "descriptionEn": "All the professional machinery and equipment needed for asphalt cutting, paving, and patching. Accelerate your projects with our solutions that offer uninterrupted performance from highway sites to urban infrastructure works."
+    "descriptionEn": "All the professional machinery and equipment needed for asphalt cutting, paving, and patching. Accelerate your projects with our solutions that offer uninterrupted performance from highway sites to urban infrastructure works.",
+    "slugEn": "road-construction-and-maintenance"
   },
   {
     "slug": "agir-sanayi-ve-metal",
@@ -13,7 +14,8 @@
     "nameEn": "Heavy Industry and Metalworking",
     "image": "/solutions/heavy.png",
     "description": "Gemi inşaası, çelik konstrüksiyon ve dökümhaneler için tasarlanmış, üst düzey güvenlik standartlarına sahip endüstriyel gaz kesme ve basınç kontrol sistemleri.",
-    "descriptionEn": "Industrial gas cutting and pressure control systems with high-level safety standards, designed for shipbuilding, steel construction, and foundries."
+    "descriptionEn": "Industrial gas cutting and pressure control systems with high-level safety standards, designed for shipbuilding, steel construction, and foundries.",
+    "slugEn": "heavy-industry-and-metalworking"
   },
   {
     "slug": "profesyonel-delme-yikim",
@@ -21,6 +23,7 @@
     "nameEn": "Professional Drilling and Demolition",
     "image": "/solutions/demolition.png",
     "description": "Betonarme yapılarda hassas karot alımı, duvar kesme, halatlı kesim ve ağır kırım işlemleri için Alman teknolojisi ile üretilmiş güçlü, dayanıklı ve ergonomik makineler.",
-    "descriptionEn": "Powerful, durable, and ergonomic machines produced with German technology for precise core drilling, wall cutting, wire cutting, and heavy demolition operations in reinforced concrete structures."
+    "descriptionEn": "Powerful, durable, and ergonomic machines produced with German technology for precise core drilling, wall cutting, wire cutting, and heavy demolition operations in reinforced concrete structures.",
+    "slugEn": "professional-drilling-and-demolition"
   }
 ]

@@ -102,20 +102,16 @@ export default async function RootLayout({
                 </span>
                 <div className="absolute top-full left-1/2 -translate-x-1/2 w-80 bg-white border border-[#8A95A5]/20 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 translate-y-2 group-hover:translate-y-0 rounded-b-xl overflow-hidden">
                   <div className="p-3 flex flex-col gap-1">
-                    <Link href={{ pathname: '/cozumler/[slug]', params: { slug: 'asfalt-beton' } }} className="px-5 py-3.5 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-semibold flex items-center justify-between group/link">
-                      {t("asphalt")}
+                    <Link href={{ pathname: '/cozumler/[slug]', params: { slug: locale === 'en' ? 'road-construction-and-maintenance' : 'yol-yapim-ve-bakim' } }} className="px-5 py-3.5 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-semibold flex items-center justify-between group/link">
+                      {t("solution_road")}
                       <svg className="w-4 h-4 opacity-0 -translate-x-2 group-hover/link:opacity-100 group-hover/link:translate-x-0 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
                     </Link>
-                    <Link href={{ pathname: '/cozumler/[slug]', params: { slug: 'yol-yapim' } }} className="px-5 py-3.5 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-semibold flex items-center justify-between group/link">
-                      {t("road")}
+                    <Link href={{ pathname: '/cozumler/[slug]', params: { slug: locale === 'en' ? 'heavy-industry-and-metalworking' : 'agir-sanayi-ve-metal' } }} className="px-5 py-3.5 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-semibold flex items-center justify-between group/link">
+                      {t("solution_heavy")}
                       <svg className="w-4 h-4 opacity-0 -translate-x-2 group-hover/link:opacity-100 group-hover/link:translate-x-0 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
                     </Link>
-                    <Link href={{ pathname: '/cozumler/[slug]', params: { slug: 'delme-karot' } }} className="px-5 py-3.5 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-semibold flex items-center justify-between group/link">
-                      {t("drilling")}
-                      <svg className="w-4 h-4 opacity-0 -translate-x-2 group-hover/link:opacity-100 group-hover/link:translate-x-0 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
-                    </Link>
-                    <Link href={{ pathname: '/cozumler/[slug]', params: { slug: 'gaz-kontrol' } }} className="px-5 py-3.5 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-semibold flex items-center justify-between group/link">
-                      {t("gas")}
+                    <Link href={{ pathname: '/cozumler/[slug]', params: { slug: locale === 'en' ? 'professional-drilling-and-demolition' : 'profesyonel-delme-yikim' } }} className="px-5 py-3.5 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-semibold flex items-center justify-between group/link">
+                      {t("solution_drilling")}
                       <svg className="w-4 h-4 opacity-0 -translate-x-2 group-hover/link:opacity-100 group-hover/link:translate-x-0 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
                     </Link>
                   </div>

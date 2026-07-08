@@ -1,17 +1,16 @@
 {
   "Navigation": {
     "solutions": "Çözümler & Uygulamalar",
-    "asphalt": "Asfalt & Beton Kesme",
-    "road": "Yol Yapım Ekipmanları",
-    "drilling": "Delme & Karot Sistemleri",
-    "gas": "Endüstriyel Gaz Kontrol",
     "brands": "Markalarımız",
     "corporate": "Kurumsal",
     "management": "Yönetimimiz",
     "about": "Hakkımızda",
     "contact": "İletişim",
     "getQuote": "Fiyat Teklifi Al",
-    "allBrands": "TÜM MARKALAR"
+    "allBrands": "TÜM MARKALAR",
+    "solution_road": "Yol Yapım ve Bakım",
+    "solution_heavy": "Ağır Sanayi ve Metal İşleme",
+    "solution_drilling": "Profesyonel Delme ve Yıkım"
   },
   "Footer": {
     "desc": "Yarım asrı aşkın tecrübemizle, ağır sanayi ve altyapı projelerinizde dünyanın en güçlü markalarının güvencesini sunuyoruz.",

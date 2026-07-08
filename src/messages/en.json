@@ -1,17 +1,16 @@
 {
   "Navigation": {
     "solutions": "Solutions & Applications",
-    "asphalt": "Asphalt & Concrete Cutting",
-    "road": "Road Construction Equipment",
-    "drilling": "Drilling & Coring Systems",
-    "gas": "Industrial Gas Control",
     "brands": "Our Brands",
     "corporate": "Corporate",
     "management": "Our Management",
     "about": "About Us",
     "contact": "Contact",
     "getQuote": "Get a Quote",
-    "allBrands": "ALL BRANDS"
+    "allBrands": "ALL BRANDS",
+    "solution_road": "Road Construction and Maintenance",
+    "solution_heavy": "Heavy Industry and Metalworking",
+    "solution_drilling": "Professional Drilling and Demolition"
   },
   "Footer": {
     "desc": "With over half a century of experience, we provide the assurance of the world's most powerful brands in your heavy industry and infrastructure projects.",
