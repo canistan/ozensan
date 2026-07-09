@@ -1,44 +1,2789 @@
 [
   {
-    "slug": "cedima-cf-22",
+    "slug": "cedima-cf-4030-df",
     "brand": "cedima",
-    "name": "CF-22.1 Dizel Derz Kesici",
-    "nameEn": "CF-22.1 Diesel Floor Saw",
-    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Cedima+CF-22.1",
-    "description": "Zorlu şantiye koşullarında yüksek performans gösteren, dayanıklı ve ergonomik tasarıma sahip profesyonel asfalt ve beton kesme makinesi. Özel şasi yapısı titreşimi minimize ederken, operatör yorgunluğunu en aza indirir.",
-    "descriptionEn": "Professional asphalt and concrete floor saw designed for high performance in tough site conditions.",
+    "name": "CF-4030DF",
+    "nameEn": "CF-4030 DF",
+    "image": "/products/cedima-cf-4030-df.webp",
+    "description": "Yeşil betonu kesmek için çıkarma sistemli CF-4030 D modeli. Şarj havası soğutması, su soğutmalı egzoz gazı devridaimi ve egzoz gazı son işlem sistemi ile en yeni Stage 5 turboşarjlı emisyon standardına sahip güçlü dizel motor, en yeni çevre koruma gereksinimlerini karşılar. CF-4030 standart olarak trafiğe kapalı bir makine olarak sunulur. Operatör için ayarlanabilir koltuğa sahip bir basamak aksesuar olarak mevcuttur. Bu makine yalnızca yeni siparişler için mevcuttur!",
+    "descriptionEn": "Variant of the CF-4030 D with extraction system for cutting green concrete. The powerful diesel engine with the latest Stage 5 turbocharged emissions standard with charge air cooling, water-cooled exhaust gas recirculation and exhaust gas aftertreatment system fulfils the latest environmental protection requirements. The CF-4030 is supplied as a pedestrianised machine as standard. A footboard with adjustable seat for the operator is available as an accessory. This machine is only available for new orders!",
     "features": [
-      "Hidrostatik sürüş sistemi",
-      "Elektrikli su pompası",
-      "Ergonomik kullanım paneli",
-      "Maksimum 300mm kesme derinliği"
+      "Ekstraksiyon sistemli ve 600 mm ekstraksiyon bıçağı korumalı taze beton versiyonu",
+      "Su pompası ve kesme milinden su akışı",
+      "En son Aşama 5 emisyon standardı",
+      "Elektrikli Kesme Derinliği Ölçümü",
+      "Hidrolik direksiyon",
+      "Arıza korumalı park freni"
     ],
     "featuresEn": [
-      "Hydrostatic drive system",
-      "Electric water pump",
-      "Ergonomic control panel",
-      "Max 300mm cutting depth"
+      "Fresh concrete version with extraction system and 600 mm extraction blade guard",
+      "Water pump and water flow through the cutting shaft",
+      "Latest Stage 5 emissions standard",
+      "Electrical Cutting Depth Measurement",
+      "Hydraulic steering",
+      "Fail-safe parking brake"
     ],
     "technicalData": [
       {
-        "param": "Maksimum Kesme Derinliği",
+        "param": "Maks. kesme derinliği",
+        "value": "210 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme mili hızı",
+        "value": "variable",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "36 mm + 6 holes",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "46 kW / 61.2 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "açık. motor çıkışı",
+        "value": "46 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tanımı",
+        "value": "Doosan D18",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor marş motoru",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "Yes",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1625 / 1275 / 1295 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "980 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "210 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting shaft speed",
+        "value": "variable",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "36 mm + 6 holes",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "46 kW / 61.2 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "net. motor output",
+        "value": "46 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor designation",
+        "value": "Doosan D18",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor starter",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "Yes",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1625 / 1275 / 1295 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "980 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
+    ],
+    "isFeatured": true
+  },
+  {
+    "slug": "cedima-cf-13-3-b",
+    "brand": "cedima",
+    "name": "CF-13.3B",
+    "nameEn": "CF-13.3 B",
+    "image": "/products/cedima-cf-13-3-b.webp",
+    "description": "Esnek zemin testeresi özellikle hafif yol rehabilitasyonunun yanı sıra bahçe ve çevre düzenlemesi için de uygundur. Kesme derinliği el çarkı ile ayarlanır ve kazı, az bakım gerektiren bir külbütör aracılığıyla gerçekleştirilir. Operatörün tutma kolu kauçukla monte edilmiştir ve bu nedenle özellikle düşük titreşimlidir. Kompakt boyutları ve kolay kullanımı sayesinde makine aynı zamanda kiralama işleri için de idealdir.",
+    "descriptionEn": "The flexible floor saw is particularly suitable for light road rehabilitation as well as for gardening and landscaping. The cutting depth is adjusted by handwheel, and excavation is carried out via a low-maintenance rocker. The operator's handle is rubber-mounted and therefore particularly low-vibration. Due to its compact dimensions and easy handling, the machine is also ideal for the rental business.",
+    "features": [
+      "Siklon hava filtreli güvenilir Honda benzinli motor",
+      "Hızlı, kolay kesim tarafı değişimi",
+      "El krankı aracılığıyla kademesiz kesme derinliği ayarı",
+      "Ayarlanabilir kesme derinliği göstergesi ve park freni",
+      "Yüksekliği ayarlanabilir ve düşük titreşimli itme çubuğu",
+      "Dışarıya çekilebilir taşıma kolu, vinç gözü"
+    ],
+    "featuresEn": [
+      "Reliable Honda petrol engine with cyclone air filter",
+      "Quick, easy cutting side change",
+      "Infinitely variable cutting depth adjustment by means of a hand crank",
+      "Adjustable cutting depth indicator and parking brake",
+      "Height-adjustable and low-vibration push bar",
+      "Pull-out transport handle, crane eye"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "175 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "450 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
         "value": "300 mm",
-        "accessory": "Cedima Elmas Disk Ø 800 mm"
+        "accessory": "-"
       },
       {
-        "param": "Motor Gücü / Kaynak",
-        "value": "11 kW (Dizel)",
-        "accessory": "Yetkili Servis Bakım Seti"
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
       },
       {
-        "param": "İlerleme Tipi",
-        "value": "Hidrostatik Otomatik İlerleme",
-        "accessory": "Yedek Parça Kodu: HYD-P5000"
+        "param": "Bıçak montajı",
+        "value": "right or left",
+        "accessory": "-"
       },
       {
-        "param": "Su Tankı Kapasitesi",
-        "value": "35 Litre",
-        "accessory": "Harici Su Pompası Uyumu"
+        "param": "Maks. montaj genişliği",
+        "value": "13 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "8.7 kW / 11.8 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "açık. motor çıkışı",
+        "value": "8.7 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Petrol",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tanımı",
+        "value": "Honda GX-390",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor marş motoru",
+        "value": "Reversing Start",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Handwheel",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "Su deposu içeriği",
+        "value": "23 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "820 / 520 / 870 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "104 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "175 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "450 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "300 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "13 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "8.7 kW / 11.8 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "net. motor output",
+        "value": "8.7 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Petrol",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor designation",
+        "value": "Honda GX-390",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor starter",
+        "value": "Reversing Start",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Handwheel",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "Water tank content",
+        "value": "23 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "820 / 520 / 870 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "104 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
+    ],
+    "isFeatured": true
+  },
+  {
+    "slug": "cedima-cf-6032",
+    "brand": "cedima",
+    "name": "CF-6032",
+    "nameEn": "CF-6032",
+    "image": "/products/cedima-cf-6032.webp",
+    "description": "Tüm hidrolik çalışma fonksiyonları, sürücü koltuğundaki bir kontrol paneli aracılığıyla elektronik olarak kontrol edilir ve net 7\" renkli ekranda görüntülenir. Ergonomik koltuk ve direksiyon simidi ayarlanabilir, böylece operatöre kesme çizgisini her zaman gözlemlemek için en uygun konumu garanti eder. Geniş genişletme seçenekleri yelpazesi, CF-6030'u beton veya asfalt trafik yüzeylerini işlemek için evrensel bir güç merkezi haline getirir. Özel bir uygulama, fiber optik kabloları cadde veya kaldırıma yerleştirmek için bir yuvanın frezelendiği bir teknoloji olan mikro kanal açma için dönüşüm olasılığıdır. Daha fazla bilgiyi Microtrench'te bulabilirsiniz.",
+    "descriptionEn": "All hydraulic work functions are electronically controlled via a control panel on the driver's seat and displayed on a clear 7\" colour display. The ergonomic seat and steering wheel are adjustable, thus guaranteeing the operator the optimal position to observe the cutting line at all times. A wide range of expansion options make the CF-6030 a universal powerhouse for processing concrete or asphalt traffic surfaces.A special application is the possibility of conversion for microtrenching, a technology in which a slot is milled to accommodate fiber optic cables in the street or pavement. More information can be found at Microtrenching.",
+    "features": [
+      "Otomatik soğuk çalıştırma özelliğine sahip, yüksek performanslı, düşük emisyonlu Stage V (AB) / Tier 4 (Final) common-rail dizel",
+      "Hidrolik olarak tahrik edilen tekerlek göbeği motorları aracılığıyla dört tekerlekten çekiş",
+      "Tüm çalışma fonksiyonlarının tamamen hidrolik tahriki",
+      "Sağdan veya soldan bıçak alma olanağı",
+      "Kademesiz değişken kesme mili hızı",
+      "Bir ekstraksiyon sistemini çalıştırmak için standart ek hidrolik"
+    ],
+    "featuresEn": [
+      "High-performance low-emission Stage V (EU) / Tier 4 (Final) common-rail diesel with automatic cold start",
+      "All-wheel drive via hydraulically driven wheel hub motors",
+      "Fully hydraulic drive of all work functions",
+      "Blade pick-up possible on the right or left",
+      "Infinitely variable cutting shaft speed",
+      "Standard additional hydraulics for driving an extraction system"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "630 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "1500 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "300 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme mili hızı",
+        "value": "600 - 2800 rpm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "35 mm + 6 holes",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "13 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "100.4 kW / 136.5 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "açık. motor çıkışı",
+        "value": "100.4 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tanımı",
+        "value": "Doosan D34",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor marş motoru",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "Yes",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "3515 / 1320 / 1840 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "2100 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "630 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "1500 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "300 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting shaft speed",
+        "value": "600 - 2800 rpm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "35 mm + 6 holes",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "13 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "100.4 kW / 136.5 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "net. motor output",
+        "value": "100.4 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor designation",
+        "value": "Doosan D34",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor starter",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "Yes",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "3515 / 1320 / 1840 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "2100 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
+    ],
+    "isFeatured": true
+  },
+  {
+    "slug": "cedima-cf-2025-e-12",
+    "brand": "cedima",
+    "name": "CF-2025 E 12",
+    "nameEn": "CF-2025 E 12",
+    "image": "/products/cedima-cf-2025-e-12.webp",
+    "description": "15 kW'lık Motor, Hidrolik Sistemler ve Otomatik Elektro-Hidrolik Sistemler Ø 1200 mm'lik bir Tren ile 505 mm'lik Schnitttiefen için elektrikli hidrolik sistemler.",
+    "descriptionEn": "Leistungsstarker und bewährter Elektrofugenschneider mit 15 kW Motor, hydraulischer Schnitttiefeneinstellung und automatischem elektro-hydraulischem Vorschub für Schnitttiefen bis 505 mm mit einer Trennscheibe Ø 1200 mm.",
+    "features": [
+      "Sägeblattaufnahme ist rechts veya diğer bağlantılar",
+      "Schneller, Schneidseite Wechsel'in bir parçası",
+      "hidrolik Schnitttiefeneinstellung",
+      "Aufklappbarer Blattschutz für Schnitte bis an Wände heran",
+      "Trittbrett für den Bediener"
+    ],
+    "featuresEn": [
+      "Sägeblattaufnahme ist rechts oder links möglich",
+      "Schneller, einfacher Wechsel der Schneidseite",
+      "hydraulische Schnitttiefeneinstellung",
+      "Aufklappbarer Blattschutz für Schnitte bis an Wände heran",
+      "Trittbrett für den Bediener"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "505 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "1200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "60 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "rechts oder links",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "10 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "15 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Elektro",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "402 V / 50 Hz / 32 A",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Elektrohydraulik",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "hydrostatisch",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1400 / 800 / 1200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "370 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "505 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "1200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "60 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "rechts oder links",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "10 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "15 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Elektro",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "402 V / 50 Hz / 32 A",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Elektrohydraulik",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "hydrostatisch",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1400 / 800 / 1200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "370 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cf-50-2-e",
+    "brand": "cedima",
+    "name": "CF-50.2E",
+    "nameEn": "CF-50.2 E",
+    "image": "/products/cedima-cf-50-2-e.webp",
+    "description": "Tamamen elektrikli zemin testeresi CF-50.2 E, asfalt veya betonda 500 mm kesme derinliğine kadar kesme ve derin kesimler için kullanılır. Elektrik bağlantısına bağlı olarak 15 veya 22 kW güçle çalıştırılabilir. Ayrı elektrik motorlu hidrostatik tahrik, kesme işlemi sırasında zemin testeresinin eşit şekilde beslenmesini sağlar. Kesme derinliği beslemesi ve testere bıçağı kazısı elektro-hidrolik olarak gerçekleştirilir. CF-50.2E, 800 ve 1200 mm elmas testere bıçakları için iki bıçak kontaktörüyle birlikte gelir.",
+    "descriptionEn": "The all-electric floor saw CF-50.2 E is used for cutting and deep cuts in asphalt or concrete up to a cutting depth of 500 mm. Depending on the electrical connection, it can be operated with either 15 or 22 kW of power. The hydrostatic drive with separate electric motor allows the floor saw to be fed evenly during cutting operation. The cutting depth infeed and the saw blade excavation are carried out electro-hydraulically. The CF-50.2E comes with two blade contactors for 800 and 1200 mm diamond saw blades.",
+    "features": [
+      "Testere bıçağı montajı sağa veya sola mümkündür",
+      "Hızlı, kolay kesim tarafı değişimi",
+      "Standart olarak 2 bıçak atıcı (800 / 1200 mm) ile donatılmıştır",
+      "Hidrostatik tahrik nedeniyle düzgün besleme",
+      "Bağlantı 32 A ve 63 A (15 ve 22 kW) arasında değiştirilebilir",
+      "Elektro-hidrolik olarak kesme derinliği beslemesi ve testere bıçağı kazısı"
+    ],
+    "featuresEn": [
+      "Saw blade mounting is possible on the right or left",
+      "Quick, easy cutting side change",
+      "Equipped with 2 blade shooters (800 / 1200 mm) as standard",
+      "Uniform feed due to hydrostatic drive",
+      "Connection switchable between 32 A and 63 A (15 and 22 kW)",
+      "Cutting depth infeed and saw blade excavation electro-hydraulically"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "500 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "1200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "800 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "35 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "5 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "15 or 20 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "400 V / 50 Hz / 32 or 63 A",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "hydrostatic",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1550 / 940 / 1200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "580 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "500 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "1200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "800 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "35 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "5 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "15 or 20 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "400 V / 50 Hz / 32 or 63 A",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "hydrostatic",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1550 / 940 / 1200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "580 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cf-13-2-e",
+    "brand": "cedima",
+    "name": "CF-13.2 E",
+    "nameEn": "CF-13.2 E",
+    "image": "/products/cedima-cf-13-2-e.webp",
+    "description": "Küçük, sağlam, taşıması kolay ve güçlü bir elektrik motoruyla donatılmış - bunlar CF-13.2 E'nin özellikleridir. Esnek zemin testeresi özellikle kapalı veya dolambaçlı iç mekanlardaki hafif tadilatlar için uygundur. Kesme derinliği el çarkı ile ayarlanır, besleme operatör tarafından gerçekleştirilir. Operatörün tutma kolu kauçuğa monte edilmiştir ve bu nedenle özellikle düşük titreşimlidir. Kompakt boyutları ve kolay kullanımı nedeniyle makine kiralama için de idealdir.",
+    "descriptionEn": "Small, robust, easy to transport and equipped with a powerful electric motor â€“ these are the attributes of the CF-13.2 E.  The flexible floor saw is particularly suitable for light renovations in confined or winding interiors. The cutting depth is adjusted by handwheel, the feed is carried out by the operator. The operator's handle is rubber-mounted and therefore particularly low-vibration. Due to its compact dimensions and easy handling, the machine is also ideal for rental.",
+    "features": [
+      "Testere bıçağı montajı sağa veya sola mümkündür",
+      "Hızlı, kolay kesim tarafı değişimi",
+      "El krankı aracılığıyla kademesiz kesme derinliği ayarı",
+      "Duvarlara kadar kesimler için menteşeli bıçak koruması",
+      "Ayarlanabilir kesme derinliği göstergesi ve park freni",
+      "Yüksekliği ayarlanabilir ve düşük titreşimli itme çubuğu"
+    ],
+    "featuresEn": [
+      "Saw blade mount possible on the right or left",
+      "Quick, easy cutting side change",
+      "Infinitely variable cutting depth adjustment by means of a hand crank",
+      "Hinged blade guard for cuts up to walls",
+      "Adjustable cutting depth indicator and parking brake",
+      "Height-adjustable and low-vibration push bar"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "170 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "450 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "300 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "15 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "7.5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "400 V / 50 Hz / 16 A",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Crank handle",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "820 / 520 / 870 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "106 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "170 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "450 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "300 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "15 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "7.5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "400 V / 50 Hz / 16 A",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Crank handle",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "820 / 520 / 870 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "106 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cf-1020-1b",
+    "brand": "cedima",
+    "name": "CF-1020.1B",
+    "nameEn": "CF-1020.1B",
+    "image": "/products/cedima-cf-1020-1b.webp",
+    "description": "CF-1020.1 B, 200 mm'lik muazzam bir kesme derinliğine ulaşır ve peyzaj veya yol yapımında yenileme ve hafif işlerde kullanım için idealdir. Bu nedenle inşaat makinelerine yönelik kiralık park portföyüne mükemmel uyum sağlar.  Oldukça kompakt ve taşıma dostu boyutlarıyla etkileyicidir. Tahrik motorunun son derece alçak montaj konumu, makinenin ağırlık merkezini keskin bir şekilde aşağı doğru kaydırır. Döner kol prensibi sayesinde tahrik motoru, testere bıçağı kaldırıldığında alçak montaj konumunda kalır. Bu, özellikle yüksek düzeyde bir devrilme direnci sağlar ve basit ve kolay kesimi garanti eder.",
+    "descriptionEn": "The CF-1020.1 B achieves an enormous cutting depth of 200 mm and is ideal for use in renovations and light work in landscaping or road construction. Therefore, it fits perfectly into the portfolio of rental parks for construction machinery.  It impresses with its very compact and transport-friendly dimensions. The extremely low installation position of the drive motor shifts the center of gravity of the machine sharply downwards. Thanks to the swivel arm principle, the drive motor remains in its low installation position when the saw blade is lifted. This achieves a particularly high level of tilt resistance and guarantees simple and easy cutting.",
+    "features": [
+      "Siklon hava filtresi ve yağ eksikliği anahtarına sahip güçlü Honda benzinli motor",
+      "Alçak ağırlık merkezi ve maksimum iz genişliği sayesinde yüksek devrilme direnci",
+      "Döner kol prensibi sayesinde tüm kesme derinliklerinde sabit kesme mili basıncı",
+      "Geniş doldurma açıklığına sahip 22 litrelik su su deposu",
+      "Makineye yakıt doldurmak için su deposu yana doğru döndürülebilir",
+      "Turna gözü"
+    ],
+    "featuresEn": [
+      "Powerful Honda petrol engine with cyclone air filter and oil shortage switch",
+      "High tilt resistance due to low centre of gravity and maximum track width",
+      "Constant cutting shaft pressure at all cutting depths thanks to the swivel arm principle",
+      "22 litre water water tank with large filling opening",
+      "Water tank can be swivelled sideways to fill the machine with fuel",
+      "Crane eye"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "500 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "350 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "8.7 kW / 11.8 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "açık. motor çıkışı",
+        "value": "8.7 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Petrol",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tanımı",
+        "value": "Honda GX-390",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor marş motoru",
+        "value": "Reversing Start",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Handwheel",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "Su deposu içeriği",
+        "value": "22 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1290 / 570 / 1050 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "121 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "500 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "350 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "8.7 kW / 11.8 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "net. motor output",
+        "value": "8.7 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Petrol",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor designation",
+        "value": "Honda GX-390",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor starter",
+        "value": "Reversing Start",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Handwheel",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "Water tank content",
+        "value": "22 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1290 / 570 / 1050 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "121 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cf-246-2",
+    "brand": "cedima",
+    "name": "CF-246.2",
+    "nameEn": "CF-246.2",
+    "image": "/products/cedima-cf-246-2.webp",
+    "description": "CF-246 yüzey freze makinesi, paralel elmas kesme diskleri (kanal açma) vasıtasıyla toprağa düz bir oluk profili keser. Sonuç olarak bireysel boşlukların, yüzey boşluklarının ve düz beton zeminlerin sağlamlığı sürdürülebilir bir şekilde yeniden sağlanır. Freze derinliği, freze şaftı ile indirilen ve kaldırılan 2 adet yüksekliği ayarlanabilir ve kilitlenebilir destek silindiri bloğu aracılığıyla sabitlenebilir. Silindirlerin doğrudan freze şaftının yanındaki düzeni, düz olmayan yüzeylerde bile sabit bir frezeleme derinliğini garanti eder.",
+    "descriptionEn": "The CF-246 surface milling machine cuts a flat groove profile into the soil by means of parallel diamond cutting wheels (grooving). As a result, the surefootedness of individual gaps, surface gaps and flat concrete floors is sustainably restored. The milling depth can be fixed by means of 2 height-adjustable and lockable support roller blocks, which are lowered and lifted out with the milling shaft. The arrangement of the rollers directly next to the milling shaft guarantees a constant milling depth even on uneven surfaces.",
+    "features": [
+      "Stage V emisyon standardına sahip güçlü Kohler dizel motor",
+      "Hassas yüksek performanslı rulmanlara sahip freze mili",
+      "Külbütör tasarımı sayesinde makinenin hassas şekilde ayarlanabilen elektro-hidrolik kazısı ve indirilmesi",
+      "GEKA kaplinli ve kesme vanalı basınçlı su bağlantısı",
+      "Freze miline paralel olarak düzenlenmiş birden fazla su nozulu aracılığıyla kesme disklerinin soğutulması",
+      "Saat ölçer"
+    ],
+    "featuresEn": [
+      "Powerful Kohler diesel engine with Stage V emission standard",
+      "Milling shaft with precise high-performance bearings",
+      "Finely adjustable electro-hydraulic excavation and lowering of the machine via a rocker design",
+      "Pressurized water connection with GEKA coupling and shut-off valve",
+      "Cooling of the cutting wheels via several water nozzles arranged parallel to the milling shaft",
+      "Hour meter"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "10 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "300 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "60 mm + 3 holes",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "concentric",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "400 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "17.7 kW / 24 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "açık. motor çıkışı",
+        "value": "15.4 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tanımı",
+        "value": "Kohler KDW 1003",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor marş motoru",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Hydraulich",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "hydrostatic",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1447 / 1014 / 1229 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "1000 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "10 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "300 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "60 mm + 3 holes",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "concentric",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "400 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "17.7 kW / 24 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "net. motor output",
+        "value": "15.4 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor designation",
+        "value": "Kohler KDW 1003",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor starter",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Hydraulich",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "hydrostatic",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1447 / 1014 / 1229 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "1000 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cf-1010-t",
+    "brand": "cedima",
+    "name": "CF-1010 T",
+    "nameEn": "CF-1010 T",
+    "image": "/products/cedima-cf-1010-t.webp",
+    "description": "Son derece kompakt CF-1010 T kuru kesim zemin testeresi, asfalt veya taze betondaki inşaat ve genleşme derzlerinin hızlı kesilmesi için özel olarak geliştirilmiştir. Derzlerin kesilmesi için ilave soğutma suyuna gerek yoktur. Ortaya çıkan artıklar güçlü ekstraksiyon sistemi tarafından filtrelenip toplanır ve çevre dostu bir şekilde imha edilebilir. CF-1010 T için ideal elmas kesme diski, 350 mm çapındaki TFS SYNCRO'dur. 4,4 mm segment genişliğine sahip lazerle kesilmiş segmentler, 3,8 mm kalınlığındaki çelik çekirdekle bir araya gelerek optimum stabilite ve düzgün çalışma sağlar.",
+    "descriptionEn": "The highly compact CF-1010 T dry-cut floor saw has been specially developed for the rapid cutting of construction and expansion joints in asphalt or fresh concrete. No additional cooling water is required for cutting the joints. The resulting cuttings are filtered out and collected by the powerful extraction system and can be disposed of in an environmentally friendly manner. The ideal diamond cutting disc for the CF-1010 T is the TFS SYNCRO , with a diameter of 350 mm. The laser-cut segments, with a segment width of 4.4 mm, combined with the 3.8 mm thick steel core, ensure optimum stability and smooth running.",
+    "features": [
+      "Ekranlı entegre elektronik kesme derinliği ölçümü",
+      "Dijital ekranda kesme derinliği göstergesi",
+      "Hidrostatik tahrik nedeniyle düzgün besleme",
+      "2 siklon ayırıcılı entegre ekstraksiyon ünitesi",
+      "Kesme çamuru yok - hızlı inşaat süreci",
+      "Yüksekliği ayarlanabilir tutma yerleri"
+    ],
+    "featuresEn": [
+      "Integrated electronic cutting depth measurement with display",
+      "Cutting depth indication in the digital display",
+      "Uniform feed due to hydrostatic drive",
+      "Integrated extraction unit with 2 cyclone separators",
+      "No cutting sludges - fast construction process",
+      "Height-adjustable handles"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "110 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "350 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "right",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "15.5 kW / 21 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "açık. motor çıkışı",
+        "value": "15.5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Petrol",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tanımı",
+        "value": "Honda GX-630",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor marş motoru",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1510 / 750 / 1650 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "510 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "110 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "350 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "right",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "15.5 kW / 21 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "net. motor output",
+        "value": "15.5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Petrol",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor designation",
+        "value": "Honda GX-630",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor starter",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1510 / 750 / 1650 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "510 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cf-22-e-800",
+    "brand": "cedima",
+    "name": "CF-22 E 800",
+    "nameEn": "CF-22 E 800",
+    "image": "/products/cedima-cf-22-e-800.webp",
+    "description": "Kompakt tasarımına rağmen CF-22 E.800, 320 mm kesme derinliğine ulaşarak daha da zorlu kesme işlerine olanak sağlar. Kanıtlanmış CF-22 E'nin daha da geliştirilmiş halidir. Külbütör ve bıçak muhafazası optimize edilmiştir ve artık çapı 800 mm'ye kadar olan elmas testere bıçaklarının kullanımına olanak sağlamaktadır. CF-22 E 800 ayrıca sadece birkaç basit adımda alet gerektirmeden 3 adet taşıması kolay düzeneğe ayrılabilir, bu da onu özellikle ulaşılması zor alanlarda kullanım için ideal kılar.",
+    "descriptionEn": "Despite its compact design, the CF-22 E.800 achieves a cutting depth of 320 mm, enabling even more demanding cutting jobs. It is a further development of the proven CF-22 E. Rocker and blade guard have been optimized and now allow the use of diamond saw blades up to 800 mm in diameter. The CF-22 E 800 can also be disassembled into 3 easy-to-transport assemblies without tools in just a few simple steps, making it ideal for use in particularly hard-to-reach areas.",
+    "features": [
+      "Taşıma için üç parçaya ayrılabilir",
+      "Testere bıçağı montajı sağa veya sola mümkündür",
+      "Hızlı, kolay kesim tarafı değişimi",
+      "El krankı aracılığıyla kademesiz kesme derinliği ayarı",
+      "Duvarlara kadar kesimler için menteşeli bıçak koruması",
+      "Ayarlanabilir kesme derinliği göstergesi ve park freni"
+    ],
+    "featuresEn": [
+      "Can be dismantled into three assemblies for transport",
+      "Saw blade mount possible on the right or left",
+      "Quick, easy cutting side change",
+      "Infinitely variable cutting depth adjustment by means of a hand crank",
+      "Hinged blade guard for cuts up to walls",
+      "Adjustable cutting depth indicator and parking brake"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "320 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "800 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "500 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "10 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "7.5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "400 V / 50 Hz / 16 A",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Crank handle",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1420 / 650 / 1025 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "126 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "320 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "800 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "500 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "10 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "7.5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "400 V / 50 Hz / 16 A",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Crank handle",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1420 / 650 / 1025 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "126 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cf-4030-d",
+    "brand": "cedima",
+    "name": "CF-4030D",
+    "nameEn": "CF-4030 D",
+    "image": "/products/cedima-cf-4030-d.webp",
+    "description": "Dar ve dolambaçlı şantiyelerde, yüksek günlük üretime sahip şantiyelerde ağır işlerde kullanıma yönelik ağır hizmet tipi zemin testereleri. Ara soğutma, su soğutmalı egzoz gazı devridaimi ve egzoz gazı son işlem sistemi ile en yeni Stage 5 turboşarjlı emisyon standardına sahip yüksek performanslı dizel motor, en yeni çevre koruma gereksinimlerini karşılar. CF-4030 standart olarak yaya makinesi olarak teslim edilir. Operatör için ayarlanabilir koltuğa sahip bir pedal aksesuar olarak mevcuttur.",
+    "descriptionEn": "Heavy-duty floor saws for narrow and winding construction sites up to heavy-duty use on construction sites with high daily output. The high-performance diesel engine with the latest Stage 5 turbocharged emissions standard with intercooling, water-cooled exhaust gas recirculation and exhaust gas aftertreatment system meets the latest environmental protection requirements. As standard, the CF-4030 is delivered as a pedestrian machine. A pedal with an adjustable seat for the operator is available as an accessory.",
+    "features": [
+      "1000 mm bıçak korumasıyla birlikte verilir",
+      "Su pompası ve kesme milinden su akışı",
+      "En son Aşama 5 emisyon standardı",
+      "Elektrikli Kesme Derinliği Ölçümü",
+      "Hidrolik direksiyon",
+      "Arıza korumalı park freni"
+    ],
+    "featuresEn": [
+      "Supplied with blade guard 1000 mm",
+      "Water pump and water flow through the cutting shaft",
+      "Latest Stage 5 emissions standard",
+      "Electrical Cutting Depth Measurement",
+      "Hydraulic steering",
+      "Fail-safe parking brake"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "410 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "1000 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme mili hızı",
+        "value": "variable",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "35 mm + 6 holes",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "45 kW / 61.2 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "açık. motor çıkışı",
+        "value": "45 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tanımı",
+        "value": "Doosan D18",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor marş motoru",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "Yes",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1625 / 1275 / 1295 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "980 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "410 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "1000 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting shaft speed",
+        "value": "variable",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "35 mm + 6 holes",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "45 kW / 61.2 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "net. motor output",
+        "value": "45 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor designation",
+        "value": "Doosan D18",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor starter",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "Yes",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1625 / 1275 / 1295 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "980 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cf-2025-e-10",
+    "brand": "cedima",
+    "name": "CF-2025E 10",
+    "nameEn": "CF-2025 E 10",
+    "image": "/products/cedima-cf-2025-e-10.webp",
+    "description": "15 kW'lık Motorlu Elektrikli Ekipmanlar, Hidrolik Sistemler ve Otomatik Elektro-Hidrolik Sistemler Ø 1000 mm'lik bir Tren ile 405 mm arası Schnitttiefen.",
+    "descriptionEn": "Leistungsstarker und bewährter Elektrofugenschneider mit 15 kW Motor, hydraulischer Schnitttiefeneinstellung und automatischem elektro-hydraulischem Vorschub für Schnitttiefen bis 405 mm mit einer Trennscheibe Ø 1000 mm.",
+    "features": [
+      "Sägeblattaufnahme ist rechts veya diğer bağlantılar",
+      "Schneller, Schneidseite Wechsel'in bir parçası",
+      "hidrolik Schnitttiefeneinstellung",
+      "Aufklappbarer Blattschutz für Schnitte bis an Wände heran",
+      "Trittbrett für den Bediener"
+    ],
+    "featuresEn": [
+      "Sägeblattaufnahme ist rechts oder links möglich",
+      "Schneller, einfacher Wechsel der Schneidseite",
+      "hydraulische Schnitttiefeneinstellung",
+      "Aufklappbarer Blattschutz für Schnitte bis an Wände heran",
+      "Trittbrett für den Bediener"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "405 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "1000 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "60 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "rechts oder links",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "10 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "15 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Elektro",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "401 V / 50 Hz / 32 A",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Elektrohydraulik",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "hydrostatisch",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1400 / 800 / 1200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "360 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "405 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "1000 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "60 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "rechts oder links",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "10 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "15 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Elektro",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "401 V / 50 Hz / 32 A",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Elektrohydraulik",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "hydrostatisch",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1400 / 800 / 1200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "360 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cf-3800",
+    "brand": "cedima",
+    "name": "CF-3800",
+    "nameEn": "CF-3800",
+    "image": "/products/cedima-cf-3800.webp",
+    "description": "Orta zorlukta kesme işleri için yeni, kullanıcı dostu Cedima zemin testeresi.",
+    "descriptionEn": "New user-friendly Cedima floor saw for medium-duty cutting tasks.",
+    "features": [
+      "Kesme derinliği ekranı: 4,3' dijital ekran",
+      "Ayarlanabilir arka aks sayesinde iyi yön stabilitesi",
+      "Arka aksın temas basıncını ayarlamak için ayarlanabilir ön aks",
+      "AB emisyon standardı: Aşama V",
+      "Frenli tam hidrolik besleme",
+      "4 12V priz, 1 USB bağlantı noktası"
+    ],
+    "featuresEn": [
+      "Cutting depth display: 4.3’ digital display",
+      "Good directional stability due to adjustable rear axle",
+      "Adjustable front axle for setting the contact pressure of the rear axle",
+      "EU emissions standard: Stage V",
+      "Fully hydraulic feed with brake",
+      "4 12V sockets, 1 USB port"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "410 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "1000 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme mili hızı",
+        "value": "variable",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "35 mm + 6-hole",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "43,7 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "açık. motor çıkışı",
+        "value": "43,7 Kw",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tanımı",
+        "value": "Hatz 3H50",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor marş motoru",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "Yes",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1625 / 1275 / 1295 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "830 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "410 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "1000 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting shaft speed",
+        "value": "variable",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "35 mm + 6-hole",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "43,7 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "net. motor output",
+        "value": "43,7 Kw",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor designation",
+        "value": "Hatz 3H50",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor starter",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "Yes",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1625 / 1275 / 1295 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "830 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cf-2011-de",
+    "brand": "cedima",
+    "name": "CF-2011 DE",
+    "nameEn": "CF-2011 DE",
+    "image": "/products/cedima-cf-2011-de.webp",
+    "description": "CF-2011 DE zemin testeresi, kullanıcı dostu genel konsepti ve kompakt tasarımıyla etkileyicidir. Elektrikli marşlı dizel motor, makinenin optimum kesme performansını sağlar. Hidrostatik yürüyüş tahrikiyle donatılmış olup, kesme işlemi sırasında zemin testeresinin eşit şekilde beslenmesini sağlar ve operatörün yükünü hafifletir. Kolların yüksekliği ayrı ayrı ayarlanabilir. Büyük su deposu (35 l) ve kesme mili aracılığıyla bıçağa ekonomik su beslemesi, uzun ve kesintisiz çalışma sağlar.",
+    "descriptionEn": "The CF-2011 DE floor saw impresses with its user-friendly overall concept and compact design. The diesel engine with electric start allows for optimal cutting performance of the machine. Equipped with a hydrostatic travel drive, it allows the floor saw to be fed evenly during cutting operation and relieves the operator. The handles are individually height-adjustable. The large water tank (35 l) and the economical water supply to the blade through the cutting shaft ensure long and uninterrupted work.",
+    "features": [
+      "Hidrostatik tahrik nedeniyle düzgün besleme",
+      "Yüksekliği ayarlanabilir tutma yerleri",
+      "35 litrelik büyük su deposu ve kesme milinden su temini",
+      "El krankıyla kesme derinliği beslemesi",
+      "Ayarlanabilir kesme derinliği göstergesi",
+      "Testere bıçağı montajı sağa veya sola mümkündür"
+    ],
+    "featuresEn": [
+      "Uniform feed due to hydrostatic drive",
+      "Height-adjustable handles",
+      "Large 35 litre water tank and water supply through the cutting shaft",
+      "Cutting depth infeed via hand crank",
+      "Adjustable cutting depth indicator",
+      "Saw blade mount possible on the right or left"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "240 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "650 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "400 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "10.1 kW / 13.7 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "açık. motor çıkışı",
+        "value": "10.1 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tanımı",
+        "value": "Hatz 1D81",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor marş motoru",
+        "value": "Electro start",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Crank handle",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "hydrostatic",
+        "accessory": "-"
+      },
+      {
+        "param": "Su deposu içeriği",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1300 / 750 / 1050 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "330 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "240 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "650 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "400 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "10.1 kW / 13.7 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "net. motor output",
+        "value": "10.1 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor designation",
+        "value": "Hatz 1D81",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor starter",
+        "value": "Electro start",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Crank handle",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "hydrostatic",
+        "accessory": "-"
+      },
+      {
+        "param": "Water tank content",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1300 / 750 / 1050 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "330 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cf-22-e",
+    "brand": "cedima",
+    "name": "CF-22 E",
+    "nameEn": "CF-22 E",
+    "image": "/products/cedima-cf-22-e.webp",
+    "description": "Sadece birkaç basit adımda 3 parçaya ayrılabilen CF-22 E elektrikli zemin testeresi özellikle ulaşılması zor alanlarda kullanılır. Taşıma dostu 3 parçadan oluşan tasarım, kolay taşımaya olanak tanır, örn. bir araba istasyonu vagonunda bulunur ve CF-22 E'nin doğrudan kullanım yerinde monte edilmesine olanak tanır. Düzeneklerin sökülmesi ve montajı ek alet kullanılmadan gerçekleştirilir.",
+    "descriptionEn": "The CF-22 E electric floor saw, which can be dismantled into 3 assemblies in just a few simple steps, is particularly used in hard-to-reach areas. The design in 3 transport-friendly assemblies allows easy transport, e.g. in a car station wagon, and allows the CF-22 E to be assembled directly at the place of use. Disassembly and assembly of the assemblies is carried out without additional tools.",
+    "features": [
+      "Taşıma için üç parçaya ayrılabilir",
+      "Testere bıçağı montajı sağa veya sola mümkündür",
+      "Hızlı, kolay kesim tarafı değişimi",
+      "El krankı aracılığıyla kademesiz kesme derinliği ayarı",
+      "Duvarlara kadar kesimler için menteşeli bıçak koruması",
+      "Ayarlanabilir kesme derinliği göstergesi ve park freni"
+    ],
+    "featuresEn": [
+      "Can be dismantled into three assemblies for transport",
+      "Saw blade mount possible on the right or left",
+      "Quick, easy cutting side change",
+      "Infinitely variable cutting depth adjustment by means of a hand crank",
+      "Hinged blade guard for cuts up to walls",
+      "Adjustable cutting depth indicator and parking brake"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "270 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "700 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "450 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "6 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "7.5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "400 V / 50 Hz / 16 A",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Crank handle",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1350 / 660 / 930 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "110 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "270 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "700 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "450 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "6 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "7.5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "400 V / 50 Hz / 16 A",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Crank handle",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1350 / 660 / 930 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "110 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cf-2116-1-d",
+    "brand": "cedima",
+    "name": "CF-2116.1 D",
+    "nameEn": "CF-2116.1 D",
+    "image": "/products/cedima-cf-2116-1-d.webp",
+    "description": "CF-2016.1 D zemin testeresi, kullanıcı dostu genel konsepti ve kompakt tasarımıyla etkileyicidir. Elektrikle çalıştırılan güçlü dizel motor, makinenin optimum kesme performansını sağlar. Hidrostatik hareket tahrikiyle donatılan bu sistem, kesme işlemi sırasında zemin testeresinin eşit şekilde beslenmesini sağlar. Kesme derinliği elektro-hidroliktir. Kolların yüksekliği ayrı ayrı ayarlanabilir. Büyük su deposu (35 l) ve kesme mili aracılığıyla bıçağa ekonomik su beslemesi, uzun ve kesintisiz çalışma sağlar.",
+    "descriptionEn": "The CF-2016.1 D floor saw impresses with its user-friendly overall concept and compact design. The powerful diesel engine with electric start allows for optimal cutting performance of the machine. Equipped with a hydrostatic travel drive, this enables a uniform feed of the floor saw during cutting operation. The cutting depth is electro-hydraulic. The handles are individually height-adjustable. The large water tank (35 l) and the economical water supply to the blade through the cutting shaft ensure long and uninterrupted work.",
+    "features": [
+      "Hidrostatik tahrik nedeniyle düzgün besleme",
+      "Yüksekliği ayarlanabilir tutma yerleri",
+      "35 litrelik büyük su deposu ve kesme milinden su temini",
+      "Hidrolik kesme derinliği beslemesi",
+      "Ayarlanabilir kesme derinliği göstergesi",
+      "Testere bıçağı montajı sağa veya sola mümkündür"
+    ],
+    "featuresEn": [
+      "Uniform feed due to hydrostatic drive",
+      "Height-adjustable handles",
+      "Large 35 litre water tank and water supply through the cutting shaft",
+      "Hydraulic cutting depth infeed",
+      "Adjustable cutting depth indicator",
+      "Saw blade mount possible on the right or left"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "300 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "800 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "15.5 kW / 21 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "açık. motor çıkışı",
+        "value": "14.7 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tanımı",
+        "value": "NORWIK NK292F",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor marş motoru",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "hydrostatic",
+        "accessory": "-"
+      },
+      {
+        "param": "Su deposu içeriği",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1300 / 1000 / 1150 mm",
+        "accessory": "-"
       },
       {
         "param": "Ağırlık",
@@ -48,24 +2793,79 @@
     ],
     "technicalDataEn": [
       {
-        "param": "Max Cutting Depth",
+        "param": "Max. cutting depth",
         "value": "300 mm",
-        "accessory": "Cedima Diamond Blade Ø 800 mm"
+        "accessory": "-"
       },
       {
-        "param": "Motor Power / Source",
-        "value": "11 kW (Diesel)",
-        "accessory": "Authorized Service Maintenance Kit"
+        "param": "max. Saw Blade Ø",
+        "value": "800 mm",
+        "accessory": "-"
       },
       {
-        "param": "Feed Type",
-        "value": "Hydrostatic Auto Feed",
-        "accessory": "Spare Part Code: HYD-P5000"
+        "param": "min. Saw Blade Ø",
+        "value": "600 mm",
+        "accessory": "-"
       },
       {
-        "param": "Water Tank Capacity",
-        "value": "35 Liters",
-        "accessory": "External Water Pump Compatible"
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "15.5 kW / 21 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "net. motor output",
+        "value": "14.7 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor designation",
+        "value": "NORWIK NK292F",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor starter",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "hydrostatic",
+        "accessory": "-"
+      },
+      {
+        "param": "Water tank content",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1300 / 1000 / 1150 mm",
+        "accessory": "-"
       },
       {
         "param": "Weight",
@@ -75,1161 +2875,1111 @@
     ],
     "solutions": [
       "yol-yapim-ve-bakim",
-      "profesyonel-delme-yikim"
+      "profesyonel-delme-ve-kirim"
     ],
-    "isFeatured": true,
-    "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      "https://www.youtube.com/embed/tgbNymZ7vqY"
-    ]
+    "isFeatured": false
   },
   {
-    "slug": "cedima-cts-57",
+    "slug": "cedima-cf-2015-e",
     "brand": "cedima",
-    "name": "CTS-57 G Masa Tipi Testere",
-    "nameEn": "CTS-57 G Table Saw",
-    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Cedima+CTS-57+G",
-    "description": "Tuğla, kiremit ve doğaltaş kesimleri için tasarlanmış, şantiyede yüksek hareket kabiliyetine sahip masa tipi sulu kesim makinesi.",
-    "descriptionEn": "Table-type wet cutting machine designed for cutting brick, tile, and natural stone.",
+    "name": "CF-2015 E",
+    "nameEn": "CF-2015 E",
+    "image": "/products/cedima-cf-2015-e.webp",
+    "description": "CF-2015 E zemin testeresi, kullanıcı dostu genel konsepti ve kompakt tasarımıyla etkileyicidir. Bıçak tahrikinin güçlü elektrik motoru, makinenin optimum kesme performansını sağlar. Ayrı elektrik motorlu hidrostatik tahrik, kesme işlemi sırasında zemin testeresinin eşit şekilde beslenmesini sağlar. Kesme derinliği elektro-hidroliktir. Kolların yüksekliği ayrı ayrı ayarlanabilir. Su, kesme mili aracılığıyla bıçağa iletilir.",
+    "descriptionEn": "The CF-2015 E floor saw impresses with its user-friendly overall concept and compact design. The powerful electric motor for the blade drive enables optimal cutting performance of the machine. The hydrostatic drive with separate electric motor allows the floor saw to be fed evenly during cutting operation. The cutting depth is electro-hydraulic. The handles are individually height-adjustable. The water is supplied to the blade through the cutting shaft.",
     "features": [
-      "Ayarlanabilir kesim açısı",
-      "Galvanizli su teknesi",
-      "Kolay taşınabilir tasarım",
-      "Yüksek devirli motor"
+      "Testere bıçağı montajı sağa veya sola mümkündür",
+      "Hızlı, kolay kesim tarafı değişimi",
+      "Hidrostatik tahrik nedeniyle düzgün besleme",
+      "Yüksekliği ayarlanabilir tutma yerleri",
+      "Elektro-hidrolik olarak kesme derinliği beslemesi ve sac kazıma",
+      "Duvarlara kadar kesimler için menteşeli bıçak koruması"
     ],
     "featuresEn": [
-      "Adjustable cutting angle",
-      "Galvanized water tank",
-      "Easily portable design",
-      "High-speed motor"
+      "Saw blade mounting is possible on the right or left",
+      "Quick, easy cutting side change",
+      "Uniform feed due to hydrostatic drive",
+      "Height-adjustable handles",
+      "Cutting depth infeed and sheet excavation electro-hydraulically",
+      "Hinged blade guard for cuts up to walls"
     ],
     "technicalData": [
       {
-        "param": "Maksimum Kesme Derinliği",
-        "value": "125 mm",
-        "accessory": "Sulu Kesim Diski Ø 400 mm"
+        "param": "Maks. kesme derinliği",
+        "value": "350 mm",
+        "accessory": "-"
       },
       {
-        "param": "Maksimum Kesme Uzunluğu",
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "900 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
         "value": "600 mm",
         "accessory": "-"
       },
       {
-        "param": "Motor Gücü",
-        "value": "2.2 kW (230V)",
-        "accessory": "Elektrik Motoru"
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
       },
       {
-        "param": "Su Pompası",
-        "value": "Elektrikli Dalgıç Pompa",
-        "accessory": "WP-12 Yedek Pompa"
+        "param": "Bıçak montajı",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "15 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "400 V / 50 Hz / 32 A",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "hydrostatic",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1700 / 750 / 1050 mm",
+        "accessory": "-"
       },
       {
         "param": "Ağırlık",
-        "value": "75 kg",
+        "value": "342 kg",
         "accessory": "-"
       }
     ],
     "technicalDataEn": [
       {
-        "param": "Max Cutting Depth",
-        "value": "125 mm",
-        "accessory": "Wet Cutting Blade Ø 400 mm"
+        "param": "Max. cutting depth",
+        "value": "350 mm",
+        "accessory": "-"
       },
       {
-        "param": "Max Cutting Length",
+        "param": "max. Saw Blade Ø",
+        "value": "900 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
         "value": "600 mm",
         "accessory": "-"
       },
       {
-        "param": "Motor Power",
-        "value": "2.2 kW (230V)",
-        "accessory": "Electric Motor"
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
       },
       {
-        "param": "Water Pump",
-        "value": "Electric Submersible Pump",
-        "accessory": "WP-12 Spare Pump"
+        "param": "Blade mounting",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "15 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "400 V / 50 Hz / 32 A",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "hydrostatic",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1700 / 750 / 1050 mm",
+        "accessory": "-"
       },
       {
         "param": "Weight",
-        "value": "75 kg",
-        "accessory": "-"
-      }
-    ],
-    "solutions": [
-      "profesyonel-delme-yikim"
-    ],
-    "isFeatured": false
-  },
-  {
-    "slug": "cedima-cm-10",
-    "brand": "cedima",
-    "name": "CM-10 Karot Motoru",
-    "nameEn": "CM-10 Core Drilling Motor",
-    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Cedima+CM-10",
-    "description": "Betonarme yapılarda hassas delik açmak için kullanılan kompakt, yüksek torklu karot delme motoru.",
-    "descriptionEn": "Compact, high-torque core drilling motor for precise hole making in reinforced concrete.",
-    "features": [
-      "3 vitesli şanzıman",
-      "Aşırı yük koruma sistemi",
-      "Sulu ve kuru delme opsiyonu",
-      "Alüminyum gövde"
-    ],
-    "featuresEn": [
-      "3-speed gearbox",
-      "Overload protection system",
-      "Wet and dry drilling option",
-      "Aluminum body"
-    ],
-    "technicalData": [
-      {
-        "param": "Delme Çapı Aralığı",
-        "value": "Ø 20 - 250 mm",
-        "accessory": "Elmas Karot Uçları"
-      },
-      {
-        "param": "Motor Gücü",
-        "value": "3.0 kW",
-        "accessory": "Karot Sehpası P-3000"
-      },
-      {
-        "param": "Devir Hızları",
-        "value": "320 / 800 / 1200 rpm",
-        "accessory": "Şanzıman Yağı"
-      },
-      {
-        "param": "Bağlantı Tipi",
-        "value": "1 1/4\" UNC",
-        "accessory": "Adaptör Pulu"
-      },
-      {
-        "param": "Ağırlık",
-        "value": "11.5 kg",
-        "accessory": "-"
-      }
-    ],
-    "technicalDataEn": [
-      {
-        "param": "Drilling Diameter Range",
-        "value": "Ø 20 - 250 mm",
-        "accessory": "Diamond Core Bits"
-      },
-      {
-        "param": "Motor Power",
-        "value": "3.0 kW",
-        "accessory": "Core Stand P-3000"
-      },
-      {
-        "param": "Rotation Speeds",
-        "value": "320 / 800 / 1200 rpm",
-        "accessory": "Gear Oil"
-      },
-      {
-        "param": "Connection Type",
-        "value": "1 1/4\" UNC",
-        "accessory": "Adapter Washer"
-      },
-      {
-        "param": "Weight",
-        "value": "11.5 kg",
-        "accessory": "-"
-      }
-    ],
-    "solutions": [
-      "profesyonel-delme-yikim"
-    ],
-    "isFeatured": true
-  },
-  {
-    "slug": "cedima-ws-296",
-    "brand": "cedima",
-    "name": "WS-296 Duvar Kesme Sistemi",
-    "nameEn": "WS-296 Wall Saw System",
-    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Cedima+WS-296",
-    "description": "Ağır betonarme perdelerde raylı sistem üzerinden hareket eden tam otomatik hidrolik duvar kesme makinesi.",
-    "descriptionEn": "Fully automatic hydraulic wall saw that moves on a rail system over heavy reinforced concrete.",
-    "features": [
-      "Modüler ray sistemi",
-      "Uzaktan kumandalı operasyon",
-      "Hidrolik tahrik mekanizması",
-      "Geniş disk çapı uyumu"
-    ],
-    "featuresEn": [
-      "Modular rail system",
-      "Remote-controlled operation",
-      "Hydraulic drive mechanism",
-      "Wide blade diameter compatibility"
-    ],
-    "technicalData": [
-      {
-        "param": "Maksimum Kesme Derinliği",
-        "value": "730 mm",
-        "accessory": "Duvar Kesme Diski Ø 1600 mm"
-      },
-      {
-        "param": "Sürüş Sistemi",
-        "value": "Hidrolik Kremayer",
-        "accessory": "Uzatma Rayı 2m"
-      },
-      {
-        "param": "Çalışma Basıncı",
-        "value": "260 bar",
-        "accessory": "Hidrolik Hortum Seti"
-      },
-      {
-        "param": "Gerekli Hidrolik Ünite",
-        "value": "HAG-12",
-        "accessory": "Hidrolik Ünite"
-      },
-      {
-        "param": "Kafa Ağırlığı",
-        "value": "28 kg",
-        "accessory": "Montaj Braketi"
-      }
-    ],
-    "technicalDataEn": [
-      {
-        "param": "Max Cutting Depth",
-        "value": "730 mm",
-        "accessory": "Wall Saw Blade Ø 1600 mm"
-      },
-      {
-        "param": "Drive System",
-        "value": "Hydraulic Rack",
-        "accessory": "Extension Rail 2m"
-      },
-      {
-        "param": "Working Pressure",
-        "value": "260 bar",
-        "accessory": "Hydraulic Hose Set"
-      },
-      {
-        "param": "Required Hydraulic Unit",
-        "value": "HAG-12",
-        "accessory": "Hydraulic Unit"
-      },
-      {
-        "param": "Head Weight",
-        "value": "28 kg",
-        "accessory": "Mounting Bracket"
-      }
-    ],
-    "solutions": [
-      "profesyonel-delme-yikim"
-    ],
-    "isFeatured": false
-  },
-  {
-    "slug": "cedima-bw-65",
-    "brand": "cedima",
-    "name": "BW-65 Halatlı Kesme",
-    "nameEn": "BW-65 Wire Saw",
-    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Cedima+BW-65",
-    "description": "Büyük kütleli beton ve köprü ayaklarının kesiminde kullanılan pnömatik kontrollü elmas halat kesme makinesi.",
-    "descriptionEn": "Pneumatically controlled diamond wire saw used for cutting massive concrete and bridge piers.",
-    "features": [
-      "Geniş kasnak depolama",
-      "Pnömatik germe sistemi",
-      "Hızlı kurulum",
-      "Yüksek kesim hızı"
-    ],
-    "featuresEn": [
-      "Large pulley storage",
-      "Pneumatic tensioning system",
-      "Quick setup",
-      "High cutting speed"
-    ],
-    "technicalData": [
-      {
-        "param": "Halat Depolama Kapasitesi",
-        "value": "14.5 Metre",
-        "accessory": "Cedima Elmas Tel Halat"
-      },
-      {
-        "param": "Germe Tipi",
-        "value": "Pnömatik",
-        "accessory": "Hava Kompresörü"
-      },
-      {
-        "param": "Sürüş Tipi",
-        "value": "Elektrik / Hidrolik",
-        "accessory": "Tahrik Motoru"
-      },
-      {
-        "param": "Minimum Hava İhtiyacı",
-        "value": "6 bar",
-        "accessory": "Bağlantı Rekorları"
-      },
-      {
-        "param": "Sistem Ağırlığı",
-        "value": "145 kg",
-        "accessory": "-"
-      }
-    ],
-    "technicalDataEn": [
-      {
-        "param": "Wire Storage Capacity",
-        "value": "14.5 Metre",
-        "accessory": "Cedima Diamond Wire"
-      },
-      {
-        "param": "Tensioning Type",
-        "value": "Pneumatic",
-        "accessory": "Air Compressor"
-      },
-      {
-        "param": "Drive Type",
-        "value": "Electric / Hydraulic",
-        "accessory": "Drive Motor"
-      },
-      {
-        "param": "Min Air Requirement",
-        "value": "6 bar",
-        "accessory": "Connection Fittings"
-      },
-      {
-        "param": "System Weight",
-        "value": "145 kg",
-        "accessory": "-"
-      }
-    ],
-    "solutions": [
-      "profesyonel-delme-yikim",
-      "yol-yapim-ve-bakim"
-    ],
-    "isFeatured": false
-  },
-  {
-    "slug": "cedima-cbm-350",
-    "brand": "cedima",
-    "name": "CBM-350 Tam Otomatik Karot",
-    "nameEn": "CBM-350 Fully Automatic Core Drill",
-    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=Cedima+CBM-350",
-    "description": "Laboratuvar ve test işlemleri için özel üretilmiş, asfalt ve betondan silindirik numune alan sondaj sistemi.",
-    "descriptionEn": "Coring system specifically produced for taking cylindrical samples from asphalt and concrete.",
-    "features": [
-      "Dahili su deposu",
-      "Otomatik ilerleme",
-      "Römork üstü mobil tasarım",
-      "Honda benzinli motor"
-    ],
-    "featuresEn": [
-      "Built-in water tank",
-      "Automatic feed",
-      "Trailer-mounted mobile design",
-      "Honda petrol engine"
-    ],
-    "technicalData": [
-      {
-        "param": "Maksimum Delme Çapı",
-        "value": "Ø 350 mm",
-        "accessory": "Test Karot Uçları"
-      },
-      {
-        "param": "İlerleme Mesafesi",
-        "value": "600 mm",
-        "accessory": "Uzatma Kolu"
-      },
-      {
-        "param": "Motor Seçeneği",
-        "value": "Honda GX 390",
-        "accessory": "Buji Seti"
-      },
-      {
-        "param": "Su Tankı",
-        "value": "400 Litre",
-        "accessory": "Su Pompası"
-      },
-      {
-        "param": "Montaj Tipi",
-        "value": "Römork / Kamyonet",
-        "accessory": "-"
-      }
-    ],
-    "technicalDataEn": [
-      {
-        "param": "Max Drilling Diameter",
-        "value": "Ø 350 mm",
-        "accessory": "Test Core Bits"
-      },
-      {
-        "param": "Feed Distance",
-        "value": "600 mm",
-        "accessory": "Extension Arm"
-      },
-      {
-        "param": "Engine Option",
-        "value": "Honda GX 390",
-        "accessory": "Spark Plug Set"
-      },
-      {
-        "param": "Water Tank",
-        "value": "400 Liters",
-        "accessory": "Water Pump"
-      },
-      {
-        "param": "Mounting Type",
-        "value": "Trailer / Truck",
-        "accessory": "-"
-      }
-    ],
-    "solutions": [
-      "profesyonel-delme-yikim"
-    ],
-    "isFeatured": false
-  },
-  {
-    "slug": "duss-pk300",
-    "brand": "duss",
-    "name": "PK 300 Kırıcı Delici",
-    "nameEn": "PK 300 Rotary Hammer",
-    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=DUSS+PK+300",
-    "description": "Alman DUSS mühendisliği ile üretilmiş, sınıfının en iyi darbe gücüne sahip hafif ve ergonomik kırıcı delici matkap.",
-    "descriptionEn": "Lightweight and ergonomic rotary hammer drill with the best impact power in its class.",
-    "features": [
-      "Titreşim emici sap (RVA)",
-      "Elektronik hız ayarı",
-      "Sürekli çalışma kilidi",
-      "Toz korumalı ayna"
-    ],
-    "featuresEn": [
-      "Vibration-absorbing handle (RVA)",
-      "Electronic speed control",
-      "Continuous operation lock",
-      "Dust-protected chuck"
-    ],
-    "technicalData": [
-      {
-        "param": "Darbe Gücü",
-        "value": "11 Joule",
-        "accessory": "SDS Max Keskiler"
-      },
-      {
-        "param": "Motor Gücü",
-        "value": "1300 Watt",
-        "accessory": "Karbon Fırça Seti"
-      },
-      {
-        "param": "Darbe Sayısı",
-        "value": "1500 - 2700 darbe/dk",
-        "accessory": "-"
-      },
-      {
-        "param": "Takım Tutucu",
-        "value": "SDS Max",
-        "accessory": "Mandren Adaptörü"
-      },
-      {
-        "param": "Ağırlık",
-        "value": "7.3 kg",
-        "accessory": "Özel Taşıma Çantası"
-      }
-    ],
-    "technicalDataEn": [
-      {
-        "param": "Impact Energy",
-        "value": "11 Joule",
-        "accessory": "SDS Max Chisels"
-      },
-      {
-        "param": "Motor Power",
-        "value": "1300 Watt",
-        "accessory": "Carbon Brush Set"
-      },
-      {
-        "param": "Impact Rate",
-        "value": "1500 - 2700 bpm",
-        "accessory": "-"
-      },
-      {
-        "param": "Tool Holder",
-        "value": "SDS Max",
-        "accessory": "Chuck Adapter"
-      },
-      {
-        "param": "Weight",
-        "value": "7.3 kg",
-        "accessory": "Special Carrying Case"
-      }
-    ],
-    "solutions": [
-      "profesyonel-delme-yikim"
-    ],
-    "isFeatured": true
-  },
-  {
-    "slug": "ticab-bpa500",
-    "brand": "ticab",
-    "name": "BPA-500 Asfalt Finişeri",
-    "nameEn": "BPA-500 Asphalt Paver",
-    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=TICAB+BPA-500",
-    "description": "Yol bakım ve onarım projeleri için tasarlanmış, hızlı serim yapan manevra kabiliyeti yüksek kompakt asfalt finişeri.",
-    "descriptionEn": "Compact asphalt paver with high maneuverability, designed for road maintenance and repair.",
-    "features": [
-      "Kompakt ebatlar",
-      "Ayarlanabilir serim genişliği",
-      "Isıtmalı tabla sistemi",
-      "Joystick kontrolü"
-    ],
-    "featuresEn": [
-      "Compact dimensions",
-      "Adjustable paving width",
-      "Heated screed system",
-      "Joystick control"
-    ],
-    "technicalData": [
-      {
-        "param": "Temel Serim Genişliği",
-        "value": "1.5 - 3.2 Metre",
-        "accessory": "Tabla Uzatma Aparatı"
-      },
-      {
-        "param": "Hazne Kapasitesi",
-        "value": "5 Ton",
-        "accessory": "-"
-      },
-      {
-        "param": "Motor",
-        "value": "Kubota Dizel",
-        "accessory": "Hava ve Yağ Filtreleri"
-      },
-      {
-        "param": "Isıtma Sistemi",
-        "value": "Elektrikli Isıtma",
-        "accessory": "Rezistans Çubukları"
-      },
-      {
-        "param": "Çalışma Ağırlığı",
-        "value": "4.500 kg",
-        "accessory": "Konveyör Bantları"
-      }
-    ],
-    "technicalDataEn": [
-      {
-        "param": "Basic Paving Width",
-        "value": "1.5 - 3.2 Metre",
-        "accessory": "Screed Extension Kit"
-      },
-      {
-        "param": "Hopper Capacity",
-        "value": "5 Ton",
-        "accessory": "-"
-      },
-      {
-        "param": "Engine",
-        "value": "Kubota Diesel",
-        "accessory": "Air and Oil Filters"
-      },
-      {
-        "param": "Heating System",
-        "value": "Electric Heating",
-        "accessory": "Heating Elements"
-      },
-      {
-        "param": "Operating Weight",
-        "value": "4.500 kg",
-        "accessory": "Conveyor Belts"
-      }
-    ],
-    "solutions": [
-      "yol-yapim-ve-bakim"
-    ],
-    "isFeatured": true
-  },
-  {
-    "slug": "victor-journeyman",
-    "brand": "victor",
-    "name": "Journeyman 450 Gaz Kesme Sistemi",
-    "nameEn": "Journeyman 450 Gas Cutting System",
-    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=VICTOR+Journeyman+450",
-    "description": "Endüstriyel metal kesimi için geliştirilmiş, yüksek güvenlik standartlarına sahip ağır hizmet tipi oksi-yakıt kesme seti.",
-    "descriptionEn": "Heavy-duty oxy-fuel cutting set with high safety standards, developed for industrial metal cutting.",
-    "features": [
-      "Dahili alev geri tepme ventili",
-      "Hassas regülatörler",
-      "Ergonomik hamlaç",
-      "Yüksek kesim kapasitesi"
-    ],
-    "featuresEn": [
-      "Built-in flashback arrestor",
-      "Precision regulators",
-      "Ergonomic torch",
-      "High cutting capacity"
-    ],
-    "technicalData": [
-      {
-        "param": "Maksimum Kesme Kalınlığı",
-        "value": "200 mm",
-        "accessory": "Victor Kesme Lüleleri"
-      },
-      {
-        "param": "Kullanım Gazları",
-        "value": "Oksijen / Asetilen / Propan",
-        "accessory": "Gaz Hortumları"
-      },
-      {
-        "param": "Regülatör Tipi",
-        "value": "Tek Kademeli Edge 2.0",
-        "accessory": "Manometre Camı"
-      },
-      {
-        "param": "Hamlaç Boyu",
-        "value": "530 mm",
-        "accessory": "Temizleme Çakısı"
-      },
-      {
-        "param": "Sistem Sınıfı",
-        "value": "Ağır Hizmet (Heavy Duty)",
-        "accessory": "-"
-      }
-    ],
-    "technicalDataEn": [
-      {
-        "param": "Max Cutting Thickness",
-        "value": "200 mm",
-        "accessory": "Victor Cutting Tips"
-      },
-      {
-        "param": "Applicable Gases",
-        "value": "Oxygen / Acetylene / Propane",
-        "accessory": "Gas Hoses"
-      },
-      {
-        "param": "Regulator Type",
-        "value": "Single Stage Edge 2.0",
-        "accessory": "Pressure Gauge Glass"
-      },
-      {
-        "param": "Torch Length",
-        "value": "530 mm",
-        "accessory": "Cleaning Tip"
-      },
-      {
-        "param": "System Class",
-        "value": "Heavy Duty",
-        "accessory": "-"
-      }
-    ],
-    "solutions": [
-      "agir-sanayi-ve-metal"
-    ],
-    "isFeatured": true
-  },
-  {
-    "slug": "gce-procontrol",
-    "brand": "gce",
-    "name": "ProControl Endüstriyel Regülatör",
-    "nameEn": "ProControl Industrial Regulator",
-    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=GCE+ProControl",
-    "description": "GCE kalitesiyle üretilmiş, basınçlı gaz tüplerinde hassas kontrol sağlayan dayanıklı ve uzun ömürlü endüstriyel gaz regülatörü.",
-    "descriptionEn": "Durable industrial gas regulator providing precise control on pressurized gas cylinders.",
-    "features": [
-      "Pirinç gövde tasarımı",
-      "Kolay okunabilir manometreler",
-      "Korumalı arka kapak",
-      "Geniş gaz uyumluluğu"
-    ],
-    "featuresEn": [
-      "Brass body design",
-      "Easy-to-read pressure gauges",
-      "Protected rear cover",
-      "Wide gas compatibility"
-    ],
-    "technicalData": [
-      {
-        "param": "Giriş Basıncı",
-        "value": "Max 230 bar",
-        "accessory": "Bağlantı Somunu"
-      },
-      {
-        "param": "Çıkış Basıncı",
-        "value": "0 - 10 bar",
-        "accessory": "Çıkış Rakoru"
-      },
-      {
-        "param": "Uyumlu Gazlar",
-        "value": "Oksijen, Argon, Karışım Gaz",
-        "accessory": "Conta Seti"
-      },
-      {
-        "param": "Gövde Malzemesi",
-        "value": "Dövme Pirinç",
-        "accessory": "-"
-      },
-      {
-        "param": "Standart",
-        "value": "ISO 2503 Uyumlu",
-        "accessory": "-"
-      }
-    ],
-    "technicalDataEn": [
-      {
-        "param": "Inlet Pressure",
-        "value": "Max 230 bar",
-        "accessory": "Connection Nut"
-      },
-      {
-        "param": "Outlet Pressure",
-        "value": "0 - 10 bar",
-        "accessory": "Outlet Fitting"
-      },
-      {
-        "param": "Compatible Gases",
-        "value": "Oxygen, Argon, Mixed Gas",
-        "accessory": "Seal Kit"
-      },
-      {
-        "param": "Body Material",
-        "value": "Forged Brass",
-        "accessory": "-"
-      },
-      {
-        "param": "Standard",
-        "value": "ISO 2503 Compliant",
-        "accessory": "-"
-      }
-    ],
-    "solutions": [
-      "agir-sanayi-ve-metal"
-    ],
-    "isFeatured": true
-  },
-  {
-    "slug": "gce-ecosaver",
-    "brand": "gce",
-    "name": "ECOSAVER Gaz Tasarruflu Regülatör",
-    "nameEn": "ECOSAVER Gas Saving Regulator",
-    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=GCE+ECOSAVER",
-    "description": "GCE ECOSAVER, entegre gaz tasarruf cihazına sahip yüksek kaliteli tüp regülatörüdür. MIG/MAG/TIG kaynak operasyonlarında kaynak kalitesini koruyarak koruyucu gaz tüketimini %45'e kadar azaltır. Kaynak atölyelerinde maliyetleri düşürmek için en ideal çözümdür.",
-    "descriptionEn": "The GCE ECOSAVER is a high-end cylinder regulator with an integrated gas economizer. It reduces shielding gas consumption by up to 45% during MIG/MAG/TIG welding operations while keeping the high quality of the welds. It is an optimal tool for decreasing process costs.",
-    "features": [
-      "Gaz tasarruf ünitesi ve debimetre",
-      "MIG/MAG/TIG için tüm koruyucu gazlarla uyumlu",
-      "Kaynak çevresinde istikrarlı gaz akışı",
-      "Daha az tüp değişimi ve daha yüksek verimlilik",
-      "Porozitesiz, mükemmel kaynak kalitesi"
-    ],
-    "featuresEn": [
-      "Gas saving unit and flowmeter",
-      "Compatible with all shielding gases for MIG/MAG/TIG",
-      "Stable gas flow around the weld",
-      "Fewer cylinder changes and higher efficiency",
-      "Porosity-free, excellent welding quality"
-    ],
-    "technicalData": [
-      {
-        "param": "Maksimum Giriş Basıncı",
-        "value": "200 - 300 bar",
-        "accessory": "Tüp Bağlantı Rakoru"
-      },
-      {
-        "param": "Çıkış Akış Aralığı",
-        "value": "0 - 30 l/dk",
-        "accessory": "Debimetre Camı"
-      },
-      {
-        "param": "Gövde Malzemesi",
-        "value": "Dövme Pirinç",
-        "accessory": "-"
-      },
-      {
-        "param": "Çalışma Sıcaklığı",
-        "value": "-20°C ile +60°C arası",
-        "accessory": "-"
-      },
-      {
-        "param": "Uyumlu Gazlar",
-        "value": "Ar, Ar/CO2, CO2",
-        "accessory": "Gaz Hortumu"
-      }
-    ],
-    "technicalDataEn": [
-      {
-        "param": "Max Inlet Pressure",
-        "value": "200 - 300 bar",
-        "accessory": "Cylinder Connection Fitting"
-      },
-      {
-        "param": "Outlet Flow Range",
-        "value": "0 - 30 l/dk",
-        "accessory": "Flowmeter Glass"
-      },
-      {
-        "param": "Body Material",
-        "value": "Forged Brass",
-        "accessory": "-"
-      },
-      {
-        "param": "Operating Temperature",
-        "value": "-20°C to +60°C",
-        "accessory": "-"
-      },
-      {
-        "param": "Compatible Gases",
-        "value": "Ar, Ar/CO2, CO2",
-        "accessory": "Gas Hose"
-      }
-    ],
-    "solutions": [
-      "agir-sanayi-ve-metal"
-    ],
-    "isFeatured": true
-  },
-  {
-    "slug": "gce-dincontrol",
-    "brand": "gce",
-    "name": "DINCONTROL Premium Regülatör",
-    "nameEn": "DINCONTROL Premium Regulator",
-    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=GCE+DINCONTROL",
-    "description": "GCE DINCONTROL serisi, atölyelerde ve açık hava şantiyelerinde günlük kullanıma uygun, son derece sağlam tasarıma sahip birinci sınıf basınç düşürücüdür. Tüm endüstriyel gazlar ve standart tüpler için ideal bir çözümdür.",
-    "descriptionEn": "Premium DINCONTROL series consists of regulators designed for the most common industrial gases and all single cylinder applications. It features a robust design for daily use in indoor workshops and outdoor on-site operations.",
-    "features": [
-      "Tek kademeli üstün performans",
-      "Ağır çalışma koşullarına dayanıklı gövde",
-      "Aşağı yönlü çıkış tasarımı",
-      "Yüksek basınç hassasiyeti",
-      "Ergonomik kullanım volanı"
-    ],
-    "featuresEn": [
-      "Single-stage superior performance",
-      "Heavy-duty body",
-      "Downward outlet design",
-      "High pressure precision",
-      "Ergonomic control wheel"
-    ],
-    "technicalData": [
-      {
-        "param": "Maksimum Giriş Basıncı",
-        "value": "200 veya 300 bar",
-        "accessory": "Bağlantı Somunu"
-      },
-      {
-        "param": "Gövde Malzemesi",
-        "value": "Dövme Pirinç",
-        "accessory": "-"
-      },
-      {
-        "param": "Kapak Malzemesi",
-        "value": "Zn/Al Alaşım Basınçlı Döküm",
-        "accessory": "Koruma Kapağı"
-      },
-      {
-        "param": "Kullanım Alanı",
-        "value": "İç / Dış Mekan (Ağır Hizmet)",
-        "accessory": "-"
-      },
-      {
-        "param": "ISO Sınıfı",
-        "value": "ISO 2503 Uyumlu",
-        "accessory": "-"
-      }
-    ],
-    "technicalDataEn": [
-      {
-        "param": "Max Inlet Pressure",
-        "value": "200 or 300 bar",
-        "accessory": "Connection Nut"
-      },
-      {
-        "param": "Body Material",
-        "value": "Forged Brass",
-        "accessory": "-"
-      },
-      {
-        "param": "Cover Material",
-        "value": "Zn/Al Alloy Die Cast",
-        "accessory": "Protective Cover"
-      },
-      {
-        "param": "Application Area",
-        "value": "Indoor / Outdoor (Heavy Duty)",
-        "accessory": "-"
-      },
-      {
-        "param": "ISO Class",
-        "value": "ISO 2503 Compliant",
-        "accessory": "-"
-      }
-    ],
-    "solutions": [
-      "agir-sanayi-ve-metal"
-    ],
-    "isFeatured": false
-  },
-  {
-    "slug": "gce-x11-original",
-    "brand": "gce",
-    "name": "X11® Original Kaynak ve Kesme Torcu",
-    "nameEn": "X11® Original Welding and Cutting Torch",
-    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=GCE+X11+Original",
-    "description": "Kesme, kaynak, ısıtma ve lehimleme için tasarlanmış eksiksiz bir sistemdir. Ergonomik tasarımı ve geniş yelpazesi ile hafif hizmet (light duty) uygulamaları için piyasadaki en pratik çözümdür.",
-    "descriptionEn": "A complete system for cutting, welding, heating and soldering. With its ergonomic design and wide range, it’s the most attractive product for light duty applications on the market.",
-    "features": [
-      "Mükemmel sızdırmazlık için kolay değiştirilebilir teflon contalar",
-      "Kaynak ve kesme başlıklarının hızlı değişimi için hızlı bağlantı somunu",
-      "Hassas ayar için yeni trim valfi ve kesme oksijeni kolu tasarımı",
-      "Asetilen ve propan gazları ile tam uyum",
-      "EN ISO 5172 ve ISO 9001 standartlarında üretim"
-    ],
-    "featuresEn": [
-      "Easily replaceable teflon washers for perfect seal",
-      "Quick connection nut enables rapid exchange of heads",
-      "New trim valve design and cutting oxygen lever",
-      "Usable for both acetylene and propane",
-      "Fully meets EN ISO 5172 and ISO 9001 standards"
-    ],
-    "technicalData": [
-      {
-        "param": "Uygulama Alanı",
-        "value": "Hafif Hizmet (Light Duty)",
-        "accessory": "-"
-      },
-      {
-        "param": "Uyumlu Gazlar",
-        "value": "Asetilen, Propan",
-        "accessory": "Kesme ve Kaynak Nozulları"
-      },
-      {
-        "param": "Bağlantı Tipi",
-        "value": "Hızlı Bağlantı Somunu (EN560)",
-        "accessory": "Teflon Contalar"
-      }
-    ],
-    "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "Light Duty",
-        "accessory": "-"
-      },
-      {
-        "param": "Compatible Gases",
-        "value": "Acetylene, Propane",
-        "accessory": "Cutting & Welding Nozzles"
-      },
-      {
-        "param": "Connection Type",
-        "value": "Quick Connection Nut (EN560)",
-        "accessory": "Teflon Washers"
-      }
-    ],
-    "solutions": [
-      "profesyonel-delme-ve-kirim",
-      "agir-sanayi-ve-metal"
-    ],
-    "isFeatured": true
-  },
-  {
-    "slug": "gce-x21-original",
-    "brand": "gce",
-    "name": "X21® Original Ağır Hizmet Kesme ve Kaynak Sistemi",
-    "nameEn": "X21® Original Heavy Duty Cutting and Welding System",
-    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=GCE+X21+Original",
-    "description": "Kaynak, kesme, lehimleme, ısıtma ve doğrultma işlemleri için yüksek kapasiteli, kombine gazlı sistemdir. Orta ve ağır hizmet uygulamaları için EN ISO 5172 standartlarına uygun basınçlı torç teknolojisi sunar.",
-    "descriptionEn": "Large capacity combined system for welding, cutting, soldering, heating and straightening. Designed for medium and heavy duty jobs conforming to EN ISO 5172 standards.",
-    "features": [
-      "14 mm'ye kadar kaynak ve 500 mm'ye kadar kesim kapasitesi",
-      "Yuvarlak veya oval torç sapı seçeneği",
-      "Alevle temizleme ve doğrultma işlemleri için mükemmel uyum",
-      "Torç kafasında gaz karışımı ile alev geri tepmesine karşı artırılmış güvenlik",
-      "Asetilen ve Propan (LPG) için uygun tasarım"
-    ],
-    "featuresEn": [
-      "Potential to weld material thicknesses up to 14 mm",
-      "Cut up to 500 mm",
-      "Perfect for Flame cleaning and straightening",
-      "Gases mixed in torch head increases safety against flashbacks",
-      "Available for both Acetylene and Propane (LPG)"
-    ],
-    "technicalData": [
-      {
-        "param": "Uygulama Alanı",
-        "value": "Orta ve Ağır Hizmet",
-        "accessory": "-"
-      },
-      {
-        "param": "Maksimum Kesim",
-        "value": "500 mm",
-        "accessory": "3-Koni Kesme Nozulu"
-      },
-      {
-        "param": "Maksimum Kaynak",
-        "value": "14 mm",
-        "accessory": "Kaynak Başlığı"
-      },
-      {
-        "param": "Sap Tasarımı",
-        "value": "Yuvarlak veya Oval",
-        "accessory": "-"
-      }
-    ],
-    "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "Medium & Heavy Duty",
-        "accessory": "-"
-      },
-      {
-        "param": "Max Cutting",
-        "value": "500 mm",
-        "accessory": "3-cone Cutting Nozzle"
-      },
-      {
-        "param": "Max Welding",
-        "value": "14 mm",
-        "accessory": "Welding Head"
-      },
-      {
-        "param": "Shank Design",
-        "value": "Round or Oval",
-        "accessory": "-"
-      }
-    ],
-    "solutions": [
-      "agir-sanayi-ve-metal"
-    ],
-    "isFeatured": true
-  },
-  {
-    "slug": "gce-safe-guard-5",
-    "brand": "gce",
-    "name": "SAFE-GUARD-5 Alev Emniyet Valfi",
-    "nameEn": "SAFE-GUARD-5 Flashback Arrestor",
-    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=GCE+SAFE-GUARD-5",
-    "description": "GCE'nin en son yeniliği olan SAFE-GUARD-5, regülatöre ve tüp kaynağına tehlikeli alev geri tepmelerinin ulaşmasını önlemek için ISO 5175-1 tarafından talep edilen maksimum koruma seviyesini sunar.",
-    "descriptionEn": "The latest innovation from GCE, the SAFE-GUARD-5 offers the maximum level of protection required by ISO 5175-1 to prevent dangerous flashbacks from reaching the regulator and cylinder supply sources.",
-    "features": [
-      "ISO 5175-1 tarafından tanımlanan maksimum sayıda güvenlik özelliği",
-      "Yüksek görünürlüklü ve basınç altındayken bile hızlı tepki veren açma/sıfırlama kolu",
-      "Hortum hasarını en aza indiren açılı giriş (Angled inlet)",
-      "Alev geri tepme direncine karşı %100 test edilmiş üretim",
-      "Aktive olduğunu gösteren net sıfırlama mekanizması (RM)"
-    ],
-    "featuresEn": [
-      "Maximum number of safety features defined by ISO 5175-1",
-      "High visibility trip/reset lever coupled with quick acting reset",
-      "Angled inlet to minimise hose damage",
-      "100% production flame tested for Flashback resistance",
-      "Reset mechanism to clearly advise unit activation (RM)"
-    ],
-    "technicalData": [
-      {
-        "param": "Alev Tutucu Eleman",
-        "value": "FA (Sinterlenmiş filtre)",
-        "accessory": "-"
-      },
-      {
-        "param": "Geri Dönüşsüz Valf",
-        "value": "NV",
-        "accessory": "-"
-      },
-      {
-        "param": "Basınca Duyarlı Kesme",
-        "value": "PV",
-        "accessory": "-"
-      },
-      {
-        "param": "Sıcaklığa Duyarlı Kesme",
-        "value": "TV",
-        "accessory": "-"
-      }
-    ],
-    "technicalDataEn": [
-      {
-        "param": "Flame Arresting Element",
-        "value": "FA (Sintered filter)",
-        "accessory": "-"
-      },
-      {
-        "param": "Non Return Valve",
-        "value": "NV",
-        "accessory": "-"
-      },
-      {
-        "param": "Pressure Cut Off",
-        "value": "PV",
-        "accessory": "-"
-      },
-      {
-        "param": "Temperature Cut Off",
-        "value": "TV",
+        "value": "342 kg",
         "accessory": "-"
       }
     ],
     "solutions": [
       "yol-yapim-ve-bakim",
-      "agir-sanayi-ve-metal"
+      "profesyonel-delme-ve-kirim"
     ],
     "isFeatured": false
   },
   {
-    "slug": "gce-safe-guard-3",
-    "brand": "gce",
-    "name": "SAFE-GUARD-3 Alev Emniyet Valfi",
-    "nameEn": "SAFE-GUARD-3 Flashback Arrestor",
-    "image": "https://placehold.co/800x600/1A1E24/FFFFFF/webp?text=GCE+SAFE-GUARD-3",
-    "description": "Regülatör montajı için üretilen yeni SAFE-GUARD-3, performans, filtrasyon ve güvenlik alanında çeşitli yükseltmeler içerir. ISO 5175-1 standardına tamamen uygundur.",
-    "descriptionEn": "The new SAFE-GUARD-3 for regulator mounting contains a host of new upgrades to performance, filtration, and product marking. Complies fully with ISO 5175-1.",
+    "slug": "cedima-cf-6022",
+    "brand": "cedima",
+    "name": "CF-6022",
+    "nameEn": "CF-6022",
+    "image": "/products/cedima-cf-6022.webp",
+    "description": "CF-6022, beton veya asfaltta uzun ve kapsamlı kesme işleri için yüksek performanslı ve büyük günlük çıktılara sahip, tamamen hidrolik bir zemin testeresidir. Tüm çalışma fonksiyonları ve sürüş tahriki hidrolik olarak tasarlanmış ve kontrol edilmiştir.  Ergonomik sürücü koltuğu kayar ve direksiyon kesici tarafa bağlı olarak sağa veya sola monte edilebilir. Kapsamlı aksesuar bağlantı kitleri, CF-6022'yi beton ve asfalt yüzeylerde çalışmak için çok yönlü bir makine haline getirir. Özel bir uygulama, cadde veya kaldırımdaki fiber optik kabloları yerleştirmek için bir yuvanın frezelendiği bir teknoloji olan mikro kanal açmaya dönüşüm olasılığıdır. Daha fazla bilgiyi Microtrench'te bulabilirsiniz.",
+    "descriptionEn": "The CF-6022 is a fully hydraulic floor saw for long and extensive cutting jobs in concrete or asphalt with high performance and large daily outputs. All working functions and the travel drive are hydraulically designed and controlled.  The ergonomic driver's seat is sliding, and the steering wheel can be mounted on the right or left, depending on the cutting side. Extensive accessory attachment kits make the CF-6022 a versatile machine for working on concrete and asphalt surfaces. A special application is the possibility of conversion for microtrenching, a technology in which a slot is milled to accommodate fiber optic cables in the street or pavement. More information can be found at Microtrenching.",
     "features": [
-      "Sinterlenmiş alev tutucu eleman (FA)",
-      "Gazın geri akışını engelleyen tek yönlü valf (NV)",
-      "Aşırı ısınmaya karşı sıcaklığa duyarlı kesme valfi (TV)",
-      "Toz filtresi entegrasyonu",
-      "Oksijen (25 bar), Asetilen (1.5 bar) ve Hidrojen (3.5 bar) dahil çoklu gaz uyumu"
+      "Aşama V (AB) / Tier 4 (Final) Common-Rail Dizel Motor",
+      "Teslimat dahil bıçak koruması 1200 mm",
+      "Tüm çalışma fonksiyonlarının tamamen hidrolik tahriki",
+      "Sağdan veya soldan bıçak alma olanağı",
+      "Kademesiz değişken kesme mili hızı",
+      "Bir ekstraksiyon sistemini çalıştırmak için standart ek hidrolik"
     ],
     "featuresEn": [
-      "Flame arresting element (FA)",
-      "Non return valve (NV)",
-      "Temperature sensitive cut off valve (TV)",
-      "Integrated dust filter",
-      "Multi-gas support including Oxygen (25 bar), Acetylene (1.5 bar), Hydrogen (3.5 bar)"
+      "Stage V (EU) / Tier 4 (Final) Common-Rail Diesel Engine",
+      "Delivery incl. blade guard 1200 mm",
+      "Fully hydraulic drive of all work functions",
+      "Blade pick-up possible on the right or left",
+      "Infinitely variable cutting shaft speed",
+      "Standard additional hydraulics for driving an extraction system"
     ],
     "technicalData": [
       {
-        "param": "Standart Uyumluluğu",
-        "value": "ISO 5175-1",
+        "param": "Maks. kesme derinliği",
+        "value": "480 mm",
         "accessory": "-"
       },
       {
-        "param": "Maks Oksijen Basıncı",
-        "value": "25 bar",
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "1200 mm",
         "accessory": "-"
       },
       {
-        "param": "Maks Asetilen Basıncı",
-        "value": "1.5 bar",
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "300 mm",
         "accessory": "-"
       },
       {
-        "param": "Ek Özellik",
-        "value": "Toz Filtresi",
+        "param": "Kesme mili hızı",
+        "value": "930 -2800 rpm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "35 mm + 6 holes",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "13 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "55.4 kW / 75.3 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "açık. motor çıkışı",
+        "value": "55.4 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tanımı",
+        "value": "Hatz 4H50TIC",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor marş motoru",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "Yes",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "2900 / 950 / 1840 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "1400 kg",
         "accessory": "-"
       }
     ],
     "technicalDataEn": [
       {
-        "param": "Standard",
-        "value": "ISO 5175-1",
+        "param": "Max. cutting depth",
+        "value": "480 mm",
         "accessory": "-"
       },
       {
-        "param": "Max Oxygen Pressure",
-        "value": "25 bar",
+        "param": "max. Saw Blade Ø",
+        "value": "1200 mm",
         "accessory": "-"
       },
       {
-        "param": "Max Acetylene Pressure",
-        "value": "1.5 bar",
+        "param": "min. Saw Blade Ø",
+        "value": "300 mm",
         "accessory": "-"
       },
       {
-        "param": "Extra Feature",
-        "value": "Dust filter",
+        "param": "Cutting shaft speed",
+        "value": "930 -2800 rpm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "35 mm + 6 holes",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "13 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "55.4 kW / 75.3 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "net. motor output",
+        "value": "55.4 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor designation",
+        "value": "Hatz 4H50TIC",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor starter",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "Yes",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "2900 / 950 / 1840 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "1400 kg",
         "accessory": "-"
       }
     ],
     "solutions": [
-      "agir-sanayi-ve-metal"
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cf-2015-b",
+    "brand": "cedima",
+    "name": "CF-2015 B",
+    "nameEn": "CF-2015 B",
+    "image": "/products/cedima-cf-2015-b.webp",
+    "description": "CF-2015 B zemin testeresi, kullanıcı dostu genel konsepti ve kompakt tasarımıyla etkileyicidir. Elektrikle çalıştırılan güçlü benzinli motor, makinenin en iyi şekilde kesmesini sağlar. Hidrostatik yürüyüş tahrikiyle donatılmış olup, kesme işlemi sırasında zemin testeresinin eşit şekilde beslenmesini sağlar ve operatörün yükünü hafifletir. Kolların yüksekliği ayrı ayrı ayarlanabilir. Büyük su deposu (35 l) ve kesme mili aracılığıyla bıçağa ekonomik su beslemesi, uzun ve kesintisiz çalışma sağlar.",
+    "descriptionEn": "The CF-2015 B floor saw impresses with its user-friendly overall concept and compact design. The powerful petrol engine with electric start allows the machine to cut optimally. Equipped with a hydrostatic travel drive, it allows the floor saw to be fed evenly during cutting operation and relieves the operator. The handles are individually height-adjustable. The large water tank (35 l) and the economical water supply to the blade through the cutting shaft ensure long and uninterrupted work.",
+    "features": [
+      "Hidrostatik tahrik nedeniyle düzgün besleme",
+      "Yüksekliği ayarlanabilir tutma yerleri",
+      "35 litrelik büyük su deposu ve kesme milinden su temini",
+      "El krankıyla kesme derinliği beslemesi",
+      "Ayarlanabilir kesme derinliği göstergesi",
+      "Testere bıçağı montajı sağa veya sola mümkündür"
+    ],
+    "featuresEn": [
+      "Uniform feed due to hydrostatic drive",
+      "Height-adjustable handles",
+      "Large 35 litre water tank and water supply through the cutting shaft",
+      "Cutting depth infeed via hand crank",
+      "Adjustable cutting depth indicator",
+      "Saw blade mount possible on the right or left"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "240 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "650 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "400 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "15.5 kW / 21 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "açık. motor çıkışı",
+        "value": "15.5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Petrol",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tanımı",
+        "value": "Hoda GX-630",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor marş motoru",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Crank handle",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "hydrostatic",
+        "accessory": "-"
+      },
+      {
+        "param": "Su deposu içeriği",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1300 / 750 / 1050 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "280 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "240 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "650 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "400 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "15.5 kW / 21 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "net. motor output",
+        "value": "15.5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Petrol",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor designation",
+        "value": "Hoda GX-630",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor starter",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Crank handle",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "hydrostatic",
+        "accessory": "-"
+      },
+      {
+        "param": "Water tank content",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1300 / 750 / 1050 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "280 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cf-13-2-e-tr",
+    "brand": "cedima",
+    "name": "CF-13.2 E-TR",
+    "nameEn": "CF-13.2 E-TR",
+    "image": "/products/cedima-cf-13-2-e-tr.webp",
+    "description": "Küçük, sağlam, taşıması kolay ve güçlü bir elektrik motoruyla donatılmış - bunlar CF-13.2 E-TR'nin özellikleridir.  Esnek kuru kesim zemin testeresi özellikle dar veya açılı iç mekanlardaki hafif yenileme çalışmaları için uygundur. Kesme derinliği el çarkı kullanılarak ayarlanır ve ilerleme operatör tarafından kontrol edilir. Operatör kolu kauçukla monte edilmiştir ve bu nedenle özellikle düşük titreşimlidir. CF-13.2 E-TR'yi çalıştırmak için 240 m³/saat emme kapasitesine ve en az 1,5 m² filtre alanına sahip profesyonel bir endüstriyel elektrik süpürgesi gereklidir.",
+    "descriptionEn": "Small, robust, easy to transport and equipped with a powerful electric motor - these are the attributes of the CF-13.2 E-TR.  The flexible dry-cut floor saw is particularly suitable for light renovation work in confined or angled interior spaces. The cutting depth is set using the handwheel and the feed is controlled by the operator. The operator handle is rubber-mounted and therefore particularly low-vibration. A professional industrial hoover with a suction capacity of 240 m³/h and a filter area of at least 1.5 m² is required to operate the CF-13.2 E-TR.",
+    "features": [
+      "Yıldız üçgen ters çevirme anahtarı",
+      "Ayarlanabilir kesme derinliği göstergesi ve park freni",
+      "Yüksekliği ayarlanabilir ve düşük titreşimli monte edilmiş itme kolu",
+      "Manuel yer değiştirme için çekilebilir taşıma kolu",
+      "Makinenin kolay yüklenmesi için vinç gözü",
+      "El krankı ile kademesiz kesme derinliği ayarı"
+    ],
+    "featuresEn": [
+      "Star delta reversing switch",
+      "Adjustable cutting depth indicator and parking brake",
+      "Height-adjustable and low-vibration mounted push handle",
+      "Pull-out transport handle for manual relocation",
+      "Crane eye for easy loading of the machine",
+      "Stepless cutting depth adjustment by means of hand crank"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "120 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "350 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "300 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25,4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "rechts",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "15 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "7,5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Elektro",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Crank handle",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "820 / 520 / 870 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "106 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "120 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "350 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "300 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25,4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "rechts",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "15 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "7,5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Elektro",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Crank handle",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "820 / 520 / 870 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "106 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cf-2116-d",
+    "brand": "cedima",
+    "name": "CF-2116D",
+    "nameEn": "CF-2116 D",
+    "image": "/products/cedima-cf-2116-d.webp",
+    "description": "CF-2016 D zemin testeresi, kullanıcı dostu genel konsepti ve kompakt tasarımıyla etkileyicidir. Elektrikle çalıştırılan güçlü dizel motor, makinenin optimum kesme performansını sağlar. Hidrostatik hareket tahrikiyle donatılan bu sistem, kesme işlemi sırasında zemin testeresinin eşit şekilde beslenmesini sağlar. Kesme derinliği elektro-hidroliktir. Kolların yüksekliği ayrı ayrı ayarlanabilir. Büyük su deposu (35 l) ve kesme mili aracılığıyla bıçağa ekonomik su beslemesi, uzun ve kesintisiz çalışma sağlar.",
+    "descriptionEn": "The CF-2016 D floor saw impresses with its user-friendly overall concept and compact design. The powerful diesel engine with electric start allows for optimal cutting performance of the machine. Equipped with a hydrostatic travel drive, this enables a uniform feed of the floor saw during cutting operation. The cutting depth is electro-hydraulic. The handles are individually height-adjustable. The large water tank (35 l) and the economical water supply to the blade through the cutting shaft ensure long and uninterrupted work.",
+    "features": [
+      "Hidrostatik tahrik nedeniyle düzgün besleme",
+      "Yüksekliği ayarlanabilir tutma yerleri",
+      "35 litrelik büyük su deposu ve kesme milinden su temini",
+      "Hidrolik kesme derinliği beslemesi",
+      "Ayarlanabilir kesme derinliği göstergesi",
+      "Testere bıçağı montajı sağa veya sola mümkündür"
+    ],
+    "featuresEn": [
+      "Uniform feed due to hydrostatic drive",
+      "Height-adjustable handles",
+      "Large 35 litre water tank and water supply through the cutting shaft",
+      "Hydraulic cutting depth infeed",
+      "Adjustable cutting depth indicator",
+      "Saw blade mount possible on the right or left"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "300 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "800 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "15.5 kW / 21 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "açık. motor çıkışı",
+        "value": "14.7 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tanımı",
+        "value": "Hatz 2G40",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor marş motoru",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "hydrostatic",
+        "accessory": "-"
+      },
+      {
+        "param": "Su deposu içeriği",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1300 / 1000 / 1150 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "340 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "300 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "800 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "15.5 kW / 21 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "net. motor output",
+        "value": "14.7 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor designation",
+        "value": "Hatz 2G40",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor starter",
+        "value": "Electric start",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Electro-hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "hydrostatic",
+        "accessory": "-"
+      },
+      {
+        "param": "Water tank content",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1300 / 1000 / 1150 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "340 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cf-1020-1-d",
+    "brand": "cedima",
+    "name": "CF-1020.1D",
+    "nameEn": "CF-1020.1 D",
+    "image": "/products/cedima-cf-1020-1-d.webp",
+    "description": "CF-1020.1 D, 200 mm'lik muazzam bir kesme derinliğine ulaşır ve yenilemelerde ve peyzaj veya yol yapımında kullanım için idealdir. Bu nedenle inşaat makinelerine yönelik kiralık park portföyüne mükemmel uyum sağlar.  Oldukça kompakt ve taşıma dostu boyutlarıyla etkileyicidir. Tahrik motorunun son derece alçak montaj konumu, makinenin ağırlık merkezini keskin bir şekilde aşağı doğru kaydırır. Döner kol prensibi sayesinde tahrik motoru, testere bıçağı kaldırıldığında alçak montaj konumunda kalır. Bu, özellikle yüksek seviyede devrilme direncinin yanı sıra basit ve kolay kesim sağlar.",
+    "descriptionEn": "The CF-1020.1 D achieves an enormous cutting depth of 200 mm and is ideal for use in renovations and work in landscaping or road construction. Therefore, it fits perfectly into the portfolio of rental parks for construction machinery.  It impresses with its very compact and transport-friendly dimensions. The extremely low installation position of the drive motor shifts the center of gravity of the machine sharply downwards. Thanks to the swivel arm principle, the drive motor remains in its low installation position when the saw blade is lifted. This results in a particularly high level of tilt resistance as well as simple and easy cutting.",
+    "features": [
+      "Güçlü Hatz dizel motor",
+      "Alçak ağırlık merkezi ve maksimum iz genişliği sayesinde yüksek devrilme direnci",
+      "Döner kol prensibi sayesinde tüm kesme derinliklerinde sabit kesme mili basıncı",
+      "Geniş doldurma açıklığına sahip 22 litrelik su su deposu",
+      "Makineye yakıt doldurmak için su deposu yana doğru döndürülebilir",
+      "Turna gözü"
+    ],
+    "featuresEn": [
+      "Powerful Hatz diesel engine",
+      "High tilt resistance due to low centre of gravity and maximum track width",
+      "Constant cutting shaft pressure at all cutting depths thanks to the swivel arm principle",
+      "22 litre water water tank with large filling opening",
+      "Water tank can be swivelled sideways to fill the machine with fuel",
+      "Crane eye"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "500 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "350 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "7.3 kW / 9.9 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "açık. motor çıkışı",
+        "value": "7.3 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tanımı",
+        "value": "Hatz 1 B4OU-6",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor marş motoru",
+        "value": "Reversing Start",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Handwheel",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "Su deposu içeriği",
+        "value": "22 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1260 /570 / 1050 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "148 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "500 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "350 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "right or left",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "20 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "7.3 kW / 9.9 hp",
+        "accessory": "-"
+      },
+      {
+        "param": "net. motor output",
+        "value": "7.3 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Diesel",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor designation",
+        "value": "Hatz 1 B4OU-6",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor starter",
+        "value": "Reversing Start",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Handwheel",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "Water tank content",
+        "value": "22 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1260 /570 / 1050 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "148 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "profesyonel-delme-ve-kirim"
     ],
     "isFeatured": false
   }
