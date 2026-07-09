@@ -8434,5 +8434,565 @@
       "masa-tipi-kesim"
     ],
     "isFeatured": false
+  },
+  {
+    "slug": "cedima-wsx-296",
+    "brand": "cedima",
+    "name": "WSx-296",
+    "nameEn": "WSx-296",
+    "image": "https://b3pcsgrspwm0h0uo.public.blob.vercel-storage.com/cedima-wsx-296.webp",
+    "description": "WSx-296 ile kanıtlanmış WS-296 daha da geliştirildi. Yeni WSx-296 duvar testeresi, 17 KW'a kadar bıçak tahrik motoruyla donatılmıştır. Ayrıca kullanıcı dostu yeni bir kontrolör olan HFx-18 geliştirildi. Kontrolör hem 16A hem de 32A şebekede çalıştırılabilir. Birlikte verilen renkli ekranlı kontrol şişesi, kesme işlemini çok daha kolay hale getirir. Tüm önemli parametreler kullanıcıya doğrudan ve gerçek zamanlı olarak görüntülenir. Otomatik işlevi daha da geliştirmeyi ve böylece kesme hızını artırmayı başardık. Elbette denenmiş ve test edilmiş CEDIMA ray sistemi de bu duvar testeresiyle birlikte kullanılabilir.",
+    "descriptionEn": "With the WSx-296, the proven WS-296 has been further developed. The new WSx-296 wall saw is equipped with a blade drive motor with up to 17 KW. In addition, a new user-friendly controller, the HFx-18, has been developed. The controller can be operated on both the 16A and the 32A mains. The accompanying control bottle with colour display makes the sawing process much easier. All important parameters are displayed directly and in real time to the user. We have succeeded in further improving the automatic function and thus increasing the cutting speed. Of course, the tried-and-tested CEDIMA rail system can also be used with this wall saw.",
+    "features": [
+      "17 kW'a kadar çıkış gücüne sahip yüksek frekanslı bıçak tahrik motoru",
+      "Testere parametrelerini görüntülemek için renkli ekranlı kontrol şişesi",
+      "16 A ve 32 A şebekede çalıştırılabilir",
+      "Sac montaj flanşı aynı zamanda düz kesimler için de uygundur",
+      "Su beslemesi kontrol şişesinden rahatlıkla açılabilir",
+      "Profesyonel konnektör sistemi"
+    ],
+    "featuresEn": [
+      "High-frequency blade drive motor with an output of up to 17 kW",
+      "Control bottle with colour display for displaying the sawing parameters",
+      "Can be operated on the 16 A and 32 A mains",
+      "Sheet mounting flange is also suitable for flush cuts",
+      "Water supply can be conveniently switched on from the control bottle",
+      "Professional connector system"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "430 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "1000 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "650 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme mili hızı",
+        "value": "variable",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "60 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "17 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "400 V / 16 or 32 A / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "472 / 389 / 420 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "31 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "430 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "1000 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "650 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting shaft speed",
+        "value": "variable",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "60 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "17 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "400 V / 16 or 32 A / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "472 / 389 / 420 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "31 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "duvar-kesme"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-ws-451-ee",
+    "brand": "cedima",
+    "name": "WS-451EE",
+    "nameEn": "WS-451 EE",
+    "image": "https://b3pcsgrspwm0h0uo.public.blob.vercel-storage.com/cedima-ws-451-ee.webp",
+    "description": "WS-451 EE, WS-451 serisinin tamamen elektrikli versiyonudur. Bıçak, yüksek frekanslı bir elektrik motoruyla çalıştırılır ve besleme motorları da elektriklidir. Tüm çalışma fonksiyonları, uzaktan kumandayla birlikte evrensel radyo frekansı kontrolüyle çalıştırılır. WS-451 EE'nin denetleyicisi, bıçak hızı düştüğünde besleme hızını otomatik olarak ayarlayan kilitlenme önleme işlevine sahiptir. Standart olarak testerede, bıçak montajı için arkadan kilitlenebilen hızlı değiştirme sistemi bulunur; bu sistem aynı zamanda duvarla aynı hizada kesimler için de idealdir.",
+    "descriptionEn": "The WS-451 EE is the all-electric version of the WS-451 series. The blade is powered by a high-frequency electric motor and the feed motors are also electric. All working functions are operated by the universal radio frequency control in conjunction with a remote control. The controller of the WS-451 EE has an anti-lock function that automatically adjusts the feed speed when the blade speed drops. As standard, the saw has a quick-change system that can be locked from the back for the blade mounting, which is also ideal for flush cuts with the wall.",
+    "features": [
+      "Tamamen elektrikli versiyon",
+      "Bıçak tahriki: Yüksek frekanslı motor aracılığıyla elektrik",
+      "Besleme motorları: elektrikli",
+      "Uzaktan kumandayla birlikte HF-18 yüksek frekans kontrolüyle çalıştırma",
+      "Hızlı değiştirilebilir bıçak flanşı",
+      "Kanat montajı ve aynı zamanda duvarla aynı hizada kesimler için arkadan kilitlenebilen hızlı değiştirme sistemi standarttır"
+    ],
+    "featuresEn": [
+      "All-electric version",
+      "Blade drive: Electric via high-frequency motor",
+      "Feed motors: electric",
+      "Operation via HF-18 high-frequency control in conjunction with a remote control",
+      "Quick-change blade flange",
+      "Standard with a quick-change system that can be locked from the back for leaf mounting, also for flush cuts with the wall"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "530 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "1200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme mili hızı",
+        "value": "variable",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "60 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "20 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "400V / 32 A / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "52 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "530 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "1200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting shaft speed",
+        "value": "variable",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "60 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "20 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "400V / 32 A / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "52 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "duvar-kesme"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-ws-451-hh",
+    "brand": "cedima",
+    "name": "WS-451 HH",
+    "nameEn": "WS-451 HH",
+    "image": "https://b3pcsgrspwm0h0uo.public.blob.vercel-storage.com/cedima-ws-451-hh.webp",
+    "description": "WS-451 HH, WS-451 serisinin tamamen hidrolik versiyonudur. Bıçak tahriki ve besleme motorları hidrolik olarak tahrik edilir. WS-451 HH'yi çalıştırmak için HAG-12.22 veya HSP-12 hidrolik kontrol paneli gibi ayrı kontrol devresine sahip bir hidrolik güç ünitesi gereklidir. WS-451 HH standart olarak hızlı değiştirilebilen bir flanşla donatılmıştır. Standart olarak testerede, bıçak montajı için arkadan kilitlenebilen hızlı değiştirme sistemi bulunur; bu sistem aynı zamanda duvarla aynı hizada kesimler için de idealdir.",
+    "descriptionEn": "The WS-451 HH is the fully hydraulic version of the WS-451 series. The blade drive and feed motors are hydraulically driven. To operate the WS-451 HH, a hydraulic power unit with a separate control circuit, such as the HAG-12.22 or the HSP-12 hydraulic control panel, is required. The WS-451 HH is equipped with a quick-change flange as standard. As standard, the saw has a quick-change system that can be locked from the back for the blade mounting, which is also ideal for flush cuts with the wall.",
+    "features": [
+      "Tamamen hidrolik versiyon",
+      "Bıçak tahriki: hidrolik",
+      "Besleme motorları: hidrolik",
+      "Hızlı değiştirilebilir bıçak flanşı",
+      "Standart olarak, kanat montajı ve aynı zamanda duvarla aynı hizada kesimler için arkadan kilitlenebilen hızlı değiştirme sistemi"
+    ],
+    "featuresEn": [
+      "Fully hydraulic version",
+      "Blade drive: hydraulic",
+      "Feed motors: hydraulic",
+      "Quick-change blade flange",
+      "As standard, a quick-change system that can be locked from the back for leaf mounting, also for flush cuts with the wall"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "730 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "1600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme mili hızı",
+        "value": "variable",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "60 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "30 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "Hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "41.5 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "730 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "1600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting shaft speed",
+        "value": "variable",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "60 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "30 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "Hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "41.5 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "duvar-kesme"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-ws-451-eh",
+    "brand": "cedima",
+    "name": "WS-451EH",
+    "nameEn": "WS-451 EH",
+    "image": "https://b3pcsgrspwm0h0uo.public.blob.vercel-storage.com/cedima-ws-451-eh.webp",
+    "description": "WS-451 EH, WS-451 serisinin elektro-hidrolik versiyonudur. Bıçak tahriki hidroliktir ve besleme motorları elektriklidir. Bunlar, uzaktan kumandayla birlikte KS-04 kompakt kontrol cihazı aracılığıyla çalıştırılır. WS-451 EH kilitlenmeyi önleyici fren fonksiyonuna sahiptir; KS-04, bıçak hızı düştüğünde besleme hızını otomatik olarak ayarlar. WS-451 EH standart olarak hızlı değiştirilebilen bir flanşla donatılmıştır. Standart olarak testerede, bıçak montajı için arkadan kilitlenebilen hızlı değiştirme sistemi bulunur; bu sistem aynı zamanda duvarla aynı hizada kesimler için de idealdir.",
+    "descriptionEn": "The WS-451 EH is the electro-hydraulic version of the WS-451 series. The blade drive is hydraulic and the feed motors are electric. These are operated via the KS-04 compact controller in conjunction with a remote control. The WS-451 EH has an anti-lock braking function, the KS-04 automatically adjusts the feed speed when the blade speed drops. The WS-451 EH is equipped with a quick-change flange as standard. As standard, the saw has a quick-change system that can be locked from the back for the blade mounting, which is also ideal for flush cuts with the wall.",
+    "features": [
+      "Elektro-hidrolik versiyon",
+      "Bıçak tahriki: hidrolik",
+      "Besleme motorları: elektrikli",
+      "Uzaktan kumandayla bağlantılı olarak KS-04 kompakt kontrol cihazı aracılığıyla çalıştırma",
+      "Hızlı değiştirilebilir bıçak flanşı",
+      "Kanat montajı ve aynı zamanda duvarla aynı hizada kesimler için arkadan kilitlenebilen hızlı değiştirme sistemi standarttır"
+    ],
+    "featuresEn": [
+      "Electro-hydraulic version",
+      "Blade drive: hydraulic",
+      "Feed motors: electric",
+      "Operation via KS-04 compact controller in conjunction with a remote control",
+      "Quick-change blade flange",
+      "Standard with a quick-change system that can be locked from the back for leaf mounting, also for flush cuts with the wall"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "730 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "1600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme mili hızı",
+        "value": "variable",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "60 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "30 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "electric / hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "41.5 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "730 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "1600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting shaft speed",
+        "value": "variable",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "60 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "30 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "electric / hydraulic",
+        "accessory": "-"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "41.5 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "duvar-kesme"
+    ],
+    "isFeatured": false
   }
 ]

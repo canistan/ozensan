@@ -144,7 +144,7 @@ export default async function ProductDetailPage({ params }: Props) {
                       <tr className="bg-[#F8F9FA] border-b border-neutral-200">
                         <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">{t("parameter") || 'Parametre'}</th>
                         <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">{t("value") || 'Değer'}</th>
-                        <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">{t("accessory") || 'Önerilen Aksesuar'}</th>
+
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-neutral-100">
@@ -152,7 +152,7 @@ export default async function ProductDetailPage({ params }: Props) {
                         <tr key={idx} className="hover:bg-[#F8F9FA]/50 transition-colors">
                           <td className="py-4 px-6 text-[#8A95A5] font-medium">{data.param}</td>
                           <td className="py-4 px-6 text-[#1A1E24] font-bold">{data.value}</td>
-                          <td className="py-4 px-6 text-[#8A95A5]">{data.accessory}</td>
+
                         </tr>
                       ))}
                     </tbody>
