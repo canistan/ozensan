@@ -1,0 +1,2454 @@
+[
+  {
+    "slug": "cedima-cts-200",
+    "brand": "cedima",
+    "name": "CTS-200",
+    "nameEn": "CTS-200",
+    "image": "public/temp_table_saws/cedima-cts-200.webp",
+    "description": "Güçlü tablalı testere CTS-200, güçlü 400 V motorlu, Ø 500 mm elmas testere bıçağıyla 200 mm'ye kadar büyük kesme derinlikleri için.  Beton, tuğla, klinker, doğal taş ve benzeri genel yapı malzemelerinin hızlı ve temiz kesilmesini sağlar.",
+    "descriptionEn": "The powerful table saw CTS-200 with powerful 400 V motor for large cutting depths of up to 200 mm with a diamond saw blade with Ø 500 mm.  Enables quick and clean cutting of concrete, brick, clinker, natural stone and similar general building materials.",
+    "features": [
+      "400 V'luk güçlü tahrik motoru",
+      "Kademesiz olarak ayarlanabilen, kilitlenebilir sarkaçlı kesme kolu",
+      "Ölçüm terazili ve ayarlanabilir yan dayanaklı, düzgün çalışan döner tabla",
+      "Kolay değiştirme için IP 68 konnektörlü elektrikli su pompasıyla soğutma suyu temini",
+      "Su tepsisini taşma tapası ve kovayla birleştirerek kolay temizlik",
+      "Katlanabilir ayaklar, taşıma tekerlekleri, taşıma kolları ve vinç halkaları sayesinde yüklemesi ve taşıması kolaydır"
+    ],
+    "featuresEn": [
+      "Powerful drive motor with 400 V",
+      "Infinitely adjustable, lockable pendulum cutting arm",
+      "smooth-running rolling table with measuring scale and adjustable side stop",
+      "Cooling water supply by electric water pump with IP 68 connector for easy replacement",
+      "Easy cleaning by combining water tray with overflow plug and bucket",
+      "Easy to load and transport thanks to foldable feet, transport wheels, carrying handles and crane eyelets"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "500 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "450 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. kesme uzunluğu",
+        "value": "600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "4,0 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "400 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Su kabının içindekiler",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1480 / 600 / 810 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "98 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "500 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "450 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. cutting length",
+        "value": "600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "4,0 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "400 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Contents of water pan",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1480 / 600 / 810 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "98 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "masa-tipi-kesim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cts-26-xl",
+    "brand": "cedima",
+    "name": "CTS-26XL",
+    "nameEn": "CTS-26 XL",
+    "image": "public/temp_table_saws/cedima-cts-26-xl.webp",
+    "description": "CTS-26 XL masa testeresi, özellikle uzun kesimler, fayanslar, fayanslar veya ince doğal taş levhalar ve benzeri inşaat malzemeleri için çok sağlam ve dayanıklı bir masa testeresidir. Döner üst yapısı ile 45° açıya kadar gönyeli kesimler yapılabilmektedir.",
+    "descriptionEn": "The table saw CTS-26 XL is a very stable and durable table saw for particularly long cuts, tiles, tiles or thin natural stone slabs and similar building materials. With the swivel superstructure, mitre cuts can be made up to an angle of 45°.",
+    "features": [
+      "Hassas sarkaçlı kesme kafası, kademesiz olarak kilitlenebilir",
+      "0° - 45° arası gönyeli kesimler için döner kiriş",
+      "Kaymaz lastik pedli ve ayarlanabilir yan dayanaklı yerleştirme masası",
+      "Kolay değiştirme için IP 68 konnektörlü elektrikli su pompasıyla soğutma suyu temini",
+      "Su tepsisini taşma tapası ve kovayla birleştirerek kolay temizlik",
+      "Makinenin 3 tarafında sıçrama koruması"
+    ],
+    "featuresEn": [
+      "Precise pendulum cutting head, infinitely lockable",
+      "Swivel crossbeam for mitre cuts from 0° - 45°",
+      "Insertion table with non-slip rubber pad and adjustable side stop",
+      "Cooling water supply by electric water pump with IP 68 connector for easy replacement",
+      "Easy cleaning by combining water tray with overflow plug and bucket",
+      "Splash guard on 3 sides of the machine"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "65 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "250 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "230 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. kesme uzunluğu",
+        "value": "1150 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "1,1 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "230 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Su kabının içindekiler",
+        "value": "25 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1540 / 480 / 500 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "77 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "65 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "250 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "230 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. cutting length",
+        "value": "1150 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "1,1 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "230 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Contents of water pan",
+        "value": "25 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1540 / 480 / 500 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "77 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "masa-tipi-kesim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cts-1000-lr",
+    "brand": "cedima",
+    "name": "CTS-1000LR",
+    "nameEn": "CTS-1000 LR",
+    "image": "public/temp_table_saws/cedima-cts-1000-lr.webp",
+    "description": "CEDIMA CTS-1000 kule testere, geniş formatlı yapı taşlarının dikey kesimi için tasarlanmış yüksek performanslı bir makinedir. Çapı 1000 mm'ye kadar olan elmas kesme diskleri kullanır ve artırılmış kesme uzunluğu sayesinde 850 mm'ye kadar kesme derinliklerine olanak sağlar. Motor ve dişli kutusu optimum şekilde eşleştirilmiştir ve elmas aletin çevresel hızının 50 m/s'lik ideal değere yakın bir değerde sabit kalmasını sağlar. Bu, takımların yüksek kesme performansı ve uzun servis ömrü ile sonuçlanır. Kullanıcı dostu tasarım, sezgisel kullanım ve yüksek güvenlik standartları, rahat, hassas ve yorulmadan çalışmayı sağlar. Önerilen elmas testere bıçakları Kalsiyum silikat ve Poroton: TS MAXX masa testeresi TS SILENT MAXX PORO Beton bloklar: TS BETON MAXX masa testeresi",
+    "descriptionEn": "The CEDIMA CTS-1000 tower saw is a high-performance machine designed for the vertical cutting of large-format building blocks. It uses diamond cutting discs up to 1000 mm in diameter and, thanks to its extended cutting length, allows cutting depths of up to 850 mm. The motor and gearbox are optimally matched, ensuring that the peripheral speed of the diamond tool remains constant at close to the ideal value of 50 m/s. This results in high cutting performance and a long service life for the tools. The user-friendly design, intuitive operation and high safety standards ensure comfortable, precise and fatigue-free working. Recommended diamond saw blades Calcium silicate and Poroton: TS MAXX table saw TS SILENT MAXX PORO Concrete blocks: TS BETON MAXX table saw",
+    "features": [
+      "Özellikle sağlam ve dayanıklı yapı",
+      "LR - Uzun PE konumlandırma silindirleri",
+      "Standart çalışma saati sayacı - kiralama için ideal",
+      "Testere bıçağı tahriki için az bakım gerektiren, kapsüllü zincir tahriki",
+      "Büyük kaldırma halkası ve çıkarılabilir kuyruk tekerleği, kurulum yerinin taşınmasını veya değiştirilmesini kolaylaştırır",
+      "Su tepsisinin altındaki forklift taşıma kulpu"
+    ],
+    "featuresEn": [
+      "Particularly robust and durable construction",
+      "LR - Long PE positioning rollers",
+      "Operating hours counter as standard - ideal for rental",
+      "Low-maintenance, encapsulated chain drive for the saw blade drive",
+      "Large lifting eye and removable tail wheel make it easier to transport or change the installation site",
+      "Forklift transport lug under the water tray"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "420 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "1000 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "900 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. kesme uzunluğu",
+        "value": "650 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "60.0 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "7,5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "400 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Su kabının içindekiler",
+        "value": "60 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1175 / 1115 / 1975 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "420 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "420 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "1000 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "900 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. cutting length",
+        "value": "650 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "60.0 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "7,5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "400 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Contents of water pan",
+        "value": "60 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1175 / 1115 / 1975 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "420 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "masa-tipi-kesim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cbas-500",
+    "brand": "cedima",
+    "name": "CBAS-500",
+    "nameEn": "CBAS-500",
+    "image": "public/temp_table_saws/cedima-cbas-500.webp",
+    "description": "CEDIMA CBAS-500 duvar şerit testeresi, geniş formatlı hafif yapı malzemelerinin hassas kesimi için özel olarak geliştirilmiştir. Karbür uçlu testere bandıyla donatılan makine, kuru kesme uygulamalarında temiz ve verimli kesimler sağlar. İş parçaları düzgün çalışan kesme masasına konumlandırılır ve testere bandına doğru güvenli ve hassas bir şekilde yönlendirilir. Uygun olduğu yerler: Gaz beton Hafif yapı blokları İçi boş beton bloklar/tuğlalar",
+    "descriptionEn": "The CEDIMA CBAS-500 masonry band saw has been specifically developed for the precise cutting of large-format lightweight building materials. Equipped with a carbide-tipped saw band, the machine delivers clean and efficient cuts in dry-cutting applications. The workpieces are positioned on the smooth-running cutting table and guided safely and precisely against the saw band. Suitable for: Aerated concrete Lightweight building blocks Hollow concrete blocks/bricks",
+    "features": [
+      "Büyük gazbeton blokların ve düşük yoğunluklu içi boş blok tuğlaların kuru kesimi için uygundur",
+      "Kesim sonunda otomatik testere bıçağı kapanması",
+      "Taşıma sırasında kesim masasının eğimli konumu",
+      "Kolay yükleme veya yer değiştirme için pratik kulplar, büyük pervaneler ve açılır vinç gözü",
+      "Hızlı serbest bırakma kollu gönye açısı durdurucusu",
+      "Kontrol kutusundaki saat ölçer"
+    ],
+    "featuresEn": [
+      "Suitable for dry cutting large blocks of aerated concrete and low-density hollow block bricks",
+      "Automatic saw blade shutdown at the end of the cut",
+      "Inclined position of the cutting table during transport",
+      "Practical handles, large impellers and swing-out crane eye for easy loading or relocation",
+      "Mitre angle stop with quick-release lever",
+      "Hour meter in the control box"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "510 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. kesme uzunluğu",
+        "value": "690 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "1,5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "230V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "no",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "860 / 1095 / 1840 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "170 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "510 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. cutting length",
+        "value": "690 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "1,5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "230V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "no",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "860 / 1095 / 1840 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "170 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "masa-tipi-kesim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cts-57-2-g",
+    "brand": "cedima",
+    "name": "CTS-57.2G",
+    "nameEn": "CTS-57.2 G",
+    "image": "public/temp_table_saws/cedima-cts-57-2-g.webp",
+    "description": "45° açıya kadar gönyeli kesimler için kademesiz ayarlanabilen kesme kafasına sahip kompakt, sağlam şantiye testeresi. CTS-57.2 G, tuğlaların, klinker tuğlaların, doğal taşların ve benzeri malzemelerin hızlı ve hassas kesimi için tasarlanmış bir masa tipi testeredir. Sağlamlık ve teknik özelliklerin birleşimi, onu her türlü inşaat sahasında çok yönlü bir araç haline getirir. Bu masa testeresi istek üzerine (CTS-57.2 G-L) daha uzun bir çalışma tezgahıyla (kesme uzunluğu 850 mm) de mevcuttur.",
+    "descriptionEn": "Compact, robust construction site saw with a continuously adjustable cutting head for miter cuts up to a 45° angle. The CTS-57.2 G is a table saw designed for fast and precise cutting of bricks, clinker bricks, natural stone, and similar materials. Its combination of stability and technical features makes it a versatile tool on any construction site. This table saw is also available on request (CTS-57.2 G-L) with a longer worktable (cutting length 850 mm).",
+    "features": [
+      "Kompakt tasarım - dar şantiyeler için idealdir ve taşınması kolaydır.",
+      "Sağlam ve dayanıklı - şantiyelerdeki günlük kullanımın zorluklarına dayanacak şekilde üretilmiş sağlam bir tasarım.",
+      "Temiz ve hassas kesimler - Beton, tuğla, klinker, doğal taş ve benzeri malzemeler için uygundur.",
+      "Esnek taşıma - Üst ve alt kısımdaki ayarlanabilir tekerlekler, kolay kullanım ve iyi hareket kabiliyeti sağlar.",
+      "Temizlemesi kolay - Çıkarılabilir plastik tepsi, temizlik ve bakımı kolaylaştırır.",
+      "Pratik su yönetimi; tapa ve taşma borusu, kontrollü drenaja ve temiz çalışmaya olanak tanır."
+    ],
+    "featuresEn": [
+      "Compact design - ideal for tight construction sites and easy to transport.",
+      "Sturdy and durable - a robust design built to withstand the rigors of daily use on construction sites.",
+      "Clean and precise cuts - Suitable for concrete, brick, clinker, natural stone, and similar materials.",
+      "Flexible transport - Adjustable casters on the top and bottom allow for easy handling and good mobility.",
+      "Easy to clean - The removable plastic tray makes cleaning and maintenance a breeze.",
+      "Practical water management—a plug and overflow tube allow for controlled draining and clean operation."
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "125 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "400 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25,4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "2,2 kW / 230 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "electrical",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manually",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Su kabının içindekiler",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1300 / 670 / 830 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "80 kg in use / 96 kg transport",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "125 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "400 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25,4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "2,2 kW / 230 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "electrical",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manually",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Contents of water pan",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1300 / 670 / 830 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "80 kg in use / 96 kg transport",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "masa-tipi-kesim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cts-375-3",
+    "brand": "cedima",
+    "name": "CTS-375.3",
+    "nameEn": "CTS-375.3",
+    "image": "public/temp_table_saws/cedima-cts-375-3.webp",
+    "description": "CTS-375 şantiyelerde kullanıma yönelik geniş, konforlu bir masa tipi testeredir. Geniş formatlı iş parçalarını hızlı ve kolay bir şekilde kesmek için kullanılabilir. Kademeli kesme işlemini kullanarak büyük iş parçalarını kesmek için bir sarkaçlı kesme kolu ile donatılmıştır. Kesilecek taşlar sabit destek masası üzerine yerleştirilir ve ray kılavuzlu kesme arabasının tamamı el çarkı ile iş parçası üzerinde yönlendirilir.",
+    "descriptionEn": "The CTS-375 is a large, comfortable table saw for use on construction sites. It can be used to cut large-format workpieces quickly and easily. It is equipped with a pendulum cutting arm for cutting large workpieces using the step-cut process. Stones to be cut are placed on the fixed support table and the entire rail-guided cutting carriage is guided over the workpiece with a handwheel.",
+    "features": [
+      "Bilyalı yataklı sarkaç kesme kolu - yüksekliği ayarlanabilir ve kilitlenebilir",
+      "Rahat çalışma için yan el çarkı beslemesi",
+      "Kolay temizlik için galvanizli, çıkarılabilir su tepsisi",
+      "Standart olarak durdurma çubuğu ve açılı durdurma",
+      "Elektrikli su pompasıyla soğutma suyu temini",
+      "Otomatik yıldız-üçgen başlatma ve çalışma saati sayacı"
+    ],
+    "featuresEn": [
+      "Ball-bearing pendulum cutting arm - height-adjustable and lockable",
+      "Side handwheel feed for convenient operation",
+      "Galvanized, removable water tray for easy cleaning",
+      "Stop bar and angle stop as standard",
+      "Cooling water supply by electric water pump",
+      "Automatic star-delta start-up and operating hours counter"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "425 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "1000 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "900 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. kesme uzunluğu",
+        "value": "1000 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "60.0 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "7,5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "400 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Su kabının içindekiler",
+        "value": "110 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1780 / 970 / 1590 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "320 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "425 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "1000 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "900 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. cutting length",
+        "value": "1000 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "60.0 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "7,5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "400 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Contents of water pan",
+        "value": "110 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1780 / 970 / 1590 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "320 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "masa-tipi-kesim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cts-1000-kr",
+    "brand": "cedima",
+    "name": "CTS-1000KR",
+    "nameEn": "CTS-1000 KR",
+    "image": "public/temp_table_saws/cedima-cts-1000-kr.webp",
+    "description": "CEDIMA CTS-1000 kule testere, geniş formatlı yapı taşlarının dikey kesimi için tasarlanmış yüksek performanslı bir makinedir. Çapı 1000 mm'ye kadar olan elmas kesme diskleri kullanır ve artırılmış kesme uzunluğu sayesinde 850 mm'ye kadar kesme derinliklerine olanak sağlar. Motor ve dişli kutusu optimum şekilde eşleştirilmiştir ve elmas aletin çevresel hızının 50 m/s'lik ideal değere yakın bir değerde sabit kalmasını sağlar. Bu, takımların yüksek kesme performansı ve uzun servis ömrü ile sonuçlanır. Kullanıcı dostu tasarım, sezgisel kullanım ve yüksek güvenlik standartları, rahat, hassas ve yorulmadan çalışmayı sağlar. Önerilen elmas testere bıçakları Kalsiyum silikat ve Poroton: TS MAXX masa testeresi TS SILENT MAXX PORO Beton bloklar: TS BETON MAXX masa testeresi",
+    "descriptionEn": "The CEDIMA CTS-1000 tower saw is a high-performance machine designed for the vertical cutting of large-format building blocks. It uses diamond cutting discs up to 1000 mm in diameter and, thanks to its extended cutting length, allows cutting depths of up to 850 mm. The motor and gearbox are optimally matched, ensuring that the peripheral speed of the diamond tool remains constant at close to the ideal value of 50 m/s. This results in high cutting performance and a long service life for the tools. The user-friendly design, intuitive operation and high safety standards ensure comfortable, precise and fatigue-free working. Recommended diamond saw blades Calcium silicate and Poroton: TS MAXX table saw TS SILENT MAXX PORO Concrete blocks: TS BETON MAXX table saw",
+    "features": [
+      "Özellikle sağlam ve dayanıklı yapı",
+      "KR - Kısa PE konumlandırma silindirleri",
+      "Standart çalışma saati sayacı - kiralama için ideal",
+      "Testere bıçağı tahriki için az bakım gerektiren, kapsüllü zincir tahriki",
+      "Büyük kaldırma halkası ve çıkarılabilir kuyruk tekerleği, kurulum yerinin taşınmasını veya değiştirilmesini kolaylaştırır",
+      "Su tepsisinin altındaki forklift taşıma kulpu"
+    ],
+    "featuresEn": [
+      "Particularly robust and durable construction",
+      "KR - Short PE positioning rollers",
+      "Operating hours counter as standard - ideal for rental",
+      "Low-maintenance, encapsulated chain drive for the saw blade drive",
+      "Large lifting eye and removable tail wheel make it easier to transport or change the installation site",
+      "Forklift transport lug under the water tray"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "420 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "1000 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "900 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. kesme uzunluğu",
+        "value": "650 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "60.0 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "7,5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "400 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Su kabının içindekiler",
+        "value": "60 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1175 / 1115 / 1975 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "420 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "420 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "1000 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "900 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. cutting length",
+        "value": "650 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "60.0 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "7,5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "400 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Contents of water pan",
+        "value": "60 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1175 / 1115 / 1975 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "420 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "masa-tipi-kesim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cts-56",
+    "brand": "cedima",
+    "name": "CTS-56",
+    "nameEn": "CTS-56",
+    "image": "public/temp_table_saws/cedima-cts-56.webp",
+    "description": "Şantiyede günlük kullanım için küçük, kullanışlı ve sağlam.  CTS-56 beton, tuğla, klinker, doğal taş ve benzeri malzemelerin hızlı ve temiz kesilmesi için kullanılan bir masa testeresidir. Sağlamlık ve teknik ayrıntıların birleşimi onu ideal bir araç haline getiriyor",
+    "descriptionEn": "Small, handy, robust for daily use on the construction site.  The CTS-56 is a table saw for quick and clean cutting of concrete, brick, clinker, natural stone and similar materials. The combination of stability and technical details make it an ideal tool",
+    "features": [
+      "Kilitlenebilir sarkaç kesme kolu",
+      "Ayarlanabilir yan stoplu, sorunsuz çalışan, çıkarılabilir döner tabla",
+      "Kolay değiştirme için IP 68 konnektörlü elektrikli su pompasıyla soğutma suyu temini",
+      "Su tepsisini taşma tapası ve kovayla birleştirerek kolay temizlik",
+      "Katlanabilir ayaklar, taşıma tekerlekleri, taşıma kolları ve vinç halkaları sayesinde yükleme ve taşıma dostu tasarım"
+    ],
+    "featuresEn": [
+      "Lockable pendulum cutting arm",
+      "Smooth-running, removable rolling table with adjustable side stop",
+      "Cooling water supply by electric water pump with IP 68 connector for easy replacement",
+      "Easy cleaning by combining water tray with overflow plug and bucket",
+      "Loading- and transport-friendly design thanks to foldable feet, transport wheels, carrying handles and crane eyelets"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "130 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "400 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "350 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. kesme uzunluğu",
+        "value": "615 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "2,2 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "230 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Su kabının içindekiler",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1160 / 620 / 580 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "72 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "130 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "400 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "350 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. cutting length",
+        "value": "615 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "2,2 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "230 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Contents of water pan",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1160 / 620 / 580 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "72 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "masa-tipi-kesim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cts-175-2",
+    "brand": "cedima",
+    "name": "CTS-175.2",
+    "nameEn": "CTS-175.2",
+    "image": "public/temp_table_saws/cedima-cts-175-2.webp",
+    "description": "175 mm'ye kadar derinlikleri kesebilen güçlü bir 230 V motorla donatılmış sağlam CTS-175.2 şantiye testeresi, beton, tuğla, klinker, doğal taş ve benzeri genel inşaat malzemelerinin hızlı ve temiz kesilmesini sağlar.",
+    "descriptionEn": "The rugged CTS-175.2 construction site saw , equipped with a powerful 230 V motor capable of cutting depths up to 175 mm, enables fast and clean cutting of concrete, brick, clinker, natural stone, and similar general construction materials.",
+    "features": [
+      "Güçlü 230 V motor - İş sahasındaki zorlu uygulamalar için yüksek kesme performansı.",
+      "175 mm'ye kadar geniş kesme derinliği - kalın ve sağlam yapı malzemelerini kesmek için idealdir.",
+      "Hassas açılı kesimler - Hassas ve temiz kesimler için bir açılı durdurma içerir.",
+      "Esnek hareket kabiliyeti - Üst ve alt kısımdaki çıkarılabilir tekerlekler taşımayı ve konumlandırmayı kolaylaştırır.",
+      "Kolay temizlik ve bakım - Çıkarılabilir plastik tepsi, hızlı ve kolay temizlik sağlar.",
+      "Optimum soğutma ve toz azaltma - fişli su pompası, kesme sırasında güvenilir su beslemesi sağlar."
+    ],
+    "featuresEn": [
+      "Powerful 230-V motor - High cutting performance for demanding applications on the job site.",
+      "Large cutting depth of up to 175 mm - ideal for cutting through thick and solid building materials.",
+      "Precise angle cuts - Includes an angle stop for precise and clean cuts.",
+      "Flexible mobility - Removable casters on the top and bottom make transport and positioning easier.",
+      "Easy cleaning and maintenance - The removable plastic tray ensures quick and easy cleaning.",
+      "Optimal cooling and dust reduction - the water pump with plug ensures a reliable water supply during cutting."
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "175 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "450 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25,4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "açık. motor çıkışı",
+        "value": "3,0 kW / 230 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electrical",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "Manual",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Su kabının içindekiler",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1300 / 728 / 1520 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "97 kg in use / 128 kg when transported",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "175 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "450 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25,4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "net. motor output",
+        "value": "3,0 kW / 230 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electrical",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "Manual",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Contents of water pan",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1300 / 728 / 1520 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "97 kg in use / 128 kg when transported",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "masa-tipi-kesim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cts-26",
+    "brand": "cedima",
+    "name": "CTS-26",
+    "nameEn": "CTS-26",
+    "image": "public/temp_table_saws/cedima-cts-26.webp",
+    "description": "CTS-26 masa testeresi fayanslarda, fayanslarda veya ince doğal taş levhalarda kullanıma yönelik çok sağlam ve dayanıklı bir kesme makinesidir. Eğilebilir kiriş sayesinde 45°'ye kadar gönyeli kesimler yapılabilir.",
+    "descriptionEn": "The table saw CTS-26 is a very stable and durable cutting machine for use in tiles, tiles or thin natural stone slabs. With the tiltable crossbeam, mitre cuts can be made up to an angle of 45°.",
+    "features": [
+      "Hassas sarkaçlı kesme kafası, kademesiz olarak kilitlenebilir",
+      "0° - 45° arası gönyeli kesimler için döner kiriş",
+      "Sol ve sağ elini kullanan kullanıcılar için tutma yeri",
+      "Kaymaz lastik pedli ve ayarlanabilir yan dayanaklı yerleştirme masası",
+      "Kolay değiştirme için IP 68 konnektörlü elektrikli su pompasıyla soğutma suyu temini",
+      "Su tepsisini taşma tapası ve kovayla birleştirerek kolay temizlik"
+    ],
+    "featuresEn": [
+      "Precise pendulum cutting head, infinitely lockable",
+      "Swivel crossbeam for mitre cuts from 0° - 45°",
+      "Handle for left- and right-handed users",
+      "Insertion table with non-slip rubber pad and adjustable side stop",
+      "Cooling water supply by electric water pump with IP 68 connector for easy replacement",
+      "Easy cleaning by combining water tray with overflow plug and bucket"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "65 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "250 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "230 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. kesme uzunluğu",
+        "value": "650 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "1,1 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "230 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Su kabının içindekiler",
+        "value": "18 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1030 / 480 / 470 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "59 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "65 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "250 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "230 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. cutting length",
+        "value": "650 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "1,1 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "230 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Contents of water pan",
+        "value": "18 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1030 / 480 / 470 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "59 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "masa-tipi-kesim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cts-57-g",
+    "brand": "cedima",
+    "name": "CTS-57G",
+    "nameEn": "CTS-57 G",
+    "image": "public/temp_table_saws/cedima-cts-57-g.webp",
+    "description": "45°'ye kadar eğime sahip gönyeli kesimler için kademesiz olarak ayarlanabilen kesme kafasına sahip küçük, sağlam şantiye testeresi. Sağlamlık ve teknik ayrıntıların birleşimi, onu her türlü inşaat sahasında çok yönlü bir araç haline getirir.",
+    "descriptionEn": "Small, robust construction site saw with infinitely adjustable cutting head for mitre cuts up to 45° inclination. The combination of stability and technical details make it a versatile tool on any construction site.",
+    "features": [
+      "45°'ye kadar gönyeli kesimler",
+      "Kilitlenebilir sarkaç kesme kolu",
+      "Ayarlanabilir yan stoplu, sorunsuz çalışan, çıkarılabilir döner tabla",
+      "Kolay değiştirme için IP 68 konnektörlü elektrikli su pompasıyla soğutma suyu temini",
+      "Su tepsisini taşma tapası ve kovayla birleştirerek kolay temizlik",
+      "Katlanabilir ayaklar, taşıma tekerlekleri, taşıma kolları ve vinç halkaları sayesinde yükleme ve taşıma dostu tasarım"
+    ],
+    "featuresEn": [
+      "Mitre cuts up to 45°",
+      "Lockable pendulum cutting arm",
+      "Smooth-running, removable rolling table with adjustable side stop",
+      "Cooling water supply by electric water pump with IP 68 connector for easy replacement",
+      "Easy cleaning by combining water tray with overflow plug and bucket",
+      "Loading- and transport-friendly design thanks to foldable feet, transport wheels, carrying handles and crane eyelets"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "105 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "400 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "350 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. kesme uzunluğu",
+        "value": "615 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "2,2 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "230 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Su kabının içindekiler",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1160 / 620 / 580 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "74 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "105 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "400 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "350 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. cutting length",
+        "value": "615 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "2,2 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "230 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Contents of water pan",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1160 / 620 / 580 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "74 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "masa-tipi-kesim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cts-81-l",
+    "brand": "cedima",
+    "name": "CTS-81L",
+    "nameEn": "CTS-81 L",
+    "image": "public/temp_table_saws/cedima-cts-81-l.webp",
+    "description": "CTS-81 örneğin kesmeye uygundur. 130 mm'ye kadar malzeme kalınlığına kadar döşeme plakaları, kaldırım taşları, merdiven basamakları veya geniş formatlı doğal taş plakalar. Talep üzerine CTS-81 L aynı zamanda güçlü bir 400 V_Elektromotorla da temin edilebilir.",
+    "descriptionEn": "The CTS-81 is suitable for cutting e.g. floor slabs, paving stones, stair treads or large-format natural stone slabs up to a material thickness of 130 mm. On request, the CTS-81 L is also available with a powerful 400 V_Elektromotor.",
+    "features": [
+      "Lastik pedli ve ayarlanabilir yan dayanaklı yerleştirme masası",
+      "Hassas sarkaçlı kesme kafası, kademesiz olarak kilitlenebilir",
+      "0° - 45° arası gönyeli kesimler için döner üst yapı",
+      "Elektrikli su pompasıyla soğutma suyu temini",
+      "Makinenin 3 tarafında sıçrama koruması",
+      "Taşıma kolları ve çıkarılabilir takılabilir ayaklar sayesinde taşıması kolaydır"
+    ],
+    "featuresEn": [
+      "Insertion table with rubber pad and adjustable side stop",
+      "Precise pendulum cutting head, infinitely lockable",
+      "Swivel superstructure for mitre cuts from 0° - 45°",
+      "Cooling water supply by electric water pump",
+      "Splash guard on 3 sides of the machine",
+      "easy to transport thanks to carrying handles and removable plug-in feet"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "130 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "400 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "350 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. kesme uzunluğu",
+        "value": "1200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "2,2 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "230 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Su kabının içindekiler",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1560 / 670 / 600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "99 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "130 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "400 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "350 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. cutting length",
+        "value": "1200 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "2,2 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "230 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Contents of water pan",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1560 / 670 / 600 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "99 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "masa-tipi-kesim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cts-265-2",
+    "brand": "cedima",
+    "name": "CTS-265.2",
+    "nameEn": "CTS-265.2",
+    "image": "public/temp_table_saws/cedima-cts-265-2.webp",
+    "description": "Poroton veya kum-kireç tuğlalarından yapılmış geniş formatlı tuğlaların yanı sıra benzer aşındırıcı yapı malzemelerini kesmek için güçlü üç fazlı motora sahip CTS-265.2 masa testeresi. Büyük kesme derinliklerinde malzemenin daha kolay ayrılması için kilitlenebilir sarkaçlı kesme koluna sahiptir.",
+    "descriptionEn": "The CTS-265.2 table saw with powerful three-phase motor for cutting large-format bricks made of Poroton or sand-lime bricks as well as similar abrasive building materials. It has a lockable pendulum cutting arm for easier separation of the material at large cutting depths.",
+    "features": [
+      "Güçlü 400 V elektrik motoru",
+      "Kontrol kutusundaki saat ölçer",
+      "Ayarlanabilir, düzgün çalışan sarkaçlı kesme kafası",
+      "Kolay temizlik için çıkarılabilir paslanmaz çelik su tepsisi",
+      "Elektrikli su pompasıyla soğutma suyu temini",
+      "Daha fazla iş güvenliği için besleme çubuklu döner tabla"
+    ],
+    "featuresEn": [
+      "Powerful 400 V electric motor",
+      "Hour meter in the control box",
+      "Adjustable, smooth-running pendulum cutting head",
+      "Removable stainless steel water tray for easy cleaning",
+      "Cooling water supply by electric water pump",
+      "Rolling table with feed rod for more work safety"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "265 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "650 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "500 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. kesme uzunluğu",
+        "value": "700 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "5,5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "400 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Su kabının içindekiler",
+        "value": "50 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1750 / 900 / 1530 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "240 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "265 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "650 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "500 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. cutting length",
+        "value": "700 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "5,5 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "400 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Contents of water pan",
+        "value": "50 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1750 / 900 / 1530 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "240 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "masa-tipi-kesim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cts-56-2",
+    "brand": "cedima",
+    "name": "CTS-56.2",
+    "nameEn": "CTS-56.2",
+    "image": "public/temp_table_saws/cedima-cts-56-2.webp",
+    "description": "CTS-56.2 masa testeresi kompakt, sağlam tasarımıyla etkileyicidir ve şantiyelerde günlük kullanım için idealdir. Beton, tuğla, klinker, doğal taş ve benzeri malzemelerin hızlı ve hassas şekilde kesilmesini sağlar. Sağlam yapısı ve iyi tasarlanmış teknik özellikleri sayesinde güvenilir ve güçlü bir araçtır.",
+    "descriptionEn": "The CTS-56.2 table saw impresses with its compact, robust design and is ideal for daily use on construction sites. It enables fast and precise cutting of concrete, bricks, clinker, natural stone, and similar materials. Thanks to its sturdy construction and well-designed technical features, it is a reliable and powerful tool.",
+    "features": [
+      "Kompakt tasarım - Dar şantiyeler için idealdir ve taşınması kolaydır.",
+      "Sağlam ve dayanıklı - şantiyelerdeki günlük kullanımın zorluklarına dayanacak şekilde üretilmiş sağlam bir tasarım.",
+      "Temiz ve hassas kesimler - Beton, tuğla, klinker, doğal taş ve benzeri malzemeler için uygundur.",
+      "Esnek taşıma - Üst ve alt kısımdaki ayarlanabilir tekerlekler, kolay kullanım ve iyi hareket kabiliyeti sağlar.",
+      "Temizlemesi kolay - Çıkarılabilir plastik tepsi, temizlik ve bakımı kolaylaştırır.",
+      "Pratik su yönetimi - tapa ve taşma borusu, kontrollü drenaja ve temiz çalışmaya olanak tanır."
+    ],
+    "featuresEn": [
+      "Compact design - Ideal for tight construction sites and easy to transport.",
+      "Sturdy and durable - a robust design built to withstand the rigors of daily use on construction sites.",
+      "Clean and precise cuts - Suitable for concrete, brick, clinker, natural stone, and similar materials.",
+      "Flexible transport - Adjustable casters on the top and bottom allow for easy handling and good mobility.",
+      "Easy to clean - The removable plastic tray makes cleaning and maintenance a breeze.",
+      "Practical water management - a plug and overflow tube allow for controlled draining and clean operation."
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "130 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "400 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25,4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "2,2 kW / 230 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electrical",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manually",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Su kabının içindekiler",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1300 / 670 / 830",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "72 kg in use / 95 kg when transported",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "130 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "400 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25,4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "2,2 kW / 230 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electrical",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manually",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Contents of water pan",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1300 / 670 / 830",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "72 kg in use / 95 kg when transported",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "masa-tipi-kesim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cts-285",
+    "brand": "cedima",
+    "name": "CTS-285",
+    "nameEn": "CTS-285",
+    "image": "public/temp_table_saws/cedima-cts-285.webp",
+    "description": "CTS-285, Ø750 mm kesme diskleri ve 285 mm'ye kadar kesme derinlikleri için kompakt ve kullanımı kolay bir blok testeredir. Gazlı baskı yayı aracılığıyla kesme derinliği ayarı ve özellikle hassas ve az bakım gerektiren tabla kılavuzu.",
+    "descriptionEn": "The CTS-285 is a compact and easy-to-use block saw for Ø750 mm cutting discs and cutting depths of up to 285 mm. With cutting depth adjustment by means of a gas pressure spring and with particularly precise and low-maintenance table guide.",
+    "features": [
+      "Sağlam kaynaklı çerçeve yapısı",
+      "Son derece sağlam, sıcak daldırma galvanizli kesme masası",
+      "Özel düz motorlu doğrudan tahrik (IP55)",
+      "Değiştirilebilir su toplama tepsisi",
+      "Taşıma için vinç gözleri",
+      "Kilitleme freni"
+    ],
+    "featuresEn": [
+      "Robust welded frame construction",
+      "Extremely stable hot-dip galvanised cutting table",
+      "Direct drive with special flat motor (IP55)",
+      "Replaceable water collection tray",
+      "Crane eyes for transport",
+      "Locking brake"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "285 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "750 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. kesme uzunluğu",
+        "value": "900 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "60 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "4,0 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "401 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1800 / 810 / 1360 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "195 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "285 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "750 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. cutting length",
+        "value": "900 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "60 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "4,0 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "401 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1800 / 810 / 1360 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "195 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "masa-tipi-kesim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cts-175-1",
+    "brand": "cedima",
+    "name": "CTS-175.1",
+    "nameEn": "CTS-175.1",
+    "image": "public/temp_table_saws/cedima-cts-175-1.webp",
+    "description": "175 mm'ye kadar büyük kesme derinlikleri için güçlü 230 V motora sahip sağlam şantiye testeresi, beton, tuğla, klinker, doğal taş ve benzeri genel inşaat malzemelerinin hızlı ve temiz kesilmesini sağlar.",
+    "descriptionEn": "Robust construction site saw with powerful 230 V motor for large cutting depths up to 175 mm enables fast and clean cutting of concrete, bricks, clinker, natural stone and similar general building materials.",
+    "features": [
+      "Ölçekli ve ayarlanabilir yan stoplu döner tabla",
+      "Kolay değiştirme için IP 68 konnektörlü elektrikli su pompasıyla soğutma suyu temini",
+      "Su tepsisini taşma tapası ve kovayla birleştirerek kolay temizlik",
+      "Katlanabilir ayaklar, taşıma tekerlekleri, taşıma kolları ve vinç halkaları sayesinde yüklemesi ve taşıması kolaydır"
+    ],
+    "featuresEn": [
+      "Rolling table with scale and adjustable side stop",
+      "Cooling water supply by electric water pump with IP 68 connector for easy replacement",
+      "Easy cleaning by combining water tray with overflow plug and bucket",
+      "Easy to load and transport thanks to foldable feet, transport wheels, carrying handles and crane eyelets"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "175 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "450 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "dk. Testere Bıçağı Ø",
+        "value": "400 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "maks. kesme uzunluğu",
+        "value": "620 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "3,0 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "230 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "su pompası",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Su kabının içindekiler",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1170 / 590 / 780 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "88 kg",
+        "accessory": "-"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "175 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "450 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "min. Saw Blade Ø",
+        "value": "400 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "max. cutting length",
+        "value": "620 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Bore hole of blade",
+        "value": "25.4 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "3,0 kW",
+        "accessory": "-"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "230 V / 50 Hz",
+        "accessory": "-"
+      },
+      {
+        "param": "Feed",
+        "value": "manual",
+        "accessory": "-"
+      },
+      {
+        "param": "water pump",
+        "value": "electric",
+        "accessory": "-"
+      },
+      {
+        "param": "Contents of water pan",
+        "value": "35 l",
+        "accessory": "-"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1170 / 590 / 780 mm",
+        "accessory": "-"
+      },
+      {
+        "param": "Weight",
+        "value": "88 kg",
+        "accessory": "-"
+      }
+    ],
+    "solutions": [
+      "masa-tipi-kesim"
+    ],
+    "isFeatured": false
+  }
+]
