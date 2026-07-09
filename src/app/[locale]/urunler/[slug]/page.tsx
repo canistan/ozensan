@@ -92,9 +92,14 @@ export default async function ProductDetailPage({ params }: Props) {
               <h1 className="text-3xl lg:text-4xl font-black text-[#1A1E24] tracking-tight leading-tight mb-6">
                 {locale === "en" && (product as any).nameEn ? (product as any).nameEn : product.name}
               </h1>
-              <p className="text-[#8A95A5] text-lg leading-relaxed">
-                {locale === "en" && (product as any).descriptionEn ? (product as any).descriptionEn : product.description}
-              </p>
+              {/* Description */}
+              {(locale === "en" ? (product as any).descriptionEn : product.description) && (
+                <div className="prose prose-lg prose-neutral max-w-none text-[#8A95A5]">
+                  <p className="leading-relaxed">
+                    {locale === "en" ? (product as any).descriptionEn : product.description}
+                  </p>
+                </div>
+              )}
             </div>
 
             {/* Key Features */}
