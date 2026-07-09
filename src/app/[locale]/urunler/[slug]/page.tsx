@@ -136,12 +136,12 @@ export default async function ProductDetailPage({ params }: Props) {
         </div>
 
         {/* Technical Data Table and Videos Section */}
-        {((product.technicalData?.length ?? 0) > 0 || (product.videos?.length ?? 0) > 0) && (
+        {((product.technicalData?.length ?? 0) > 0 || ((product as any).videos?.length ?? 0) > 0) && (
           <div className="mt-16 grid grid-cols-1 lg:grid-cols-3 gap-12">
             
             {/* Technical Data Table */}
             {((locale === "en" ? (product as any).technicalDataEn : product.technicalData) || product.technicalData) && ((locale === "en" ? (product as any).technicalDataEn : product.technicalData) || product.technicalData).length > 0 && (
-              <div className={`lg:col-span-${product.videos && product.videos.length > 0 ? '2' : '3'}`}>
+              <div className={`lg:col-span-${(product as any).videos && (product as any).videos.length > 0 ? '2' : '3'}`}>
                 <h2 className="text-2xl font-black text-[#1A1E24] mb-8">{t("techSpecs")}</h2>
                 <div className="bg-white rounded-xl border border-neutral-200 overflow-hidden">
                   <table className="w-full text-left border-collapse">
@@ -167,11 +167,11 @@ export default async function ProductDetailPage({ params }: Props) {
             )}
 
             {/* Videos Gallery */}
-            {product.videos && product.videos.length > 0 && (
+            {(product as any).videos && (product as any).videos.length > 0 && (
               <div className="lg:col-span-1 space-y-6">
                 <h2 className="text-2xl font-black text-[#1A1E24] mb-8">{t("videos")}</h2>
                 <div className="flex flex-col gap-6">
-                  {product.videos.map((vid: string, idx: number) => (
+                  {(product as any).videos.map((vid: string, idx: number) => (
                     <div key={idx} className="w-full aspect-video rounded-xl overflow-hidden shadow-lg border border-neutral-100 bg-neutral-900">
                       <iframe 
                         width="100%" 
