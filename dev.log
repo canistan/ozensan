@@ -1,0 +1,19 @@
+
+> ozensan-app@0.1.0 dev
+> next dev
+
+⚠ Port 3000 is in use by process 67058, using available port 3001 instead.
+▲ Next.js 16.2.10 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://192.168.0.9:3001
+- Environments: .env
+✓ Ready in 555ms
+⨯ Another next dev server is already running.
+
+- Local:        http://localhost:3000
+- PID:          67058
+- Dir:          /Users/canalbayrak/Desktop/c/Siteler/Ozensan/ozensan-app
+- Log:          .next/dev/logs/next-development.log
+
+Run kill 67058 to stop it.
+[?25h

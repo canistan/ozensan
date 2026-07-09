@@ -34,5 +34,14 @@
     "description": "Profesyonel kesme ve delme makineleri için yüksek performanslı elmas diskler, karot uçları ve taşlama ekipmanları.",
     "descriptionEn": "High-performance diamond discs, core drill bits, and grinding equipment for professional cutting and drilling machines.",
     "slugEn": "diamond-bits-and-discs"
+  },
+  {
+    "slug": "cevre-ve-belediye-ekipmanlari",
+    "name": "Çevre ve Belediye Ekipmanları",
+    "nameEn": "Municipal and Environmental Equipment",
+    "image": "/solutions/municipal.png",
+    "description": "Şehir içi temizlik, karla mücadele, tuz/kum serme ve dar alanlarda yüksek manevra kabiliyeti gerektiren görevler için tasarlanmış profesyonel belediye ekipmanları.",
+    "descriptionEn": "Professional municipal equipment designed for urban cleaning, snow removal, salt/sand spreading, and tasks requiring high maneuverability in tight spaces.",
+    "slugEn": "municipal-and-environmental-equipment"
   }
 ]

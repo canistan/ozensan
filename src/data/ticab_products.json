@@ -1,0 +1,851 @@
+[
+  {
+    "slug": "abs-8000",
+    "brand": "ticab",
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
+    "name": "Bitüm Püskürtme Makinası ABS-8000",
+    "nameEn": "Bitumen Spraying Machine ABS-8000",
+    "description": "Üreticiden 8000 litrelik tanka sahip bitüm püskürtme makinesi. Kamyonlar için asfalt distribütörü.",
+    "descriptionEn": "Bitumen spraying machine with a 8000-liter tank from the manufacturer. Asphalt distributor for trucks. ",
+    "image": "/brands/ticab/abs-8000.webp",
+    "technicalData": [
+      {
+        "parameter": "ABS'ler",
+        "value": "8000"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "bs-2000",
+    "brand": "ticab",
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
+    "name": "Profesyonel Bitüm Püskürtme Makinesi BS-2000",
+    "nameEn": "Professional Bitumen Spraying Machine BS-2000",
+    "description": "Profesyonel bitüm püskürtme makinesi, yol kaplama ve yüzey işleme için etkili püskürtme ekipmanıdır.",
+    "descriptionEn": "Professional bitumen spraying machine is efficient spraying equipment for road paving and surface treatment. ",
+    "image": "/brands/ticab/bs-2000.webp",
+    "technicalData": [
+      {
+        "parameter": "BPM",
+        "value": "500"
+      },
+      {
+        "parameter": "BPM",
+        "value": "100"
+      },
+      {
+        "parameter": "MİRA",
+        "value": "1"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "bs-1000",
+    "brand": "ticab",
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
+    "name": "Endüstriyel Bitüm Püskürtücü BS-1000",
+    "nameEn": "Industrial Bitumen Sprayer BS-1000",
+    "description": "Üreticiden 1000 litrelik tanka sahip endüstriyel bitüm püskürtücü. Asphalt distributor at the best price.",
+    "descriptionEn": "Industrial bitumen sprayer with a 1000-liter tank from the manufacturer. Asphalt distributor at the best price. ",
+    "image": "/brands/ticab/bs-1000.webp",
+    "technicalData": [
+      {
+        "parameter": "BPM",
+        "value": "500"
+      },
+      {
+        "parameter": "BPM",
+        "value": "100"
+      },
+      {
+        "parameter": "MİRA",
+        "value": "1"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "bs-1000-sp",
+    "brand": "ticab",
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
+    "name": "Kundağı Motorlu Bitüm Püskürtme Makinesi",
+    "nameEn": "Self-Propelled Bitumen Spraying Machine",
+    "description": "Üreticiden düşük fiyata kendinden tahrikli bir bitüm püskürtme makinesi satın alın. Küçük ve büyük alanlardaki yol onarımları için güvenilir mobil bitüm emülsiyon püskürtücüler. Doğrudan bitkiden alın.",
+    "descriptionEn": "Buy a self-propelled bitumen spraying machine from the manufacturer at a low price. Reliable mobile bitumen emulsion sprayers for road repairs in small and large areas. Get directly from the plant.",
+    "image": "/brands/ticab/bs-1000-sp.webp",
+    "technicalData": [
+      {
+        "parameter": "BPM",
+        "value": "500"
+      },
+      {
+        "parameter": "BPM",
+        "value": "100"
+      },
+      {
+        "parameter": "MİRA",
+        "value": "1"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "bs-500",
+    "brand": "ticab",
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
+    "name": "Asfalt Distribütörü BS-500",
+    "nameEn": "Asphalt Distributor BS-500",
+    "description": "500 litrelik tanka sahip asfalt distribütörü. Fabrikadan doğrudan tedarik. AB kalitesi. En iyi şartlar ve fiyatlar.",
+    "descriptionEn": "Asphalt distributor with a 500-liter tank. Factory-direct supply. EU quality. Best terms & prices. ",
+    "image": "/brands/ticab/bs-500.webp",
+    "technicalData": [
+      {
+        "parameter": "BPM",
+        "value": "500"
+      },
+      {
+        "parameter": "BPM",
+        "value": "100"
+      },
+      {
+        "parameter": "MİRA",
+        "value": "1"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "bs-500-pro",
+    "brand": "ticab",
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
+    "name": "Asfalt Püskürtme Makinesi BS-500 PRO",
+    "nameEn": "Asphalt Sprayer BS-500 PRO",
+    "description": "Uzaktan kumandalı asfalt püskürtme makinesi ve üreticiden motoru çalıştırma. AB'de üretilmiştir.",
+    "descriptionEn": "Asphalt sprayer with remote control and start engine from the manufacturer. Made in EU.",
+    "image": "/brands/ticab/bs-500-pro.webp",
+    "technicalData": [
+      {
+        "parameter": "BPM",
+        "value": "500"
+      },
+      {
+        "parameter": "BPM",
+        "value": "100"
+      },
+      {
+        "parameter": "MİRA",
+        "value": "1"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "bs-200",
+    "brand": "ticab",
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
+    "name": "Asfalt Püskürtme Makinası BS-200",
+    "nameEn": "Asphalt Spray Machine BS-200",
+    "description": "Üreticiden asfalt püskürtme makinesi. 200 L tanklı bitüm emülsiyon püskürtücü.",
+    "descriptionEn": "Asphalt spray machine from the manufacturer. Bitumen emulsion sprayer with a 200 L tank. ",
+    "image": "/brands/ticab/bs-200.webp",
+    "technicalData": [
+      {
+        "parameter": "BPM",
+        "value": "100"
+      },
+      {
+        "parameter": "MİRA",
+        "value": "3"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "bcm-120",
+    "brand": "ticab",
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
+    "name": "Bitüm Püskürtücü ve Çatlak Kapatıcı BM-Combo",
+    "nameEn": "Bitumen Sprayer & Crack Sealer BM-Combo",
+    "description": "Çatlak kapatma makinesi ve bitüm emülsiyon püskürtme makinesi tek bir makinede. Üreticiden.",
+    "descriptionEn": "Crack sealing machine and bitumen emulsion sprayer in one machine. From the manufacturer. ",
+    "image": "/brands/ticab/bcm-120.webp",
+    "technicalData": [
+      {
+        "parameter": "MİRA",
+        "value": "4"
+      },
+      {
+        "parameter": "MİRA",
+        "value": "1"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Loaders"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "bpm-500",
+    "brand": "ticab",
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
+    "name": "TM TICAB'dan Çatlak Kapama Makinesi BPM-500",
+    "nameEn": "Crack Sealing Machine BPM-500 from TM TICAB",
+    "description": "Üreticiden asfalt çatlak dolum makinası. Avrupa'dan çatlak kapatma makinesi. Aracı yok.",
+    "descriptionEn": "Asphalt crack filling machine from the manufacturer. Crack sealing machine from Europe. No intermediaries.  ",
+    "image": "/brands/ticab/bpm-500.webp",
+    "technicalData": [
+      {
+        "parameter": "RPS",
+        "value": "6000"
+      },
+      {
+        "parameter": "RPS",
+        "value": "1500"
+      },
+      {
+        "parameter": "BPM",
+        "value": "100"
+      },
+      {
+        "parameter": "MİRA",
+        "value": "1"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "bpm-100",
+    "brand": "ticab",
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
+    "name": "Elle İtmeli Çatlak Kapatıcı BPM-100",
+    "nameEn": "Hand-push Crack Sealer BPM-100",
+    "description": "Üreticiden elle itilen çatlak kapatma makinesi. Döner tekerlekler üzerinde çatlak kapatıcı.",
+    "descriptionEn": "Hand-push crack sealing machine from the manufacturer. Crack sealer on swivel wheels. ",
+    "image": "/brands/ticab/bpm-100.webp",
+    "technicalData": [
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "bpm-120",
+    "brand": "ticab",
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
+    "name": "Asfalt Çatlak Kapatıcı BPM-120",
+    "nameEn": "Asphalt Crack Sealer BPM-120",
+    "description": "120 l tank kapasiteli asfalt çatlak kapatıcı. Dizel temizleme sistemi. Fabrika doğrudan tedarik. Üreticiden fiyat.",
+    "descriptionEn": "Asphalt crack sealer with tank capacity 120 l. Diesel cleaning system. Factory direct supply. Price from the manufacturer.",
+    "image": "/brands/ticab/bpm-120.webp",
+    "technicalData": [
+      {
+        "parameter": "RPS",
+        "value": "6000"
+      },
+      {
+        "parameter": "RPS",
+        "value": "1500"
+      },
+      {
+        "parameter": "BPM",
+        "value": "100"
+      },
+      {
+        "parameter": "MİRA",
+        "value": "1"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "hl-1",
+    "brand": "ticab",
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
+    "name": "Asfalt Isıtma Borusu HL-1",
+    "nameEn": "Asphalt Heat Lance HL-1",
+    "description": "Üreticiden çatlak temizliği için asfalt ısıtma borusu. Otonom asfalt çatlak temizleme ısı borusu.",
+    "descriptionEn": "Asphalt heat lance  for crack cleaning from the manufacturer. Autonomous asphalt crack cleaning heat lance.",
+    "image": "/brands/ticab/hl-1.webp",
+    "technicalData": [
+      {
+        "parameter": "BPM",
+        "value": "500"
+      },
+      {
+        "parameter": "BPM",
+        "value": "100"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "mira-1",
+    "brand": "ticab",
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
+    "name": "Infrared Asphalt Heater MIRA-1",
+    "nameEn": "Infrared Asphalt Heater MIRA-1",
+    "description": "Infrared asphalt heater for pothole repair saves money. Buy asphalt heating machine from the manufacturer. ",
+    "descriptionEn": "Infrared asphalt heater for pothole repair saves money. Buy asphalt heating machine from the manufacturer. ",
+    "image": "/brands/ticab/mira-1.webp",
+    "technicalData": [
+      {
+        "parameter": "BPM",
+        "value": "500"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "mira-3",
+    "brand": "ticab",
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
+    "name": "Çukur Kapama Kompleksi MIRA-3",
+    "nameEn": "Pothole Patching Complex MIRA-3",
+    "description": "Çukur yama kompleksi, bitüm emülsiyon püskürtücü, asfalt geri dönüşüm makinesi ve üç panelli kızılötesi asfalt ısıtıcısından oluşur. Üç makineyi bir arada en iyi fiyata alın.",
+    "descriptionEn": "Pothole patching complex consists of the bitumen emulsion sprayerm asphalt recycler, and three-panel infrared asphalt heater. Get three machines in one at the best price.",
+    "image": "/brands/ticab/mira-3.webp",
+    "technicalData": [
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "mira-4",
+    "brand": "ticab",
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
+    "name": "Asfalt Isıtma Makinası MIRA-4",
+    "nameEn": "Asphalt Heater Machine MIRA-4",
+    "description": "Çukur onarımı için uygun maliyetli kızılötesi asfalt ısıtıcı. Taşınabilir ve güçlü asfalt ısıtıcı makinesi.",
+    "descriptionEn": "Cost-effective infared asphalt heater for pothole repair. Portable and powerful asphalt heater machine.",
+    "image": "/brands/ticab/mira-4.webp",
+    "technicalData": [
+      {
+        "parameter": "BPM",
+        "value": "500"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "ra-800",
+    "brand": "ticab",
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
+    "name": "Asfalt Geri Dönüşüm Makinası",
+    "nameEn": "Asphalt Recycling Machine",
+    "description": "Mini asfalt tesisi gerçek bir anlaşmadır. Asfalt geri dönüşüm makinası 15 dakikada 800 kg asfalt karışımı üretir.",
+    "descriptionEn": "Mini asphalt plant is a real deal. Asphalt recycling machine produces 800 kg of asphalt mix per 15 minutes. ",
+    "image": "/brands/ticab/ra-800.webp",
+    "technicalData": [
+      {
+        "parameter": "Mini",
+        "value": "Yükleyici"
+      },
+      {
+        "parameter": "BCM",
+        "value": "120"
+      },
+      {
+        "parameter": "MİRA",
+        "value": "1"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "hb-1",
+    "brand": "ticab",
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
+    "name": "Asfalt Geri Dönüşümlü Asfalt Sıcak Kutusu HB-1",
+    "nameEn": "Asphalt Hot Box HB-1 with Asphalt Recycling",
+    "description": "Asfalt sıcak kutusu, asfalt geri dönüşüm fonksiyonuna sahip bir termo konteynerdir. Yüksek verimlilik, kızılötesi ısıtma ve üreticiden alınan fiyat.",
+    "descriptionEn": "Asphalt hot box is a thermo container with the asphalt recycling function. High productivity, infared heating, and the price from the manufacturer.",
+    "image": "/brands/ticab/hb-1.webp",
+    "technicalData": [
+      {
+        "parameter": "BPM",
+        "value": "100"
+      },
+      {
+        "parameter": "MİRA",
+        "value": "1"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "hb-2",
+    "brand": "ticab",
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
+    "name": "Asfalt Sıcak Kutusu HB-2",
+    "nameEn": "Asphalt Hot Box HB-2",
+    "description": "Asfaltın TİKAB'dan termo konteynerle taşınması.  Asfaltın 12 saat boyunca sıcak tutulması. Üreticiden asfalt sıcak kutu.",
+    "descriptionEn": "Transport asphalt in the thermo container from TICAB.  Keep asphalt hot for 12 hours. Asphalt hot box from the manufacturer. ",
+    "image": "/brands/ticab/hb-2.webp",
+    "technicalData": [
+      {
+        "parameter": "MİRA",
+        "value": "1"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "mp-1100",
+    "brand": "ticab",
+    "solutions": [
+      "yol-yapim-ve-bakim"
+    ],
+    "name": "Asfalt Finişeri MP-1100",
+    "nameEn": "Asphalt Paver MP-1100",
+    "description": "Asfalt finişer MP-1100 - Avrupa'dan yol yapım ekipmanı. Üreticiden asfalt serme makinesi.",
+    "descriptionEn": "Asphalt paver MP-1100 - road construction equipment from Europe. Asphalt paving machine from the manufacturer.",
+    "image": "/brands/ticab/mp-1100.webp",
+    "technicalData": [
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "rps-9000",
+    "brand": "ticab",
+    "solutions": [
+      "cevre-ve-belediye-ekipmanlari"
+    ],
+    "name": "Kış Serpme Makinası RPS-9000",
+    "nameEn": "Winter Spreader RPS-9000",
+    "description": "TICAB'ın kum ve tuz serpme makineleriyle kolay ve uygun maliyetli kış bakımı. Teklifi doğrudan üreticiden alın.",
+    "descriptionEn": "Easy and cost-effective winter maintenance with sand and salt spreaders from TICAB. Get the offer directly from the manufacturer. ",
+    "image": "/brands/ticab/rps-9000.webp",
+    "technicalData": [
+      {
+        "parameter": "RPS",
+        "value": "6000"
+      },
+      {
+        "parameter": "RPS",
+        "value": "1500"
+      },
+      {
+        "parameter": "BPM",
+        "value": "100"
+      },
+      {
+        "parameter": "MİRA",
+        "value": "1"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "rps-6000",
+    "brand": "ticab",
+    "solutions": [
+      "cevre-ve-belediye-ekipmanlari"
+    ],
+    "name": "Tuz ve Kum Serpme Makinası RPS-6000",
+    "nameEn": "Salt and Sand Spreader RPS-6000",
+    "description": "Üreticiden verimli kış bakımı için 6000 m3 hazne hacmine sahip tuz ve kum serpme makinesi. Otonom motor.",
+    "descriptionEn": "Salt and sand spreader for efficient winter maintenance from the manufacturer with the hopper volume of 6000 m3. Autonomous engine. ",
+    "image": "/brands/ticab/rps-6000.webp",
+    "technicalData": [
+      {
+        "parameter": "RPS",
+        "value": "6000"
+      },
+      {
+        "parameter": "RPS",
+        "value": "1500"
+      },
+      {
+        "parameter": "BPM",
+        "value": "100"
+      },
+      {
+        "parameter": "MİRA",
+        "value": "1"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "rps-1500",
+    "brand": "ticab",
+    "solutions": [
+      "cevre-ve-belediye-ekipmanlari"
+    ],
+    "name": "Buz Çözücü Serpme Makinası RPS-1500",
+    "nameEn": "De-Icing Spreader RPS-1500",
+    "description": "Buz çözücü serpme makinesi, üreticinin kışlık yol bakım makinesidir. Teklifi alın, avantajlardan yararlanın.",
+    "descriptionEn": "De-icing spreader is a winter road maintenance machine from the manufacturer. Get the offer, enjoy benefits. ",
+    "image": "/brands/ticab/rps-1500.webp",
+    "technicalData": [
+      {
+        "parameter": "RPS",
+        "value": "9000"
+      },
+      {
+        "parameter": "RPS",
+        "value": "6000"
+      },
+      {
+        "parameter": "BPM",
+        "value": "100"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "sb-3000",
+    "brand": "ticab",
+    "solutions": [
+      "cevre-ve-belediye-ekipmanlari"
+    ],
+    "name": "Kar Küreme Bıçağı SB-3000",
+    "nameEn": "Snow Plow Blade SB-3000",
+    "description": "Kamyonlar ve yükleyiciler için ağır hizmet tipi kar küreme bıçakları. Kış bakımı için güvenilir kar temizleme ekipmanı.",
+    "descriptionEn": "Heavy-duty snow plow blades for trucks and loaders. Reliable snow removal equipment for winter maintenance.",
+    "image": "/brands/ticab/sb-3000.webp",
+    "technicalData": [
+      {
+        "parameter": "2 ile kaplanmış",
+        "value": "Agresif ortamlara karşı geliştirilmiş dirence sahip bileşenli poliüretan emaye"
+      },
+      {
+        "parameter": "RPS",
+        "value": "9000"
+      },
+      {
+        "parameter": "RPS",
+        "value": "6000"
+      },
+      {
+        "parameter": "RPS",
+        "value": "1500"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "ti-car-125",
+    "brand": "ticab",
+    "solutions": [
+      "cevre-ve-belediye-ekipmanlari"
+    ],
+    "name": "Mini Lastikli Yükleyici TI-CAR 125",
+    "nameEn": "Mini Wheel Loader TI-CAR 125",
+    "description": "Çiftçilik, sokak işleri ve daha fazlası için mini tekerlekli yükleyici. Doğrudan fabrika tedariki. AB kalitesi.",
+    "descriptionEn": "Mini wheel loader for farming, street works, and more. Direct-factory supply. EU quality.",
+    "image": "/brands/ticab/ti-car-125.webp",
+    "technicalData": [
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "ti-car-225",
+    "brand": "ticab",
+    "solutions": [
+      "cevre-ve-belediye-ekipmanlari"
+    ],
+    "name": "Mini Yükleyici TI-Car 225",
+    "nameEn": "Mini Loader TI-Car 225",
+    "description": "Geliştirilmiş sürücü kabini çok işlevli kompakt yükleyiciye sahip tekerlekli mini yükleyicimize bakın.",
+    "descriptionEn": "Look at our wheeled mini loader with an enhanced driver's cabin multifunctional compact loader.",
+    "image": "/brands/ticab/ti-car-225.webp",
+    "technicalData": [
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "ti-car",
+    "brand": "ticab",
+    "solutions": [
+      "cevre-ve-belediye-ekipmanlari"
+    ],
+    "name": "Mini Yükleyici Ataşmanları",
+    "nameEn": "Mini Loader Attachments",
+    "description": "Tarım, depolar ve inşaat sahaları için mini yükleyici ataşmanları. Fabrikadan doğrudan teslimat.",
+    "descriptionEn": "Mini loader attachments for farming, warehouses, and construction sites. Factory-direct delivery.",
+    "image": "/brands/ticab/ti-car.webp",
+    "technicalData": []
+  },
+  {
+    "slug": "city-ant",
+    "brand": "ticab",
+    "solutions": [
+      "cevre-ve-belediye-ekipmanlari"
+    ],
+    "name": "Vacuum Street Cleaner CITY ANT",
+    "nameEn": "Vacuum Street Cleaner CITY ANT",
+    "description": "Vacuum street cleaner from the manufacturer. Electric street vacuum for various sites. ",
+    "descriptionEn": "Vacuum street cleaner from the manufacturer. Electric street vacuum for various sites. ",
+    "image": "/brands/ticab/city-ant.webp",
+    "technicalData": [
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "um-130",
+    "brand": "ticab",
+    "solutions": [
+      "cevre-ve-belediye-ekipmanlari"
+    ],
+    "name": "Sokak Süpürgesi UM-130",
+    "nameEn": "Street Sweeper UM-130",
+    "description": "Üreticinin emme sistemine sahip sokak süpürme makinesi. AB'den en iyi fiyata sokak süpürme makinesi.",
+    "descriptionEn": "Street sweeping machine with the suction system from the manufacturer. Street sweeper from EU at the best price. ",
+    "image": "/brands/ticab/um-130.webp",
+    "technicalData": [
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  },
+  {
+    "slug": "rbu-2000",
+    "brand": "ticab",
+    "solutions": [
+      "cevre-ve-belediye-ekipmanlari"
+    ],
+    "name": "Döner Fırça RBU-2000",
+    "nameEn": "Rotary Brush RBU-2000",
+    "description": "Üreticiden döner fırça. Etkin temizlik için yol süpürgesi, AB kalitesi.",
+    "descriptionEn": "Rotary brush from the manufacturer. Road broom for efficient cleaning, EU quality. ",
+    "image": "/brands/ticab/rbu-2000.webp",
+    "technicalData": [
+      {
+        "parameter": "Euro çerçeve için [ISO 23727",
+        "value": "2014]"
+      },
+      {
+        "parameter": "Üç için",
+        "value": "nokta arka ataşmanı 2, 3N [ISO 730 - 2019]"
+      },
+      {
+        "parameter": "Mini",
+        "value": "Yükleyiciler"
+      },
+      {
+        "parameter": "2024",
+        "value": "2025"
+      }
+    ]
+  }
+]
