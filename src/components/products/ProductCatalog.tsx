@@ -8,8 +8,10 @@ type Product = {
   slug: string;
   brand: string;
   name: string;
+  nameEn?: string;
   image: string;
   description: string;
+  descriptionEn?: string;
   solutions: string[];
 };
 
@@ -21,6 +23,7 @@ type Brand = {
 type Solution = {
   slug: string;
   name: string;
+  nameEn?: string;
 };
 
 interface ProductCatalogProps {
@@ -63,12 +66,14 @@ export default function ProductCatalog({ initialProducts, brands, solutions }: P
       // Search filter
       if (searchQuery.trim() !== '') {
         const query = searchQuery.toLowerCase();
-        return product.name.toLowerCase().includes(query) || product.description.toLowerCase().includes(query);
+        const prodName = locale === 'en' && product.nameEn ? product.nameEn.toLowerCase() : product.name.toLowerCase();
+        const prodDesc = locale === 'en' && product.descriptionEn ? product.descriptionEn.toLowerCase() : product.description.toLowerCase();
+        return prodName.includes(query) || prodDesc.includes(query);
       }
       
       return true;
     });
-  }, [initialProducts, selectedBrands, selectedSolutions, searchQuery]);
+  }, [initialProducts, selectedBrands, selectedSolutions, searchQuery, locale]);
 
   return (
     <div className="flex flex-col lg:flex-row gap-10">
@@ -123,7 +128,9 @@ export default function ProductCatalog({ initialProducts, brands, solutions }: P
                   />
                   <svg className="absolute w-3 h-3 text-white opacity-0 peer-checked:opacity-100 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7" /></svg>
                 </div>
-                <span className="text-[#8A95A5] group-hover:text-[#1A1E24] transition-colors leading-tight">{solution.name}</span>
+                <span className="text-[#8A95A5] group-hover:text-[#1A1E24] transition-colors leading-tight">
+                  {locale === 'en' && solution.nameEn ? solution.nameEn : solution.name}
+                </span>
               </label>
             ))}
           </div>
@@ -159,8 +166,12 @@ export default function ProductCatalog({ initialProducts, brands, solutions }: P
                   <img src={prod.image} alt={prod.name} className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="p-6 flex flex-col flex-grow bg-[#F8F9FA] border-t border-neutral-100 group-hover:bg-white transition-colors">
-                  <h3 className="text-xl font-black text-[#1A1E24] group-hover:text-[#C61A1A] transition-colors mb-3 line-clamp-2">{prod.name}</h3>
-                  <p className="text-sm text-[#8A95A5] line-clamp-2 mb-6">{prod.description}</p>
+                  <h3 className="text-xl font-black text-[#1A1E24] group-hover:text-[#C61A1A] transition-colors mb-3 line-clamp-2">
+                    {locale === 'en' && prod.nameEn ? prod.nameEn : prod.name}
+                  </h3>
+                  <p className="text-sm text-[#8A95A5] line-clamp-2 mb-6">
+                    {locale === 'en' && prod.descriptionEn ? prod.descriptionEn : prod.description}
+                  </p>
                   
                   <div className="mt-auto flex items-center gap-2 text-[#1A1E24] font-bold uppercase tracking-widest text-xs group-hover:text-[#C61A1A] transition-colors">
                     {t("viewProduct")}

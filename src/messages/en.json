@@ -1,6 +1,6 @@
 {
   "Navigation": {
-    "solutions": "Solutions & Applications",
+    "solutions": "Products, Solutions & Applications",
     "brands": "Our Brands",
     "corporate": "Corporate",
     "management": "Our Management",
@@ -86,7 +86,8 @@
     "viewBrand": "View Brand",
     "parameter": "Parameter",
     "value": "Value",
-    "accessory": "Recommended Accessory"
+    "accessory": "Recommended Accessory",
+    "viewAllProducts": "View All Products"
   },
   "Catalog": {
     "search": "Search products...",

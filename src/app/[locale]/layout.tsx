@@ -96,10 +96,10 @@ export default async function RootLayout({
               
               {/* Path A: Uygulama Alanları */}
               <div className="group relative py-9 cursor-pointer">
-                <span className="flex items-center gap-1.5 hover:text-[#C61A1A] transition-colors">
+                <Link href="/urunler" className="flex items-center gap-1.5 hover:text-[#C61A1A] transition-colors">
                   {t("solutions")}
                   <svg className="w-4 h-4 text-[#8A95A5] group-hover:text-[#C61A1A] transition-colors group-hover:rotate-180 duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 9l-7 7-7-7"></path></svg>
-                </span>
+                </Link>
                 <div className="absolute top-full left-1/2 -translate-x-1/2 w-80 bg-white border border-[#8A95A5]/20 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 translate-y-2 group-hover:translate-y-0 rounded-b-xl overflow-hidden">
                   <div className="p-3 flex flex-col gap-1">
                     <Link href={{ pathname: '/cozumler/[slug]', params: { slug: locale === 'en' ? 'road-construction-and-maintenance' : 'yol-yapim-ve-bakim' } }} className="px-5 py-3.5 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-semibold flex items-center justify-between group/link">
@@ -120,10 +120,10 @@ export default async function RootLayout({
 
               {/* Path B: {t("brands")} */}
               <div className="group relative py-9 cursor-pointer">
-                <span className="flex items-center gap-1.5 hover:text-[#C61A1A] transition-colors">
+                <Link href="/markalar" className="flex items-center gap-1.5 hover:text-[#C61A1A] transition-colors">
                   {t("brands")}
                   <svg className="w-4 h-4 text-[#8A95A5] group-hover:text-[#C61A1A] transition-colors group-hover:rotate-180 duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 9l-7 7-7-7"></path></svg>
-                </span>
+                </Link>
                 <div className="absolute top-full left-1/2 -translate-x-1/2 w-56 bg-white border border-[#8A95A5]/20 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 translate-y-2 group-hover:translate-y-0 rounded-b-xl overflow-hidden">
                   <div className="p-3 flex flex-col gap-1">
                     <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'cedima' } }} className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">CEDIMA</Link>

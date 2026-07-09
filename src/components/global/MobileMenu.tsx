@@ -39,7 +39,7 @@ export default function MobileMenu() {
             
             {/* Solutions */}
             <div className="flex flex-col gap-3">
-              <span className="text-[#8A95A5] uppercase text-sm tracking-widest">{t("solutions")}</span>
+              <Link href="/urunler" onClick={closeMenu} className="text-[#8A95A5] uppercase text-sm tracking-widest hover:text-[#C61A1A] transition-colors">{t("solutions")}</Link>
               <div className="flex flex-col gap-3 pl-4 border-l-2 border-[#C61A1A]/20">
                 <Link href={{ pathname: '/cozumler/[slug]', params: { slug: locale === 'en' ? 'road-construction-and-maintenance' : 'yol-yapim-ve-bakim' } }} onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors text-lg">{t("solution_road")}</Link>
                 <Link href={{ pathname: '/cozumler/[slug]', params: { slug: locale === 'en' ? 'heavy-industry-and-metalworking' : 'agir-sanayi-ve-metal' } }} onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors text-lg">{t("solution_heavy")}</Link>
@@ -49,7 +49,7 @@ export default function MobileMenu() {
 
             {/* Brands */}
             <div className="flex flex-col gap-3">
-              <span className="text-[#8A95A5] uppercase text-sm tracking-widest">{t("brands")}</span>
+              <Link href="/markalar" onClick={closeMenu} className="text-[#8A95A5] uppercase text-sm tracking-widest hover:text-[#C61A1A] transition-colors">{t("brands")}</Link>
               <div className="flex flex-col gap-3 pl-4 border-l-2 border-[#C61A1A]/20">
                 <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'cedima' } }} onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors text-lg">CEDIMA</Link>
                 <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'duss' } }} onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors text-lg">DUSS</Link>

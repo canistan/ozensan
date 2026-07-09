@@ -104,8 +104,14 @@ export default async function BrandDetailPage({ params }: Props) {
               <span className="text-[#C61A1A] font-bold tracking-widest uppercase text-sm block mb-2">{brand.name}</span>
               <h2 className="text-3xl font-black text-[#1A1E24] tracking-tight">{t("allProducts")}</h2>
             </div>
-            <div className="text-[#8A95A5] font-medium">
-              {t("productsFound", { count: brandProducts.length })}
+            <div className="flex items-center gap-6">
+              <span className="text-[#8A95A5] font-medium hidden md:inline-block">
+                {t("productsFound", { count: brandProducts.length })}
+              </span>
+              <Link href="/urunler" className="bg-white border border-neutral-200 hover:border-[#C61A1A] text-[#1A1E24] hover:text-[#C61A1A] text-sm font-bold uppercase tracking-widest px-6 py-3 rounded-md transition-all flex items-center gap-2">
+                {t("viewAllProducts")}
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+              </Link>
             </div>
           </div>
 

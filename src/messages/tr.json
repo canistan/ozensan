@@ -1,6 +1,6 @@
 {
   "Navigation": {
-    "solutions": "Çözümler & Uygulamalar",
+    "solutions": "Ürünler, Çözümler & Uygulamalar",
     "brands": "Markalarımız",
     "corporate": "Kurumsal",
     "management": "Yönetimimiz",
@@ -86,7 +86,8 @@
     "viewBrand": "Markaya Git",
     "parameter": "Parametre",
     "value": "Değer",
-    "accessory": "Önerilen Aksesuar"
+    "accessory": "Önerilen Aksesuar",
+    "viewAllProducts": "Tüm Ürünleri Gör"
   },
   "Catalog": {
     "search": "Ürün ara...",
