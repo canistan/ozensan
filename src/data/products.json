@@ -14568,46 +14568,6 @@
     "image": "/brands/ticab/abs-8000.webp",
     "technicalData": [
       {
-        "param": "Başvuru",
-        "value": "Bitüm püskürtme makineleri ABS-8000, geniş alanlarda bitüm emülsiyonu püskürtmeyi hızlandırmak ve optimize etmek için çok önemlidir. Ciddi yol inşaatı veya onarım projeleri için özel olarak tasarlanmış yol makineleri, emülsiyon atıklarını ve maliyetlerini azaltır. Kamyon şasisindeki bitüm püskürtücü, döşenen asfaltın yüzeye sıkı bir şekilde yapışması için bitüm emülsiyonunu yol yüzeyine eşit şekilde uygulamak üzere tasarlanmıştır.",
-        "accessory": "-"
-      },
-      {
-        "param": "ABS-8000",
-        "value": "Özellikler",
-        "accessory": "-"
-      },
-      {
-        "param": "Bitüm püskürtücü ABS-8000, ısıyı etkili bir şekilde koruyan ve bitüm emülsiyonunun katılaşmasını önleyen yüksek kaliteli bir tankla donatılmıştır. Buna karşılık, İtalyan üretiminin sessiz bir brülörü, malzemenin çalışma sıcaklığında bir artış sağlar. Makine güvenilir ve ekonomik bir otonom Lombardini motor ve bir Sincro jeneratör (İtalya) ile üretilmiştir.",
-        "value": "ABS-8000",
-        "accessory": "-"
-      },
-      {
-        "param": "Avantajları",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Bitüm püskürtme makinesi farklı bitüm malzemeleriyle uyumludur.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Ekipman, kaliteli uygulama için önemli olan bitümün optimum sıcaklığını destekler.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Zararlı maddelerin atmosfere salınımının azalması hoş bir dokunuş.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Basınçlı temizleme sistemi, boru hatlarının bitümle tıkanmasını önlemeye yardımcı olur.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
         "param": "Motor gücü (dizel)",
         "value": "14 kW (19 hp)",
         "accessory": "-"
@@ -14641,64 +14601,9 @@
         "param": "Kompresör tarafından üflenen püskürtme çubuğu",
         "value": "Standart",
         "accessory": "-"
-      },
-      {
-        "param": "Sürücü kabininde monitörlü arka görüş kamerası",
-        "value": "Sürücü kabininde bitüm emülsiyon püskürtme dozaj kontrolü (g/m²) ekran görüntüsü",
-        "accessory": "-"
-      },
-      {
-        "param": "Püskürtme çubuğu kontrolü (indirme ve genişletme) hem kabindeki hem de püskürtme makinesi gövdesindeki uzaktan kumandayla",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Bitüm emülsiyonunu dizel brülörle ısıtma sistemi (İtalya)",
-        "value": "Standart",
-        "accessory": "-"
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "Bitumen sprayer machines ABS-8000 are crucial to accelerate and optimize bitumen emulsion spraying on large territories. Specially designed road machinery for serious road construction or repair projects reduces waste and costs for emulsion. The bitumen sprayer on the truck chassis is designed to evenly apply the bitumen emulsion to the road surface so that the laid asphalt adheres tightly to the surface.",
-        "accessory": "-"
-      },
-      {
-        "param": "ABS-8000",
-        "value": "Properties",
-        "accessory": "-"
-      },
-      {
-        "param": "The bitumen sprayer ABS-8000 is equipped with a high-quality tank, which effectively retains heat and prevents the bitumen emulsion from solidifying. In turn, a silent burner of Italian production provides an increase in the working temperature of the material. The machine is produced with a reliable and economical autonomous Lombardini engine and a Sincro generator (Italy).",
-        "value": "ABS-8000",
-        "accessory": "-"
-      },
-      {
-        "param": "Advantages",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "The bitumen spraying machine is compatible with different types of bitumen materials.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Equipment supports the optimum temperature of bitumen, important for quality application.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Reduced emissions of harmful substances into the atmosphere are a nice touch.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Pressure cleaning system helps avoid clogging of pipelines with bitumen.",
-        "value": "Standard",
-        "accessory": "-"
-      },
       {
         "param": "Engine power (diesel)",
         "value": "14 kW (19 hp)",
@@ -14733,21 +14638,6 @@
         "param": "Spraying bar blowing by compressor",
         "value": "Standard",
         "accessory": "-"
-      },
-      {
-        "param": "Rear view camera with monitor in driver s cab",
-        "value": "Bitumen emulsion spraying dosing control (g/m²) screen display in driver s cab",
-        "accessory": "-"
-      },
-      {
-        "param": "Spray bar control (lowering and expanding) both via remote in the cab and on the sprayer body",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "The system for heating the bitumen emulsion with a diesel burner (Italy)",
-        "value": "Standard",
-        "accessory": "-"
       }
     ]
   },
@@ -14763,51 +14653,6 @@
     "descriptionEn": "Bitumen application equipment from TICAB is a vital special machinery in the construction industry. This modern sprayer is crucial in the economical and correct use of bitumen emulsion, a key component in asphalt. It is the bitumen spraying machine that ensures high-quality distribution of the material on the surface and, as a result, an even road surface. The characteristics of BS-2000 are the key to improving the efficiency and quality of road construction processes.",
     "image": "/brands/ticab/bs-2000.webp",
     "technicalData": [
-      {
-        "param": "Başvuru",
-        "value": "TICAB'ın bitüm uygulama ekipmanı inşaat sektöründe hayati önem taşıyan özel bir makinedir. Bu modern püskürtme makinesi, asfaltın önemli bir bileşeni olan bitüm emülsiyonunun ekonomik ve doğru kullanımı açısından çok önemlidir. Malzemenin yüzeye yüksek kalitede dağılımını ve bunun sonucunda düzgün bir yol yüzeyi sağlayan bitüm püskürtme makinesidir. BS-2000'in özellikleri, yol inşaatı süreçlerinin verimliliğini ve kalitesini artırmanın anahtarıdır.",
-        "accessory": "-"
-      },
-      {
-        "param": "TİKAB",
-        "value": "BS-2000",
-        "accessory": "-"
-      },
-      {
-        "param": "Özellikler",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Römork veya çerçeve üzerindeki bitüm püskürtücüler, diğer üreticilerin makinelerinden daha düşük olmayan mükemmel bir işlevselliğe sahiptir. Aynı zamanda taşınabilir ekipmanlarımız, eşsiz manevra kabiliyeti ve çeşitli araçlarla çalışma sahasına kolaylıkla çekilebilme olanağı sunmaktadır.",
-        "value": "Avantajları",
-        "accessory": "-"
-      },
-      {
-        "param": "9 nozullu iki metrelik püskürtme çubuğu sayesinde saatte 2.000 m²'ye kadar oldukça geniş alanlarda çalışma yapılabilmektedir. Ekipmanın diğer avantajları da bitüm püskürtücüyü satın aldıktan sonra otomatik olarak avantajlarınıza dönüştüğü için önemlidir:",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Püskürtme çubuğundan bitüm emülsiyonunun yüksek hızda püskürtülmesi.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Düşük bitüm emülsiyon tüketimi.",
-        "value": "Püskürtme çubuğunun genişliği 2,2 m'dir.",
-        "accessory": "-"
-      },
-      {
-        "param": "Püskürtme çubuğunu temizlemek için üçüncü taraf bir kompresör bağlayabilirsiniz.",
-        "value": "Bitüm emülsiyon püskürtücümüzü satın alırsanız, BS-2000 modeli dizel yakıtla çalıştığı için işletme maliyetlerinizi düşürürsünüz. Basit tek kişilik yönetim, minimum maliyetle verimli iş gücü planlaması ve dağıtımı sağlar.​",
-        "accessory": "-"
-      },
-      {
-        "param": "BS-2000",
-        "value": "Standart",
-        "accessory": "-"
-      },
       {
         "param": "Motor gücü (benzinli)",
         "value": "3,6kW (4,8HP)",
@@ -14854,11 +14699,6 @@
         "accessory": "-"
       },
       {
-        "param": "Püskürtme çubuğu temizliği için ekstra kompresör bağlama imkanı",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
         "param": "El püskürtme çubuğu",
         "value": "Standart",
         "accessory": "-"
@@ -14870,51 +14710,6 @@
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "Bitumen application equipment from TICAB is a vital special machinery in the construction industry. This modern sprayer is crucial in the economical and correct use of bitumen emulsion, a key component in asphalt. It is the bitumen spraying machine that ensures high-quality distribution of the material on the surface and, as a result, an even road surface. The characteristics of BS-2000 are the key to improving the efficiency and quality of road construction processes.",
-        "accessory": "-"
-      },
-      {
-        "param": "TICAB",
-        "value": "BS-2000",
-        "accessory": "-"
-      },
-      {
-        "param": "Properties",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Bitumen sprayers on a trailer or frame have an excellent functionality, not inferior to other manufacturers’ machines. At the same time, our portable equipment offers unsurpassed maneuverability and the ability to easily tow them by various vehicles to the work site.",
-        "value": "Advantages",
-        "accessory": "-"
-      },
-      {
-        "param": "Thanks to the two-meter spray bar with 9 nozzles, work can be carried out on fairly large areas with a capacity of up to 2,000 m² per hour. Other advantages of the equipment also matter, as they automatically turn into your benefits after purchasing the bitumen sprayer:",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "High speed of spraying bitumen emulsion through the spray bar.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Low bitumen emulsion consumption.",
-        "value": "The spray bar’s width is 2.2 m.",
-        "accessory": "-"
-      },
-      {
-        "param": "You can connect a third-party compressor to clean the spray bar.",
-        "value": "If you buy our bitumen emulsion sprayer, you reduce operational costs since the BS-2000 model runs on diesel fuel. Simple one-person management ensures efficient workforce planning and deployment at minimal cost.​",
-        "accessory": "-"
-      },
-      {
-        "param": "BS-2000",
-        "value": "Standard",
-        "accessory": "-"
-      },
       {
         "param": "Engine power (petrol)",
         "value": "3.6 kW (4.8 HP)",
@@ -14961,11 +14756,6 @@
         "accessory": "-"
       },
       {
-        "param": "Possibility of connecting an extra compressor for spraying bar cleaning",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
         "param": "Hand spraying rod",
         "value": "Standard",
         "accessory": "-"
@@ -14989,46 +14779,6 @@
     "descriptionEn": "Our company offers a highly efficient and cost-effective road sprayer on wheels, which provides sufficient penetration of bitumen into the depth of the crushed stone layer. A powerful machine spreads bitumen emulsion through the spray bar at high speed. And even in manual mode, it remains effective, while spending only up to 8 liters of material per square meter. In addition, BS-1000 is optionally equipped with a diesel burner with an automatic control system for heating the emulsion and a gas cylinder, so that it is easy to set fire to the burner and heat the emulsion.",
     "image": "/brands/ticab/bs-1000.webp",
     "technicalData": [
-      {
-        "param": "Başvuru",
-        "value": "Bitüm dağıtım makinesini römork veya çerçeve üzerinde satın alabilirsiniz. Her iki değişiklik de kısa sürede kaliteli yama uygulamanıza olanak tanır. Ayrıca teknik, kapalı alanlarda mükemmel manevralar yapar. Küçük alanlarda, bahçelerde, sokaklarda rahat ve etkili çalışabileceksiniz. BS-1000 inşaat mühendisliği ve inşaat için güvenilir ve kullanımı kolay bir makinedir.",
-        "accessory": "-"
-      },
-      {
-        "param": "BS-1000",
-        "value": "Özellikler",
-        "accessory": "-"
-      },
-      {
-        "param": "Şirketimiz, bitümün kırma taş tabakasının derinliğine yeterli miktarda nüfuz etmesini sağlayan, yüksek verimli ve uygun maliyetli, tekerlekli yol püskürtme makinesi sunmaktadır. Güçlü bir makine, bitüm emülsiyonunu püskürtme çubuğuna yüksek hızda yayar. Manuel modda bile, metrekare başına yalnızca 8 litreye kadar malzeme harcayarak etkili olmaya devam ediyor. Ek olarak, BS-1000 isteğe bağlı olarak emülsiyonu ısıtmak için otomatik kontrol sistemine sahip bir dizel brülör ve bir gaz silindiri ile donatılmıştır, böylece brülörü ateşe vermek ve emülsiyonu ısıtmak kolaydır.",
-        "value": "BS-1000",
-        "accessory": "-"
-      },
-      {
-        "param": "Avantajları",
-        "value": "BS-1000 en verimli bitüm uygulama araçlarından biridir. Bitümün yüzeye sızması, çukur ve çatlak oluşumu gibi yol dokusundaki sorunları minimum maliyetle çözmenizi sağlar. Kaplamanın makro dokusunun yüksek düzeyde homojen olduğundan emin olabilirsiniz. Lütfen BS-1000 modelinin diğer avantajlarını göz önünde bulundurun:",
-        "accessory": "-"
-      },
-      {
-        "param": "BS-1000",
-        "value": "3 seviyeli dizel yakıt temizleme sistemi.",
-        "accessory": "-"
-      },
-      {
-        "param": "Püskürtme çubuğunu temizlemek için üçüncü taraf bir kompresör bağlama yeteneği.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Tankın kendi kendini pompalama fonksiyonu.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Emülsiyon tankı ısıtma sistemi.",
-        "value": "Portatif bir bitüm püskürtücü, küçük boyutlarına rağmen 1 saatlik çalışma için 2.000 m²'lik yüksek bir üretkenliğe sahiptir. Ve en önemlisi! Yol onarım ekipmanlarını doğrudan üreticiden alırsınız, bu da en düşük fiyat ve aracısız en iyi hizmet anlamına gelir.",
-        "accessory": "-"
-      },
       {
         "param": "Motor gücü (benzinli)",
         "value": "3,6kW (4,8HP)",
@@ -15075,11 +14825,6 @@
         "accessory": "-"
       },
       {
-        "param": "Püskürtme çubuğu temizliği için ekstra kompresör bağlama imkanı",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
         "param": "El püskürtme çubuğu",
         "value": "Standart",
         "accessory": "-"
@@ -15091,46 +14836,6 @@
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "You can buy a bitumen distribution machine on a trailer or on a frame. Both modifications allow you to do quality patching on short notice. In addition, the technique perfectly maneuvers in confined spaces. You will be able to work comfortably and effectively in small areas, yards, and alleys. BS-1000 is a reliable and easy to operate machine for civil engineering and construction.",
-        "accessory": "-"
-      },
-      {
-        "param": "BS-1000",
-        "value": "Properties",
-        "accessory": "-"
-      },
-      {
-        "param": "Our company offers a highly efficient and cost-effective road sprayer on wheels, which provides sufficient penetration of bitumen into the depth of the crushed stone layer. A powerful machine spreads bitumen emulsion through the spray bar at high speed. And even in manual mode, it remains effective, while spending only up to 8 liters of material per square meter. In addition, BS-1000 is optionally equipped with a diesel burner with an automatic control system for heating the emulsion and a gas cylinder, so that it is easy to set fire to the burner and heat the emulsion.",
-        "value": "BS-1000",
-        "accessory": "-"
-      },
-      {
-        "param": "Advantages",
-        "value": "BS-1000 is one of the most efficient bitumen application tools. It allows you to solve problems of the texture of the roadway like the leakage of bitumen to the surface, the formation of potholes and cracks, etc. at minimal cost. You can rest assured of high uniformity of the macro texture of the coating. Please, consider other advantages of the BS-1000 model:",
-        "accessory": "-"
-      },
-      {
-        "param": "BS-1000",
-        "value": "3-level diesel fuel cleaning system.",
-        "accessory": "-"
-      },
-      {
-        "param": "The ability to connect a third-party compressor to clean the spray bar.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Tank self-pumping function.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Emulsion tank heating system.",
-        "value": "A portable bitumen sprayer features a high productivity of 2,000 m² for 1 hour of operation, while having small dimensions. And most importantly! You get road repair equipment directly from the manufacturer, which means the lowest price and the best service without intermediaries.",
-        "accessory": "-"
-      },
       {
         "param": "Engine power (petrol)",
         "value": "3.6 kW (4.8 HP)",
@@ -15177,11 +14882,6 @@
         "accessory": "-"
       },
       {
-        "param": "Possibility of connecting an extra compressor for spraying bar cleaning",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
         "param": "Hand spraying rod",
         "value": "Standard",
         "accessory": "-"
@@ -15205,36 +14905,6 @@
     "descriptionEn": "Purchasing of a self-propelled bitumen spraying machine means a significant cost savings due minimal material spent during the workflow. Precise control of the amount of bitumen emulsion and fixed coating width makes it easy for you to optimize bitumen usage. In addition, our top-notch production quality ensures high overall equipment performance. As a result, you complete projects faster, increasing profitability and the number of satisfied customers.",
     "image": "/brands/ticab/bs-1000-sp.webp",
     "technicalData": [
-      {
-        "param": "Başvuru",
-        "value": "Kundağı motorlu mobil bitüm emülsiyon püskürtücülerimiz neden satın almaya değer? Bu yol bakım makineleri inşaat sektörünün vazgeçilmezidir. Pürüzsüz ve dayanıklı bir yol yüzeyi elde etmek için bitümün etkili ve düzgün bir şekilde uygulanmasını sağlarlar. BS-1000 SP, bitümün doğru kullanımını sağlayarak müteahhitlerin su geçirmez bir bariyer oluşturmasına yardımcı olur. Buna karşılık yolun alt katmanlarını su hasarından koruyarak asfaltın ömrünü uzatır.",
-        "accessory": "-"
-      },
-      {
-        "param": "BS-1000",
-        "value": "Özellikler",
-        "accessory": "-"
-      },
-      {
-        "param": "Kendinden tahrikli bitüm püskürtme makinesinin satın alınması, iş akışı sırasında minimum malzeme harcanması nedeniyle önemli ölçüde maliyet tasarrufu anlamına gelir. Bitüm emülsiyonu miktarının hassas kontrolü ve sabit kaplama genişliği, bitüm kullanımını optimize etmenizi kolaylaştırır. Ayrıca birinci sınıf üretim kalitemiz, yüksek genel ekipman performansı sağlar. Sonuç olarak projelerinizi daha hızlı tamamlar, karlılığınızı ve memnun müşteri sayınızı artırırsınız.",
-        "value": "Avantajları",
-        "accessory": "-"
-      },
-      {
-        "param": "Çekiş aracı olmadan kullanın.",
-        "value": "Saatte 2.000 m²'ye kadar işleme.",
-        "accessory": "-"
-      },
-      {
-        "param": "Küçük ve büyük alanlarda hareketlilik.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Ekipmanın manevra kabiliyeti artırıldı.",
-        "value": "Standart",
-        "accessory": "-"
-      },
       {
         "param": "Motor gücü (benzinli)",
         "value": "8,7 kW (11,7 HP)",
@@ -15286,11 +14956,6 @@
         "accessory": "-"
       },
       {
-        "param": "Püskürtme çubuğu temizliği için ekstra kompresör bağlama imkanı",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
         "param": "El püskürtme çubuğu",
         "value": "Standart",
         "accessory": "-"
@@ -15302,36 +14967,6 @@
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "Why are our self-propelled mobile bitumen emulsion sprayers worth buying? These road maintenance machines are indispensable in the construction industry. They provide an effective and uniform application of bitumen to get a smooth and durable road surface. BS-1000 SP ensures proper use of bitumen, helping contractors create a waterproof barrier. In turn, it protects lower layers of the road from water damage, extending the life of the asphalt.",
-        "accessory": "-"
-      },
-      {
-        "param": "BS-1000",
-        "value": "Properties",
-        "accessory": "-"
-      },
-      {
-        "param": "Purchasing of a self-propelled bitumen spraying machine means a significant cost savings due minimal material spent during the workflow. Precise control of the amount of bitumen emulsion and fixed coating width makes it easy for you to optimize bitumen usage. In addition, our top-notch production quality ensures high overall equipment performance. As a result, you complete projects faster, increasing profitability and the number of satisfied customers.",
-        "value": "Advantages",
-        "accessory": "-"
-      },
-      {
-        "param": "Use without a traction vehicle.",
-        "value": "Processing of up to 2,000 m² per hour.",
-        "accessory": "-"
-      },
-      {
-        "param": "Mobility in small and large areas.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Increased equipment maneuverability.",
-        "value": "Standard",
-        "accessory": "-"
-      },
       {
         "param": "Engine power (petrol)",
         "value": "8.7 kW (11.7 HP)",
@@ -15383,11 +15018,6 @@
         "accessory": "-"
       },
       {
-        "param": "Possibility of connecting an extra compressor for spraying bar cleaning",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
         "param": "Hand spraying rod",
         "value": "Standard",
         "accessory": "-"
@@ -15411,41 +15041,6 @@
     "descriptionEn": "We produce and sell asphalt binder sprayers according to the highest quality standards of special equipment for road maintenance. BS-500 productivity is up to 12,000 m² per working shift, which is approximately 1,500 m² per 1 hour. Diesel fuel is used to clean the rod, pump, and spray bar. Other features are also of great value: you will find them in technical parameters below. With our sealcoat sprayer machines, you will easily transport the bitumen emulsion to the object, distribute it evenly on the pavement surface, and accurately control the amount of the material.",
     "image": "/brands/ticab/bs-500.webp",
     "technicalData": [
-      {
-        "param": "Başvuru",
-        "value": "Asfalt kaplama püskürtücüler, sınırlı bir alanda (bahçeler, kaldırımlar, sokaklar) yama yapmanın yanı sıra yol çalışmaları için de uygundur. Ayrıca BS-500, asfalt beton yüzeylerdeki derzlerin ve çatlakların kapatılması için özel ekipmana ihtiyaç duymaktadır. Çekilir bir makinenin yanı sıra, herhangi bir hafif kamyonun gövdesine kolayca monte edilebilecek bir çerçeve üzerinde bitüm püskürtme makinesi de sipariş edebilirsiniz.",
-        "accessory": "-"
-      },
-      {
-        "param": "BS-500",
-        "value": "Özellikler",
-        "accessory": "-"
-      },
-      {
-        "param": "Yol bakımına yönelik özel ekipmanların en yüksek kalite standartlarına göre asfalt bağlayıcı püskürtme makineleri üretip satıyoruz. BS-500 verimliliği çalışma vardiyası başına 12.000 m²'ye kadardır; bu da 1 saatte yaklaşık 1.500 m²'dir. Çubuğu, pompayı ve püskürtme çubuğunu temizlemek için dizel yakıt kullanılır. Diğer özellikler de büyük değere sahiptir: bunları aşağıdaki teknik parametrelerde bulacaksınız. Sealcoat püskürtme makinelerimiz ile bitüm emülsiyonunu kolaylıkla objeye taşıyacak, kaplama yüzeyine eşit şekilde dağıtacak ve malzeme miktarını hassas bir şekilde kontrol edebileceksiniz.",
-        "value": "BS-500",
-        "accessory": "-"
-      },
-      {
-        "param": "Avantajları",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Bitüm emülsiyonu tüketiminin azaltılması.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Güçlü ve güvenilir özel ekipmanlara sahip olursunuz",
-        "value": "Kolay kullanım hoş bir dokunuş (yalnızca 2 kişi gerekli).",
-        "accessory": "-"
-      },
-      {
-        "param": "Fiyat ve hizmet doğrudan üreticiden gelir.",
-        "value": "Standart",
-        "accessory": "-"
-      },
       {
         "param": "Motor gücü (benzinli)",
         "value": "3,6kW (4,8HP)",
@@ -15492,11 +15087,6 @@
         "accessory": "-"
       },
       {
-        "param": "Püskürtme çubuğu temizliği için ekstra kompresör bağlama imkanı",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
         "param": "El püskürtme çubuğu",
         "value": "Standart",
         "accessory": "-"
@@ -15508,41 +15098,6 @@
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "Asphalt sealcoat sprayers are suitable for patching, as well as road works in a limited space (yards, sidewalks, alleys). In addition, BS-500 is necessary special equipment for sealing joints and cracks in asphalt concrete surfaces. Alongside a trailed machine, you can order a bitumen sprayer on a frame to be easily mounted in the body of any light truck.",
-        "accessory": "-"
-      },
-      {
-        "param": "BS-500",
-        "value": "Properties",
-        "accessory": "-"
-      },
-      {
-        "param": "We produce and sell asphalt binder sprayers according to the highest quality standards of special equipment for road maintenance. BS-500 productivity is up to 12,000 m² per working shift, which is approximately 1,500 m² per 1 hour. Diesel fuel is used to clean the rod, pump, and spray bar. Other features are also of great value: you will find them in technical parameters below. With our sealcoat sprayer machines, you will easily transport the bitumen emulsion to the object, distribute it evenly on the pavement surface, and accurately control the amount of the material.",
-        "value": "BS-500",
-        "accessory": "-"
-      },
-      {
-        "param": "Advantages",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Reduction of bitumen emulsion consumption.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "You get powerful and reliable special equipment",
-        "value": "Easy operation is a nice touch (only 2 people required).",
-        "accessory": "-"
-      },
-      {
-        "param": "Price and service comes directly from the manufacturer.",
-        "value": "Standard",
-        "accessory": "-"
-      },
       {
         "param": "Engine power (petrol)",
         "value": "3.6 kW (4.8 HP)",
@@ -15589,11 +15144,6 @@
         "accessory": "-"
       },
       {
-        "param": "Possibility of connecting an extra compressor for spraying bar cleaning",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
         "param": "Hand spraying rod",
         "value": "Standard",
         "accessory": "-"
@@ -15617,46 +15167,6 @@
     "descriptionEn": "You can order a trailed bitumen sprayer or install the machine on a frame to distribute the bitumen emulsion. This type of road machinery is useful when it is necessary to process, dust, and prepare the material by mixing it. Equipment is widely used for priming the upper layer of the roadway with a small pit repair. After that, the material is sealed with a roller. Each component made in our production regularly performs irreplaceable functions. Consequently, the whole system of the bitumen emulsion sprayer provides a consistently high-quality result.",
     "image": "/brands/ticab/bs-500-pro.webp",
     "technicalData": [
-      {
-        "param": "Başvuru",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Çekilir bitüm püskürtücü sipariş edebilir veya bitüm emülsiyonunu dağıtmak için makineyi bir çerçeveye kurabilirsiniz. Bu tip yol makineleri, malzemenin işlenmesi, tozlanması ve karıştırılarak hazırlanması gerektiğinde kullanışlıdır. Ekipman, karayolunun üst katmanını küçük bir çukur onarımı ile astarlamak için yaygın olarak kullanılmaktadır. Bundan sonra malzeme bir rulo ile kapatılır. Üretimimizde üretilen her bileşen düzenli olarak yeri doldurulamaz işlevler yerine getirir. Sonuç olarak, bitüm emülsiyon püskürtücünün tüm sistemi sürekli olarak yüksek kaliteli bir sonuç sağlar.",
-        "value": "Özellikler",
-        "accessory": "-"
-      },
-      {
-        "param": "Bitüm emülsiyonu, doğrudan montaj platformuna monte edilen 500 litrelik bir tanktan sağlanır. Isıtma sistemi, soğuk havalarda bitüm emülsiyon püskürtücünün kullanılmasına izin verir. TICAB makinesinin diğer özellikleri de dikkatinize değer.",
-        "value": "TİKAB",
-        "accessory": "-"
-      },
-      {
-        "param": "Avantajları",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Elektrikli marş motoruna sahip bir Japon motorla donatılmıştır.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Püskürtme işlemi uzaktan kumanda ile başlatılır.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Yüksek performans.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Üreticiden düşük fiyat. Aracısız çalışıyoruz!",
-        "value": "Standart",
-        "accessory": "-"
-      },
       {
         "param": "Motor gücü (benzinli, hava soğutmalı)",
         "value": "4,3 kW (5,8 hp)",
@@ -15683,11 +15193,6 @@
         "accessory": "-"
       },
       {
-        "param": "Dizel temizleme sistemi",
-        "value": "Püskürtme çubuğu, planlanmamış alanlarda kirlenmeye ve emülsiyona karşı koruma sağlayan kauçuk koruma plakalarına sahip, 3 bölümden oluşan modülerdir.",
-        "accessory": "-"
-      },
-      {
         "param": "Püskürtme çubuğunun uzaktan kumandası",
         "value": "Standart",
         "accessory": "-"
@@ -15706,54 +15211,9 @@
         "param": "Emülsiyon tankı ısıtma sistemi",
         "value": "Standart",
         "accessory": "-"
-      },
-      {
-        "param": "Püskürtme çubuğunu temizlemek için üçüncü taraf bir kompresör bağlama yeteneği",
-        "value": "Standart",
-        "accessory": "-"
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "You can order a trailed bitumen sprayer or install the machine on a frame to distribute the bitumen emulsion. This type of road machinery is useful when it is necessary to process, dust, and prepare the material by mixing it. Equipment is widely used for priming the upper layer of the roadway with a small pit repair. After that, the material is sealed with a roller. Each component made in our production regularly performs irreplaceable functions. Consequently, the whole system of the bitumen emulsion sprayer provides a consistently high-quality result.",
-        "value": "Properties",
-        "accessory": "-"
-      },
-      {
-        "param": "Bitumen emulsion is supplied from a 500-liter tank installed directly on the mounting platform. The heating system allows the use of a bitumen emulsion sprayer in cold weather. Other features of the TICAB machine are also worth your attention.",
-        "value": "TICAB",
-        "accessory": "-"
-      },
-      {
-        "param": "Advantages",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Equipped with a Japanese engine with an electric starter.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Spraying is started by remote control.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "High performance.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Low price from the manufacturer. We work without intermediaries!",
-        "value": "Standard",
-        "accessory": "-"
-      },
       {
         "param": "Engine power (petrol, air cooled)",
         "value": "4.3 kW (5.8 hp)",
@@ -15780,11 +15240,6 @@
         "accessory": "-"
       },
       {
-        "param": "Diesel cleaning system",
-        "value": "Spraying bar is modularised, consisting of 3 sections, with rubber protection plates that protect against contamination and emulsion in unplanned areas",
-        "accessory": "-"
-      },
-      {
         "param": "Remote control of the spraying bar",
         "value": "Standard",
         "accessory": "-"
@@ -15803,11 +15258,6 @@
         "param": "Emulsion tank heating system",
         "value": "Standard",
         "accessory": "-"
-      },
-      {
-        "param": "Ability to connect a third party compressor for cleaning the spraying bar",
-        "value": "Standard",
-        "accessory": "-"
       }
     ]
   },
@@ -15823,41 +15273,6 @@
     "descriptionEn": "Compact hand bitumen sprayers come with a wheel-based frame for unsurpassed mobility. Emulsion is distributed through the hose and a rod with a nozzle. The gas burner launches bitumen spraying process. When using the machine, you can inject the emulsion from the outside tank directly to the bitumen sprayer.",
     "image": "/brands/ticab/bs-200.webp",
     "technicalData": [
-      {
-        "param": "Başvuru",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Asfalt püskürtme makinesi, kapalı alanda yama yapma ve yol bakımı için özel olarak tasarlanmıştır. Ekipman, asfalt-beton kaplamalardaki dikişleri ve çatlakları hızlı ve verimli bir şekilde kapatır. Asfalt serilmeden önce emülsiyonu etkili bir şekilde dağıtarak makineyi tek bir kişi bile çalıştırabilir.",
-        "value": "Özellikler",
-        "accessory": "-"
-      },
-      {
-        "param": "Kompakt el tipi bitüm püskürtme makineleri, eşsiz hareket kabiliyeti için tekerlek tabanlı bir çerçeveyle birlikte gelir. Emülsiyon, hortum ve nozullu bir çubuk aracılığıyla dağıtılır. Gaz yakıcı bitüm püskürtme işlemini başlatır. Makineyi kullanırken emülsiyonu dış tanktan doğrudan bitüm püskürtücüye enjekte edebilirsiniz.",
-        "value": "Avantajları",
-        "accessory": "-"
-      },
-      {
-        "param": "Makinenin küçük boyutlarına bakılmaksızın önemli alanları işleyin.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Uygun fiyata Avrupa kalitesinde kompakt bir bitüm püskürtücüye sahip olun.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Düşük bitüm emülsiyonu tüketimi masrafları azaltır.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Dizel temizleme sistemi gemide bulunmaktadır.",
-        "value": "Standart",
-        "accessory": "-"
-      },
       {
         "param": "Motor gücü (benzinli, hava soğutmalı)",
         "value": "3,6 kW (4,8 hp)",
@@ -15900,41 +15315,6 @@
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "The asphalt spraying machine is specially designed for patching and road maintenance in a confined space. Equipment quickly and efficiently seals seams and cracks in asphalt-concrete coatings. Even one person can operate the machine, effectively distributing emulsion before laying the asphalt.",
-        "value": "Properties",
-        "accessory": "-"
-      },
-      {
-        "param": "Compact hand bitumen sprayers come with a wheel-based frame for unsurpassed mobility. Emulsion is distributed through the hose and a rod with a nozzle. The gas burner launches bitumen spraying process. When using the machine, you can inject the emulsion from the outside tank directly to the bitumen sprayer.",
-        "value": "Advantages",
-        "accessory": "-"
-      },
-      {
-        "param": "Process significant areas regardless the machine’s small dimensions.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Yu get a compact bitumen sprayer of European quality at an affordable price.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Low bitumen emulsion consumption reduces expenses.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Diesel cleaning system is on board.",
-        "value": "Standard",
-        "accessory": "-"
-      },
       {
         "param": "Engine power (petrol, air-cooled)",
         "value": "3.6 kW (4.8 hp)",
@@ -15989,51 +15369,6 @@
     "descriptionEn": "An upgraded bitumen machine BM-Combo runs on diesel engine with hydraulic pump drive and heats emulsion from diesel burner. The bitumen emulsion sprayer is equipped with a separate tank. Another one is installed to be filled with mastic. Materials are mixed manually. A crack sealer has an automatic control of mastic heating and the purging system.",
     "image": "/brands/ticab/bcm-120.webp",
     "technicalData": [
-      {
-        "param": "Başvuru",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Asfalt eritme ve uygulama çatlak doldurma makinesi Combo geniş bir uygulama alanına sahiptir. BM-Combo yol inşaatı endüstrisinde, yol yüzeylerinin bakımında veya onarımında kendini kanıtlamış profesyonel bir ekipmandır. Çekilir asfalt distribütörü, bitüm emülsiyonunun doğru ve verimli bir şekilde yayılmasını sağlar.",
-        "value": "BM-Kombo",
-        "accessory": "-"
-      },
-      {
-        "param": "Özellikler",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Yükseltilmiş bir bitüm makinesi BM-Combo, hidrolik pompa tahrikli dizel motorla çalışır ve dizel yakıcıdan gelen emülsiyonu ısıtır. Bitüm emülsiyon püskürtücüsü ayrı bir tankla donatılmıştır. Bir diğeri ise sakızla doldurulacak şekilde kurulur. Malzemeler elle karıştırılır. Çatlak kapatıcıda mastik ısıtmanın ve temizleme sisteminin otomatik kontrolü bulunur.",
-        "value": "BM-Kombo",
-        "accessory": "-"
-      },
-      {
-        "param": "Avantajları",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Tek bir makinede bitüm emülsiyon püskürtücüsü ve çatlak kapatıcıya sahip oluyorsunuz.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Ekonomik bir dizel motor standart olarak gelir.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Karışımı gaz veya elektrikten ısıtabilirsiniz.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Üretimden itibaren fiyat ve eşsiz hizmet sunuyoruz.",
-        "value": "Standart",
-        "accessory": "-"
-      },
       {
         "param": "Motor gücü (dizel)",
         "value": "10,4-13,4 kW (14-18 bg)",
@@ -16096,51 +15431,6 @@
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Melt and apply asphalt crack filler machine Combo has a wide range of applications. BM-Combo is professional equipment that has proven itself in the road construction industry, maintenance or repair of road surfaces. Trailed asphalt distributor ensures accurate and efficient spreading of bitumen emulsion.",
-        "value": "BM-Combo",
-        "accessory": "-"
-      },
-      {
-        "param": "Properties",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "An upgraded bitumen machine BM-Combo runs on diesel engine with hydraulic pump drive and heats emulsion from diesel burner. The bitumen emulsion sprayer is equipped with a separate tank. Another one is installed to be filled with mastic. Materials are mixed manually. A crack sealer has an automatic control of mastic heating and the purging system.",
-        "value": "BM-Combo",
-        "accessory": "-"
-      },
-      {
-        "param": "Advantages",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "You get a bitumen emulsion sprayer and a crack sealer in one machine.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "An economical diesel engine comes as standard.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "You can heat the mixture from gas or electricity.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "We offer the price from the manufacture and unsurpassed service.",
-        "value": "Standard",
-        "accessory": "-"
-      },
       {
         "param": "Engine power (diesel)",
         "value": "10.4-13.4 kW (14-18 hp)",
@@ -16216,41 +15506,6 @@
     "image": "/brands/ticab/bpm-500.webp",
     "technicalData": [
       {
-        "param": "Başvuru",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Asfalt çatlak doldurma ekipmanı, asfalt kaplamadaki çatlakları bitüm-elastomerik sızdırmazlık mastikleriyle doldurur. Havalimanlarında ve diğer tesislerde beton levhalar arasına dikiş dökmeniz gerekiyorsa özel bir yol tamir ve bakım makinesi de uygundur.",
-        "value": "Özellikler",
-        "accessory": "-"
-      },
-      {
-        "param": "BPM-500, müşterinin talebi üzerine römork veya çerçeve üzerindeki dikiş dolgusudur. Çalışma malzemesi dolaylı bir yakıcı ile ısıtılır. Isıtılmış mastik basınç altında beslenir. Ekipman optimum sıcaklığı otomatik olarak ayarlar ve korur. Paket ayrıca besleme hortumunun elektrikli ısıtma sistemini, bir karıştırma sistemini (karıştırıcı) ve bitüm pompası ile karıştırıcının aşırı yük korumasını içerir.",
-        "value": "BPM-500",
-        "accessory": "-"
-      },
-      {
-        "param": "Avantajları",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Ekipmanın manevra kabiliyeti ve kontrolü için kendinden tahrikli tekerlek.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Ekonomik dizel motor.",
-        "value": "Mastiğin 210°C'ye hızlı ısıtılması.",
-        "accessory": "-"
-      },
-      {
-        "param": "İtalyan yapımı dizel brülörle dolaylı ısıtma.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
         "param": "Motor gücü (dizel)",
         "value": "14 kW (19 hp)",
         "accessory": "-"
@@ -16317,41 +15572,6 @@
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Asphalt crack filling equipment fills cracks in asphalt coating with bitumen-elastomeric sealing mastics. A special road repair and maintenance machine is also suitable if you need to pour seams between concrete slabs at airports and other facilities.",
-        "value": "Properties",
-        "accessory": "-"
-      },
-      {
-        "param": "BPM-500 is a seam filler on a trailer or frame, at the request of the customer. The working material is heated by an indirect burner. Heated mastic is fed under pressure. Equipment automatically adjusts and maintains the optimum temperature. The package also includes an electric heating system of the supply hose, a mixing system (mixer), and overload protection of the bitumen pump and mixer.",
-        "value": "BPM-500",
-        "accessory": "-"
-      },
-      {
-        "param": "Advantages",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Self-propelled wheel for maneuverability and control of equipment.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Economical diesel engine.",
-        "value": "Rapid heating of mastic to 210°C.",
-        "accessory": "-"
-      },
-      {
-        "param": "Indirect heating by an Italian-made diesel burner.",
-        "value": "Standard",
-        "accessory": "-"
-      },
       {
         "param": "Engine power (diesel)",
         "value": "14 kW (19 hp)",
@@ -16432,46 +15652,6 @@
     "image": "/brands/ticab/bpm-100.webp",
     "technicalData": [
       {
-        "param": "Başvuru",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Bitümlü mastiği bir kova veya şişeden çatlaklara dökmeye çalışırsanız, asfalt derzlerinin veya çatlakların kapatılması karmaşık olabilir. Ayrıca, çoğu zaman fazla malzemeyi yüzeye dökersiniz, bu da istenmeyen atıklara ve artan maliyetlere neden olur. TICAB'ın manuel dikiş dolgusu iş akışınızı tamamen optimize eder. Asfalt kaplamadaki çatlakları, ek yerlerini, yarıkları ve sınırları ortadan kaldırarak su nüfuzunu önler ve yol ömrünü uzatır.",
-        "value": "TİKAB",
-        "accessory": "-"
-      },
-      {
-        "param": "Özellikler",
-        "value": "Döner tekerlek tabanlı çukur tamir makinesi, bir gaz ocağıyla malzemeyi 240°C'ye kadar ısıtır. 70 litrelik bir tankın içindeki döndürücü, malzemeleri iyice karıştırır. Özel bir musluk, bitüm emülsiyonunu dozlayarak besleme sırasında miktarını doğru şekilde ayarlar. Dönen tekerlekler ünitenin mükemmel hareket kabiliyetini ve manevra kabiliyetini sağlar.",
-        "accessory": "-"
-      },
-      {
-        "param": "Avantajları",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Yüksek kaliteli gövde malzemesi ve bileşenleri.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Ergonomik tasarım, rahatlık ve kolay kullanım.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Ekonomik propan tüketimi.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Üreticiden fiyat ve garantiler.",
-        "value": "Tank kapasitesi",
-        "accessory": "-"
-      },
-      {
         "param": "70 litre",
         "value": "Standart",
         "accessory": "-"
@@ -16515,54 +15695,9 @@
         "param": "Manevra kabiliyeti ve hareketlilik",
         "value": "Standart",
         "accessory": "-"
-      },
-      {
-        "param": "Kullanımı kolaydır, personelin özel eğitimi gerektirmez",
-        "value": "Standart",
-        "accessory": "-"
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Sealing asphalt joints or cracks can be messy if you try to pour bitumen mastic into cracks from a bucket or bottle. In addition, you often pour excess material onto the surface, creating unwanted waste and increased costs. The manual seam filler from TICAB completely optimizes your workflow. It eliminates cracks, seams, splits, and delimitation in the asphalt pavement, preventing water penetration and extending the road lifespan.",
-        "value": "TICAB",
-        "accessory": "-"
-      },
-      {
-        "param": "Properties",
-        "value": "A swivel wheel-based pothole repair machine heats the material up to 240°C with a gas burner. The turner inside a 70-liter tank thoroughly mixes materials. A special tap doses the bitumen emulsion, accurately adjusting its amount during feeding. Turning wheels provide excellent mobility and maneuverability of the unit.",
-        "accessory": "-"
-      },
-      {
-        "param": "Advantages",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "High-quality body material and components.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Ergonomic design, convenience, and straightforward operation.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Economical propane consumption.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Price and guarantees from the manufacturer.",
-        "value": "Tank capacity",
-        "accessory": "-"
-      },
       {
         "param": "70 l",
         "value": "Standard",
@@ -16607,11 +15742,6 @@
         "param": "Maneuverability and mobility",
         "value": "Standard",
         "accessory": "-"
-      },
-      {
-        "param": "Easy to operate, does not require special training of personnel",
-        "value": "Standard",
-        "accessory": "-"
       }
     ]
   },
@@ -16627,26 +15757,6 @@
     "descriptionEn": "Asphalt crack filling equipment fills cracks in asphalt coating with bitumen-elastomeric sealing mastics. A special road repair and maintenance machine is also suitable if you need to pour seams between concrete slabs at airports and other facilities.",
     "image": "/brands/ticab/bpm-120.webp",
     "technicalData": [
-      {
-        "param": "Başvuru",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Asfalt çatlak doldurma ekipmanı, asfalt kaplamadaki çatlakları bitüm-elastomerik sızdırmazlık mastikleriyle doldurur. Havalimanlarında ve diğer tesislerde beton levhalar arasına dikiş dökmeniz gerekiyorsa özel bir yol tamir ve bakım makinesi de uygundur.",
-        "value": "Özellikler",
-        "accessory": "-"
-      },
-      {
-        "param": "BPM-120, müşterinin talebi üzerine bir römork veya çerçeve üzerinde kullanılan bir dikiş dolgusudur. Çalışma malzemesi dolaylı bir yakıcı ile ısıtılır. Isıtılmış mastik basınç altında beslenir. Ekipman optimum sıcaklığı otomatik olarak ayarlar ve korur.",
-        "value": "BPM-120",
-        "accessory": "-"
-      },
-      {
-        "param": "Avantajları",
-        "value": "Standart",
-        "accessory": "-"
-      },
       {
         "param": "Kompakt boyut ve mobilite",
         "value": "Standart",
@@ -16675,11 +15785,6 @@
       {
         "param": "Basit yapı, operasyonda güvenilirliği garanti eder",
         "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Kullanımın ilk gününden itibaren zamandan, paradan ve kaynaklardan tasarruf edin!",
-        "value": "Isıtma",
         "accessory": "-"
       },
       {
@@ -16750,26 +15855,6 @@
     ],
     "technicalDataEn": [
       {
-        "param": "Application",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Asphalt crack filling equipment fills cracks in asphalt coating with bitumen-elastomeric sealing mastics. A special road repair and maintenance machine is also suitable if you need to pour seams between concrete slabs at airports and other facilities.",
-        "value": "Properties",
-        "accessory": "-"
-      },
-      {
-        "param": "BPM-120 is a seam filler on a trailer or frame, at the request of the customer. The working material is heated by an indirect burner. Heated mastic is fed under pressure. Equipment automatically adjusts and maintains the optimum temperature.",
-        "value": "BPM-120",
-        "accessory": "-"
-      },
-      {
-        "param": "Advantages",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
         "param": "Compact size and mobility",
         "value": "Standard",
         "accessory": "-"
@@ -16797,11 +15882,6 @@
       {
         "param": "Simple construction guarantees reliability in operation",
         "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Save time, money, and resources — from day one of use!",
-        "value": "Heating",
         "accessory": "-"
       },
       {
@@ -16884,41 +15964,6 @@
     "image": "/brands/ticab/hl-1.webp",
     "technicalData": [
       {
-        "param": "Başvuru",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Yol yüzeyinin önleyici bakımı sırasında dikiş tedavisi için sıcak hava püskürtmeli brülör kullanılır. Büyük kompresörlerle çalışmanın zor veya imkansız olduğu küçük alanlarda (kaldırımlar, otoparklar) ekipmanlar vazgeçilmez hale gelir.",
-        "value": "Özellikler",
-        "accessory": "-"
-      },
-      {
-        "param": "TICAB üreticisinin asfalt kaplamalarda çatlak tedavisine yönelik sıcak hava püskürtmesi, yüksek sıcaklıktaki malzemelerle açık alev olmadan çalışmanıza olanak tanır ve sıcak doldurma contasının kaliteli yapışmasını sağlar. Ayrı valfler, yanma noktasında yakıt ve basınçlı hava karışımını kontrol eder. Dingil mesafesi ve hortum standarttır.",
-        "value": "TİKAB",
-        "accessory": "-"
-      },
-      {
-        "param": "Avantajları",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Isı mızrağı mobil bir ekipmandır ve bir yerden diğerine taşınması kolaydır.",
-        "value": "Çıkış sıcaklığı 4000°C'ye ulaşır.",
-        "accessory": "-"
-      },
-      {
-        "param": "Fiyat ve garanti hizmetini üreticiden alırsınız.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Küçük boyutları ve ağırlığı ile yeterli güç.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
         "param": "Motor gücü (benzinli)",
         "value": "4,3 kW (5,8 hp)",
         "accessory": "-"
@@ -16970,41 +16015,6 @@
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Hot air lance burner for seam treatment is used during preventive maintenance of the road surface. Equipment becomes indispensable in small areas (sidewalks, parking lots) where it is difficult or impossible to work with large compressors.",
-        "value": "Properties",
-        "accessory": "-"
-      },
-      {
-        "param": "Hot air lance for crack treatments in asphalt pavements from the TICAB manufacturer allows you to work with high-temperature materials without an open flame, providing quality adhesion of the hot-fill seal. Separate valves control the mixture of fuel and compressed air at the combustion point. Wheelbase and hose are standard.",
-        "value": "TICAB",
-        "accessory": "-"
-      },
-      {
-        "param": "Advantages",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Heat lance is mobile equipment,  easy to transport it from one site to another.",
-        "value": "The output temperature reaches 4000℃.",
-        "accessory": "-"
-      },
-      {
-        "param": "You get the price and warranty service from the manufacturer.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Sufficient power with small dimensions and weight.",
-        "value": "Standard",
-        "accessory": "-"
-      },
       {
         "param": "Engine power (petrol)",
         "value": "4.3 kW (5.8 hp)",
@@ -17070,41 +16080,6 @@
     "image": "/brands/ticab/mira-1.webp",
     "technicalData": [
       {
-        "param": "Başvuru",
-        "value": "Kızılötesi asfalt ısıtma makinesini ne zaman satın almalıyım? MIRA-1, asfaltın hızlı, verimli ve ucuz onarımı ile ilgilenen profesyonel müteahhitler için çok önemli bir ekipmandır. TICAB'ın geri dönüşüm makinelerimiz ve bitüm emülsiyon püskürtücülerimizle güçlendirilmiş mini kızılötesi asfalt ısıtıcısı, mevcut asfaltı yeniden kullanmanıza ve yeni sıcak asfalt karışımının yalnızca bir kısmını kullanarak paradan tasarruf etmenize olanak tanır. Kompakt ve bütçe teknolojisi, çukurlar, çatlaklar ve acil onarım gerektiren diğer yüzey kusurlarıyla ilgili sorunları çözmek için idealdir.",
-        "accessory": "-"
-      },
-      {
-        "param": "MİRA-1",
-        "value": "TİKAB",
-        "accessory": "-"
-      },
-      {
-        "param": "Özellikler",
-        "value": "Mini asfalt ısıtıcı MIRA-1, eski asfalt kaplamayı yumuşatmak için yoğun ısı kullanır ve yeni malzemeyle kusursuz entegrasyona olanak tanır. Bu yöntem, yeni asfaltın soğuk yamaya göre daha yüksek kalitesini ve uzun hizmet ömrünü garanti eder. Ayrıca bu ekipmanın yönetimi kolaydır. Kendinden kılavuzlu, ısıya dayanıklı tekerlekler ve konforlu tutma yerleri sayesinde taşınması kolaydır.",
-        "accessory": "-"
-      },
-      {
-        "param": "MİRA-1",
-        "value": "Avantajları",
-        "accessory": "-"
-      },
-      {
-        "param": "Kolay taşıma ve depolama: MIRA-1 çoğu kamyon veya treylere uyar.",
-        "value": "MİRA-1",
-        "accessory": "-"
-      },
-      {
-        "param": "Yol bakımı alanında ekipmanlar mümkün olan en uygun fiyata sunulmaktadır.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Kızılötesi asfalt ısıtıcılar her türlü hava koşulunda ve mevsimde kullanılabilir.",
-        "value": "Kızılötesi mini ısıtıcılar, dayanıklı kasetlere sahiptir ve 20 dakika içinde kolayca değiştirilebilir.",
-        "accessory": "-"
-      },
-      {
         "param": "Gaz yakıcı",
         "value": "propan",
         "accessory": "-"
@@ -17136,41 +16111,6 @@
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "When should I buy the machine for infrared asphalt heating? MIRA-1 is crucial equipment for professional contractors who are interested in fast, efficient, and inexpensive repair of asphalt. A mini infrared asphalt heater from TICAB, reinforced with our recyclers and bitumen emulsion sprayers, allows you to reuse existing asphalt and save money using only a fraction of the new asphalt hot mixture. Compact and budget technology is ideal for solving problems with potholes, cracks, and other surface flaws that require immediate repairs.",
-        "accessory": "-"
-      },
-      {
-        "param": "MIRA-1",
-        "value": "TICAB",
-        "accessory": "-"
-      },
-      {
-        "param": "Properties",
-        "value": "A mini asphalt heater MIRA-1 uses intense heat to soften old asphalt pavement, allowing seamless integration with fresh material. This method guarantees higher quality and long service life of new asphalt than cold patching. In addition, this equipment is simple to manage. It is easy to move thanks to self-guiding heat-resistant wheels and comfortable handles.",
-        "accessory": "-"
-      },
-      {
-        "param": "MIRA-1",
-        "value": "Advantages",
-        "accessory": "-"
-      },
-      {
-        "param": "Easy transportation and storage: MIRA-1 fits most trucks or trailers.",
-        "value": "MIRA-1",
-        "accessory": "-"
-      },
-      {
-        "param": "Equipment comes at the most reasonable price possible in the field of road maintenance.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Infrared asphalt heaters can be used in any weather and season.",
-        "value": "Infrared mini heaters have durable cassettes and their easy replacement within 20 minutes.",
-        "accessory": "-"
-      },
       {
         "param": "Gas burner",
         "value": "propane",
@@ -17215,36 +16155,6 @@
     "descriptionEn": "Asphalt pothole repair machine and supplies have been actively used in the asphalt industry in recent years to extend the life of road coating. Pothole patching equipment provides an affordable, efficient, and timely repair of damaged asphalt pavement with relatively minor ruination that requires little grinding or replacement. It means potholes and irregularities, rough and uneven asphalt pavement, rising asphalt, and other issues that need urgent solving.",
     "image": "/brands/ticab/mira-3.webp",
     "technicalData": [
-      {
-        "param": "Başvuru",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Asfalt çukuru tamir makinesi ve malzemeleri, son yıllarda asfalt endüstrisinde yol kaplamasının ömrünü uzatmak için aktif olarak kullanılmaktadır. Çukur yama ekipmanı, çok az taşlama veya değiştirme gerektiren nispeten küçük bir hasarla hasarlı asfalt kaplamanın uygun maliyetli, verimli ve zamanında onarılmasını sağlar. Bu, çukurlar ve düzensizlikler, pürüzlü ve düzensiz asfalt kaplama, yükselen asfalt ve acil çözülmesi gereken diğer sorunlar anlamına gelir.",
-        "value": "Özellikler",
-        "accessory": "-"
-      },
-      {
-        "param": "MIRA-3'ü satışa sunan yeni kızılötesi asfalt sabitleme makinesi sunuyoruz. Yolun yüzeyini ısıtır ve tırmıkla kazır. Bitüm emülsiyonu ile zenginleştirilmiş yeni asfalt, bitüm püskürtücü yardımıyla asfalt geri dönüşüm ekipmanından ilave edilir. Sistem, ateşleme işaret fişeği sisteminin mekanik kontrolüyle birlikte gelir.",
-        "value": "Avantajları",
-        "accessory": "-"
-      },
-      {
-        "param": "Komple set bir geri dönüşüm cihazı ve bir bitüm emülsiyon püskürtücü içerir.",
-        "value": "Vardiya başına 3.000 m2'ye kadar yüzeyi işleyebilirsiniz.",
-        "accessory": "-"
-      },
-      {
-        "param": "Gemide 3 seviyeli dizel yakıt temizleme sistemi bulunmaktadır.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Tankı doldurmak için ters sistem kullanışlı bir eklentidir.",
-        "value": "ASFALT ISITICI",
-        "accessory": "-"
-      },
       {
         "param": "Tedarik kapasitesi",
         "value": "3 gaz silindiri (gaz silindirleri dahil değildir!)",
@@ -17367,36 +16277,6 @@
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Asphalt pothole repair machine and supplies have been actively used in the asphalt industry in recent years to extend the life of road coating. Pothole patching equipment provides an affordable, efficient, and timely repair of damaged asphalt pavement with relatively minor ruination that requires little grinding or replacement. It means potholes and irregularities, rough and uneven asphalt pavement, rising asphalt, and other issues that need urgent solving.",
-        "value": "Properties",
-        "accessory": "-"
-      },
-      {
-        "param": "We offer new infrared asphalt fixing machine for sale MIRA-3. It heats the surface of the roadway and scarifies it with a rake. New asphalt enriched with the bitumen emulsion is added from the asphalt recycling equipment with the help of bitumen sprayer. The system comes with a mechanical control of the ignition flare system.",
-        "value": "Advantages",
-        "accessory": "-"
-      },
-      {
-        "param": "Complete set includes a recycler and a bitumen emulsion sprayer.",
-        "value": "You can process the surface of up to 3,000 m2 per shift.",
-        "accessory": "-"
-      },
-      {
-        "param": "A 3-level diesel fuel cleaning system is on board.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Reverse system for filling the tank is a useful add-on.",
-        "value": "ASPHALT HEATER",
-        "accessory": "-"
-      },
       {
         "param": "Supplying capacity",
         "value": "3 gas cylinders (gas cylinders are not included!)",
@@ -17532,46 +16412,6 @@
     "image": "/brands/ticab/mira-4.webp",
     "technicalData": [
       {
-        "param": "Başvuru",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Bütçelerin azaldığı ve trafik akışının arttığı dönemlerde, geleneksel asfalt onarım yöntemlerinin maliyetleri artmaya devam ederek ekonomik yaklaşımları hayati hale getiriyor. Kızılötesi kaldırım ısıtıcıları sipariş etmek, modern gerçekliklerde mümkün olan en iyi çözümdür. TICAB'ın yüksek performanslı modelleri kullanılarak kusurlu yüzey ısıtılır, taranır ve yeniden sıkıştırılır. Bu tür bir teknoloji, yeni bir kalite, karlılık, düşük üretim maliyeti ve atıkların önemli ölçüde azaltılması standardıdır.",
-        "value": "TİKAB",
-        "accessory": "-"
-      },
-      {
-        "param": "Özellikler",
-        "value": "MIRA-4, 100x60 cm'lik 4 bölgeyi işleyebilen yüksek performanslı asfalt eritme ekipmanıdır. Böylece tek vardiyada 80-170 m² yama işinin üstesinden gelirsiniz. Mekanik kontrol basittir. Asfalt kızılötesi makinesinin soğuk mevsimde kullanılması önemle tavsiye edilir. Malzemenin sıkıştırmadan önce soğumasına izin vermez, konsolidasyon ve kesmenin heterojenliğini, nem nüfuzunu ve artan çatlamayı önler.",
-        "accessory": "-"
-      },
-      {
-        "param": "MİRA-4",
-        "value": "Avantajları",
-        "accessory": "-"
-      },
-      {
-        "param": "Otonom kızılötesi asfalt makineleri kompakt boyutlara ve düşük ağırlığa sahiptir.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Kaliteli üretim ve garantili hizmet ön plandadır.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Olumsuz hava veya soğuk nedeniyle aksama sürelerinden kurtulursunuz.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Hiçbir soğuk bağlantı çukurların ve diğer kusurların hızla ortaya çıkmasını engellemez.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
         "param": "Tedarik kapasitesi (gaz şişesi olmadan satılır)",
         "value": "Standart",
         "accessory": "-"
@@ -17615,54 +16455,9 @@
         "param": "Ağırlık silindirsiz",
         "value": "200 kg",
         "accessory": "-"
-      },
-      {
-        "param": "Isıtıcı dört bağımsız ısıtma bölgesi (daha büyük ısıtma yüzeyi) ile donatılmıştır.",
-        "value": "Standart",
-        "accessory": "-"
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "In times of reduced budgets and increased traffic flow, the costs associated with traditional asphalt repair methods continue to rise, making economical approaches vital. Ordering infrared pavement heaters is the best possible solution in modern realities. By using high-performance models from TICAB, defective surface is heated, raked, and re-compacted. Such technology is a new standard of quality, profitability, low production cost, and significant reduction of waste.",
-        "value": "TICAB",
-        "accessory": "-"
-      },
-      {
-        "param": "Properties",
-        "value": "MIRA-4 is high-performance asphalt melting equipment that handles 4 zones of 100x60 cm. Thus, you cope with 80-170 m² patching in one shift. Mechanical control is straightforward. The asphalt infrared machine is highly recommended to use during the cold season. It does not allow the material to cool before compaction, preventing heterogeneity of consolidation and cutting, moisture penetration, and increased cracking.",
-        "accessory": "-"
-      },
-      {
-        "param": "MIRA-4",
-        "value": "Advantages",
-        "accessory": "-"
-      },
-      {
-        "param": "Autonomous infrared asphalt machines have compact dimensions and low weight.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Quality production and warranty service are on board.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "You avoid downtime because of unfavorable weather or cold.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "No cold connection prevents the rapid appearance of potholes and other defects.",
-        "value": "Standard",
-        "accessory": "-"
-      },
       {
         "param": "Supplying capacity (is sold without gas bottles)",
         "value": "Standard",
@@ -17707,11 +16502,6 @@
         "param": "Weight without cylinder",
         "value": "200 kg",
         "accessory": "-"
-      },
-      {
-        "param": "The heater is equipped with four independent heating zones (larger heating surface)",
-        "value": "Standard",
-        "accessory": "-"
       }
     ]
   },
@@ -17727,41 +16517,6 @@
     "descriptionEn": "A mobile asphalt plant produces hot asphalt mixture inside the tank and provides the opportunity to carry out patching and other road works in the cold season. Compact dimensions, maneuverability, and ergonomic design allow you to work in districts with narrow streets. Thanks to mobility, asphalt recycling equipment can be easily moved from one working site to another. You can also speed up the processing of asphalt using the BS-200 bitumen machine of our production.",
     "image": "/brands/ticab/ra-800.webp",
     "technicalData": [
-      {
-        "param": "Başvuru",
-        "value": "Mobil asfalt plenti, tankın içinde sıcak asfalt karışımı üretir ve soğuk mevsimde yama ve diğer yol çalışmalarının yapılmasına olanak sağlar. Kompakt boyutları, manevra kabiliyeti ve ergonomik tasarımı dar sokakların olduğu ilçelerde çalışmanıza olanak sağlar. Mobilite sayesinde asfalt geri dönüşüm ekipmanları bir çalışma sahasından diğerine kolaylıkla taşınabilir. Üretimimizin BS-200 bitüm makinesini kullanarak asfaltın işlenmesini de hızlandırabilirsiniz.",
-        "accessory": "-"
-      },
-      {
-        "param": "Özellikler",
-        "value": "Kullanımı kolay portatif asfalt plenti yüksek verimlidir. Dizel brülörün açık alevi, dönen, ısı yalıtımlı bir tamburdaki karışımı ısıtır. Tamburun iç yüzeyindeki özel nervür sistemi etkili karıştırma sağlar. Asfalt geri dönüşüm ekipmanı dizel jeneratörle çalışır ve İtalyan yapımı otomatik dizel brülöre sahiptir. Ucuz geri dönüştürülmüş asfalt kullanarak daha iyi kaliteye ulaşmak istiyorsanız MIRA-1 ısıtıcı da doğru çözümdür.",
-        "accessory": "-"
-      },
-      {
-        "param": "MİRA-1",
-        "value": "Avantajları",
-        "accessory": "-"
-      },
-      {
-        "param": "Küçük bir asfalt tesisi / asfalt geri dönüşüm makinesinin bakımı yeni başlayanlar için bile kolaydır.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Piyasadaki mevcut tekliflere göre en uygun fiyata sahip olursunuz.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Kalite, önde gelen üreticilerin benzerlerinden daha düşük değildir.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Bireysel siparişleri tartışmaya açığız.",
-        "value": "Standart",
-        "accessory": "-"
-      },
       {
         "param": "Motor gücü (dizel jeneratör)",
         "value": "7,5 kW (10 hp)",
@@ -17804,41 +16559,6 @@
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "A mobile asphalt plant produces hot asphalt mixture inside the tank and provides the opportunity to carry out patching and other road works in the cold season. Compact dimensions, maneuverability, and ergonomic design allow you to work in districts with narrow streets. Thanks to mobility, asphalt recycling equipment can be easily moved from one working site to another. You can also speed up the processing of asphalt using the BS-200 bitumen machine of our production.",
-        "accessory": "-"
-      },
-      {
-        "param": "Properties",
-        "value": "Easy to operate portable asphalt plant is highly productive. An open flame of a diesel burner heats the mixture in a rotating heat-insulated drum. A special system of ribs on the inner surface of the drum provides effective mixing. Asphalt recycling equipment runs on a diesel generator and features an automatic Italian-made diesel burner. If you want to reach better quality using cheap recycled asphalt, the MIRA-1 heater in addition is the right solution.",
-        "accessory": "-"
-      },
-      {
-        "param": "MIRA-1",
-        "value": "Advantages",
-        "accessory": "-"
-      },
-      {
-        "param": "A small asphalt plant / asphalt recycling machine is easy to maintain even for beginners.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "You get the most affordable price compared to existing offers in the market.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Quality is not inferior to counterparts of the leading manufacturers.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "We are open to discuss individual orders.",
-        "value": "Standard",
-        "accessory": "-"
-      },
       {
         "param": "Engine power (diesel generator)",
         "value": "7.5 kW (10 hp)",
@@ -17894,41 +16614,6 @@
     "image": "/brands/ticab/hb-1.webp",
     "technicalData": [
       {
-        "param": "Başvuru",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Eski asfalt işleme, çeşitli projeler için çok sayıda kişiselleştirilmiş özel asfalt karışımları üretmenize yardımcı olur. Bu yöntem, yol inşaatı sürecinde gerekli olan yeni malzeme miktarını azaltır. Öğütülmüş asfalt çöp sahalarına gitmediğinden atıklardan tasarruf edersiniz. Asfalt geri dönüşüm makineleri enerji tüketimini ve nakliye maliyetlerini azaltır. Bu sayede doğal kaynaklardan da tasarruf edilmiş olur.",
-        "value": "Özellikler",
-        "accessory": "-"
-      },
-      {
-        "param": "Römorklar veya şasiler üzerindeki asfalt sıcak kutu ıslah makinelerimiz, asfalt beton kaplamalar üzerinde onarım çalışmaları yaparken asfaltın belirli bir sıcaklığa kadar hızlı bir şekilde ısıtılmasını sağlayan, yüksek mukavemetli çelikten yapılmış çift duvarlı termoslara sahiptir. Özellikleri yıl boyunca yol onarım ve bakımına olanak sağlar. Sonuç olarak, yüksek kârlılıktan ve başlangıç ​​maliyetlerinin hızla geri ödenmesinden yararlanırsınız.",
-        "value": "Avantajları",
-        "accessory": "-"
-      },
-      {
-        "param": "Yüksek asfalt işleme hızı, projenin kısa sürede tamamlanmasını sağlar.",
-        "value": "Asfalt geri dönüşüm ekipmanı / asfalt sıcak kutusu HB-1, çeşitli asfalt karışımlarıyla çalışır.",
-        "accessory": "-"
-      },
-      {
-        "param": "HB-1",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Eski öğütülmüş asfaltı birkaç kez geri dönüştürebilirsiniz.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Makineyi üreticiden uygun fiyata alırsınız.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
         "param": "Brülör gücü (propan)",
         "value": "45 kW",
         "accessory": "-"
@@ -17970,41 +16655,6 @@
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Old asphalt processing helps you produce numerous customized special mixtures of asphalt for various projects. This method reduces the amount of new material required in the process of road construction. You save on waste, as milled asphalt does not go to landfills. Asphalt recycling machinery reduces energy consumption and transportation costs. This way, it also saves natural resources.",
-        "value": "Properties",
-        "accessory": "-"
-      },
-      {
-        "param": "Our asphalt hot box reclaimers on trailers or frames have double-walled thermoses made of high-strength steel, which provides rapid heating of asphalt to a given temperature when performing repair work on asphalt concrete coatings. Their characteristics allow road repairs and maintenance throughout the year. As a result, you benefit from high profitability and quick payback of starting costs.",
-        "value": "Advantages",
-        "accessory": "-"
-      },
-      {
-        "param": "High speed of asphalt processing ensures the completion of the project on short notice.",
-        "value": "Asphalt recycling equipment / asphalt hot box HB-1 works with various asphalt mixtures.",
-        "accessory": "-"
-      },
-      {
-        "param": "HB-1",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "You can recycle old milled asphalt several times.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "You get the machine from the manufacturer at a reasonable price.",
-        "value": "Standard",
-        "accessory": "-"
-      },
       {
         "param": "Burner power (propane)",
         "value": "45 kW",
@@ -18060,38 +16710,8 @@
     "image": "/brands/ticab/hb-2.webp",
     "technicalData": [
       {
-        "param": "Başvuru",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Asfalt sıcak kutularını bir römork üzerinde (özel bir dingil mesafesi üzerinde) veya daha sonra bir hafif kamyona kurulum için bir çerçeve üzerinde sipariş edebilirsiniz. Ekipman, asfalt karışımını tesisten şantiyeye ulaştırarak her türlü hava koşulunda verimli çalışmaya olanak sağlar.",
-        "value": "Özellikler",
-        "accessory": "-"
-      },
-      {
-        "param": "Asfalt sıcak kutusunun içeriği dizel brülörle ısıtılır ve ayarlanan sıcaklık otomatik olarak korunur. Sıcak kutu, sıcak asfalt taşırken ekipmanın bütünlüğünü korumak için harici bir koruyucu kasaya sahiptir. Yeterli ısı yalıtım malzemesi katmanı, çalışma sıcaklığının yeniden ısıtılmadan uzun süre korunmasına olanak tanır.\nSıcak asfaltın yüklenmesi üst kapaktan yapılır. Sıcak kutuda ayrıca mekanik kapaklı bir boşaltma kapağı bulunur. Gövdeyi kaldırmak için kullanılan hidrolik silindir, taşınan malzemenin hızlı ve kolay bir şekilde boşaltılmasını sağlar. Sıcak kutu bir sıcaklık kontrol cihazı ve bir sinyal lambası ile donatılmıştır.",
-        "value": "Avantajları",
-        "accessory": "-"
-      },
-      {
-        "param": "Asfalt sıcak kutularımız, malzemenin minimum ısı kaybı ve düşük yakıt tüketimi ile taşınabilmesini sağlar. Ekipmanlarımızın fiyatı, benzer özelliklere sahip diğer üreticilerin sunduğu fiyatlardan daha düşüktür. Aşağıdaki avantajlar aynı zamanda avantajlarınıza da dönüşür:",
-        "value": "Yüksek kaliteli mineral yün izolasyonu sayesinde 12 saate kadar yüksek sıcaklığın korunması",
-        "accessory": "-"
-      },
-      {
         "param": "Dizel ısıtma sistemli ek donanım",
         "value": "Vardiya başına 5 tona kadar yüksek verimlilik",
-        "accessory": "-"
-      },
-      {
-        "param": "Kamyon gövdesine veya römorka montajı kolay ergonomik tasarım",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Asfalt sıcak kutularımız, uzun süre hizmet verecek ve yoğun kullanım koşullarında bile güvenilir performans gösterecek şekilde tasarlanmış, uygun maliyetli ekipmanlardır. Şirketimizin tüm özel ekipmanları kullanışlı, basit ve güvenilirdir.",
-        "value": "Tank kapasitesi",
         "accessory": "-"
       },
       {
@@ -18122,38 +16742,8 @@
     ],
     "technicalDataEn": [
       {
-        "param": "Application",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "You can order asphalt hot boxes on a trailer (on a dedicated wheelbase) or on a frame for subsequent installation on a light truck. The equipment delivers the asphalt mixture from the plant to the work site and enables efficient work in any weather conditions.",
-        "value": "Properties",
-        "accessory": "-"
-      },
-      {
-        "param": "The contents of the asphalt hot box are heated by a diesel burner, and the set temperature is maintained automatically. The hot box has an external protective casing to preserve equipment integrity when transporting hot asphalt. The sufficient layer of thermal insulation material allows the working temperature to be maintained for extended periods without reheating.\nLoading hot asphalt is done through an upper hatch. The hot box also has a discharge hatch with a mechanical flap. A hydraulic cylinder for raising the body ensures quick and easy unloading of transported material. The hot box is equipped with a temperature controller and a signal beacon.",
-        "value": "Advantages",
-        "accessory": "-"
-      },
-      {
-        "param": "Our asphalt hot boxes ensure the material can be transported with minimal heat loss and low fuel consumption. The price of our equipment is lower than that offered by other manufacturers with similar features. The following advantages also translate into your benefits:",
-        "value": "Maintenance of high temperature for up to 12 hours due to insulation with high-quality mineral wool",
-        "accessory": "-"
-      },
-      {
         "param": "Additional equipment with a diesel heating system",
         "value": "High productivity up to 5 tons per work shift",
-        "accessory": "-"
-      },
-      {
-        "param": "Ergonomic design, which is easy to mount in the truck body or on a trailer",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Our asphalt hot boxes are cost-effective equipment, designed to serve for a long time and perform reliably even under intensive use. All specialized equipment from our company is convenient, simple, and dependable.",
-        "value": "Tank capacity",
         "accessory": "-"
       },
       {
@@ -18195,51 +16785,6 @@
     "descriptionEn": "A small asphalt paver for sale MP-1100 moves on four drives wheels and has a powerful gasoline engine with air cooling. Special equipment develops working speed up to 0.6 km/h and transport speed up to 2.5 km/h. Technical parameters of this model allow laying asphalt up to 35 tons per hour. The mini road paver finisher is equipped with a chain, scraper conveyor, which is automatically controlled by an end blade. Due to its compact dimensions, the machine quickly and efficiently mechanizes road works in difficult conditions and small areas.",
     "image": "/brands/ticab/mp-1100.webp",
     "technicalData": [
-      {
-        "param": "Başvuru",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "TICAB'ın küçük asfalt serici, kaldırımlara, park yollarına ve kapalı alandaki diğer alanlara asfalt döşemek için tasarlanmıştır. Kompakt ve mobil özel asfaltlama makineleri, tekerlekli bir şasi üzerine monte edilmiştir ve çalışma sırasında son derece hareketli ve kolay manevra kabiliyetine sahiptir. Küçük projelerin verimli ve son derece karlı bir şekilde yürütülmesi için yeri doldurulamaz bir asfalt sonlandırıcı modeli yaratılmıştır.",
-        "value": "TİKAB",
-        "accessory": "-"
-      },
-      {
-        "param": "Özellikler",
-        "value": "Satılık küçük bir asfalt finişer MP-1100, dört tahrik tekerleği üzerinde hareket eder ve hava soğutmalı güçlü bir benzinli motora sahiptir. Özel ekipman, çalışma hızını 0,6 km/saat'e ve taşıma hızını 2,5 km/saat'e kadar geliştirir. Bu modelin teknik parametreleri saatte 35 tona kadar asfalt serilmesine olanak sağlamaktadır. Mini yol finişer son işlemcisi, bir uç bıçak tarafından otomatik olarak kontrol edilen bir zincirli, kazıyıcı konveyör ile donatılmıştır. Kompakt boyutları sayesinde makine, zorlu koşullarda ve küçük alanlardaki yol çalışmalarını hızlı ve verimli bir şekilde mekanize eder.",
-        "accessory": "-"
-      },
-      {
-        "param": "MP-1100",
-        "value": "Avantajları",
-        "accessory": "-"
-      },
-      {
-        "param": "Yol asfaltlama makinesini doğrudan üreticiden alırsınız.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Gerçek özelliklerine göre en iyi fiyattan yararlanın.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Depodan asfalt tabakası satın alma fırsatının tadını çıkarın.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Makinenin stokta olmaması durumunda siparişin hızlı bir şekilde yerine getirilmesini sağlıyoruz.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Uzmanlardan ayrıntılı teknik tavsiye alacağınızdan emin olabilirsiniz.",
-        "value": "Standart",
-        "accessory": "-"
-      },
       {
         "param": "Motor gücü (benzinli, hava soğutmalı)",
         "value": "15,5 kW (20,8 hp)",
@@ -18307,51 +16852,6 @@
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "TICAB's small asphalt paver is designed to lay asphalt on sidewalks, park paths, and other areas in a confined space. Compact and mobile special paving machinery is mounted on a wheeled chassis and is highly mobile and easily maneuverable during operation. An irreplaceable model of asphalt finishers is created for efficient and highly profitable execution of small projects.",
-        "value": "TICAB",
-        "accessory": "-"
-      },
-      {
-        "param": "Properties",
-        "value": "A small asphalt paver for sale MP-1100 moves on four drives wheels and has a powerful gasoline engine with air cooling. Special equipment develops working speed up to 0.6 km/h and transport speed up to 2.5 km/h. Technical parameters of this model allow laying asphalt up to 35 tons per hour. The mini road paver finisher is equipped with a chain, scraper conveyor, which is automatically controlled by an end blade. Due to its compact dimensions, the machine quickly and efficiently mechanizes road works in difficult conditions and small areas.",
-        "accessory": "-"
-      },
-      {
-        "param": "MP-1100",
-        "value": "Advantages",
-        "accessory": "-"
-      },
-      {
-        "param": "You get a road paving machine directly from the manufacturer.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Benefit from the best price for its actual features.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Enjoy the opportunity to purchase an asphalt layer from the warehouse.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "We provide prompt order fulfillment if the machine is not in stock.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "You may rest assured of detailed technical advice from experts.",
-        "value": "Standard",
-        "accessory": "-"
-      },
       {
         "param": "Engine power (petrol, air cooled)",
         "value": "15.5 kW (20.8 hp)",
@@ -18432,46 +16932,6 @@
     "image": "/brands/ticab/rps-9000.webp",
     "technicalData": [
       {
-        "param": "Başvuru",
-        "value": "Kamyonlara yönelik tuz serpme makinelerimiz, kış aylarında yollarda yayaların ve araçların güvenliğini sağlamak için satın alınmaya değerdir. RPS-9000'in boyutları, onu büyük devlet kurumları ve yol tamir ve bakım şirketleri için vazgeçilmez özel ekipman haline getirmektedir. Kamyon için tuz serpme makinesi farklı türdeki gevşek malzemelere uygundur: tuz, kum, tuz ve kum karışımı ve diğer reaktifler.",
-        "accessory": "-"
-      },
-      {
-        "param": "RPS-9000",
-        "value": "Özellikler",
-        "accessory": "-"
-      },
-      {
-        "param": "Kamyon kum ve tuz serpme makinasının gücü ve bunker kapasitesi, malzemenin 4 metreden 8 metreye kadar uzun bir mesafeye hızla yayılması ihtiyacını karşılıyor. Ekipman, bir vinç kullanılarak kamyonun arkasına hızlı bir şekilde monte edilir. RPS-9000'i kamyon şasisine monte etmek için depolama desteklerini de kullanabilirsiniz.",
-        "value": "RPS-9000",
-        "accessory": "-"
-      },
-      {
-        "param": "Avantajları",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Komple set, otonom bir motor veya müşterinin COM sistemine bağlantı içerebilir.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Kamyonlara yönelik tuz serpme makinesinin kalitesi ve güvenilirliği, uzun hizmet ömrünün ve üretkenliğinin anahtarıdır.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Kontrol sisteminin sürücü kabinine çıkışı, buzlanma önleyici reaktiflerin rasyonel tüketimini sağlar.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Üreticiden düşük bir fiyat ve kapsamlı hizmet alırsınız.",
-        "value": "Hazne hacmi",
-        "accessory": "-"
-      },
-      {
         "param": "9 m³",
         "value": "Standart",
         "accessory": "-"
@@ -18497,57 +16957,12 @@
         "accessory": "-"
       },
       {
-        "param": "Sürücü kabini içindeki kontrol ünitesinde oransal disk hız kontrol sistemi",
-        "value": "isteğe bağlı",
-        "accessory": "-"
-      },
-      {
         "param": "Manuel ayar",
         "value": "Standart",
         "accessory": "-"
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "Our salt spreaders for trucks are worth buying to ensure the safety of pedestrians and vehicles on winter roads. The dimensions of RPS-9000 make it indispensable special equipment for large state enterprises and road repair and maintenance companies. The salt spreader for a truck suits different types of loose materials: salt, sand, a mixture of salt and sand, and other reagents.",
-        "accessory": "-"
-      },
-      {
-        "param": "RPS-9000",
-        "value": "Properties",
-        "accessory": "-"
-      },
-      {
-        "param": "The power of the sand and salt spreader for a truck, as well as its bunker’s capacity, meets the needs of rapid spreading of the material over a long range from 4 to 8 meters. Equipment is quickly mounted in the back of the truck using a crane. You can also use storage supports to install RPS-9000 on the truck frame.",
-        "value": "RPS-9000",
-        "accessory": "-"
-      },
-      {
-        "param": "Advantages",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Complete set may include an autonomous engine or connection to the customer’s COM system.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "The quality and reliability of the salt spreader for trucks is the key to its long service life and productivity.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "The output of the control system into the driver's cab ensures rational consumption of anti-icing reagents.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "You get a low price from the manufacturer and comprehensive service.",
-        "value": "Hopper volume",
-        "accessory": "-"
-      },
       {
         "param": "9 m³",
         "value": "Standard",
@@ -18570,11 +16985,6 @@
       },
       {
         "param": "Autonomous engine",
-        "value": "optional",
-        "accessory": "-"
-      },
-      {
-        "param": "Proportional disc speed control system  on the control unit inside the driver's cab",
         "value": "optional",
         "accessory": "-"
       },
@@ -18598,46 +17008,6 @@
     "image": "/brands/ticab/rps-6000.webp",
     "technicalData": [
       {
-        "param": "Başvuru",
-        "value": "TICAB'ın tuz ve kum serpme makineleri, şehir ve kasabaların ana caddelerinin yanı sıra yerel, ulusal ve uluslararası yolların hızlı, kaliteli ve etkili bakımı için çok önemlidir. RPS-6000'in monte edildiği kamyon şasisinden sökülmesi kolay olduğundan, firma kış döneminden sonra aracı başka işler için de kullanabiliyor.",
-        "accessory": "-"
-      },
-      {
-        "param": "TİKAB",
-        "value": "RPS-6000",
-        "accessory": "-"
-      },
-      {
-        "param": "Özellikler",
-        "value": "Diskli tuz yayma makinesinde hidrolikten bağımsız mekanizma tahriki ve buzlanma önleyici reaktiflerin kazıyıcı zincir beslemesi bulunur. RPS-6000 kontrolü (açma/kapama ünitesi) sürücü kabininde görüntülenir ve bu, ekipmanın çalışmasını optimize etmenize ve buz çözücü malzemeyi daha verimli kullanmanıza olanak tanır. TICAB'ın RPS-6000'i, yolları buzlanma önleyici reaktiflerle etkili bir şekilde kaplamanıza olanak tanıyarak kaza oranını ve insanların yaralanma riskini önemli ölçüde azaltır.",
-        "accessory": "-"
-      },
-      {
-        "param": "RPS-6000",
-        "value": "TİKAB",
-        "accessory": "-"
-      },
-      {
-        "param": "Avantajları",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Yayılmada yüksek verimlilik.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Buzlanma önleyici malzemelerle optimum kaplama yoğunluğu.",
-        "value": "İşlenen şeridin genişliği 8 metreye kadardır.",
-        "accessory": "-"
-      },
-      {
-        "param": "Sürücü kabini içindeki kontrol ünitesinde oransal disk hız kontrol sistemi.",
-        "value": "Hazne hacmi",
-        "accessory": "-"
-      },
-      {
         "param": "6 m³",
         "value": "Standart",
         "accessory": "-"
@@ -18663,57 +17033,12 @@
         "accessory": "-"
       },
       {
-        "param": "Sürücü kabini içindeki kontrol ünitesinde oransal disk hız kontrol sistemi",
-        "value": "isteğe bağlı",
-        "accessory": "-"
-      },
-      {
         "param": "Manuel ayar",
         "value": "Standart",
         "accessory": "-"
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "Salt and sand spreaders from TICAB are crucial for fast, high-quality, and effective maintenance of local, national and international roads, as well as main streets of cities and towns. Since RPS-6000 is easy to dismantle from the truck chassis, on which it is mounted, the company can use the car for other tasks after the winter period.",
-        "accessory": "-"
-      },
-      {
-        "param": "TICAB",
-        "value": "RPS-6000",
-        "accessory": "-"
-      },
-      {
-        "param": "Properties",
-        "value": "Disk salt spreading machine has hydraulic independent drive of mechanisms and scraper-chain supply of anti-icing reagents. RPS-6000 control (the on/off unit) is displayed in the driver's cab, which allows you to optimize the operation of equipment and use de-icing material more efficiently. RPS-6000 from TICAB allows you to efficiently cover roads with anti-icing reagents, significantly reducing the accident rate and the risk of injuries for people.",
-        "accessory": "-"
-      },
-      {
-        "param": "RPS-6000",
-        "value": "TICAB",
-        "accessory": "-"
-      },
-      {
-        "param": "Advantages",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "High productivity of spreading.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Optimum density of coating with anti-icing materials.",
-        "value": "The width of the processed strip is up to 8 meters.",
-        "accessory": "-"
-      },
-      {
-        "param": "Proportional disk speed control system on the control unit inside the driver’s cab.",
-        "value": "Hopper volume",
-        "accessory": "-"
-      },
       {
         "param": "6 m³",
         "value": "Standard",
@@ -18740,11 +17065,6 @@
         "accessory": "-"
       },
       {
-        "param": "Proportional disc speed control system  on the control unit inside the driver's cab",
-        "value": "optional",
-        "accessory": "-"
-      },
-      {
         "param": "Manual adjustment",
         "value": "Standard",
         "accessory": "-"
@@ -18763,36 +17083,6 @@
     "descriptionEn": "The high-performance and easy-to-use salt truck spreader is equipped with a hopper for anti-icing ingredients with a capacity of 1.5 cubic meters and a disc sand-spreading mechanism. The device is controlled from the driver's cab. Thus, RPS-1500 allows you to cover roads with anti-icing materials with optimal use of time, human resources, and materials. By using RPS-1500, you can carry out sprinkling of roads with a total area of up to 10,000 m³ within an hour. Equipment is mounted on the frame of a two-axle trailer or, if necessary, can be installed in the body of the customer's truck using a crane or storage supports (if provided for by the vehicle’s design).",
     "image": "/brands/ticab/rps-1500.webp",
     "technicalData": [
-      {
-        "param": "Başvuru",
-        "value": "Tuz ve kum serpme makinesi kamu hizmetleri, özel işletmeler ve yolların, kaldırımların ve çevrenin bakımından sorumlu diğer yapılar arasında yüksek talep görmektedir. RPS-1500 buzla ve en şiddetli kar yağışlarının sonuçlarıyla başa çıkmanıza yardımcı olur. Bu özel ekipman modeli, şehirlerdeki, köylerdeki, birleşik bölgesel topluluklardaki yol yüzeyinin durumundan ve ulusal ve uluslararası öneme sahip rotalardan sorumlu herhangi bir işletmenin çalışma cephaneliğinde olmalıdır.",
-        "accessory": "-"
-      },
-      {
-        "param": "Özellikler",
-        "value": "Yüksek performanslı ve kullanımı kolay tuz kamyonu serpme makinesi, buzlanmayı önleyici malzemeler için 1,5 metreküp kapasiteli bir hazne ve diskli kum yayma mekanizmasıyla donatılmıştır. Cihaz sürücü kabininden kontrol edilir. Böylece RPS-1500, zamanı, insan kaynaklarını ve malzemeleri optimum şekilde kullanarak yolları buzlanma önleyici malzemelerle kaplamanıza olanak tanır. RPS-1500 kullanarak toplam alanı 10.000 m³'e kadar olan yollarda 1 saat içerisinde serpme işlemi gerçekleştirebilirsiniz. Ekipman, iki dingilli bir römorkun şasisine monte edilir veya gerekirse bir vinç veya depolama destekleri (aracın tasarımında öngörülmüşse) kullanılarak müşterinin kamyonunun gövdesine monte edilebilir.",
-        "accessory": "-"
-      },
-      {
-        "param": "RPS-1500",
-        "value": "Avantajları",
-        "accessory": "-"
-      },
-      {
-        "param": "Saçılma şeridinin genişliği 8 metreye kadardır.",
-        "value": "Geçiş başına en fazla 3 trafik şeridiyle yol bakımı.",
-        "accessory": "-"
-      },
-      {
-        "param": "İşe hazırlanmak dakikalar alır.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Disk eğiminin rahat ayarlanması hoş bir dokunuş.",
-        "value": "Hazne hacmi",
-        "accessory": "-"
-      },
       {
         "param": "1,5 m³",
         "value": "Standart",
@@ -18814,11 +17104,6 @@
         "accessory": "-"
       },
       {
-        "param": "Sürücü kabininin içindeki kontrol ünitesinde oransal disk hızı kontrol sistemi",
-        "value": "isteğe bağlı",
-        "accessory": "-"
-      },
-      {
         "param": "Manuel disk ayarı",
         "value": "Standart",
         "accessory": "-"
@@ -18835,36 +17120,6 @@
       }
     ],
     "technicalDataEn": [
-      {
-        "param": "Application",
-        "value": "The salt and sand spreader is in high demand among utility services, private enterprises, and other structures responsible for the maintenance of roads, sidewalks, and surroundings. RPS-1500 helps you cope with ice and the consequences of the strongest snowfalls. This model of special equipment should be in the working arsenal of any enterprise responsible for the condition of the road surface in cities, villages, united territorial communities, and routes of national and international importance.",
-        "accessory": "-"
-      },
-      {
-        "param": "Properties",
-        "value": "The high-performance and easy-to-use salt truck spreader is equipped with a hopper for anti-icing ingredients with a capacity of 1.5 cubic meters and a disc sand-spreading mechanism. The device is controlled from the driver's cab. Thus, RPS-1500 allows you to cover roads with anti-icing materials with optimal use of time, human resources, and materials. By using RPS-1500, you can carry out sprinkling of roads with a total area of up to 10,000 m³ within an hour. Equipment is mounted on the frame of a two-axle trailer or, if necessary, can be installed in the body of the customer's truck using a crane or storage supports (if provided for by the vehicle’s design).",
-        "accessory": "-"
-      },
-      {
-        "param": "RPS-1500",
-        "value": "Advantages",
-        "accessory": "-"
-      },
-      {
-        "param": "The width of the scattering strip is up to 8 meters.",
-        "value": "Road maintenance with up to 3 traffic lanes per pass.",
-        "accessory": "-"
-      },
-      {
-        "param": "It takes minutes to get ready for work.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Convenient adjustment of the disk tilt is a nice touch.",
-        "value": "Hopper volume",
-        "accessory": "-"
-      },
       {
         "param": "1.5 m³",
         "value": "Standard",
@@ -18883,11 +17138,6 @@
       {
         "param": "Mix feeding mechanism",
         "value": "chain-scraper",
-        "accessory": "-"
-      },
-      {
-        "param": "Proportional disc speed control system on the control unit inside the driver's cab",
-        "value": "optional",
         "accessory": "-"
       },
       {
@@ -18945,11 +17195,6 @@
         "accessory": "-"
       },
       {
-        "param": "Agresif ortamlara karşı geliştirilmiş dirence sahip 2 bileşenli poliüretan emaye ile kaplanmıştır",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
         "param": "Otonom pompa istasyonu",
         "value": "Kabin içi kontrol",
         "accessory": "-"
@@ -18982,11 +17227,6 @@
         "accessory": "-"
       },
       {
-        "param": "Coated with 2-component polyurethane enamel with improved resistance to aggressive environments",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
         "param": "Autonomous pumping station",
         "value": "In-cab control",
         "accessory": "-"
@@ -19006,62 +17246,7 @@
     "image": "/brands/ticab/ti-car-125.webp",
     "technicalData": [
       {
-        "param": "Başvuru",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Yol inşaatı veya onarımı gibi küçük alanlarda, depolarda, limanlarda, büyük alışveriş merkezlerinde, park alanlarında ve benzeri yerlerde çalışıyorsanız, TICAB'ın evrensel mini yükleyicisi TI-Car çok önemlidir. Bu kompakt özel ekipman, önemli yüklerde yüksek kaliteli performans sağlayacak şekilde tasarlanmıştır ve dar alanlarda güvenilir hizmet sunar.",
-        "value": "TI-Araba",
-        "accessory": "-"
-      },
-      {
-        "param": "TİKAB",
-        "value": null,
-        "accessory": "-"
-      },
-      {
-        "param": "TI-Car yükleyici çok yönlü ve çok işlevlidir; bu da onu inşaat, tarım ve kamu hizmetlerindeki çeşitli görevler için ideal kılar. Özellikle kar temizleme, toprak hareketi, kargo taşımacılığı ve yüzey tesviye gibi işlemler için kullanışlıdır.",
-        "value": "TI-Araba",
-        "accessory": "-"
-      },
-      {
-        "param": "Özellikler",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "TI-Car yükleyici, palet çatallarıyla kolay ve güvenli bir kaldırma olanağı sağlayan sabit bir boma sahiptir; ayarlanabilir direksiyon simidi ve konforlu koltuk süspansiyonu, uzun çalışma saatleri sırasında yorgunluğun azaltılmasına yardımcı olur. İki pedallı kontrol sistemi, zorlu ataşmanlarla veya engebeli zeminde çalışırken bile hassas manevra kabiliyeti sunar.",
-        "value": "TI-Araba",
-        "accessory": "-"
-      },
-      {
         "param": null,
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "TICAB'ın yol özel ekipmanlarını seçtiğinizde iş süreçlerinizde verimliliği ve güvenilirliği güvence altına alırsınız. Mini yükleyicilerimizin maliyeti, benzer spesifikasyonlara sahip diğer üreticilerin sunduklarından önemli ölçüde daha düşüktür ve yatırımınız için mükemmel değer sunar.",
-        "value": "TİKAB",
-        "accessory": "-"
-      },
-      {
-        "param": "Avantajları",
-        "value": "18,5 kW kapasiteli dizel motor ve yüksek kaliteli İtalyan hidroliği.",
-        "accessory": "-"
-      },
-      {
-        "param": "Rahat kontrol ve eşsiz manevra kabiliyeti.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Farklı türdeki ataşmanlarla tamamlayın.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Hayal edebileceğiniz en hızlı hizmeti sunuyoruz.",
         "value": "Standart",
         "accessory": "-"
       },
@@ -19128,62 +17313,7 @@
     ],
     "technicalDataEn": [
       {
-        "param": "Application",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "If you work in small areas of road construction or repair, in warehouses, docks, large shopping centers, park areas, and other similar locations, the universal mini-loader TI-Car from TICAB is essential. This compact special equipment is designed for high-quality performance with significant loads, offering reliable service in tight spaces.",
-        "value": "TI-Car",
-        "accessory": "-"
-      },
-      {
-        "param": "TICAB",
-        "value": "​",
-        "accessory": "-"
-      },
-      {
-        "param": "The TI-Car loader is versatile and multifunctional, making it ideal for various tasks in construction, agriculture, and utilities. It’s especially useful for operations like snow removal, soil movement, cargo transportation, and surface leveling.",
-        "value": "TI-Car",
-        "accessory": "-"
-      },
-      {
-        "param": "Properties",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "The TI-Car loader features a stable boom, enabling easy and safe lifting with pallet forks, while an adjustable steering wheel and comfortable seat suspension help reduce fatigue during extended working hours. Its two-pedal control system offers precise maneuverability, even when working with demanding attachments or on uneven ground.",
-        "value": "TI-Car",
-        "accessory": "-"
-      },
-      {
         "param": "​",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "When you choose road special equipment from TICAB, you secure efficiency and reliability in your work processes. The cost of our mini loaders is significantly lower than what other manufacturers with similar specifications provide, offering excellent value for your investment.",
-        "value": "TICAB",
-        "accessory": "-"
-      },
-      {
-        "param": "Advantages",
-        "value": "Diesel engine with a capacity of 18.5 kW and high-quality Italian hydraulics.",
-        "accessory": "-"
-      },
-      {
-        "param": "Convenient control and unsurpassed maneuverability.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Complete with different types of attachments.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "We offer the fastest service you could ever imagine.",
         "value": "Standard",
         "accessory": "-"
       },
@@ -19262,63 +17392,8 @@
     "image": "/brands/ticab/ti-car-225.webp",
     "technicalData": [
       {
-        "param": "Başvuru",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Yol inşaatı veya onarımı gibi küçük alanlarda, depolarda, limanlarda, büyük alışveriş merkezlerinde, park alanlarında ve benzeri yerlerde çalışıyorsanız, TICAB'ın evrensel mini yükleyicisi TI-Car çok önemlidir. Bu kompakt özel ekipman, önemli yüklerde yüksek kaliteli performans sağlayacak şekilde tasarlanmıştır ve dar alanlarda güvenilir hizmet sunar.",
-        "value": "TI-Araba",
-        "accessory": "-"
-      },
-      {
-        "param": "TİKAB",
-        "value": null,
-        "accessory": "-"
-      },
-      {
-        "param": "TI-Car yükleyici çok yönlü ve çok işlevlidir; bu da onu inşaat, tarım ve kamu hizmetlerindeki çeşitli görevler için ideal kılar. Özellikle kar temizleme, toprak hareketi, kargo taşımacılığı ve yüzey tesviye gibi işlemler için kullanışlıdır.",
-        "value": "TI-Araba",
-        "accessory": "-"
-      },
-      {
-        "param": "Özellikler",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "TI-Car yükleyici, palet çatallarıyla kolay ve güvenli bir kaldırma olanağı sağlayan sabit bir boma sahiptir; ayarlanabilir direksiyon simidi ve konforlu koltuk süspansiyonu, uzun çalışma saatleri sırasında yorgunluğun azaltılmasına yardımcı olur. İki pedallı kontrol sistemi, zorlu ataşmanlarla veya engebeli zeminde çalışırken bile hassas manevra kabiliyeti sunar.",
-        "value": "TI-Araba",
-        "accessory": "-"
-      },
-      {
         "param": null,
         "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "TICAB'ın yol özel ekipmanlarını seçtiğinizde iş süreçlerinizde verimliliği ve güvenilirliği güvence altına alırsınız. Mini yükleyicilerimizin maliyeti, benzer spesifikasyonlara sahip diğer üreticilerin sunduklarından önemli ölçüde daha düşüktür ve yatırımınız için mükemmel değer sunar.",
-        "value": "TİKAB",
-        "accessory": "-"
-      },
-      {
-        "param": "Avantajları",
-        "value": "18,5 kW kapasiteli dizel motor ve yüksek kaliteli İtalyan hidroliği.",
-        "accessory": "-"
-      },
-      {
-        "param": "Rahat kontrol ve eşsiz manevra kabiliyeti.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Farklı türdeki ataşmanlarla tamamlayın.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Hayal edebileceğiniz en hızlı hizmeti sunuyoruz.",
-        "value": "bir kg",
         "accessory": "-"
       },
       {
@@ -19389,63 +17464,8 @@
     ],
     "technicalDataEn": [
       {
-        "param": "Application",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "If you work in small areas of road construction or repair, in warehouses, docks, large shopping centers, park areas, and other similar locations, the universal mini-loader TI-Car from TICAB is essential. This compact special equipment is designed for high-quality performance with significant loads, offering reliable service in tight spaces.",
-        "value": "TI-Car",
-        "accessory": "-"
-      },
-      {
-        "param": "TICAB",
-        "value": "​",
-        "accessory": "-"
-      },
-      {
-        "param": "The TI-Car loader is versatile and multifunctional, making it ideal for various tasks in construction, agriculture, and utilities. It’s especially useful for operations like snow removal, soil movement, cargo transportation, and surface leveling.",
-        "value": "TI-Car",
-        "accessory": "-"
-      },
-      {
-        "param": "Properties",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "The TI-Car loader features a stable boom, enabling easy and safe lifting with pallet forks, while an adjustable steering wheel and comfortable seat suspension help reduce fatigue during extended working hours. Its two-pedal control system offers precise maneuverability, even when working with demanding attachments or on uneven ground.",
-        "value": "TI-Car",
-        "accessory": "-"
-      },
-      {
         "param": "​",
         "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "When you choose road special equipment from TICAB, you secure efficiency and reliability in your work processes. The cost of our mini loaders is significantly lower than what other manufacturers with similar specifications provide, offering excellent value for your investment.",
-        "value": "TICAB",
-        "accessory": "-"
-      },
-      {
-        "param": "Advantages",
-        "value": "Diesel engine with a capacity of 18.5 kW and high-quality Italian hydraulics.",
-        "accessory": "-"
-      },
-      {
-        "param": "Convenient control and unsurpassed maneuverability.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Complete with different types of attachments.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "We offer the fastest service you could ever imagine.",
-        "value": "A, kg",
         "accessory": "-"
       },
       {
@@ -19542,73 +17562,8 @@
     "image": "/brands/ticab/city-ant.webp",
     "technicalData": [
       {
-        "param": "Başvuru",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Robotik sokak elektrikli süpürgeleri CITY ANT plastik şişeler, tek kullanımlık sofra takımları, teneke kutular vb. pek çok çöpü işliyor. TICAB elektrikli endüstriyel süpürge, modası geçmiş el aletlerinin yerini başarıyla aldı. Artık özel girişimciler ve kamu hizmeti çalışanları güçlü kentsel atık elektrikli süpürgelerini kullanabilecek.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
         "param": "Robotik sokak elektrikli süpürgeleri CITY ANT",
         "value": "TİKAB",
-        "accessory": "-"
-      },
-      {
-        "param": "CITY ANT kentsel çöp süpürgesi, yaprakların döküldüğü sonbahar mevsiminde vazgeçilmez ekipmanlardır. Plastik şişeler, tek kullanımlık tabaklar, teneke kutular vb. gibi büyük miktardaki çöpleri işliyorlar. TICAB atık elektrikli süpürgeleri, modası geçmiş manuel aletlerin yerini başarıyla aldı. Artık özel girişimciler ve belediye çalışanları, büyük çöpler de dahil olmak üzere atık toplama için güçlü makineler kullanabiliyor.",
-        "value": "ŞEHİR KARINCA",
-        "accessory": "-"
-      },
-      {
-        "param": "Özellikler",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Profesyonel elektrikli süpürge makineleri yol bakım ve servis ekipmanları üretim alanlarımızdan biridir. Tüm ekipmanları kendi tesislerimizde tasarlıyor ve üretiyoruz. Çeşitli boyutlardaki alanları ve ulaşılması zor yerleri temizleyebilen kompakt ve manevra kabiliyeti yüksek elektrikli süpürgelere sahip olursunuz. CITY ANT kapı açıklıklarından bile geçebilir. Sessiz makine sorunsuz hareket eder ve tek kişi tarafından kolaylıkla çalıştırılır.",
-        "value": "ŞEHİR KARINCA",
-        "accessory": "-"
-      },
-      {
-        "param": "CITY ANT sokak süpürgeleri çalışırken hem çevre hem de çalışanlar rahat eder. Belediye temizlik ekipmanları sessiz ve hızlı çalışır. Pnömatik tekerlekler yüksek manevra kabiliyetine sahiptir, düz olmayan yüzeylerin kolayca üstesinden gelir ve çimler ve çiçek tarhları gibi yumuşak yüzeylerde iyi performans gösterir.",
-        "value": "ŞEHİR KARINCA",
-        "accessory": "-"
-      },
-      {
-        "param": "Sokakların, parkların, stadyumların ve diğer yerlerin temizliği söz konusu olduğunda ekonomik fizibilite, güvenilirlik ve ekipman etkinliği sorunları ortaya çıkar. Sokak elektrikli süpürgesinin çevre dostu olması da büyük önem taşıyor.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Elektrikli sokak temizleyicimiz ergonomiye hitap ederek manevra kabiliyeti, tekerlekler üzerinde yumuşak hareket ve basit kontrol sayesinde operatörün yükünü azaltır.  CITY ANT, yeterli uzunlukta bir emme hortumuna ve büyük bir atık kabına sahiptir; bu da onu çeşitli kir, atık, şişe, kutu ve farklı boyut ve şekillerdeki diğer döküntülerin toplanması için çok yönlü hale getirir.",
-        "value": "ŞEHİR KARINCA",
-        "accessory": "-"
-      },
-      {
-        "param": "Avantajları",
-        "value": "Elektrikli pillerle 8 saate kadar otonom çalışma.",
-        "accessory": "-"
-      },
-      {
-        "param": "Standart bir elektrik şebekesinden hızlı pil şarjı.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Elektrikli sokak temizleyicisinin beton, asfalt, kaldırımlar, çimler, kum vb. üzerinde etkili çalışması.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Çalışma sırasında zararlı emisyonlar yoktur.",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "CITY ANT AQUA modeliyle ıslak temizleme imkanı.",
-        "value": "ŞEHİR KARINCA SU.",
         "accessory": "-"
       },
       {
@@ -19669,73 +17624,8 @@
     ],
     "technicalDataEn": [
       {
-        "param": "Application",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Robotic street vacuum cleaners CITY ANT  handle a lot of garbage like plastic bottles, disposable tableware, cans, etc. The TICAB vacuum industrial cleaner has successfully replaced outdated hand tools. From now, private entrepreneurs and utility workers can use powerful urban waste vacuum cleaners.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
         "param": "Robotic street vacuum cleaners CITY ANT",
         "value": "TICAB",
-        "accessory": "-"
-      },
-      {
-        "param": "CITY ANT urban litter vacuum cleaning machines are indispensable equipment during the autumn season when leaves fall. They handle a large amount of debris such as plastic bottles, disposable dishes, cans, etc. TICAB waste vacuum cleaners have successfully replaced outdated manual tools. Now, private entrepreneurs and municipal workers can use powerful machines for waste collection, including large refuse.",
-        "value": "CITY ANT",
-        "accessory": "-"
-      },
-      {
-        "param": "Properties",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Professional vacuum cleaning machines are one of the areas of our production of road maintenance and servicing equipment. We design and manufacture all equipment on our own premises. You receive compact and maneuverable electric vacuum cleaners capable of cleaning areas of various sizes and in hard-to-reach places. CITY ANT can even pass through doorway openings. The silent machine moves smoothly and is easily operated by one person.",
-        "value": "CITY ANT",
-        "accessory": "-"
-      },
-      {
-        "param": "When CITY ANT street vacuum cleaners are in operation, everyone is comfortable, both the environment and the workers. Municipal cleaning equipment operates quietly and quickly. The pneumatic wheels feature high passability, easily overcoming uneven surfaces, and perform well on soft surfaces like lawns and flower beds.",
-        "value": "CITY ANT",
-        "accessory": "-"
-      },
-      {
-        "param": "When it comes to cleaning streets, parks, stadiums, and other locations, issues of economic feasibility, reliability, and equipment effectiveness arise. Environmental friendliness of the street vacuum cleaner is also of great importance.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Our vacuum street cleaner addresses ergonomics, reducing the operator's load due to its maneuverability, smooth movement on wheels, and simple control.  CITY ANT has a sufficient length of the suction hose and a large waste container, making it versatile for collecting various dirt, waste, bottles, boxes, and other debris of different sizes and shapes.",
-        "value": "CITY ANT",
-        "accessory": "-"
-      },
-      {
-        "param": "Advantages",
-        "value": "Up to 8 hours of autonomous operation on electric batteries.",
-        "accessory": "-"
-      },
-      {
-        "param": "Fast battery charging from a standard power grid.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Effective operation of the vacuum street cleaner on concrete, asphalt, sidewalks, lawns, sand, etc.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "No harmful emissions during operation.",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "The opportunity of wet cleaning with the model CITY ANT AQUA.",
-        "value": "CITY ANT AQUA.",
         "accessory": "-"
       },
       {
@@ -19808,11 +17698,6 @@
     "image": "/brands/ticab/um-130.webp",
     "technicalData": [
       {
-        "param": "Başvuru",
-        "value": "Standart",
-        "accessory": "-"
-      },
-      {
         "param": "Kentsel caddeler ve dar şehir yolları",
         "value": "Standart",
         "accessory": "-"
@@ -19843,18 +17728,8 @@
         "accessory": "-"
       },
       {
-        "param": "Büyük süpürücülerin erişiminin sınırlı olduğu alanlar",
-        "value": "Avantajları",
-        "accessory": "-"
-      },
-      {
         "param": "Vakumlama için emme sistemi",
         "value": "Emme sistemi",
-        "accessory": "-"
-      },
-      {
-        "param": "Dar ve ulaşılması zor alanlarda verimli çalışma için kompakt boyutlar",
-        "value": "Standart",
         "accessory": "-"
       },
       {
@@ -19885,11 +17760,6 @@
       {
         "param": "Doğrudan boşaltma sistemi",
         "value": "Standart",
-        "accessory": "-"
-      },
-      {
-        "param": "Mükemmel manevra kabiliyeti ve çekiş için sürekli dört tekerlekten çekiş",
-        "value": "dört tekerlekten çekiş",
         "accessory": "-"
       },
       {
@@ -19985,11 +17855,6 @@
     ],
     "technicalDataEn": [
       {
-        "param": "Application",
-        "value": "Standard",
-        "accessory": "-"
-      },
-      {
         "param": "Urban streets and narrow city roads",
         "value": "Standard",
         "accessory": "-"
@@ -20020,18 +17885,8 @@
         "accessory": "-"
       },
       {
-        "param": "Areas with limited access for large sweepers",
-        "value": "Advantages",
-        "accessory": "-"
-      },
-      {
         "param": "Suction system for vacuuming",
         "value": "Suction system",
-        "accessory": "-"
-      },
-      {
-        "param": "Compact dimensions for efficient operation in narrow and hard-to-reach areas",
-        "value": "Standard",
         "accessory": "-"
       },
       {
@@ -20062,11 +17917,6 @@
       {
         "param": "Direct unloading system",
         "value": "Standard",
-        "accessory": "-"
-      },
-      {
-        "param": "Permanent all-wheel drive for excellent maneuverability and traction",
-        "value": "all-wheel drive",
         "accessory": "-"
       },
       {
