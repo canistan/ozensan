@@ -1,0 +1,714 @@
+[
+  {
+    "slug": "cedima-cmk-400-dk",
+    "brand": "cedima",
+    "name": "CMK-400 DK",
+    "nameEn": "CMK-400 DK",
+    "image": "public/temp_special_saws/cedima-cmk-400-dk.webp",
+    "description": "Cedima mini vinç, geniş formatlı yapı elemanlarının taşınması için ideal bir araçtır. Her biri elektrikli kule tahrikli ve elektrikli kule tahriksiz ve elektrikli araba tahrikli ve elektrikli araba tahriksiz olmak üzere 2 modeli mevcuttur. Her iki model de elektrik motor tahrikli bir şasiye sahiptir. Her iki mini vinç çeşidi de güvenli ve hatasız çalışmanın yanı sıra iş sürecinin önemli ölçüde hızlanmasını garanti eder.",
+    "descriptionEn": "The Cedima mini crane is the ideal tool for moving large-format construction elements. It is available in 2 variants, each with and without electric tower drive and with and without electric trolley drive. Both models have a chassis with electric motor drive. Safe and error-free operation as well as a significant acceleration of the work process are guaranteed by both mini crane variants.",
+    "features": [
+      "Kanca yüksekliği 4,5 m, 6,0 m'ye kadar teleskopik",
+      "5,0 m yarıçapta yük kapasitesi 400 kg",
+      "4,0 m yarıçapta yük kapasitesi 500 kg",
+      "Hızlı ve hassas kaldırmalı, 8 m zincirli ve yük kancalı vinç",
+      "Tüm işlevler için yalnızca bir elektrik bağlantısı gerekir",
+      "İsteğe bağlı olarak kablolu veya radyo frekanslı uzaktan kumandayla (yeniden takılması kolay!)"
+    ],
+    "featuresEn": [
+      "Hook height 4.5 m, telescopic to 6.0 m",
+      "Load capacity at 5.0 m radius 400 kg",
+      "Load capacity at 4.0 m radius 500 kg",
+      "Hoist with fast and fine lift, 8 m chain and load hook",
+      "Only one electrical connection required for all functions",
+      "Optionally with a cable or radio remote control (easy to retrofit!)"
+    ],
+    "technicalData": [
+      {
+        "param": "Ağırlık",
+        "value": "2160 kg"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Weight",
+        "value": "2160 kg"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "agir-sanayi-ve-metal"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-dirt-collection-basket",
+    "brand": "cedima",
+    "name": "Kir toplama sepeti",
+    "nameEn": "Dirt collection basket",
+    "image": "public/temp_special_saws/cedima-dirt-collection-basket.webp",
+    "description": "CBM-35 B fırça makinelerinin kir toplama sepeti, fırçalanan kir parçacıklarını yakalar. Ön tekerlek takımının kapağına çok az çabayla monte edilebilir. Kir toplama sepetinin kullanılması, sizi çalışan derz fırçalama makinesine 25 m mesafe koyma zorunluluğundan kurtarır.",
+    "descriptionEn": "The dirt collection basket for the CBM-35 B brush machines catches the brushed dirt particles. It can be mounted on the cover of the front wheelset with little effort. The use of the dirt collection basket relieves you of the obligation to keep a distance of 25 m from the working grout brushing machine.",
+    "features": [
+      "Alet gerektirmeden kolay boşaltma",
+      "Teslimat kapsamı: kir toplama sepeti, özel fırça koruması, destek tekerlekli fırça başlığı"
+    ],
+    "featuresEn": [
+      "Easy emptying without tools",
+      "Scope of delivery: dirt collection basket, special brush protection, brush hood with support wheel"
+    ],
+    "technicalData": [
+      {
+        "param": "Birlikte kullanın",
+        "value": "CBM-35 B"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Use with",
+        "value": "CBM-35 B"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "agir-sanayi-ve-metal"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cf-206-2-b",
+    "brand": "cedima",
+    "name": "CF-206.2 B",
+    "nameEn": "CF-206.2 B",
+    "image": "public/temp_special_saws/cedima-cf-206-2-b.webp",
+    "description": "CBM-35 B fırça makinesi beton veya asfalttaki eski genleşme derzlerini temizlemek için kullanılır. Yeni bağlantı yerlerindeki kesme çamurlarının kalıntıları dökümden önce etkili bir şekilde temizlenebilir.",
+    "descriptionEn": "The CBM-35 B brush machine is used to clean old expansion joints in concrete or asphalt. Residues of cutting slurries from new joints can be effectively removed before casting.",
+    "features": [
+      "Hidrolik kesme derinliği ayarı",
+      "Düşük ağırlık merkezi",
+      "Merkez kılavuza göre tam pah deseni",
+      "Çalışma ışıkları"
+    ],
+    "featuresEn": [
+      "Hydraulic cutting depth adjustment",
+      "Low center of gravity",
+      "Exact chamfer pattern by center guide",
+      "Work lights"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "35 mm"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "250 mm"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "concentric"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "8.7 kW / 11.8 hp"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Petrol"
+      },
+      {
+        "param": "Motor tanımı",
+        "value": "Honda GX-390"
+      },
+      {
+        "param": "Motor marş motoru",
+        "value": "Reversing Start"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "hydraulic"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1120 / 510 / 930 mm"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "103 kg"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "35 mm"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "250 mm"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "concentric"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "8.7 kW / 11.8 hp"
+      },
+      {
+        "param": "Motor type",
+        "value": "Petrol"
+      },
+      {
+        "param": "Motor designation",
+        "value": "Honda GX-390"
+      },
+      {
+        "param": "Motor starter",
+        "value": "Reversing Start"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "hydraulic"
+      },
+      {
+        "param": "Feed",
+        "value": "manual"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1120 / 510 / 930 mm"
+      },
+      {
+        "param": "Weight",
+        "value": "103 kg"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "agir-sanayi-ve-metal"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-uff-laser-system",
+    "brand": "cedima",
+    "name": "UFF LAZER SİSTEMİ",
+    "nameEn": "UFF LASER SYSTEM",
+    "image": "public/temp_special_saws/cedima-uff-laser-system.webp",
+    "description": "UFF LAZER SİSTEMİ – Ultra Düz Endüstriyel Zeminler için Eksiksiz Çözüm Bir Bakışta Öne Çıkanlar Endüstriyel zeminlerin otomatik hassas frezelenmesi Endüstri 4.0'a hazır - dijital, ağ bağlantılı ve verimli Daha hızlı, daha ekonomik ve tekrarlanabilir süreç Tek bir kaynaktan anahtar teslim çözüm Avantajlarınız Maksimum Düzlük: 50 m'de ± 1 mm'ye kadar düşük toleranslar Yüksek Verimlilik: 350–400 m²/gün'e kadar Azaltılmış Proje Zaman Çizelgeleri ve minimum arıza süresi Minimalist Nachbearbeitungsaufwand durch feine Frässtruktur Otomasyon sayesinde Daha Düşük İşgücü Gereksinimleri Sağlam mühendislik sayesinde Düşük Bakım Teknoloji ve Yenilik Lazer Kontrollü Tesviye Sistemi (LLS) Eğim Yönlendirme Sistemi (SSS) Lazer Takip Kılavuz Sistemi (LTGS) Maksimum hassasiyet için Akıllı Sensör Teknolojisi Pürüzlülüğü takip etmek yerine aktif yönlendirme Sisteme Genel Bakış LAZER DEVESİ: Yüksek hassasiyetli freze makinesi (Çekirdek Sistemi) Eğimli Deve: Alt tabaka hazırlama için verimli çözüm WOLF MAX: Yüksek performanslı toz yönetimi DRAGONFLY: Hassas yüzey ölçümü ve haritalama DBS Taşlama Makineleri: Optimize edilmiş bitirme ve cilalama Uygulama Alanları Yüksek Raflı ve Dar Koridor Depolama (VNA) Lojistik Merkezleri ve Üretim Salonları Veri Merkezleri Modern Endüstriyel Tesisler Sonuç Standartlarla Uyumlu Kalite (örn. EN 15620, DIN 18202, TR34) Otomatik lojistik sistemleri için Mükemmel Temel Dayanıklı, hassas ve uygun maliyetli zemin kaplama çözümleri",
+    "descriptionEn": "UFF LASER SYSTEM – The Complete Solution for Ultra-Flat Industrial Floors Highlights at a Glance Automated precision milling of industrial floors Industry 4.0 ready - digital, networked and efficient Faster, more economical, and reproducible process Turnkey solution from a single source Your Advantages Maximum Flatness: Tolerances as low as ± 1 mm over 50 m High Productivity: Up to 350–400 m²/day Reduced Project Timelines and minimized downtime Minimaler Nachbearbeitungsaufwand durch feine Frässtruktur Lower Labor Requirements thanks to automation Low Maintenance through robust engineering Technology & Innovation Laser-Controlled Leveling System (LLS) Slope Steering System (SSS) Laser Track Guiding System (LTGS) Intelligent Sensor Technology for maximum precision Active guidance instead of following unevenness System Overview LASER CAMEL: High-precision milling machine (Core System) SLOPE CAMEL: Efficient solution for substrate preparation WOLF MAX: High-performance dust management DRAGONFLY: Precise surface measurement and mapping DBS Grinding Machines: Optimized finishing and polishing Areas of Application High-Bay & Narrow Aisle Warehousing (VNA) Logistics Centers & Production Halls Data Centers Modern Industrial Facilities The Result Standard-Compliant Quality (e.g., EN 15620, DIN 18202, TR34) The Perfect Foundation for automated logistics systems Durable, precise, and cost-effective flooring solutions",
+    "features": [
+      "50 metrelik uzunluk boyunca 1 mm'ye kadar en yüksek doğruluk.",
+      "5 mm çıkarmayla 350–400 m²'lik yüksek günlük çıktı.",
+      "İnce öğütme yapısı, tek bir öğütme adımında sonradan işlemeye olanak sağlar.",
+      "Minimum bakım çabası için tamamen dişli tahrikli konsept.",
+      "Akıllı lazer kontrolü sayesinde operatör etkisinin en aza indirilmesi.",
+      "Düzlemlerin, rampaların (4°'ye kadar) ve geçiş alanlarının hassas şekilde işlenmesi."
+    ],
+    "featuresEn": [
+      "Highest accuracy of up to 1 mm over a length of 50 meters.",
+      "High daily output of 350–400 m² with 5 mm removal.",
+      "Fine milling structure allows post-processing in just one grinding step.",
+      "Fully gear-driven concept for minimal maintenance effort.",
+      "Minimization of operator influence through intelligent laser control.",
+      "Precise processing of planes, ramps (up to 4°), and transition areas."
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "25 mm"
+      },
+      {
+        "param": "Kesme mili hızı",
+        "value": "Milling head: 180–260 rpm / Milling drum: 1,100–1,600 rpm"
+      },
+      {
+        "param": "Maks. montaj genişliği",
+        "value": "640 mm"
+      },
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "18,5 kW"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Electric"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "400 V; 32–40 A; 50 Hz."
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Automatic via LLS (Laser Level System) or manual in 0.25 mm increments"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1980 × 796 × 1408 mm"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "1160–1170 kg"
+      },
+      {
+        "param": "Birlikte kullanın",
+        "value": "WOLF MAX suction system and DRAGONFLY Floor Profiler."
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "25 mm"
+      },
+      {
+        "param": "Cutting shaft speed",
+        "value": "Milling head: 180–260 rpm / Milling drum: 1,100–1,600 rpm"
+      },
+      {
+        "param": "Max. mounting width",
+        "value": "640 mm"
+      },
+      {
+        "param": "Motor output (net)",
+        "value": "18,5 kW"
+      },
+      {
+        "param": "Motor type",
+        "value": "Electric"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "400 V; 32–40 A; 50 Hz."
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Automatic via LLS (Laser Level System) or manual in 0.25 mm increments"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1980 × 796 × 1408 mm"
+      },
+      {
+        "param": "Weight",
+        "value": "1160–1170 kg"
+      },
+      {
+        "param": "Use with",
+        "value": "WOLF MAX suction system and DRAGONFLY Floor Profiler."
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "agir-sanayi-ve-metal"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-1-pair-of-chamfering-discs",
+    "brand": "cedima",
+    "name": "1 çift pah kırma diski",
+    "nameEn": "1 pair of chamfering discs",
+    "image": "public/temp_special_saws/cedima-1-pair-of-chamfering-discs.webp",
+    "description": "Harcı uygulamadan önce beton derzlerinde pah kırmak için 1 set (2 adet) pah diski.",
+    "descriptionEn": "1 set (2 pieces) of chamfering discs for chamfering concrete joints before applying the grout.",
+    "features": [
+      "Çap: 230, 250 veya 300 mm",
+      "Eğim açısı 45°",
+      "Segment: 9,5 x 9,5 x 50 mm"
+    ],
+    "featuresEn": [
+      "Diameter: 230, 250 or 300 mm",
+      "Bevel angle 45°",
+      "Segment: 9.5 x 9.5 x 50 mm"
+    ],
+    "technicalData": [
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "25.4 mm"
+      },
+      {
+        "param": "Birlikte kullanın",
+        "value": "CF-260.2 B"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Bore hole of blade",
+        "value": "25.4 mm"
+      },
+      {
+        "param": "Use with",
+        "value": "CF-260.2 B"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "agir-sanayi-ve-metal"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cbs-1500",
+    "brand": "cedima",
+    "name": "CBS-1500",
+    "nameEn": "CBS-1500",
+    "image": "public/temp_special_saws/cedima-cbs-1500.webp",
+    "description": "Kesim çamuru zemin testeresinin tahliye sistemi vasıtasıyla çamur ayırıcıya ulaşır. CBS-1500 mobil beton bulamaç ayırıcı, büyük miktarlarda kesme bulamacı tutabilir. Katılar filtrelenir ve su devreye geri döndürülebilir (su kesme testeresi). Toplanan katılar daha sonra çevre dostu bir şekilde bertaraf edilebilir.",
+    "descriptionEn": "The cutting sludge reaches the sludge separator via the extraction system of the floor saw. The CBS-1500 mobile concrete slurry separator can hold large quantities of cutting slurry. Solids are filtered out and the water can be returned to the circuit (cutting water floor saw). The collected solids can then be disposed of in an environmentally friendly manner.",
+    "features": [
+      "Kendi jeneratörümüz sayesinde besleme hatlarından bağımsız",
+      "Uzun süreli kesintisiz çalışma için büyük hacimli filtre sistemi",
+      "Filtre dolduğunda sesli sinyal ve otomatik kapanma",
+      "Filtreyi kesme işlemini kesintiye uğratmadan sadece 30 saniyede boşaltın",
+      "1100 l net kapasiteli temiz su depoları",
+      "Sistemin yol onayına sahip tandem dingilli treylerlere montajı"
+    ],
+    "featuresEn": [
+      "Independent of supply lines by our own power generator",
+      "Large-volume filter system for long, uninterrupted operation",
+      "Acoustic signal and automatic shut-off when the filter is full",
+      "Empty the filter in just 30 seconds without interrupting the cutting process",
+      "Clear water tanks with 1100 l net capacity",
+      "Construction of the system on tandem axle trailers with road approval"
+    ],
+    "technicalData": [
+      {
+        "param": "Ağırlık",
+        "value": "2240 kg unladen weight"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Weight",
+        "value": "2240 kg unladen weight"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "agir-sanayi-ve-metal"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cbm-35-b",
+    "brand": "cedima",
+    "name": "CBM-35 B",
+    "nameEn": "CBM-35 B",
+    "image": "public/temp_special_saws/cedima-cbm-35-b.webp",
+    "description": "CF-206.2 B, eklem işlemeye yönelik özel bir makinedir. Kenarların kırılmasını önlemek için, dökmeden önce 45° pah ile kesilmiş beton derzlerini sağlar.",
+    "descriptionEn": "The CF-206.2 B is a special machine for joint processing. It provides concrete joints that have already been cut with a 45° chamfer before pouring to prevent the edges from breaking off.",
+    "features": [
+      "Ön tekerlek çifti mile paralel olarak ayarlanabilir, fırçalama derinliği daima sabit kalır.",
+      "Kolay besleme için büyük tekerlekler",
+      "Sağa ve sola ayarlanabilen fırlatma deflektörlü fırça koruma kapağı",
+      "Kolay kurulum ve yer değiştirme için optimum ağırlık dağılımı ve yardımcı tekerlek",
+      "Yüksekliği ayarlanabilir ve düşük titreşimli tutma yeri",
+      "Yükleme ve taşıma için vinç gözü"
+    ],
+    "featuresEn": [
+      "Front pair of wheels can be adjusted parallel to the shaft, brushing depth always remains constant.",
+      "Large wheels for easy feed",
+      "Brush protection cover with ejection deflector adjustable on the right and left",
+      "Optimal weight distribution and jockey wheel for easy set-up and relocation",
+      "Height-adjustable and low-vibration handle",
+      "Crane eye for loading and moving"
+    ],
+    "technicalData": [
+      {
+        "param": "Maks. kesme derinliği",
+        "value": "60 mm"
+      },
+      {
+        "param": "maks. Testere Bıçağı Ø",
+        "value": "300 mm"
+      },
+      {
+        "param": "Bıçak montajı",
+        "value": "right"
+      },
+      {
+        "param": "Maks. motor çıkışı",
+        "value": "8.7 kW / 11.8 hp"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Petrol"
+      },
+      {
+        "param": "Motor tanımı",
+        "value": "Honda GX-390"
+      },
+      {
+        "param": "Motor marş motoru",
+        "value": "Reversing Start"
+      },
+      {
+        "param": "Kesme derinliği ayarı",
+        "value": "Crank handle"
+      },
+      {
+        "param": "Beslemek",
+        "value": "manual"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1290 / 610 / 1020 mm"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "117 kg"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Max. cutting depth",
+        "value": "60 mm"
+      },
+      {
+        "param": "max. Saw Blade Ø",
+        "value": "300 mm"
+      },
+      {
+        "param": "Blade mounting",
+        "value": "right"
+      },
+      {
+        "param": "Max. motor output",
+        "value": "8.7 kW / 11.8 hp"
+      },
+      {
+        "param": "Motor type",
+        "value": "Petrol"
+      },
+      {
+        "param": "Motor designation",
+        "value": "Honda GX-390"
+      },
+      {
+        "param": "Motor starter",
+        "value": "Reversing Start"
+      },
+      {
+        "param": "Cutting depth adjustment",
+        "value": "Crank handle"
+      },
+      {
+        "param": "Feed",
+        "value": "manual"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1290 / 610 / 1020 mm"
+      },
+      {
+        "param": "Weight",
+        "value": "117 kg"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "agir-sanayi-ve-metal"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-joint-brush",
+    "brand": "cedima",
+    "name": "Ortak fırça",
+    "nameEn": "Joint brush",
+    "image": "public/temp_special_saws/cedima-joint-brush.webp",
+    "description": "CBM-35 B fırçalama makinesiyle genleşme derzlerini temizlemek için derz fırçası.",
+    "descriptionEn": "Grout brush for cleaning expansion joints with the CBM-35 B brushing machine.",
+    "features": [
+      "Çap: 300 mm",
+      "Fırça genişliği: 6, 8 veya 10 mm",
+      "Sertleştirilmiş çelik tel",
+      "Maks. fırçalama derinliği 68 mm",
+      "Montaj deliği 20 veya 25,4 mm"
+    ],
+    "featuresEn": [
+      "Diameter: 300 mm",
+      "Brush width: 6, 8 or 10 mm",
+      "Hardened steel wire",
+      "Max. brushing depth 68 mm",
+      "Mounting hole 20 or 25,4 mm"
+    ],
+    "technicalData": [
+      {
+        "param": "Bıçağın delik deliği",
+        "value": "20 and 25,4 mm"
+      },
+      {
+        "param": "Birlikte kullanın",
+        "value": "CBM-35 B"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Bore hole of blade",
+        "value": "20 and 25,4 mm"
+      },
+      {
+        "param": "Use with",
+        "value": "CBM-35 B"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "agir-sanayi-ve-metal"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-hag-12-22",
+    "brand": "cedima",
+    "name": "HAG-12.22",
+    "nameEn": "HAG-12.22",
+    "image": "public/temp_special_saws/cedima-hag-12-22.webp",
+    "description": "HAG-12.22, tamamen hidrolik veya elektrohidrolik duvar testerelerinin veya tel testerelerin çalıştırılması için 3 adet paralel taşıma dişli pompası ve kontrol paneline (besleme kontrolü) sahip bir hidrolik güç ünitesidir. Ayrıca hidrolik karotlu sondaj makinelerini çalıştırmak için de kullanılabilir.",
+    "descriptionEn": "The HAG-12.22 is a hydraulic power unit with 3 parallel conveying gear pumps and control panel (feed control) for the operation of fully hydraulic or electrohydraulic wall saws or wire saws. It can also be used to drive hydraulic core drilling rigs.",
+    "features": [
+      "Üçlü dişli pompa - üç yağ devresinin aynı anda beslenmesi",
+      "Tel veya duvar testerelerinin besleme kontrolü için ek kontrol devresi ve hidrolik kontrol paneli",
+      "Kolay taşıma için çıkarılabilir elektrik motoru",
+      "Otomatik yumuşak başlangıç",
+      "Çift aktif motor izleme (sıcaklık/akım)",
+      "Doppelte aktive Motorüberwachung (Sıcaklık /Strom)"
+    ],
+    "featuresEn": [
+      "Triple gear pump - simultaneous supply of three oil circuits",
+      "Additional control circuit and hydraulic control panel for feed control of wire or wall saws",
+      "Removable electric motor for easy transport",
+      "Automatic soft start",
+      "Double active motor monitoring (temperature/current)",
+      "Doppelte aktive Motorüberwachung (Temperatur /Strom)"
+    ],
+    "technicalData": [
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "15 kW"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "400 V / 32 A / 50 Hz"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "850 / 600 / 1200 mm"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "approx. 190 kg"
+      },
+      {
+        "param": "Birlikte kullanın",
+        "value": "Wall saws, wire saws, hydraulic core drilling rigs"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Motor output (net)",
+        "value": "15 kW"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "400 V / 32 A / 50 Hz"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "850 / 600 / 1200 mm"
+      },
+      {
+        "param": "Weight",
+        "value": "approx. 190 kg"
+      },
+      {
+        "param": "Use with",
+        "value": "Wall saws, wire saws, hydraulic core drilling rigs"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "agir-sanayi-ve-metal"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-hag-12-12",
+    "brand": "cedima",
+    "name": "HAG-12.12",
+    "nameEn": "HAG-12.12",
+    "image": "public/temp_special_saws/cedima-hag-12-12.webp",
+    "description": "Tamamen hidrolik veya elektrohidrolik duvar testerelerinin veya tel testerelerin çalıştırılması için 2 paralel taşıma dişli pompasına sahip sağlam hidrolik güç ünitesi. Ayrıca hidrolik karotlu sondaj makinelerini çalıştırmak için de kullanılabilir.",
+    "descriptionEn": "Robust hydraulic power unit with 2 parallel conveying gear pumps for the operation of fully hydraulic or electrohydraulic wall saws or wire saws. It can also be used to drive hydraulic core drilling rigs.",
+    "features": [
+      "Çift Dişli Pompa",
+      "2 Değiştirilebilir yağ akış hızları",
+      "Acil durdurma yoluyla uzaktan kapatma için solenoid valf ve elektronikler",
+      "Kolay taşıma için çıkarılabilir elektrik motoru",
+      "Otomatik yumuşak başlangıç",
+      "Çift aktif motor izleme (sıcaklık/akım)"
+    ],
+    "featuresEn": [
+      "Dual Gear Pump",
+      "2 Switchable oil flow rates",
+      "Solenoid valve and electronics for remote shutdown via emergency stop",
+      "Removable electric motor for easy transport",
+      "Automatic soft start",
+      "Double active motor monitoring (temperature/current)"
+    ],
+    "technicalData": [
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "15 kW"
+      },
+      {
+        "param": "Elektrik bağlantısı",
+        "value": "400 V / 32 A / 50 Hz"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "850 / 600 / 1200 mm"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "approx. 188 kg"
+      },
+      {
+        "param": "Birlikte kullanın",
+        "value": "Wall saws, wire saws, hydraulic core drilling rigs"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Motor output (net)",
+        "value": "15 kW"
+      },
+      {
+        "param": "Electrical connection",
+        "value": "400 V / 32 A / 50 Hz"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "850 / 600 / 1200 mm"
+      },
+      {
+        "param": "Weight",
+        "value": "approx. 188 kg"
+      },
+      {
+        "param": "Use with",
+        "value": "Wall saws, wire saws, hydraulic core drilling rigs"
+      }
+    ],
+    "solutions": [
+      "yol-yapim-ve-bakim",
+      "agir-sanayi-ve-metal"
+    ],
+    "isFeatured": false
+  }
+]

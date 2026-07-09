@@ -1,0 +1,771 @@
+[
+  {
+    "slug": "cedima-fliese-turbo-maxx",
+    "brand": "cedima",
+    "name": "FLIESE TURBO MAXX",
+    "nameEn": "FLIESE TURBO MAXX",
+    "image": "public/temp_handheld/cedima-fliese-turbo-maxx.webp",
+    "description": "Hassas kesimler ve maksimum kesme konforu için ince turbo kesme kenarlı, çok yüksek kesimli birinci sınıf kesme diski.",
+    "descriptionEn": "Very high-cutting premium cutting disk with a thin turbo cutting rim for precise cuts and maximum cutting comfort.",
+    "features": [
+      "115 - 350 mm arası çaplar",
+      "Uygulama: Islak ve kuru kesme",
+      "Açılı taşlama makineleri ve masa testereleri için uygundur",
+      "Detaylı bilgiye PDF formatında katalog sayfasından ulaşabilirsiniz."
+    ],
+    "featuresEn": [
+      "Diameters from 115 - 350 mm",
+      "Application: Wet and dry cutting",
+      "Suitable for angle grinders, table saws",
+      "Detailed information can be found on the catalogue page in PDF format."
+    ],
+    "technicalData": [
+      {
+        "param": "Malzeme",
+        "value": "Tiles, refractory glassy, hard-fired clinker, paving clinker, vitrified clay pipe, coarse ceramic materials, natural stone, artificial stone, polymer concrete, reinforced concrete, slate, plasterboard, profiled sheets"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Material",
+        "value": "Tiles, refractory glassy, hard-fired clinker, paving clinker, vitrified clay pipe, coarse ceramic materials, natural stone, artificial stone, polymer concrete, reinforced concrete, slate, plasterboard, profiled sheets"
+      }
+    ],
+    "solutions": [
+      "elmas-uc-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-ds-maxx",
+    "brand": "cedima",
+    "name": "DS MAXX",
+    "nameEn": "DS MAXX",
+    "image": "public/temp_handheld/cedima-ds-maxx.webp",
+    "description": "Duvarcılık, kum-kireç tuğlaları, Poroton ve benzeri malzemeler için havşalar olabilir.",
+    "descriptionEn": "Can countersinks for masonry, sand-lime bricks, Poroton and similar materials.",
+    "features": [
+      "Çap 68 ve 82 mm",
+      "El matkaplarıyla kullanım için",
+      "Yeniden stoklama mümkün değil.",
+      "Lazer kaynaklı segmentler",
+      "Detaylı bilgiye PDF formatında katalog sayfasından ulaşabilirsiniz."
+    ],
+    "featuresEn": [
+      "Diameter 68 and 82 mm",
+      "For use with hand drills",
+      "No restocking possible.",
+      "Laser-welded segments",
+      "Detailed information can be found on the catalogue page in PDF format."
+    ],
+    "technicalData": [
+      {
+        "param": "Matkap ucu bağlantısı",
+        "value": "M-16 female thread"
+      },
+      {
+        "param": "Malzeme",
+        "value": "Application: masonry, sand-lime brick, Poroton and similar materials"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Drill bit connection",
+        "value": "M-16 female thread"
+      },
+      {
+        "param": "Material",
+        "value": "Application: masonry, sand-lime brick, Poroton and similar materials"
+      }
+    ],
+    "solutions": [
+      "elmas-uc-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cst-solid-abrasiv",
+    "brand": "cedima",
+    "name": "CST KATI AŞINDIRICI",
+    "nameEn": "CST SOLID ABRASIV",
+    "image": "public/temp_handheld/cedima-cst-solid-abrasiv.webp",
+    "description": "Şap ve diğer aşındırıcı yüzeylerin zımparalanması ve düzleştirilmesi için elmas taşlama diski. 2 sıralı tasarımda taşlama diski.",
+    "descriptionEn": "Diamond grinding disc for sanding and smoothing screed and other abrasive surfaces. Grinding disc in 2-row design.",
+    "features": [
+      "100 - 180 mm arası çap",
+      "Uygulama: Emmeli ve emmesiz kuru zımparalama",
+      "Açılı taşlama makineleri için uygundur",
+      "Montaj deliği 22,23 mm",
+      "Detaylı bilgiye PDF formatında katalog sayfasından ulaşabilirsiniz."
+    ],
+    "featuresEn": [
+      "Diameter from 100 - 180 mm",
+      "Application: Dry sanding with and without suction",
+      "Suitable for angle grinders",
+      "Mounting bore 22.23 mm",
+      "Detailed information can be found on the catalogue page in PDF format."
+    ],
+    "technicalData": [
+      {
+        "param": "Malzeme",
+        "value": "Screed and other abrasive materials"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Material",
+        "value": "Screed and other abrasive materials"
+      }
+    ],
+    "solutions": [
+      "elmas-uc-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-bk-syncro-maxx-dry",
+    "brand": "cedima",
+    "name": "BK SYNCRO MAXX KURU",
+    "nameEn": "BK SYNCRO MAXX DRY",
+    "image": "public/temp_handheld/cedima-bk-syncro-maxx-dry.webp",
+    "description": "Sert malzemeler için Prof kuru matkap ucu.",
+    "descriptionEn": "Prof dry drill bit for hard materials.",
+    "features": [
+      "32 ila 202 mm arası çaplar",
+      "Kuru delme sistemleri ve el matkaplarıyla kullanım için (ayrıca yumuşak darbeli)",
+      "Yeniden stoklama mümkün değil.",
+      "Lazer kaynaklı segmentler",
+      "Detaylı bilgiye PDF formatında katalog sayfasından ulaşabilirsiniz."
+    ],
+    "featuresEn": [
+      "Diameters from 32 to 202 mm",
+      "For use with dry drilling systems and hand drills (also with soft impact)",
+      "No restocking possible.",
+      "Laser-welded segments",
+      "Detailed information can be found on the catalogue page in PDF format."
+    ],
+    "technicalData": [
+      {
+        "param": "kullanılabilir matkap ucu uzunluğu",
+        "value": "300 mm"
+      },
+      {
+        "param": "Matkap ucu bağlantısı",
+        "value": "1 1/4'' UNC sleeve"
+      },
+      {
+        "param": "Malzeme",
+        "value": "Application: Sand-lime brick (highly compacted), concrete and reinforced concrete (conditional) with dry drilling systems and hand drill motors"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "usable drill bit length",
+        "value": "300 mm"
+      },
+      {
+        "param": "Drill bit connection",
+        "value": "1 1/4'' UNC sleeve"
+      },
+      {
+        "param": "Material",
+        "value": "Application: Sand-lime brick (highly compacted), concrete and reinforced concrete (conditional) with dry drilling systems and hand drill motors"
+      }
+    ],
+    "solutions": [
+      "elmas-uc-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cst-solid",
+    "brand": "cedima",
+    "name": "CST KATI",
+    "nameEn": "CST SOLID",
+    "image": "public/temp_handheld/cedima-cst-solid.webp",
+    "description": "Beton, klinker, doğal taş ve diğer sert yüzeylerin zımparalanması ve düzleştirilmesi için elmas taşlama diski. Geniş emme açıklıklarına ve uzun servis ömrüne sahip taşlama diski.",
+    "descriptionEn": "Diamond grinding disc for sanding and smoothing concrete, clinker, natural stone and other hard surfaces. Grinding disc with large extraction openings and long service life.",
+    "features": [
+      "100 - 180 mm arası çap",
+      "Uygulama: Emmeli ve emmesiz kuru zımparalama",
+      "Açılı taşlama makineleri için uygundur",
+      "Montaj deliği 22,23 mm",
+      "Detaylı bilgiye PDF formatında katalog sayfasından ulaşabilirsiniz."
+    ],
+    "featuresEn": [
+      "Diameter from 100 - 180 mm",
+      "Application: Dry sanding with and without suction",
+      "Suitable for angle grinders",
+      "Mounting bore 22.23 mm",
+      "Detailed information can be found on the catalogue page in PDF format."
+    ],
+    "technicalData": [
+      {
+        "param": "Malzeme",
+        "value": "Concrete, Reinforced Concrete, Exposed Concrete, Artificial and Natural Stone, Solid Concrete Stone, Curbs, Paving Concrete"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Material",
+        "value": "Concrete, Reinforced Concrete, Exposed Concrete, Artificial and Natural Stone, Solid Concrete Stone, Curbs, Paving Concrete"
+      }
+    ],
+    "solutions": [
+      "elmas-uc-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-ds-syncro",
+    "brand": "cedima",
+    "name": "DS SYNCRO",
+    "nameEn": "DS SYNCRO",
+    "image": "public/temp_handheld/cedima-ds-syncro.webp",
+    "description": "Yüksek yoğunluklu kum-kireç tuğlaları, beton, içi boş bloklar, klinkerler için havşa açabilir.",
+    "descriptionEn": "Can countersink for high-density sand-lime bricks, concrete, hollow blocks, clinkers.",
+    "features": [
+      "Çap 68 ve 82 mm",
+      "El matkaplarıyla kullanım için",
+      "Yeniden stoklama mümkün değil.",
+      "Sabit elmaslı lazer kaynaklı segmentler",
+      "Detaylı bilgiye PDF formatında katalog sayfasından ulaşabilirsiniz."
+    ],
+    "featuresEn": [
+      "Diameter 68 and 82 mm",
+      "For use with hand drills",
+      "No restocking possible.",
+      "Laser-welded segments with set diamonds",
+      "Detailed information can be found on the catalogue page in PDF format."
+    ],
+    "technicalData": [
+      {
+        "param": "Matkap ucu bağlantısı",
+        "value": "M-16 female thread"
+      },
+      {
+        "param": "Malzeme",
+        "value": "Application: High-density sand-lime brick, concrete, hollow blocks, clinker bricks"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Drill bit connection",
+        "value": "M-16 female thread"
+      },
+      {
+        "param": "Material",
+        "value": "Application: High-density sand-lime brick, concrete, hollow blocks, clinker bricks"
+      }
+    ],
+    "solutions": [
+      "elmas-uc-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-beton-ar-maxx",
+    "brand": "cedima",
+    "name": "BETON AR MAXX",
+    "nameEn": "BETON AR MAXX",
+    "image": "public/temp_handheld/cedima-beton-ar-maxx.webp",
+    "description": "Çok uzun hizmet ömrüyle birleştirilmiş birinci sınıf kesme davranışı BETON AR MAXX kesme diskinin karakteristik özelliğidir. Daha güçlü makinelerde kullanılmak üzere tasarlanan bu ürün, şantiyedeki en yaygın uygulamaların üstesinden gelir.",
+    "descriptionEn": "First-class cutting behaviour combined with a very long service life characterise the BETON AR MAXX cutting disk. Designed for use on more powerful machines, it masters the most common applications on the construction site.",
+    "features": [
+      "230 - 600 mm arası çaplar",
+      "Uygulama: Islak ve kuru kesme",
+      "Açılı taşlama makineleri, benzin ayırıcılar, masa testereleri, zemin testereleri için uygundur",
+      "Detaylı bilgiye PDF formatında katalog sayfasından ulaşabilirsiniz."
+    ],
+    "featuresEn": [
+      "Diameters from 230 - 600 mm",
+      "Application: Wet and dry cutting",
+      "Suitable for angle grinders, petrol separators, table saws, floor saws",
+      "Detailed information can be found on the catalogue page in PDF format."
+    ],
+    "technicalData": [
+      {
+        "param": "Malzeme",
+        "value": "Concrete, Reinforced Concrete, Exposed Concrete, Artificial and Natural Stone, Solid Concrete Stone, Curbs, Paving Concrete"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Material",
+        "value": "Concrete, Reinforced Concrete, Exposed Concrete, Artificial and Natural Stone, Solid Concrete Stone, Curbs, Paving Concrete"
+      }
+    ],
+    "solutions": [
+      "elmas-uc-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-granit-naturstein-maxx",
+    "brand": "cedima",
+    "name": "GRANİT NATURSTEIN MAXX",
+    "nameEn": "GRANIT NATURSTEIN MAXX",
+    "image": "public/temp_handheld/cedima-granit-naturstein-maxx.webp",
+    "description": "Uzun servis ömrü ve hızlı kesim için lazer kaynaklı, özellikle yüksek elmaslı turbo segmentler bu kesme diskinin karakteristik özelliğidir. Olası geniş uygulama yelpazesi, bu kesme diskini doğal taş işleme veya peyzaj düzenlemesi için evrensel bir araç haline getirir.",
+    "descriptionEn": "Laser-welded, particularly high diamond turbo segments for long service life and fast cutting characterize this cutting disk. The wide range of possible applications makes this cutting disk a universal tool for natural stone processors or landscaping.",
+    "features": [
+      "115 - 450 mm arası çaplar",
+      "Uygulama: Islak ve kuru kesme",
+      "Açılı taşlama makineleri, benzin ayırıcılar, masa testereleri, zemin testereleri için uygundur",
+      "Detaylı bilgiye PDF formatında katalog sayfasından ulaşabilirsiniz."
+    ],
+    "featuresEn": [
+      "Diameters from 115 - 450 mm",
+      "Application: Wet and dry cutting",
+      "Suitable for angle grinders, petrol separators, table saws, floor saws",
+      "Detailed information can be found on the catalogue page in PDF format."
+    ],
+    "technicalData": [
+      {
+        "param": "Malzeme",
+        "value": "Granite, hard natural stone, concrete, exposed concrete and basalt"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Material",
+        "value": "Granite, hard natural stone, concrete, exposed concrete and basalt"
+      }
+    ],
+    "solutions": [
+      "elmas-uc-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cst-merkur",
+    "brand": "cedima",
+    "name": "CST MERKUR",
+    "nameEn": "CST MERKUR",
+    "image": "public/temp_handheld/cedima-cst-merkur.webp",
+    "description": "Beton, klinker, doğal taş ve diğer sert yüzeylerin zımparalanması ve düzleştirilmesi için elmas taşlama diski. 19 mm merkezi delikli ve 5 ikincil delikli makine montajı H tipi.",
+    "descriptionEn": "Diamond grinding disc for sanding and smoothing concrete, clinker, natural stone and other hard surfaces. Machine mount type H with 19 mm central bore and 5 secondary holes.",
+    "features": [
+      "150 - 150 mm arası çaplar",
+      "Uygulama: Emmeli ve emmesiz kuru zımparalama",
+      "Açılı taşlama makineleri için uygundur",
+      "Montaj deliği 19,00 mm",
+      "Detaylı bilgiye PDF formatında katalog sayfasından ulaşabilirsiniz."
+    ],
+    "featuresEn": [
+      "Diameters from 150 - 150 mm",
+      "Application: Dry sanding with and without suction",
+      "Suitable for angle grinders",
+      "Mounting bore 19.00 mm",
+      "Detailed information can be found on the catalogue page in PDF format."
+    ],
+    "technicalData": [
+      {
+        "param": "Malzeme",
+        "value": "Beton, clinker, natural stone"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Material",
+        "value": "Beton, clinker, natural stone"
+      }
+    ],
+    "solutions": [
+      "elmas-uc-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cst-polymer",
+    "brand": "cedima",
+    "name": "CST POLİMER",
+    "nameEn": "CST POLYMER",
+    "image": "public/temp_handheld/cedima-cst-polymer.webp",
+    "description": "Polimer bazlı kaplamaların ve diğer sert yüzeylerin zımparalanması için elmas taşlama diski.",
+    "descriptionEn": "Diamond grinding disc for sanding polymer-based coatings and other hard surfaces.",
+    "features": [
+      "Çap 125 mm",
+      "Uygulama: Emmeli ve emmesiz kuru zımparalama",
+      "Açılı taşlama makineleri için uygundur",
+      "Montaj deliği 22,23 mm",
+      "Detaylı bilgiye PDF formatında katalog sayfasından ulaşabilirsiniz."
+    ],
+    "featuresEn": [
+      "Diameter 125 mm",
+      "Application: Dry sanding with and without suction",
+      "Suitable for angle grinders",
+      "Mounting bore 22.23 mm",
+      "Detailed information can be found on the catalogue page in PDF format."
+    ],
+    "technicalData": [
+      {
+        "param": "Malzeme",
+        "value": "Polymer-based coatings"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Material",
+        "value": "Polymer-based coatings"
+      }
+    ],
+    "solutions": [
+      "elmas-uc-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-beton-turbo-maxx",
+    "brand": "cedima",
+    "name": "BETON TURBO MAXX",
+    "nameEn": "BETON TURBO MAXX",
+    "image": "public/temp_handheld/cedima-beton-turbo-maxx.webp",
+    "description": "Lazer kaynaklı turbo segmentlere ve özellikle geniş bir uygulama yelpazesine sahip birinci sınıf elmas kesme diski. Segmentlerin özel geometrisi özellikle hızlı ve yorulmadan çalışmayı mümkün kılar. İnşaat profesyonelleri için en yüksek performans.",
+    "descriptionEn": "Premium diamond cutting disk with laser-welded turbo segments and a particularly wide range of applications. The special geometry of the segments enables particularly fast and fatigue-free work. Highest performance for construction professionals.",
+    "features": [
+      "125 - 600 mm arası çaplar",
+      "Uygulama: Islak ve kuru kesme",
+      "Açılı taşlama makineleri, benzin ayırıcılar, masa testereleri, zemin testereleri için uygundur",
+      "Detaylı bilgiye PDF formatında katalog sayfasından ulaşabilirsiniz."
+    ],
+    "featuresEn": [
+      "Diameters from 125 - 600 mm",
+      "Application: Wet and dry cutting",
+      "Suitable for angle grinders, petrol separators, table saws, floor saws",
+      "Detailed information can be found on the catalogue page in PDF format."
+    ],
+    "technicalData": [
+      {
+        "param": "Malzeme",
+        "value": "Concrete, Reinforced Concrete, Artificial Stone, Natural Stone, Hard Fired Clinker, Grey Cast Iron"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Material",
+        "value": "Concrete, Reinforced Concrete, Artificial Stone, Natural Stone, Hard Fired Clinker, Grey Cast Iron"
+      }
+    ],
+    "solutions": [
+      "elmas-uc-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cst-turbo",
+    "brand": "cedima",
+    "name": "CST TURBO",
+    "nameEn": "CST TURBO",
+    "image": "public/temp_handheld/cedima-cst-turbo.webp",
+    "description": "Beton, klinker, doğal taş ve diğer sert yüzeylerin zımparalanması ve düzleştirilmesi için elmas taşlama diski. 2 segment katmanlı ve çok uzun kullanım ömrüne sahip taşlama diski.",
+    "descriptionEn": "Diamond grinding disc for sanding and smoothing concrete, clinker, natural stone and other hard surfaces. Grinding disc with 2 segment layers and very long service life.",
+    "features": [
+      "100 - 180 mm arası çap",
+      "Uygulama: Emmeli ve emmesiz kuru zımparalama",
+      "Açılı taşlama makineleri için uygundur",
+      "Montaj deliği 22,23 mm",
+      "Detaylı bilgiye PDF formatında katalog sayfasından ulaşabilirsiniz."
+    ],
+    "featuresEn": [
+      "Diameter from 100 - 180 mm",
+      "Application: Dry sanding with and without suction",
+      "Suitable for angle grinders",
+      "Mounting bore 22.23 mm",
+      "Detailed information can be found on the catalogue page in PDF format."
+    ],
+    "technicalData": [
+      {
+        "param": "Malzeme",
+        "value": "Beton, clinker, natural stone"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Material",
+        "value": "Beton, clinker, natural stone"
+      }
+    ],
+    "solutions": [
+      "elmas-uc-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-fliese-maxx",
+    "brand": "cedima",
+    "name": "FLIESE MAXX",
+    "nameEn": "FLIESE MAXX",
+    "image": "public/temp_handheld/cedima-fliese-maxx.webp",
+    "description": "Kenarların kırılmasını önleyen kapalı kesme kenarı sayesinde çok iyi kesme hızına ve mükemmel kesme kenarı kalitesine sahip birinci sınıf fayans kesme diski. Arkasından yürünen makinelerde veya masa testerelerinde fayans döşeyenler için ilk tercih.",
+    "descriptionEn": "Premium tile cutting disk with very good cutting speed and excellent cutting edge quality due to the closed cutting edge, which prevents the edges from breaking off. First choice for tilers on walk-behind machines or table saws.",
+    "features": [
+      "115 - 350 mm arası çaplar",
+      "Uygulama: Islak ve kuru kesme",
+      "Açılı taşlama makineleri ve masa testereleri için uygundur",
+      "Detaylı bilgiye PDF formatında katalog sayfasından ulaşabilirsiniz."
+    ],
+    "featuresEn": [
+      "Diameters from 115 - 350 mm",
+      "Application: Wet and dry cutting",
+      "Suitable for angle grinders, table saws",
+      "Detailed information can be found on the catalogue page in PDF format."
+    ],
+    "technicalData": [
+      {
+        "param": "Malzeme",
+        "value": "Tiles, ceramics, porcelain stoneware, refractory vitreous"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Material",
+        "value": "Tiles, ceramics, porcelain stoneware, refractory vitreous"
+      }
+    ],
+    "solutions": [
+      "elmas-uc-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-beton-ar-solid",
+    "brand": "cedima",
+    "name": "BETON AR KATI",
+    "nameEn": "BETON AR SOLID",
+    "image": "public/temp_handheld/cedima-beton-ar-solid.webp",
+    "description": "Şantiyede günlük kullanım için geniş bir uygulama yelpazesine ve 115 ila 800 mm arasında en geniş çap aralığına sahip üniversal kesme diski. Daha da geliştirilmiş segment formülasyonu, iyi kesme davranışı ve daha uzun servis ömrü sağlar. Paranızın tam karşılığını veren, çok yönlü bir cihaz.",
+    "descriptionEn": "Universal cutting disk with a wide range of applications and the widest diameter range from 115 to 800 mm for daily use on the construction site. A further improved segment formulation ensures good cutting behavior and an even longer service life. An all-rounder with excellent value for money.",
+    "features": [
+      "115 - 800 mm arası çaplar",
+      "Uygulama: Islak ve kuru kesme",
+      "Açılı taşlama makineleri, benzin ayırıcılar, masa testereleri, zemin testereleri için uygundur",
+      "Detaylı bilgiye PDF formatında katalog sayfasından ulaşabilirsiniz."
+    ],
+    "featuresEn": [
+      "Diameters from 115 - 800 mm",
+      "Application: Wet and dry cutting",
+      "Suitable for angle grinders, petrol separators, table saws, floor saws",
+      "Detailed information can be found on the catalogue page in PDF format."
+    ],
+    "technicalData": [
+      {
+        "param": "Malzeme",
+        "value": "Concrete, Reinforced Concrete, Exposed Concrete, Artificial and Natural Stone, Solid Concrete Stone, Curbs, Paving Concrete"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Material",
+        "value": "Concrete, Reinforced Concrete, Exposed Concrete, Artificial and Natural Stone, Solid Concrete Stone, Curbs, Paving Concrete"
+      }
+    ],
+    "solutions": [
+      "elmas-uc-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-granit-naturstein-silent",
+    "brand": "cedima",
+    "name": "GRANİT NATURSTEIN SESSİZ",
+    "nameEn": "GRANIT NATURSTEIN SILENT",
+    "image": "public/temp_handheld/cedima-granit-naturstein-silent.webp",
+    "description": "Kesme ve rölantide özellikle sessiz çalışma için sandviç bıçak göbeğine sahip elmas kesme diski ve yorulmadan çalışma için azaltılmış titreşimler. Sandviç çekirdek, iki dış çelik katmandan ve tamamen birbirine bağlanmış bir iç metal folyodan oluşur. Bu tasarım titreşimlerin iletimini minimuma indirir.",
+    "descriptionEn": "Diamond cutting disk with sandwich blade core for particularly quiet working in cutting and idle and reduced vibrations for fatigue-free working. The sandwich core consists of two outer layers of steel and an inner metal foil that is fully bonded. This design limits the transmission of vibrations to a minimum.",
+    "features": [
+      "230 - 600 mm arası çaplar",
+      "Uygulama: Islak ve kuru kesme",
+      "Açılı taşlama makineleri, benzin ayırıcılar, masa testereleri, zemin testereleri için uygundur",
+      "Detaylı bilgiye PDF formatında katalog sayfasından ulaşabilirsiniz."
+    ],
+    "featuresEn": [
+      "Diameters from 230 - 600 mm",
+      "Application: Wet and dry cutting",
+      "Suitable for angle grinders, petrol separators, table saws, floor saws",
+      "Detailed information can be found on the catalogue page in PDF format."
+    ],
+    "technicalData": [
+      {
+        "param": "Malzeme",
+        "value": "Granite (up to saw class 5), basalt, concrete, reinforced concrete, clinker, hard-fired clinker, artificial stone"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Material",
+        "value": "Granite (up to saw class 5), basalt, concrete, reinforced concrete, clinker, hard-fired clinker, artificial stone"
+      }
+    ],
+    "solutions": [
+      "elmas-uc-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-bb-1-t-maxx",
+    "brand": "cedima",
+    "name": "BB-1 T MAXX",
+    "nameEn": "BB-1 T MAXX",
+    "image": "public/temp_handheld/cedima-bb-1-t-maxx.webp",
+    "description": "Duvarcılık, kum-kireç tuğlası, proton, tuğla için Prof kuru matkap ucu.",
+    "descriptionEn": "Prof dry drill bit for masonry, sand-lime brick, proton, brick.",
+    "features": [
+      "41'den 225 mm'ye kadar çaplar",
+      "Kuru delme sistemleri ve el matkaplarıyla kullanım için",
+      "Yeniden stoklama mümkün",
+      "Detaylı bilgiye PDF formatında katalog sayfasından ulaşabilirsiniz."
+    ],
+    "featuresEn": [
+      "Diameters from 41 to 225 mm",
+      "For use with dry drilling systems and hand drills",
+      "Restocking possible",
+      "Detailed information can be found on the catalogue page in PDF format."
+    ],
+    "technicalData": [
+      {
+        "param": "kullanılabilir matkap ucu uzunluğu",
+        "value": "300 mm"
+      },
+      {
+        "param": "Matkap ucu bağlantısı",
+        "value": "1 1/4'' UNC sleeve"
+      },
+      {
+        "param": "Malzeme",
+        "value": "Application: Masonry, sand-lime brick, proton, brick"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "usable drill bit length",
+        "value": "300 mm"
+      },
+      {
+        "param": "Drill bit connection",
+        "value": "1 1/4'' UNC sleeve"
+      },
+      {
+        "param": "Material",
+        "value": "Application: Masonry, sand-lime brick, proton, brick"
+      }
+    ],
+    "solutions": [
+      "elmas-uc-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-asphalt-maxx",
+    "brand": "cedima",
+    "name": "ASFALT MAXX",
+    "nameEn": "ASPHALT MAXX",
+    "image": "public/temp_handheld/cedima-asphalt-maxx.webp",
+    "description": "Özel segment geometrisine sahip aşındırıcı malzemeleri kesmek için profesyonel elmas kesme diski. Yaprak çekirdeğinin delinmesi stabilize edici bir etkiye sahiptir ve kuru kesme sırasında bıçağın ilave soğumasını sağlar.",
+    "descriptionEn": "Professional diamond cutting disk for cutting abrasive materials with special segment geometry. Drilling in the leaf core has a stabilizing effect and provides additional cooling of the blade during dry cutting.",
+    "features": [
+      "125 - 800 mm arası çaplar",
+      "Uygulama: Islak ve kuru kesme",
+      "Açılı taşlama makineleri, benzin ayırıcılar, masa testereleri, zemin testereleri için uygundur",
+      "Detaylı bilgiye PDF formatında katalog sayfasından ulaşabilirsiniz."
+    ],
+    "featuresEn": [
+      "Diameters from 125 - 800 mm",
+      "Application: Wet and dry cutting",
+      "Suitable for angle grinders, petrol separators, table saws, floor saws",
+      "Detailed information can be found on the catalogue page in PDF format."
+    ],
+    "technicalData": [
+      {
+        "param": "Malzeme",
+        "value": "Asphalt, Screed, Sand-lime brick (bulk density < 2), Poroton, Refractory porous, Aerated concrete, Sandstone, Clay brick"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Material",
+        "value": "Asphalt, Screed, Sand-lime brick (bulk density < 2), Poroton, Refractory porous, Aerated concrete, Sandstone, Clay brick"
+      }
+    ],
+    "solutions": [
+      "elmas-uc-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-cst-merkur-abrasiv",
+    "brand": "cedima",
+    "name": "CST MERKUR AŞINDIRICI",
+    "nameEn": "CST MERKUR ABRASIV",
+    "image": "public/temp_handheld/cedima-cst-merkur-abrasiv.webp",
+    "description": "Şap ve diğer aşındırıcı yüzeylerin zımparalanması ve düzleştirilmesi için elmas taşlama diski. 19 mm merkezi delikli ve 5 ikincil delikli makine montajı H tipi.",
+    "descriptionEn": "Diamond grinding disc for sanding and smoothing screed and other abrasive surfaces. Machine mount type H with 19 mm central bore and 5 secondary holes.",
+    "features": [
+      "150 - 150 mm arası çaplar",
+      "Uygulama: Emmeli ve emmesiz kuru zımparalama",
+      "Açılı taşlama makineleri için uygundur",
+      "Montaj deliği 19,00 mm",
+      "Detaylı bilgiye PDF formatında katalog sayfasından ulaşabilirsiniz."
+    ],
+    "featuresEn": [
+      "Diameters from 150 - 150 mm",
+      "Application: Dry sanding with and without suction",
+      "Suitable for angle grinders",
+      "Mounting bore 19.00 mm",
+      "Detailed information can be found on the catalogue page in PDF format."
+    ],
+    "technicalData": [
+      {
+        "param": "Malzeme",
+        "value": "Screed and other abrasive materials"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Material",
+        "value": "Screed and other abrasive materials"
+      }
+    ],
+    "solutions": [
+      "elmas-uc-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-asphalt-solid",
+    "brand": "cedima",
+    "name": "ASFALT KATI",
+    "nameEn": "ASPHALT SOLID",
+    "image": "public/temp_handheld/cedima-asphalt-solid.webp",
+    "description": "Aşındırıcı malzemelerde kullanıma yönelik lazer kaynaklı elmas kesme diski. Daha yüksek segment yüksekliğine sahip özel koruma segmentleri, bıçak göbeğini ve segmentlerin kaynaklı bağlantılarını erken aşınmaya karşı korur ve böylece servis ömrünü önemli ölçüde artırır.",
+    "descriptionEn": "Laser-welded diamond cutting disk for use in abrasive materials. Special protection segments with a higher segment height protect the blade core and welded joint of the segments from premature wear and thus significantly increase the service life.",
+    "features": [
+      "125 - 600 mm arası çaplar",
+      "Uygulama: Islak ve kuru kesme",
+      "Açılı taşlama makineleri, benzin ayırıcılar, masa testereleri, zemin testereleri için uygundur",
+      "Detaylı bilgiye PDF formatında katalog sayfasından ulaşabilirsiniz."
+    ],
+    "featuresEn": [
+      "Diameters from 125 - 600 mm",
+      "Application: Wet and dry cutting",
+      "Suitable for angle grinders, petrol separators, table saws, floor saws",
+      "Detailed information can be found on the catalogue page in PDF format."
+    ],
+    "technicalData": [
+      {
+        "param": "Malzeme",
+        "value": "Asphalt, sand-lime bricks, other abrasive materials"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Material",
+        "value": "Asphalt, sand-lime bricks, other abrasive materials"
+      }
+    ],
+    "solutions": [
+      "elmas-uc-ve-diskler"
+    ],
+    "isFeatured": false
+  }
+]

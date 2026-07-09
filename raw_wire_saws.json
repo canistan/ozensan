@@ -1,0 +1,124 @@
+[
+  {
+    "slug": "cedima-csa-100-h",
+    "brand": "cedima",
+    "name": "CSA-100 H",
+    "nameEn": "CSA-100 H",
+    "image": "public/temp_wire_saws/cedima-csa-100-h.webp",
+    "description": "CEDIMA CSA-100, elmas tellerle küçük ve orta ölçekli kesimlerin gerçekleştirilmesine yönelik çok patentli ve ödüllü bir makinedir. Küçük boyutlarına ve düşük ağırlığına rağmen 20 kW'a kadar son derece yüksek bir güç elde edilir. Özellikle kompakt boyutlarına rağmen makine, 6,5 m'ye kadar halat çekilmesine izin verir. Ayrıca, makine montaj borusu üzerinde hareket ettirildiğinde 1,5 m daha halat çekilebilir.",
+    "descriptionEn": "The CEDIMA CSA-100 is a multi-patented and award-winning machine for the execution of small and medium-sized cut-offs with diamond wires. Despite its small dimensions and low weight, an extremely high power of up to 20 kW is achieved. Despite its particularly compact dimensions, the machine allows up to 6.5 m of rope to be pulled in. In addition, there is another 1.5 m by moving the machine on the mounting tube.",
+    "features": [
+      "hiçbir bileşen tek başına 21 kg'dan daha ağır değildir",
+      "20 kW'a kadar yüksek güç",
+      "Patentli koruma ve güvenlik teknolojisi",
+      "Otomatik besleme sayesinde operatör rahatlığı",
+      "Taşıması ve montajı son derece kolay",
+      "Değiştirilebilir lastik bandajlı, alüminyumdan yapılmış yüksek kaliteli depolama ve saptırma silindirleri"
+    ],
+    "featuresEn": [
+      "no single component is heavier than 21 kg",
+      "High power of up to 20 kW",
+      "Patented protection and security technology",
+      "Relief for the operator due to automatic feed",
+      "Extremely easy to transport and assemble",
+      "High-quality storage and deflection rollers made of aluminium with replaceable rubber bandages"
+    ],
+    "technicalData": [
+      {
+        "param": "Motor tipi",
+        "value": "Hydraulic motor"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1050 x 300 x 460 mm"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "60.8 kg"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Motor type",
+        "value": "Hydraulic motor"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1050 x 300 x 460 mm"
+      },
+      {
+        "param": "Weight",
+        "value": "60.8 kg"
+      }
+    ],
+    "solutions": [
+      "halatli-kesme"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "cedima-csa-1001-h",
+    "brand": "cedima",
+    "name": "CSA-1001 H",
+    "nameEn": "CSA-1001 H",
+    "image": "public/temp_wire_saws/cedima-csa-1001-h.webp",
+    "description": "CSA-1001 H otomatik tel testere, kademesiz halat geri çekme ve kullanıcı dostu kontrol ile donatılmış, en ağır tel testere görevleri için ideal, otomatik kesme kuvveti kontrolüne sahip, kompakt, taşıma dostu bir halat tahrik ünitesidir. Tüm sürücüler yüksek kaliteli, düşük parazitli hidrolik bileşenlerle tasarlanmıştır. Büyük ölçüde otomatik kesme işlemi sayesinde operatör rahatlar. Yanlış işlemden kaynaklanan hata kaynakları minimuma indirilir. CSA-1001 H, güvenli bir şantiye tasarımı ve özellikle kısa kurulum süreleri ile karakterize edilir. Küçük boyutları ile 14 adet depolama makarası ile maksimum 21 m'ye kadar oldukça geniş bir kullanılabilir halat depolama kapasitesine ulaşır. Geniş bir aksesuar yelpazesi mevcuttur.",
+    "descriptionEn": "The CSA-1001 H automatic wire saw is a compact, transport-friendly rope drive unit with automatic cutting force control, ideal for the heaviest wire saw tasks, equipped with stepless rope retraction and a user-friendly control. All drives are designed with high-quality, low-interference hydraulic components. Due to the largely automatic sawing process, the operator is relieved. Sources of error due to incorrect operation are reduced to a minimum. The CSA-1001 H is characterized by a safe construction site design and particularly short set-up times. With its small dimensions, it achieves a very large usable rope storage capacity of a maximum of 21 m with 14 storage rollers. An extensive range of accessories is available.",
+    "features": [
+      "Hafif alüminyum yapı",
+      "İçerisindeki dayanıklı hidrolik silindir, ipi sabit bir gerilimde tutar",
+      "Otomatik besleme sayesinde operatör rahatlığı",
+      "Değiştirilebilir lastik bandajlı, alüminyumdan yapılmış yüksek kaliteli depolama ve saptırma silindirleri",
+      "24 kW'a kadar güç",
+      "Döner makaralı merkezi halat girişi ve çıkışı"
+    ],
+    "featuresEn": [
+      "Lightweight aluminium construction",
+      "Durable hydraulic cylinder inside keeps the rope at a constant tension",
+      "Relief for the operator due to automatic feed",
+      "High-quality storage and deflection rollers made of aluminium with replaceable rubber bandages",
+      "Power up to 24 kW",
+      "Central rope entry and exit with swivel pulleys"
+    ],
+    "technicalData": [
+      {
+        "param": "Motor çıkışı (net)",
+        "value": "max. 30 kW"
+      },
+      {
+        "param": "Motor tipi",
+        "value": "Hydraulic motor"
+      },
+      {
+        "param": "Boyutlar U/G/Y (nakliye)",
+        "value": "1950 x 600 x 550 mm"
+      },
+      {
+        "param": "Ağırlık",
+        "value": "180 kg"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Motor output (net)",
+        "value": "max. 30 kW"
+      },
+      {
+        "param": "Motor type",
+        "value": "Hydraulic motor"
+      },
+      {
+        "param": "Dimensions L/W/H (transport)",
+        "value": "1950 x 600 x 550 mm"
+      },
+      {
+        "param": "Weight",
+        "value": "180 kg"
+      }
+    ],
+    "solutions": [
+      "halatli-kesme"
+    ],
+    "isFeatured": false
+  }
+]
