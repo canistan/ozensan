@@ -60,7 +60,7 @@ export default async function SolutionDetailPage({ params }: Props) {
   }
 
   // Get products that are tagged with this solution
-  const solutionProducts = productsData.filter((p) => p.solutions.includes(solution.slug));
+  const solutionProducts = productsData.filter((p) => p.solutions && p.solutions.includes(solution.slug));
 
   return (
     <div className="bg-[#F8F9FA] min-h-screen">

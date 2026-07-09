@@ -59,11 +59,18 @@ export default async function ProductDetailPage({ params }: Props) {
   return (
     <div className="bg-[#F8F9FA] min-h-screen pt-32 pb-24">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <Breadcrumb items={[
-          { label: tn("products"), href: "/urunler" },
-          { label: product.brand, href: `/markalar/${brandInfo?.slug || product.brand.toLowerCase()}` },
-          { label: product.name }
-        ]} />
+        <div className="flex justify-between items-center mb-6">
+          <Breadcrumb items={[
+            { label: tn("products"), href: "/urunler" },
+            { label: product.brand, href: `/markalar/${brandInfo?.slug || product.brand.toLowerCase()}` },
+            { label: product.name }
+          ]} />
+          
+          <Link href={{ pathname: "/markalar/[slug]", "params": { "slug": brandInfo?.slug || product.brand.toLowerCase() } }} className="hidden sm:flex items-center text-sm font-bold text-[#8A95A5] hover:text-[#C61A1A] transition-colors uppercase tracking-widest">
+            <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+            {locale === "en" ? `BACK TO ${product.brand.toUpperCase()}` : `${product.brand.toUpperCase()} ÜRÜNLERİNE DÖN`}
+          </Link>
+        </div>
         
         <div className="bg-white rounded-2xl border border-neutral-200 overflow-hidden shadow-sm flex flex-col lg:flex-row">
           
@@ -142,12 +149,20 @@ export default async function ProductDetailPage({ params }: Props) {
             {/* Technical Data Table */}
             {((locale === "en" ? (product as any).technicalDataEn : product.technicalData) || product.technicalData) && ((locale === "en" ? (product as any).technicalDataEn : product.technicalData) || product.technicalData).length > 0 && (
               <div className={`lg:col-span-${(product as any).videos && (product as any).videos.length > 0 ? '2' : '3'}`}>
-                <h2 className="text-2xl font-black text-[#1A1E24] mb-8">{t("techSpecs")}</h2>
+                <h2 className="text-2xl font-black text-[#1A1E24] mb-8">
+                  {product.brand.toLowerCase() === 'victor' 
+                    ? (locale === 'en' ? 'Industries / Applications' : 'Endüstriler / Kullanım Alanları') 
+                    : t("techSpecs")}
+                </h2>
                 <div className="bg-white rounded-xl border border-neutral-200 overflow-hidden">
                   <table className="w-full text-left border-collapse">
                     <thead>
                       <tr className="bg-[#F8F9FA] border-b border-neutral-200">
-                        <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">{t("parameter") || 'Parametre'}</th>
+                        <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">
+                          {product.brand.toLowerCase() === 'victor' 
+                            ? (locale === 'en' ? 'Industry / Application' : 'Kullanım Alanı') 
+                            : (t("parameter") || 'Parametre')}
+                        </th>
                         <th className="py-4 px-6 font-bold text-[#1A1E24] text-sm uppercase tracking-wider">{t("value") || 'Değer'}</th>
 
                       </tr>
