@@ -51,9 +51,9 @@ export default function MobileMenu() {
             <div className="flex flex-col gap-3">
               <Link href="/markalar" onClick={closeMenu} className="text-[#8A95A5] uppercase text-sm tracking-widest hover:text-[#C61A1A] transition-colors">{t("brands")}</Link>
               <div className="flex flex-col gap-3 pl-4 border-l-2 border-[#C61A1A]/20">
+                <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'ticab' } }} onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors text-lg">TICAB</Link>
                 <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'cedima' } }} onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors text-lg">CEDIMA</Link>
                 <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'duss' } }} onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors text-lg">DUSS</Link>
-                <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'ticab' } }} onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors text-lg">TICAB</Link>
                 <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'victor' } }} onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors text-lg">VICTOR</Link>
                 <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'gce' } }} onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors text-lg">GCE</Link>
               </div>
