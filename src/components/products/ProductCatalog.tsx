@@ -3,6 +3,7 @@
 import React, { useState, useMemo } from 'react';
 import { Link } from "@/i18n/routing";
 import { useTranslations, useLocale } from "next-intl";
+import { useSearchParams } from 'next/navigation';
 
 type Product = {
   slug: string;
@@ -50,6 +51,33 @@ const brandCategoriesMap: Record<string, { slug: string; name: string; nameEn?: 
     { slug: 'regulators-flowmeters', name: 'Regülatörler ve Debimetreler', nameEn: 'Regulators & Flowmeters' },
     { slug: 'valves-arrestors', name: 'Emniyet Valfleri', nameEn: 'Flashback Arrestors & Valves' },
     { slug: 'machines-manifolds', name: 'Makineler ve Sistemler', nameEn: 'Machines & Manifolds' }
+  ],
+  gce: [
+    { slug: 'nozzles', name: 'Kesme Uçları', nameEn: 'Nozzles' },
+    { slug: 'combi-torches', name: 'Kombi Hamlaçlar', nameEn: 'Combi Torches' },
+    { slug: 'welding-torches', name: 'Kaynak Hamlaçları', nameEn: 'Welding Torches' },
+    { slug: 'injector-cutting-torches', name: 'Enjektörlü Kesme Hamlaçları', nameEn: 'Injector Cutting Torches' },
+    { slug: 'nozzle-mix-cutting-torches', name: 'Lüle Karışımlı Kesme Hamlaçları', nameEn: 'Nozzle Mix Cutting Torches' },
+    { slug: 'combi-torch-sets', name: 'Kombi Hamlaç Setleri', nameEn: 'Combi Torch Sets' },
+    { slug: 'machine-cutting-nozzles', name: 'Makine Kesme Uçları', nameEn: 'Machine Cutting Nozzles' },
+    { slug: 'automated-torches-systems', name: 'Otomatik Hamlaç ve Sistemler', nameEn: 'Automated Torches & Systems' },
+    { slug: 'portable-cutting-machines', name: 'Portatif Kesme Makineleri', nameEn: 'Portable Cutting Machines' },
+    { slug: 'machine-cutting-accessories', name: 'Makine Kesim Aksesuarları', nameEn: 'Machine Cutting Accessories' },
+    { slug: 'cylinder-regulators', name: 'Tüp Regülatörleri', nameEn: 'Cylinder Regulators' },
+    { slug: 'propane-regulators', name: 'Propan Regülatörleri', nameEn: 'Propane Regulators' },
+    { slug: 'technical-grade-regulators', name: 'Teknik Derece Regülatörler', nameEn: 'Technical Grade Regulators' },
+    { slug: 'standard-cylinder-valves', name: 'Standart Tüp Vanaları', nameEn: 'Standard Cylinder Valves' },
+    { slug: 'industrial-vipr-combination-valves', name: 'Endüstriyel Kombinasyon Vanaları', nameEn: 'Industrial VIPR Combination Valves' },
+    { slug: 'bundle-pack-valves', name: 'Çoklu Tüp Paket Vanaları', nameEn: 'Bundle Pack Valves' },
+    { slug: 'flashback-arrestors', name: 'Alev Geri Tepme Emniyet Valfleri', nameEn: 'Flashback Arrestors' },
+    { slug: 'hoses', name: 'Hortumlar', nameEn: 'Hoses' },
+    { slug: 'torch-accessories', name: 'Hamlaç Aksesuarları', nameEn: 'Torch Accessories' },
+    { slug: 'filling-adaptors', name: 'Dolum Adaptörleri', nameEn: 'Filling Adaptors' },
+    { slug: 'safety-equipment-and-ppe', name: 'İş Güvenliği Ekipmanları (KKE)', nameEn: 'Safety Equipment and PPE' },
+    { slug: 'air-propane-equipment', name: 'Hava ve Propan Ekipmanları', nameEn: 'Air & Propane Equipment' },
+    { slug: 'arc-welding-and-cutting', name: 'Ark Kaynağı ve Kesimi', nameEn: 'Arc Welding & Cutting' },
+    { slug: 'nitrogen-generators', name: 'Azot (Nitrojen) Jeneratörleri', nameEn: 'Nitrogen Generators' },
+    { slug: 'accessories', name: 'Genel Aksesuarlar', nameEn: 'Accessories' }
   ]
 };
 
@@ -74,7 +102,9 @@ interface ProductCatalogProps {
 export default function ProductCatalog({ initialProducts, brands, solutions }: ProductCatalogProps) {
   const t = useTranslations("CatalogPage");
   const locale = useLocale();
-  const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
+  const searchParams = useSearchParams();
+  const initialBrand = searchParams.get('brand');
+  const [selectedBrands, setSelectedBrands] = useState<string[]>(initialBrand ? [initialBrand] : []);
   const [selectedBrandCategories, setSelectedBrandCategories] = useState<string[]>([]);
   const [selectedSolutions, setSelectedSolutions] = useState<string[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
@@ -112,12 +142,12 @@ export default function ProductCatalog({ initialProducts, brands, solutions }: P
   const filteredProducts = useMemo(() => {
     return initialProducts.filter(product => {
       // Brand filter
-      if (selectedBrands.length > 0 && !selectedBrands.includes(product.brand)) {
+      if (selectedBrands.length > 0 && !selectedBrands.includes(product.brand.toLowerCase())) {
         return false;
       }
       
       // Brand Category filter
-      if (brandHasSelectedCategories(product.brand)) {
+      if (brandHasSelectedCategories(product.brand.toLowerCase())) {
         if (!product.brandCategory || !selectedBrandCategories.includes(product.brandCategory)) {
           return false;
         }

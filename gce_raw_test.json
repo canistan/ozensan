@@ -1,0 +1,202 @@
+[
+  {
+    "id": "gce-k-cutting-nozzle",
+    "slug": "k-cutting-nozzle",
+    "brand": "GCE",
+    "nameEn": "K Cutting Nozzle",
+    "name": "K Cutting Nozzle",
+    "descriptionEn": "Gas control solutions for general and steel fabrication, from portable kits to full workshop gas supply systems.",
+    "description": "Gas control solutions for general and steel fabrication, from portable kits to full workshop gas supply systems.",
+    "image": "https://cdn.sanity.io/images/j98xsmmt/production/339b73225d202884a8abcb6fdccec00c627a80c4-3225x2801.png?fm=webp&fit=crop&auto=format",
+    "featuresEn": [],
+    "features": [],
+    "technicalDataEn": [
+      {
+        "param": "Product Type",
+        "value": "Injector Mix Cutting Nozzles",
+        "accessory": ""
+      },
+      {
+        "param": "Product Line Name",
+        "value": "CUTTING NOZZLE",
+        "accessory": ""
+      }
+    ],
+    "technicalData": [
+      {
+        "param": "Product Type",
+        "value": "Injector Mix Cutting Nozzles",
+        "accessory": ""
+      },
+      {
+        "param": "Product Line Name",
+        "value": "CUTTING NOZZLE",
+        "accessory": ""
+      }
+    ],
+    "solutions": [
+      "metal-isleme"
+    ],
+    "brandCategory": "tips-nozzles"
+  },
+  {
+    "id": "gce-mpl-propane-cutting-nozzle",
+    "slug": "mpl-propane-cutting-nozzle",
+    "brand": "GCE",
+    "nameEn": "MPL Propane Cutting Nozzle",
+    "name": "MPL Propane Cutting Nozzle",
+    "descriptionEn": "Gas control solutions for general and steel fabrication, from portable kits to full workshop gas supply systems.",
+    "description": "Gas control solutions for general and steel fabrication, from portable kits to full workshop gas supply systems.",
+    "image": "https://cdn.sanity.io/images/j98xsmmt/production/339b73225d202884a8abcb6fdccec00c627a80c4-3225x2801.png?fm=webp&fit=crop&auto=format",
+    "featuresEn": [],
+    "features": [],
+    "technicalDataEn": [
+      {
+        "param": "Product Type",
+        "value": "Injector Mix Cutting Nozzles",
+        "accessory": ""
+      },
+      {
+        "param": "Product Line Name",
+        "value": "MPL",
+        "accessory": ""
+      }
+    ],
+    "technicalData": [
+      {
+        "param": "Product Type",
+        "value": "Injector Mix Cutting Nozzles",
+        "accessory": ""
+      },
+      {
+        "param": "Product Line Name",
+        "value": "MPL",
+        "accessory": ""
+      }
+    ],
+    "solutions": [
+      "metal-isleme"
+    ],
+    "brandCategory": "tips-nozzles"
+  },
+  {
+    "id": "gce-ha-411-cutting-nozzle",
+    "slug": "ha-411-cutting-nozzle",
+    "brand": "GCE",
+    "nameEn": "HA 411 Cutting Nozzle",
+    "name": "HA 411 Cutting Nozzle",
+    "descriptionEn": "Gas control solutions for general and steel fabrication, from portable kits to full workshop gas supply systems.",
+    "description": "Gas control solutions for general and steel fabrication, from portable kits to full workshop gas supply systems.",
+    "image": "https://cdn.sanity.io/images/j98xsmmt/production/339b73225d202884a8abcb6fdccec00c627a80c4-3225x2801.png?fm=webp&fit=crop&auto=format",
+    "featuresEn": [],
+    "features": [],
+    "technicalDataEn": [
+      {
+        "param": "Product Type",
+        "value": "Flat Seat Cutting Nozzles",
+        "accessory": ""
+      },
+      {
+        "param": "Product Line Name",
+        "value": "HA 411",
+        "accessory": ""
+      }
+    ],
+    "technicalData": [
+      {
+        "param": "Product Type",
+        "value": "Flat Seat Cutting Nozzles",
+        "accessory": ""
+      },
+      {
+        "param": "Product Line Name",
+        "value": "HA 411",
+        "accessory": ""
+      }
+    ],
+    "solutions": [
+      "metal-isleme"
+    ],
+    "brandCategory": "tips-nozzles"
+  },
+  {
+    "id": "gce-pru-cutting-nozzle",
+    "slug": "pru-cutting-nozzle",
+    "brand": "GCE",
+    "nameEn": "PRU Cutting Nozzle",
+    "name": "PRU Cutting Nozzle",
+    "descriptionEn": "Gas control solutions for general and steel fabrication, from portable kits to full workshop gas supply systems.",
+    "description": "Gas control solutions for general and steel fabrication, from portable kits to full workshop gas supply systems.",
+    "image": "https://cdn.sanity.io/images/j98xsmmt/production/339b73225d202884a8abcb6fdccec00c627a80c4-3225x2801.png?fm=webp&fit=crop&auto=format",
+    "featuresEn": [],
+    "features": [],
+    "technicalDataEn": [
+      {
+        "param": "Product Type",
+        "value": "Injector Mix Cutting Nozzles",
+        "accessory": ""
+      },
+      {
+        "param": "Product Line Name",
+        "value": "PRU",
+        "accessory": ""
+      }
+    ],
+    "technicalData": [
+      {
+        "param": "Product Type",
+        "value": "Injector Mix Cutting Nozzles",
+        "accessory": ""
+      },
+      {
+        "param": "Product Line Name",
+        "value": "PRU",
+        "accessory": ""
+      }
+    ],
+    "solutions": [
+      "metal-isleme"
+    ],
+    "brandCategory": "tips-nozzles"
+  },
+  {
+    "id": "gce-pnm-cutting-nozzle",
+    "slug": "pnm-cutting-nozzle",
+    "brand": "GCE",
+    "nameEn": "PNM Cutting Nozzle",
+    "name": "PNM Cutting Nozzle",
+    "descriptionEn": "Gas control solutions for general and steel fabrication, from portable kits to full workshop gas supply systems.",
+    "description": "Gas control solutions for general and steel fabrication, from portable kits to full workshop gas supply systems.",
+    "image": "https://cdn.sanity.io/images/j98xsmmt/production/339b73225d202884a8abcb6fdccec00c627a80c4-3225x2801.png?fm=webp&fit=crop&auto=format",
+    "featuresEn": [],
+    "features": [],
+    "technicalDataEn": [
+      {
+        "param": "Product Type",
+        "value": "Cutting Nozzle Mix",
+        "accessory": ""
+      },
+      {
+        "param": "Product Line Name",
+        "value": "PNM",
+        "accessory": ""
+      }
+    ],
+    "technicalData": [
+      {
+        "param": "Product Type",
+        "value": "Cutting Nozzle Mix",
+        "accessory": ""
+      },
+      {
+        "param": "Product Line Name",
+        "value": "PNM",
+        "accessory": ""
+      }
+    ],
+    "solutions": [
+      "metal-isleme"
+    ],
+    "brandCategory": "tips-nozzles"
+  }
+]
