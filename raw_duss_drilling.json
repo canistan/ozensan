@@ -1,0 +1,946 @@
+[
+  {
+    "slug": "duss-d-38-rle-4-speed-rotary-drill",
+    "brand": "duss",
+    "name": "D 38 RLE 4 vitesli döner matkap",
+    "nameEn": "D 38 RLE 4-speed-rotary-drill",
+    "image": "public/temp_duss_drilling/duss-d-38-rle-4-speed-rotary-drill.webp",
+    "description": "Ürün veya özel bir uygulama hakkında başka sorularınız mı var? We are pleased to be able to help you further. Bize info@duss.de adresine e-posta gönderebilirsiniz.",
+    "descriptionEn": "Do you have any further questions about the product or a special application? We are pleased to be able to help you further. You are welcome to send us an e-mail to info@duss.de",
+    "features": [],
+    "featuresEn": [],
+    "technicalData": [
+      {
+        "param": "Nominal güç",
+        "value": "2000 W"
+      },
+      {
+        "param": "Makine ağırlığı",
+        "value": "8.6 kg"
+      },
+      {
+        "param": "Mil yaka çapı.",
+        "value": "70 mm"
+      },
+      {
+        "param": "Delme çapı matkap ucu ile çelikten",
+        "value": "up to dia.32 mm"
+      },
+      {
+        "param": "Delme çapı matkap ucuyla ahşaptan",
+        "value": "bis Ø 130 mm"
+      },
+      {
+        "param": "Delme çapı LS göbek kesicili polipropilenden",
+        "value": "up to dia. 600 mm"
+      },
+      {
+        "param": "Nominal hız 1./2./3./4. vites",
+        "value": "120/210/380/650 rpm"
+      },
+      {
+        "param": "Takım tutucu",
+        "value": "MK 3 morse taper"
+      },
+      {
+        "param": "Makine",
+        "value": "4-speed rotary drill"
+      },
+      {
+        "param": "Uygulamalar",
+        "value": "attr_bm_einsatzgebiete"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Rated power",
+        "value": "2000 W"
+      },
+      {
+        "param": "Machine weight",
+        "value": "8.6 kg"
+      },
+      {
+        "param": "Spindle collar dia.",
+        "value": "70 mm"
+      },
+      {
+        "param": "Drilling dia. in steel with drill bit",
+        "value": "up to dia.32 mm"
+      },
+      {
+        "param": "Drilling dia. in  wood with drill bit",
+        "value": "bis Ø 130 mm"
+      },
+      {
+        "param": "Drilling dia. in polypropylene with LS core cutter",
+        "value": "up to dia. 600 mm"
+      },
+      {
+        "param": "Rated speed 1st/2nd/3rd/4th gear",
+        "value": "120/210/380/650 rpm"
+      },
+      {
+        "param": "Tool holder",
+        "value": "MK 3 morse taper"
+      },
+      {
+        "param": "Machine",
+        "value": "4-speed rotary drill"
+      },
+      {
+        "param": "Applications",
+        "value": "attr_bm_einsatzgebiete"
+      }
+    ],
+    "solutions": [
+      "profesyonel-delme-yikim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "duss-pk-2-breaker",
+    "brand": "duss",
+    "name": "PK 2 kesici",
+    "nameEn": "PK 2 breaker",
+    "image": "public/temp_duss_drilling/duss-pk-2-breaker.webp",
+    "description": "Ürün veya özel bir uygulama hakkında başka sorularınız mı var? We are pleased to be able to help you further. Bize info@duss.de adresine bir e-posta gönderebilirsiniz.",
+    "descriptionEn": "Do you have any further questions about the product or a special application? We are pleased to be able to help you further. You are welcome to send us an e-mail to info@duss.de .",
+    "features": [],
+    "featuresEn": [],
+    "technicalData": [
+      {
+        "param": "Nominal güç",
+        "value": "710 W"
+      },
+      {
+        "param": "Makine ağırlığı",
+        "value": "3.6 kg"
+      },
+      {
+        "param": "Chuck",
+        "value": "SDS-plus"
+      },
+      {
+        "param": "Tek darbe enerjisi",
+        "value": "0 - 3.6 J"
+      },
+      {
+        "param": "Darbe oranı, ayarlanabilir",
+        "value": "0 - 3700 impacts/min"
+      },
+      {
+        "param": "Sert C45/55 betonda sivri uçlu keski ile keskileme performansı",
+        "value": "approx. 55 kg/h"
+      },
+      {
+        "param": "Vibration damping elements",
+        "value": "•"
+      },
+      {
+        "param": "Trigger lock for continuous operation",
+        "value": "•"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Rated power",
+        "value": "710 W"
+      },
+      {
+        "param": "Machine weight",
+        "value": "3.6 kg"
+      },
+      {
+        "param": "Chuck",
+        "value": "SDS-plus"
+      },
+      {
+        "param": "Single impact energy",
+        "value": "0 - 3.6 J"
+      },
+      {
+        "param": "Impact rate, adjustable",
+        "value": "0 - 3700 impacts/min"
+      },
+      {
+        "param": "Chiselling performance in hard C45/55 concrete with pointed chisel",
+        "value": "approx. 55 kg/h"
+      },
+      {
+        "param": "Vibration damping elements",
+        "value": "•"
+      },
+      {
+        "param": "Trigger lock for continuous operation",
+        "value": "•"
+      }
+    ],
+    "solutions": [
+      "profesyonel-delme-yikim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "duss-b-132-rle-2-speed-rotary-drill",
+    "brand": "duss",
+    "name": "B 13/2 RLE 2 vitesli döner matkap",
+    "nameEn": "B 13/2 RLE 2-speed rotary drill",
+    "image": "public/temp_duss_drilling/duss-b-132-rle-2-speed-rotary-drill.webp",
+    "description": "Ürün veya özel bir uygulama hakkında başka sorularınız mı var? Size daha fazla yardımcı olabildiğimiz için mutluyuz. Bize info@duss.de adresine e-posta gönderebilirsiniz.",
+    "descriptionEn": "Do you have any further questions about the product or a special application? We are pleased to be able to help you further. You are welcome to send us an e-mail to info@duss.de",
+    "features": [],
+    "featuresEn": [],
+    "technicalData": [
+      {
+        "param": "Nominal güç",
+        "value": "650 W"
+      },
+      {
+        "param": "Makine ağırlığı",
+        "value": "1.9 kg"
+      },
+      {
+        "param": "Sabit tork (1. vites)",
+        "value": "45 Nm"
+      },
+      {
+        "param": "Matkap mili dişi",
+        "value": "1/2\" - 20 UNF"
+      },
+      {
+        "param": "Mil yaka çapı.",
+        "value": "43 mm"
+      },
+      {
+        "param": "Chuck sıkma aralığı",
+        "value": "dia. 1.5 - 13 mm"
+      },
+      {
+        "param": "Nominal hız 1. vites",
+        "value": "0 - 450 rpm"
+      },
+      {
+        "param": "Nominal hız 2. vites",
+        "value": "0 - 1550 rpm"
+      },
+      {
+        "param": "kadar vidalar",
+        "value": "dia. 12 mm"
+      },
+      {
+        "param": "Delme çapı çelik 1. viteste",
+        "value": "16 mm"
+      },
+      {
+        "param": "Delme çapı çelik 2. viteste",
+        "value": "8 mm"
+      },
+      {
+        "param": "Delme çapı yumuşak ağaçta 1. viteste",
+        "value": "40 mm"
+      },
+      {
+        "param": "Delme çapı yumuşak ağaçta 2. viteste",
+        "value": "20 mm"
+      },
+      {
+        "param": "Delme çapı hafif malzemelerde delik testereli 1. vites",
+        "value": "105 mm"
+      },
+      {
+        "param": "Delme çapı hafif malzemelerde delik testeresi 2. vitesle",
+        "value": "50 mm"
+      },
+      {
+        "param": "Makine",
+        "value": "2-Gang Bohrmaschine"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Rated power",
+        "value": "650 W"
+      },
+      {
+        "param": "Machine weight",
+        "value": "1.9 kg"
+      },
+      {
+        "param": "Fixed torque (1st gear)",
+        "value": "45 Nm"
+      },
+      {
+        "param": "Drill spindle thread",
+        "value": "1/2\" - 20 UNF"
+      },
+      {
+        "param": "Spindle collar dia.",
+        "value": "43 mm"
+      },
+      {
+        "param": "Chuck clamping range",
+        "value": "dia. 1.5 - 13 mm"
+      },
+      {
+        "param": "Rated speed 1st gear",
+        "value": "0 - 450 rpm"
+      },
+      {
+        "param": "Rated speed 2nd gear",
+        "value": "0 - 1550 rpm"
+      },
+      {
+        "param": "Screws up to",
+        "value": "dia. 12 mm"
+      },
+      {
+        "param": "Drilling dia. in steel 1st gear",
+        "value": "16 mm"
+      },
+      {
+        "param": "Drilling dia. in steel 2nd gear",
+        "value": "8 mm"
+      },
+      {
+        "param": "Drilling dia. in softwood 1st gear",
+        "value": "40 mm"
+      },
+      {
+        "param": "Drilling dia. in softwood 2nd gear",
+        "value": "20 mm"
+      },
+      {
+        "param": "Drilling dia. in lightweight materials with hole saw 1st gear",
+        "value": "105 mm"
+      },
+      {
+        "param": "Drilling dia. in lightweight materials with hole saw 2nd gear",
+        "value": "50 mm"
+      },
+      {
+        "param": "Machine",
+        "value": "2-Gang Bohrmaschine"
+      }
+    ],
+    "solutions": [
+      "profesyonel-delme-yikim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "duss-p-26-sds-rotary-hammer",
+    "brand": "duss",
+    "name": "P 26 SDS kırıcı-delici",
+    "nameEn": "P 26 SDS rotary hammer",
+    "image": "public/temp_duss_drilling/duss-p-26-sds-rotary-hammer.webp",
+    "description": "Ürün veya özel bir uygulama hakkında başka sorularınız mı var? Size daha fazla yardımcı olabildiğimiz için mutluyuz. Bize info@duss.de adresine e-posta gönderebilirsiniz.",
+    "descriptionEn": "Do you have any further questions about the product or a special application? We are pleased to be able to help you further. You are welcome to send us an e-mail to info@duss.de",
+    "features": [],
+    "featuresEn": [],
+    "technicalData": [
+      {
+        "param": "Nominal güç",
+        "value": "710 W"
+      },
+      {
+        "param": "Makine ağırlığı",
+        "value": "3.6 kg"
+      },
+      {
+        "param": "Chuck",
+        "value": "SDS-plus"
+      },
+      {
+        "param": "Matkap ucuyla delme aralığı",
+        "value": "dia. 5 - 30 mm"
+      },
+      {
+        "param": "Çelikte delme aralığı",
+        "value": "up to dia. 13 mm"
+      },
+      {
+        "param": "Sert C45/55 betonda delme performansı (çap 14 mm)",
+        "value": "240 mm/min"
+      },
+      {
+        "param": "Tek darbe enerjisi",
+        "value": "0 - 3.6 J"
+      },
+      {
+        "param": "Nominal hız",
+        "value": "0 - 700 rpm"
+      },
+      {
+        "param": "Darbe oranı, ayarlanabilir",
+        "value": "0 - 3700 impacts/min"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Rated power",
+        "value": "710 W"
+      },
+      {
+        "param": "Machine weight",
+        "value": "3.6 kg"
+      },
+      {
+        "param": "Chuck",
+        "value": "SDS-plus"
+      },
+      {
+        "param": "Drilling range with drill bit",
+        "value": "dia. 5 - 30 mm"
+      },
+      {
+        "param": "Drilling range in steel",
+        "value": "up to dia. 13 mm"
+      },
+      {
+        "param": "Drilling performance in hard C45/55 concrete (dia. 14 mm)",
+        "value": "240 mm/min"
+      },
+      {
+        "param": "Single impact energy",
+        "value": "0 - 3.6 J"
+      },
+      {
+        "param": "Rated speed",
+        "value": "0 - 700 rpm"
+      },
+      {
+        "param": "Impact rate, adjustable",
+        "value": "0 - 3700 impacts/min"
+      }
+    ],
+    "solutions": [
+      "profesyonel-delme-yikim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "duss-b-13-b-drill-driver",
+    "brand": "duss",
+    "name": "B 13 B matkap sürücüsü",
+    "nameEn": "B 13 B drill driver",
+    "image": "public/temp_duss_drilling/duss-b-13-b-drill-driver.webp",
+    "description": "Ürün veya özel bir uygulama hakkında başka sorularınız mı var? Size daha fazla yardımcı olabildiğimiz için mutluyuz. Bize info@duss.de adresine e-posta gönderebilirsiniz.",
+    "descriptionEn": "Do you have any further questions about the product or a special application? We are pleased to be able to help you further. You are welcome to send us an e-mail to info@duss.de",
+    "features": [],
+    "featuresEn": [],
+    "technicalData": [
+      {
+        "param": "Nominal güç",
+        "value": "760 W"
+      },
+      {
+        "param": "Makine ağırlığı",
+        "value": "2.8 kg"
+      },
+      {
+        "param": "Yumuşak ahşaptaki vidalar, ön delme olmadan, maks.",
+        "value": "11 x 400 mm"
+      },
+      {
+        "param": "Sabit tork (1. vites)",
+        "value": "120 Nm"
+      },
+      {
+        "param": "Matkap mili dişi",
+        "value": "1/2\" - 20 UNF"
+      },
+      {
+        "param": "Mil yaka çapı.",
+        "value": "43 mm"
+      },
+      {
+        "param": "Chuck sıkma aralığı",
+        "value": "dia. 1,5 - 13 mm"
+      },
+      {
+        "param": "Delme çapı yumuşak ağaçtan, Forstner ucu 1. vitesle",
+        "value": "51 - 80 mm"
+      },
+      {
+        "param": "Delme çapı yumuşak ağaçtan, Forstner ucu 2. vitesle",
+        "value": "up to 50 mm"
+      },
+      {
+        "param": "Nominal hız 1. vites",
+        "value": "0 - 170 rpm"
+      },
+      {
+        "param": "Nominal hız 2. vites",
+        "value": "0 - 1320 rpm"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Rated power",
+        "value": "760 W"
+      },
+      {
+        "param": "Machine weight",
+        "value": "2.8 kg"
+      },
+      {
+        "param": "Screws in softwood, without pre-drilling, max.",
+        "value": "11 x 400 mm"
+      },
+      {
+        "param": "Fixed torque (1st gear)",
+        "value": "120 Nm"
+      },
+      {
+        "param": "Drill spindle thread",
+        "value": "1/2\" - 20 UNF"
+      },
+      {
+        "param": "Spindle collar dia.",
+        "value": "43 mm"
+      },
+      {
+        "param": "Chuck clamping range",
+        "value": "dia. 1,5 - 13 mm"
+      },
+      {
+        "param": "Drilling dia. in softwood with Forstner bit 1st gear",
+        "value": "51 - 80 mm"
+      },
+      {
+        "param": "Drilling dia. in softwood with Forstner bit 2nd gear",
+        "value": "up to 50 mm"
+      },
+      {
+        "param": "Rated speed 1st gear",
+        "value": "0 - 170 rpm"
+      },
+      {
+        "param": "Rated speed 2nd gear",
+        "value": "0 - 1320 rpm"
+      }
+    ],
+    "solutions": [
+      "profesyonel-delme-yikim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "duss-p-16-sds-rotary-hammer",
+    "brand": "duss",
+    "name": "P 16 SDS kırıcı-delici",
+    "nameEn": "P 16 SDS rotary hammer",
+    "image": "public/temp_duss_drilling/duss-p-16-sds-rotary-hammer.webp",
+    "description": "Ürün veya özel bir uygulama hakkında başka sorularınız mı var? Size daha fazla yardımcı olabildiğimiz için mutluyuz. Bize info@duss.de adresine e-posta gönderebilirsiniz.",
+    "descriptionEn": "Do you have any further questions about the product or a special application? We are pleased to be able to help you further. You are welcome to send us an e-mail to info@duss.de",
+    "features": [],
+    "featuresEn": [],
+    "technicalData": [
+      {
+        "param": "Nominal güç",
+        "value": "600 W"
+      },
+      {
+        "param": "Makine ağırlığı",
+        "value": "2.7 kg"
+      },
+      {
+        "param": "Chuck",
+        "value": "SDS-plus"
+      },
+      {
+        "param": "Matkap ucuyla delme aralığı",
+        "value": "dia. 5 - 24 mm"
+      },
+      {
+        "param": "Çelikte delme aralığı",
+        "value": "up to dia. 13 mm"
+      },
+      {
+        "param": "Sert C45/55 betonda delme performansı (çap 14 mm)",
+        "value": "330 mm/min"
+      },
+      {
+        "param": "Tek darbe enerjisi",
+        "value": "0 - 2.2 J"
+      },
+      {
+        "param": "Nominal hız",
+        "value": "0 - 810 U/min"
+      },
+      {
+        "param": "Darbe oranı, ayarlanabilir",
+        "value": "0 - 4400 impacts/min"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Rated power",
+        "value": "600 W"
+      },
+      {
+        "param": "Machine weight",
+        "value": "2.7 kg"
+      },
+      {
+        "param": "Chuck",
+        "value": "SDS-plus"
+      },
+      {
+        "param": "Drilling range with drill bit",
+        "value": "dia. 5 - 24 mm"
+      },
+      {
+        "param": "Drilling range in steel",
+        "value": "up to dia. 13 mm"
+      },
+      {
+        "param": "Drilling performance in hard C45/55 concrete (dia. 14 mm)",
+        "value": "330 mm/min"
+      },
+      {
+        "param": "Single impact energy",
+        "value": "0 - 2.2 J"
+      },
+      {
+        "param": "Rated speed",
+        "value": "0 - 810 U/min"
+      },
+      {
+        "param": "Impact rate, adjustable",
+        "value": "0 - 4400 impacts/min"
+      }
+    ],
+    "solutions": [
+      "profesyonel-delme-yikim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "duss-sb-132-rle-2-speed-impact-drill",
+    "brand": "duss",
+    "name": "SB 13/2 RLE 2 vitesli darbeli matkap",
+    "nameEn": "SB 13/2 RLE 2-speed impact drill",
+    "image": "public/temp_duss_drilling/duss-sb-132-rle-2-speed-impact-drill.webp",
+    "description": "Ürün veya özel bir uygulama hakkında başka sorularınız mı var? Size daha fazla yardımcı olabildiğimiz için mutluyuz. Bize info@duss.de adresine e-posta gönderebilirsiniz.",
+    "descriptionEn": "Do you have any further questions about the product or a special application? We are pleased to be able to help you further. You are welcome to send us an e-mail to info@duss.de",
+    "features": [],
+    "featuresEn": [],
+    "technicalData": [
+      {
+        "param": "Nominal güç",
+        "value": "650 W"
+      },
+      {
+        "param": "Makine ağırlığı",
+        "value": "2.0 kg"
+      },
+      {
+        "param": "Sabit tork (1. vites)",
+        "value": "45 Nm"
+      },
+      {
+        "param": "Matkap mili dişi",
+        "value": "1/2\" - 20 UNF"
+      },
+      {
+        "param": "Mil yaka çapı.",
+        "value": "43 mm"
+      },
+      {
+        "param": "Chuck sıkma aralığı",
+        "value": "dia. 1,5 - 13 mm"
+      },
+      {
+        "param": "Nominal hız 1. vites",
+        "value": "0 - 450 rpm"
+      },
+      {
+        "param": "Nominal hız 2. vites",
+        "value": "0 - 1550 rpm"
+      },
+      {
+        "param": "kadar vidalar",
+        "value": "dia. 12 mm"
+      },
+      {
+        "param": "Delme çapı çelik 1. viteste",
+        "value": "16 mm"
+      },
+      {
+        "param": "Delme çapı çelik 2. viteste",
+        "value": "8 mm"
+      },
+      {
+        "param": "Delme çapı yumuşak ağaçta 1. viteste",
+        "value": "40 mm"
+      },
+      {
+        "param": "Delme çapı yumuşak ağaçta 2. viteste",
+        "value": "20 mm"
+      },
+      {
+        "param": "Delme çapı hafif malzemelerde delik testereli 1. vites",
+        "value": "105 mm"
+      },
+      {
+        "param": "Delme çapı hafif malzemelerde delik testeresi 2. vitesle",
+        "value": "50 mm"
+      },
+      {
+        "param": "Delme çapı taş 1. viteste",
+        "value": "20 mm"
+      },
+      {
+        "param": "Delme çapı taş 2. viteste",
+        "value": "13 mm"
+      },
+      {
+        "param": "Delme çapı kum-kireç tuğlası ve duvar işlerinde karot ucu 1. vitesle",
+        "value": "66 mm"
+      },
+      {
+        "param": "Maks. darbe oranı",
+        "value": "42000 impacts/min"
+      },
+      {
+        "param": "Makine",
+        "value": "2-speed impact drill"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Rated power",
+        "value": "650 W"
+      },
+      {
+        "param": "Machine weight",
+        "value": "2.0 kg"
+      },
+      {
+        "param": "Fixed torque (1st gear)",
+        "value": "45 Nm"
+      },
+      {
+        "param": "Drill spindle thread",
+        "value": "1/2\" - 20 UNF"
+      },
+      {
+        "param": "Spindle collar dia.",
+        "value": "43 mm"
+      },
+      {
+        "param": "Chuck clamping range",
+        "value": "dia. 1,5 - 13 mm"
+      },
+      {
+        "param": "Rated speed 1st gear",
+        "value": "0 - 450 rpm"
+      },
+      {
+        "param": "Rated speed 2nd gear",
+        "value": "0 - 1550 rpm"
+      },
+      {
+        "param": "Screws up to",
+        "value": "dia. 12 mm"
+      },
+      {
+        "param": "Drilling dia. in steel 1st gear",
+        "value": "16 mm"
+      },
+      {
+        "param": "Drilling dia. in steel 2nd gear",
+        "value": "8 mm"
+      },
+      {
+        "param": "Drilling dia. in softwood 1st gear",
+        "value": "40 mm"
+      },
+      {
+        "param": "Drilling dia. in softwood 2nd gear",
+        "value": "20 mm"
+      },
+      {
+        "param": "Drilling dia. in lightweight materials with hole saw 1st gear",
+        "value": "105 mm"
+      },
+      {
+        "param": "Drilling dia. in lightweight materials with hole saw 2nd gear",
+        "value": "50 mm"
+      },
+      {
+        "param": "Drilling dia. in stone 1st gear",
+        "value": "20 mm"
+      },
+      {
+        "param": "Drilling dia. in stone 2nd gear",
+        "value": "13 mm"
+      },
+      {
+        "param": "Drilling dia. in sand-lime brick and masonry with core bit 1st gear",
+        "value": "66 mm"
+      },
+      {
+        "param": "Max. impact rate",
+        "value": "42000 impacts/min"
+      },
+      {
+        "param": "Machine",
+        "value": "2-speed impact drill"
+      }
+    ],
+    "solutions": [
+      "profesyonel-delme-yikim"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "duss-dia-303-w-diamond-core-drill",
+    "brand": "duss",
+    "name": "DIA 303 W elmaslı karot matkabı",
+    "nameEn": "DIA 303 W diamond core drill",
+    "image": "public/temp_duss_drilling/duss-dia-303-w-diamond-core-drill.webp",
+    "description": "Ürün veya özel bir uygulama hakkında başka sorularınız mı var? Size daha fazla yardımcı olabildiğimiz için mutluyuz. Bize info@duss.de adresine bir e-posta gönderebilirsiniz.",
+    "descriptionEn": "Do you have any further questions about the product or a special application? We are pleased to be able to help you further. You are welcome to send us an e-mail to info@duss.de .",
+    "features": [],
+    "featuresEn": [],
+    "technicalData": [
+      {
+        "param": "Nominal güç",
+        "value": "2000 W"
+      },
+      {
+        "param": "Makine ağırlığı",
+        "value": "6.4 kg"
+      },
+      {
+        "param": "Chuck",
+        "value": "G 1/2\""
+      },
+      {
+        "param": "Nominal hız 1./2./3. vites",
+        "value": "360/680/1270 rpm"
+      },
+      {
+        "param": "Elmas karot uçlu delme aralığı, elde taşınır, kuru",
+        "value": "dia. 52 - 300 mm"
+      },
+      {
+        "param": "Elmas karot uçlu delme aralığı, BS matkap sehpası ile, ıslak",
+        "value": "dia. 32 - 202 mm"
+      },
+      {
+        "param": "Beton boruda elmas karot uçlu delme aralığı, elde taşınır, ıslak",
+        "value": "up to dia. 300 mm"
+      },
+      {
+        "param": "Plastikte LS delik testeresi ile delme aralığı, el tipi",
+        "value": "dia. 40 - 322 mm"
+      },
+      {
+        "param": "Plastikte LS delik testeresi ile delme aralığı, BS matkap sehpası ile",
+        "value": "dia. 40 - 202 mm"
+      },
+      {
+        "param": "Plastikte LS delik testeresi ile delme aralığı, BST matkap sehpası ile",
+        "value": "dia. 40 - 257 mm"
+      },
+      {
+        "param": "LB ahşap delik testeresi ile delme aralığı, el tipi",
+        "value": "dia. 42 - 322 mm"
+      },
+      {
+        "param": "LB ahşap delik testeresi ile delme aralığı, BS matkap sehpası ile",
+        "value": "dia. 42 - 202 mm"
+      },
+      {
+        "param": "LB ahşap delik testeresi ile delme aralığı, BST matkap sehpası ile",
+        "value": "dia. 42 - 182 mm"
+      },
+      {
+        "param": "Nominal hız",
+        "value": "360/680/1270 rpm"
+      },
+      {
+        "param": "Uygulamalar",
+        "value": "Plumbing, heating, air conditioning, structural and civil engineering, connection holes in sewer pipes"
+      },
+      {
+        "param": "Yüzeyler",
+        "value": "Reinforced concrete, masonry, sand-lime brick"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Rated power",
+        "value": "2000 W"
+      },
+      {
+        "param": "Machine weight",
+        "value": "6.4 kg"
+      },
+      {
+        "param": "Chuck",
+        "value": "G 1/2\""
+      },
+      {
+        "param": "Rated speed 1st/2nd/3rd gear",
+        "value": "360/680/1270 rpm"
+      },
+      {
+        "param": "Drilling range with diamond core bit, hand-held, dry",
+        "value": "dia. 52 - 300 mm"
+      },
+      {
+        "param": "Drilling range with diamond core bit, with BS drill stand, wet",
+        "value": "dia. 32 - 202 mm"
+      },
+      {
+        "param": "Drilling range with diamond core bit in concrete pipe, hand-held, wet",
+        "value": "up to dia. 300 mm"
+      },
+      {
+        "param": "Drilling range with LS hole saw in plastic, hand-held",
+        "value": "dia. 40 - 322 mm"
+      },
+      {
+        "param": "Drilling range with LS hole saw in plastic, with BS drill stand",
+        "value": "dia. 40 - 202 mm"
+      },
+      {
+        "param": "Drilling range with LS hole saw in plastic, with BST drill stand",
+        "value": "dia. 40 - 257 mm"
+      },
+      {
+        "param": "Drilling range with LB wood hole saw, hand-held",
+        "value": "dia. 42 - 322 mm"
+      },
+      {
+        "param": "Drilling range with LB wood hole saw, with BS drill stand",
+        "value": "dia. 42 - 202 mm"
+      },
+      {
+        "param": "Drilling range with LB wood hole saw, with BST drill stand",
+        "value": "dia. 42 - 182 mm"
+      },
+      {
+        "param": "Rated speed",
+        "value": "360/680/1270 rpm"
+      },
+      {
+        "param": "Applications",
+        "value": "Plumbing, heating, air conditioning, structural and civil engineering, connection holes in sewer pipes"
+      },
+      {
+        "param": "Surfaces",
+        "value": "Reinforced concrete, masonry, sand-lime brick"
+      }
+    ],
+    "solutions": [
+      "profesyonel-delme-yikim"
+    ],
+    "isFeatured": false
+  }
+]

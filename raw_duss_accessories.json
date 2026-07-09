@@ -1,0 +1,443 @@
+[
+  {
+    "slug": "duss-zsth-centring-rod",
+    "brand": "duss",
+    "name": "ZSTH Merkezleme çubuğu",
+    "nameEn": "ZSTH Centring rod",
+    "image": "public/temp_duss_accessories/duss-zsth-centring-rod.webp",
+    "description": "Ürün veya özel bir uygulama hakkında başka sorularınız mı var? Size daha fazla yardımcı olabildiğimiz için mutluyuz. Bize info@duss.de adresine bir e-posta gönderebilirsiniz.",
+    "descriptionEn": "Do you have any further questions about the product or a special application? We are pleased to be able to help you further. You are welcome to send us an e-mail to info@duss.de .",
+    "features": [],
+    "featuresEn": [],
+    "technicalData": [],
+    "technicalDataEn": [],
+    "solutions": [
+      "elmas-uclar-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "duss-sds-max-hxa-suction-drill-bit",
+    "brand": "duss",
+    "name": "SDS-max HXA emmeli matkap ucu",
+    "nameEn": "SDS-max HXA suction drill bit",
+    "image": "public/temp_duss_accessories/duss-sds-max-hxa-suction-drill-bit.webp",
+    "description": "Bir ürününüz veya özel bir ürününüz var mı? Kullanabileceğiniz bir şey yok. Info@duss.de adresinden bir e-posta gönderebilirsiniz.",
+    "descriptionEn": "Sie haben noch Rückfragen zum Produkt oder zu eine speziellen Anwendung? Wir freuen uns Ihnen weiterhelfen zu können. Gerne können Sie uns eine E-Mail senden info@duss.de",
+    "features": [],
+    "featuresEn": [],
+    "technicalData": [],
+    "technicalDataEn": [],
+    "solutions": [
+      "elmas-uclar-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "duss-tbs-dry-extraction",
+    "brand": "duss",
+    "name": "TBS kuru ekstraksiyon",
+    "nameEn": "TBS dry extraction",
+    "image": "public/temp_duss_accessories/duss-tbs-dry-extraction.webp",
+    "description": "Ürün veya özel bir uygulama hakkında başka sorularınız mı var? Size daha fazla yardımcı olabildiğimiz için mutluyuz. Bize info@duss.de adresine bir e-posta gönderebilirsiniz.",
+    "descriptionEn": "Do you have any further questions about the product or a special application? We are pleased to be able to help you further. You are welcome to send us an e-mail to info@duss.de .",
+    "features": [],
+    "featuresEn": [],
+    "technicalData": [],
+    "technicalDataEn": [],
+    "solutions": [
+      "elmas-uclar-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "duss-sds-plus-hpv-hammer-drill-bits",
+    "brand": "duss",
+    "name": "SDS-plus HPV darbeli matkap uçları",
+    "nameEn": "SDS-plus HPV hammer drill bits",
+    "image": "public/temp_duss_accessories/duss-sds-plus-hpv-hammer-drill-bits.webp",
+    "description": "Ürün veya özel bir uygulama hakkında başka sorularınız mı var? Size daha fazla yardımcı olabildiğimiz için mutluyuz. Bize info@duss.de adresine bir e-posta gönderebilirsiniz.",
+    "descriptionEn": "Do you have any further questions about the product or a special application? We are pleased to be able to help you further. You are welcome to send us an e-mail to info@duss.de .",
+    "features": [],
+    "featuresEn": [],
+    "technicalData": [],
+    "technicalDataEn": [],
+    "solutions": [
+      "elmas-uclar-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "duss-vos-3-feed-rod",
+    "brand": "duss",
+    "name": "VOS 3 besleme çubuğu",
+    "nameEn": "VOS 3 feed rod",
+    "image": "public/temp_duss_accessories/duss-vos-3-feed-rod.webp",
+    "description": "Ürün veya özel bir uygulama hakkında başka sorularınız mı var? Size daha fazla yardımcı olabildiğimiz için mutluyuz. Bize info@duss.de adresine bir e-posta gönderebilirsiniz.",
+    "descriptionEn": "Do you have any further questions about the product or a special application? We are pleased to be able to help you further. You are welcome to send us an e-mail to info@duss.de .",
+    "features": [],
+    "featuresEn": [],
+    "technicalData": [],
+    "technicalDataEn": [],
+    "solutions": [
+      "elmas-uclar-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "duss-dia-303-w-diamond-core-drill",
+    "brand": "duss",
+    "name": "DIA 303 W elmaslı karot matkabı",
+    "nameEn": "DIA 303 W diamond core drill",
+    "image": "public/temp_duss_accessories/duss-dia-303-w-diamond-core-drill.webp",
+    "description": "Ürün veya özel bir uygulama hakkında başka sorularınız mı var? Size daha fazla yardımcı olabildiğimiz için mutluyuz. Bize info@duss.de adresine bir e-posta gönderebilirsiniz.",
+    "descriptionEn": "Do you have any further questions about the product or a special application? We are pleased to be able to help you further. You are welcome to send us an e-mail to info@duss.de .",
+    "features": [],
+    "featuresEn": [],
+    "technicalData": [
+      {
+        "param": "Nominal güç",
+        "value": "2000 W"
+      },
+      {
+        "param": "Makine ağırlığı",
+        "value": "6.4 kg"
+      },
+      {
+        "param": "Chuck",
+        "value": "G 1/2\""
+      },
+      {
+        "param": "Nominal hız 1./2./3. vites",
+        "value": "360/680/1270 rpm"
+      },
+      {
+        "param": "Elmas karot uçlu delme aralığı, elde taşınır, kuru",
+        "value": "dia. 52 - 300 mm"
+      },
+      {
+        "param": "Elmas karot uçlu delme aralığı, BS matkap sehpası ile, ıslak",
+        "value": "dia. 32 - 202 mm"
+      },
+      {
+        "param": "Beton boruda elmas karot uçlu delme aralığı, elde taşınır, ıslak",
+        "value": "up to dia. 300 mm"
+      },
+      {
+        "param": "Plastikte LS delik testeresi ile delme aralığı, el tipi",
+        "value": "dia. 40 - 322 mm"
+      },
+      {
+        "param": "Plastikte LS delik testeresi ile delme aralığı, BS matkap sehpası ile",
+        "value": "dia. 40 - 202 mm"
+      },
+      {
+        "param": "Plastikte LS delik testeresi ile delme aralığı, BST matkap sehpası ile",
+        "value": "dia. 40 - 257 mm"
+      },
+      {
+        "param": "LB ahşap delik testeresi ile delme aralığı, el tipi",
+        "value": "dia. 42 - 322 mm"
+      },
+      {
+        "param": "LB ahşap delik testeresi ile delme aralığı, BS matkap sehpası ile",
+        "value": "dia. 42 - 202 mm"
+      },
+      {
+        "param": "LB ahşap delik testeresi ile delme aralığı, BST matkap sehpası ile",
+        "value": "dia. 42 - 182 mm"
+      },
+      {
+        "param": "Nominal hız",
+        "value": "360/680/1270 rpm"
+      },
+      {
+        "param": "Uygulamalar",
+        "value": "Plumbing, heating, air conditioning, structural and civil engineering, connection holes in sewer pipes"
+      },
+      {
+        "param": "Yüzeyler",
+        "value": "Reinforced concrete, masonry, sand-lime brick"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Rated power",
+        "value": "2000 W"
+      },
+      {
+        "param": "Machine weight",
+        "value": "6.4 kg"
+      },
+      {
+        "param": "Chuck",
+        "value": "G 1/2\""
+      },
+      {
+        "param": "Rated speed 1st/2nd/3rd gear",
+        "value": "360/680/1270 rpm"
+      },
+      {
+        "param": "Drilling range with diamond core bit, hand-held, dry",
+        "value": "dia. 52 - 300 mm"
+      },
+      {
+        "param": "Drilling range with diamond core bit, with BS drill stand, wet",
+        "value": "dia. 32 - 202 mm"
+      },
+      {
+        "param": "Drilling range with diamond core bit in concrete pipe, hand-held, wet",
+        "value": "up to dia. 300 mm"
+      },
+      {
+        "param": "Drilling range with LS hole saw in plastic, hand-held",
+        "value": "dia. 40 - 322 mm"
+      },
+      {
+        "param": "Drilling range with LS hole saw in plastic, with BS drill stand",
+        "value": "dia. 40 - 202 mm"
+      },
+      {
+        "param": "Drilling range with LS hole saw in plastic, with BST drill stand",
+        "value": "dia. 40 - 257 mm"
+      },
+      {
+        "param": "Drilling range with LB wood hole saw, hand-held",
+        "value": "dia. 42 - 322 mm"
+      },
+      {
+        "param": "Drilling range with LB wood hole saw, with BS drill stand",
+        "value": "dia. 42 - 202 mm"
+      },
+      {
+        "param": "Drilling range with LB wood hole saw, with BST drill stand",
+        "value": "dia. 42 - 182 mm"
+      },
+      {
+        "param": "Rated speed",
+        "value": "360/680/1270 rpm"
+      },
+      {
+        "param": "Applications",
+        "value": "Plumbing, heating, air conditioning, structural and civil engineering, connection holes in sewer pipes"
+      },
+      {
+        "param": "Surfaces",
+        "value": "Reinforced concrete, masonry, sand-lime brick"
+      }
+    ],
+    "solutions": [
+      "elmas-uclar-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "duss-is-35-m-wetdry-­vacuum-cleaner",
+    "brand": "duss",
+    "name": "IS 35 M Islak/Kuru Elektrikli Süpürge",
+    "nameEn": "IS 35 M Wet/Dry ­vacuum cleaner",
+    "image": "public/temp_duss_accessories/duss-is-35-m-wetdry-­vacuum-cleaner.webp",
+    "description": "Ürün veya özel bir uygulama hakkında başka sorularınız mı var? Size daha fazla yardımcı olabildiğimiz için mutluyuz. Bize info@duss.de adresine bir e-posta gönderebilirsiniz.",
+    "descriptionEn": "Do you have any further questions about the product or a special application? We are pleased to be able to help you further. You are welcome to send us an e-mail to info@duss.de .",
+    "features": [],
+    "featuresEn": [],
+    "technicalData": [
+      {
+        "param": "Ağırlık",
+        "value": "16 kg"
+      },
+      {
+        "param": "Maks. anma gücü",
+        "value": "1200 W"
+      },
+      {
+        "param": "Maks. hacimsel akış hızı",
+        "value": "74 l/s"
+      },
+      {
+        "param": "Maks. kısmi vakum",
+        "value": "250 mbar"
+      },
+      {
+        "param": "Maks. konteyner hacmi",
+        "value": "35 l"
+      },
+      {
+        "param": "Emme hortumu",
+        "value": "dia. 38 mm, 5 m"
+      },
+      {
+        "param": "Güvenlik sınıfı",
+        "value": "I"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Weight",
+        "value": "16 kg"
+      },
+      {
+        "param": "Max. rated power",
+        "value": "1200 W"
+      },
+      {
+        "param": "Max. volumetric flow rate",
+        "value": "74 l/s"
+      },
+      {
+        "param": "Max. partial vacuum",
+        "value": "250 mbar"
+      },
+      {
+        "param": "Max. container volume",
+        "value": "35 l"
+      },
+      {
+        "param": "Suction hose",
+        "value": "dia. 38 mm, 5 m"
+      },
+      {
+        "param": "Safety class",
+        "value": "I"
+      }
+    ],
+    "solutions": [
+      "elmas-uclar-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "duss-sds-plus-chisels",
+    "brand": "duss",
+    "name": "SDS-plus keskiler",
+    "nameEn": "SDS-plus chisels",
+    "image": "public/temp_duss_accessories/duss-sds-plus-chisels.webp",
+    "description": "Ürün veya özel bir uygulama hakkında başka sorularınız mı var? Size daha fazla yardımcı olabildiğimiz için mutluyuz. Bize info@duss.de adresine bir e-posta gönderebilirsiniz.",
+    "descriptionEn": "Do you have any further questions about the product or a special application? We are pleased to be able to help you further. You are welcome to send us an e-mail to info@duss.de .",
+    "features": [],
+    "featuresEn": [],
+    "technicalData": [],
+    "technicalDataEn": [],
+    "solutions": [
+      "elmas-uclar-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "duss-pk-2-breaker",
+    "brand": "duss",
+    "name": "PK 2 kesici",
+    "nameEn": "PK 2 breaker",
+    "image": "public/temp_duss_accessories/duss-pk-2-breaker.webp",
+    "description": "Ürün veya özel bir uygulama hakkında başka sorularınız mı var? Size daha fazla yardımcı olabildiğimiz için mutluyuz. Bize info@duss.de adresine bir e-posta gönderebilirsiniz.",
+    "descriptionEn": "Do you have any further questions about the product or a special application? We are pleased to be able to help you further. You are welcome to send us an e-mail to info@duss.de .",
+    "features": [],
+    "featuresEn": [],
+    "technicalData": [
+      {
+        "param": "Nominal güç",
+        "value": "710 W"
+      },
+      {
+        "param": "Makine ağırlığı",
+        "value": "3.6 kg"
+      },
+      {
+        "param": "Chuck",
+        "value": "SDS-plus"
+      },
+      {
+        "param": "Tek darbe enerjisi",
+        "value": "0 - 3.6 J"
+      },
+      {
+        "param": "Darbe oranı, ayarlanabilir",
+        "value": "0 - 3700 impacts/min"
+      },
+      {
+        "param": "Sert C45/55 betonda sivri uçlu keski ile keskileme performansı",
+        "value": "approx. 55 kg/h"
+      },
+      {
+        "param": "Titreşim sönümleme elemanları",
+        "value": "•"
+      },
+      {
+        "param": "Sürekli çalışma için tetik kilidi",
+        "value": "•"
+      }
+    ],
+    "technicalDataEn": [
+      {
+        "param": "Rated power",
+        "value": "710 W"
+      },
+      {
+        "param": "Machine weight",
+        "value": "3.6 kg"
+      },
+      {
+        "param": "Chuck",
+        "value": "SDS-plus"
+      },
+      {
+        "param": "Single impact energy",
+        "value": "0 - 3.6 J"
+      },
+      {
+        "param": "Impact rate, adjustable",
+        "value": "0 - 3700 impacts/min"
+      },
+      {
+        "param": "Chiselling performance in hard C45/55 concrete with pointed chisel",
+        "value": "approx. 55 kg/h"
+      },
+      {
+        "param": "Vibration damping elements",
+        "value": "•"
+      },
+      {
+        "param": "Trigger lock for continuous operation",
+        "value": "•"
+      }
+    ],
+    "solutions": [
+      "elmas-uclar-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "duss-bo-1280-concrete-screws",
+    "brand": "duss",
+    "name": "BO 1280 beton vidaları",
+    "nameEn": "BO 1280 concrete screws",
+    "image": "public/temp_duss_accessories/duss-bo-1280-concrete-screws.webp",
+    "description": "Bir ürününüz veya özel bir ürününüz var mı? Kullanabileceğiniz bir şey yok. Info@duss.de adresinden bir e-posta gönderebilirsiniz.",
+    "descriptionEn": "Sie haben noch Rückfragen zum Produkt oder zu eine speziellen Anwendung? Wir freuen uns Ihnen weiterhelfen zu können. Gerne können Sie uns eine E-Mail senden info@duss.de",
+    "features": [],
+    "featuresEn": [],
+    "technicalData": [],
+    "technicalDataEn": [],
+    "solutions": [
+      "elmas-uclar-ve-diskler"
+    ],
+    "isFeatured": false
+  },
+  {
+    "slug": "duss-sds-max-hx-hammer-drill-bits",
+    "brand": "duss",
+    "name": "SDS-max HX darbeli matkap uçları",
+    "nameEn": "SDS-max HX hammer drill bits",
+    "image": "public/temp_duss_accessories/duss-sds-max-hx-hammer-drill-bits.webp",
+    "description": "Ürün veya özel bir uygulama hakkında başka sorularınız mı var? Size daha fazla yardımcı olabildiğimiz için mutluyuz. Bize info@duss.de adresine bir e-posta gönderebilirsiniz.",
+    "descriptionEn": "Do you have any further questions about the product or a special application? We are pleased to be able to help you further. You are welcome to send us an e-mail to info@duss.de .",
+    "features": [],
+    "featuresEn": [],
+    "technicalData": [],
+    "technicalDataEn": [],
+    "solutions": [
+      "elmas-uclar-ve-diskler"
+    ],
+    "isFeatured": false
+  }
+]
