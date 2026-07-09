@@ -101,7 +101,11 @@
     "searchPlaceholder": "Makine modeli veya özelliği...",
     "brands": "MARKALAR",
     "solutions": "ÇÖZÜMLER",
-    "productsListed": "{count} ürün listeleniyor"
+    "productsListed": "{count} ürün listeleniyor",
+    "clearFilters": "Filtreleri Temizle",
+    "viewProduct": "Ürünü İncele",
+    "noProductsFoundTitle": "Ürün Bulunamadı",
+    "noProductsFoundDesc": "Seçtiğiniz filtrelere uygun ürün bulunmamaktadır."
   },
   "ContactPage": {
     "title1": "Bize",

@@ -77,7 +77,7 @@ export default function ProductCatalog({ initialProducts, brands, solutions }: P
         
         {/* Search */}
         <div className="bg-white p-6 rounded-xl border border-neutral-200">
-          <h3 className="font-bold text-[#1A1E24] mb-4 uppercase tracking-widest text-sm">Ürün Ara</h3>
+          <h3 className="font-bold text-[#1A1E24] mb-4 uppercase tracking-widest text-sm">{t("search")}</h3>
           <input 
             type="text" 
             placeholder={t("searchPlaceholder")} 
@@ -89,7 +89,7 @@ export default function ProductCatalog({ initialProducts, brands, solutions }: P
 
         {/* Brand Filter */}
         <div className="bg-white p-6 rounded-xl border border-neutral-200">
-          <h3 className="font-bold text-[#1A1E24] mb-4 uppercase tracking-widest text-sm">Markalar</h3>
+          <h3 className="font-bold text-[#1A1E24] mb-4 uppercase tracking-widest text-sm">{t("brands")}</h3>
           <div className="space-y-3">
             {brands.map(brand => (
               <label key={brand.slug} className="flex items-center cursor-pointer group">
@@ -110,7 +110,7 @@ export default function ProductCatalog({ initialProducts, brands, solutions }: P
 
         {/* Solutions Filter */}
         <div className="bg-white p-6 rounded-xl border border-neutral-200">
-          <h3 className="font-bold text-[#1A1E24] mb-4 uppercase tracking-widest text-sm">Kullanım Alanları</h3>
+          <h3 className="font-bold text-[#1A1E24] mb-4 uppercase tracking-widest text-sm">{t("solutions")}</h3>
           <div className="space-y-3">
             {solutions.map(solution => (
               <label key={solution.slug} className="flex items-center cursor-pointer group">
@@ -135,14 +135,14 @@ export default function ProductCatalog({ initialProducts, brands, solutions }: P
       <div className="w-full lg:w-3/4">
         <div className="mb-6 flex justify-between items-center bg-white p-4 rounded-xl border border-neutral-200">
           <span className="text-[#8A95A5] font-medium">
-            <strong className="text-[#1A1E24]">{filteredProducts.length}</strong> ürün listeleniyor
+            {t("productsListed", { count: filteredProducts.length })}
           </span>
           {(selectedBrands.length > 0 || selectedSolutions.length > 0 || searchQuery) && (
             <button 
               onClick={() => { setSelectedBrands([]); setSelectedSolutions([]); setSearchQuery(''); }}
               className="text-[#C61A1A] text-sm font-bold hover:underline"
             >
-              Filtreleri Temizle
+              {t("clearFilters")}
             </button>
           )}
         </div>
@@ -163,7 +163,7 @@ export default function ProductCatalog({ initialProducts, brands, solutions }: P
                   <p className="text-sm text-[#8A95A5] line-clamp-2 mb-6">{prod.description}</p>
                   
                   <div className="mt-auto flex items-center gap-2 text-[#1A1E24] font-bold uppercase tracking-widest text-xs group-hover:text-[#C61A1A] transition-colors">
-                    Ürünü İncele
+                    {t("viewProduct")}
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                   </div>
                 </div>
@@ -173,8 +173,8 @@ export default function ProductCatalog({ initialProducts, brands, solutions }: P
         ) : (
           <div className="text-center py-20 bg-white rounded-xl border border-neutral-200">
             <svg className="w-16 h-16 text-neutral-300 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" /></svg>
-            <h3 className="text-xl font-bold text-[#1A1E24] mb-2">Ürün Bulunamadı</h3>
-            <p className="text-[#8A95A5]">Seçtiğiniz filtrelere uygun ürün bulunmamaktadır.</p>
+            <h3 className="text-xl font-bold text-[#1A1E24] mb-2">{t("noProductsFoundTitle")}</h3>
+            <p className="text-[#8A95A5]">{t("noProductsFoundDesc")}</p>
           </div>
         )}
       </div>

@@ -101,7 +101,11 @@
     "searchPlaceholder": "Machine model or feature...",
     "brands": "BRANDS",
     "solutions": "SOLUTIONS",
-    "productsListed": "{count} products listed"
+    "productsListed": "{count} products listed",
+    "clearFilters": "Clear Filters",
+    "viewProduct": "View Product",
+    "noProductsFoundTitle": "No Products Found",
+    "noProductsFoundDesc": "There are no products matching your selected filters."
   },
   "ContactPage": {
     "title1": "Contact",
