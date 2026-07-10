@@ -99,6 +99,20 @@ interface ProductCatalogProps {
   solutions: Solution[];
 }
 
+const normalizeForSearch = (text: string) => {
+  if (!text) return "";
+  return text
+    .toLocaleLowerCase('tr-TR')
+    .replace(/ğ/g, 'g')
+    .replace(/ü/g, 'u')
+    .replace(/ş/g, 's')
+    .replace(/ı/g, 'i')
+    .replace(/ö/g, 'o')
+    .replace(/ç/g, 'c')
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+};
+
 export default function ProductCatalog({ initialProducts, brands, solutions }: ProductCatalogProps) {
   const t = useTranslations("CatalogPage");
   const locale = useLocale();
@@ -139,8 +153,27 @@ export default function ProductCatalog({ initialProducts, brands, solutions }: P
     );
   };
 
+  // Memoize normalized target strings to avoid recalculating on every keystroke
+  const normalizedProducts = useMemo(() => {
+    return initialProducts.map(product => {
+      const prodName = normalizeForSearch(locale === 'en' && product.nameEn ? product.nameEn : product.name);
+      const prodDesc = normalizeForSearch(locale === 'en' && product.descriptionEn ? product.descriptionEn : product.description);
+      const prodBrand = normalizeForSearch(product.brand);
+      const targetString = (prodBrand + " " + prodName + " " + prodDesc).replace(/[-_\s]/g, "");
+      
+      return {
+        ...product,
+        _searchTarget: targetString
+      };
+    });
+  }, [initialProducts, locale]);
+
   const filteredProducts = useMemo(() => {
-    return initialProducts.filter(product => {
+    const queryWords = searchQuery.trim() !== '' 
+      ? normalizeForSearch(searchQuery).replace(/[-_]/g, "").split(/\s+/).filter(w => w.length > 0)
+      : [];
+
+    return normalizedProducts.filter(product => {
       // Brand filter
       if (selectedBrands.length > 0 && !selectedBrands.includes(product.brand.toLowerCase())) {
         return false;
@@ -159,16 +192,13 @@ export default function ProductCatalog({ initialProducts, brands, solutions }: P
       }
       
       // Search filter
-      if (searchQuery.trim() !== '') {
-        const query = searchQuery.toLowerCase();
-        const prodName = locale === 'en' && product.nameEn ? product.nameEn.toLowerCase() : product.name.toLowerCase();
-        const prodDesc = locale === 'en' && product.descriptionEn ? product.descriptionEn.toLowerCase() : product.description.toLowerCase();
-        return prodName.includes(query) || prodDesc.includes(query);
+      if (queryWords.length > 0) {
+        return queryWords.every(word => product._searchTarget.includes(word));
       }
       
       return true;
     });
-  }, [initialProducts, selectedBrands, selectedSolutions, searchQuery, locale]);
+  }, [normalizedProducts, selectedBrands, selectedBrandCategories, selectedSolutions, searchQuery]);
 
   return (
     <div className="flex flex-col lg:flex-row gap-10">
