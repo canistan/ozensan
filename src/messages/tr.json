@@ -37,6 +37,9 @@
     "emailError": "Lütfen geçerli bir e-posta adresi giriniz.",
     "subSuccess": "Bültene başarıyla abone oldunuz!",
     "subError": "Bir hata oluştu.",
+    "alreadySubscribed": "Bu e-posta adresi zaten bültene kayıtlı.",
+    "unsubscribeLink": "Bültenden Ayrıl",
+    "rights": "Tüm Hakları Saklıdır.",
     "hours": "09:00 - 18:00"
   },
   "HomePage": {
@@ -318,6 +321,16 @@
   },
   "Global": {
     "home": "Anasayfa"
+  },
+  "Unsubscribe": {
+    "title": "Bültenden Ayrıl",
+    "desc": "E-bülten listemizden çıkmak için lütfen e-posta adresinizi giriniz.",
+    "emailLabel": "E-posta Adresiniz",
+    "submit": "Abonelikten Çık",
+    "success": "Aboneliğiniz başarıyla iptal edildi.",
+    "notSubscribed": "Bu e-posta adresi sistemimizde bulunamadı.",
+    "error": "Bir hata oluştu, lütfen daha sonra tekrar deneyin.",
+    "backToHome": "Anasayfaya Dön"
   },
   "CookieConsent": {
     "title": "Gizlilik Tercihleri",

@@ -73,6 +73,11 @@ export default function Footer() {
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                 </button>
               </form>
+              <div className="mt-2 text-right">
+                <Link href="/abonelikten-cik" className="text-[#8A95A5] text-xs hover:text-[#C61A1A] transition-colors underline decoration-[#8A95A5]/30 underline-offset-4">
+                  {t("unsubscribeLink")}
+                </Link>
+              </div>
             </div>
           </div>
 

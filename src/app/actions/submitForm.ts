@@ -38,7 +38,7 @@ export async function subscribeNewsletter(email: string) {
     });
 
     if (existing.totalDocs > 0) {
-      return { success: true }; // Already subscribed, fail silently with success
+      return { success: false, errorKey: 'alreadySubscribed' };
     }
 
     await payload.create({
@@ -51,5 +51,37 @@ export async function subscribeNewsletter(email: string) {
   } catch (error) {
     console.error("Error subscribing to newsletter:", error);
     return { success: false, errorKey: 'subError' };
+  }
+}
+
+export async function unsubscribeNewsletter(email: string) {
+  try {
+    const payload = await getPayload({ config: configPromise });
+    
+    // Check if subscribed
+    const existing = await payload.find({
+      collection: 'newsletter-subscribers',
+      where: {
+        email: {
+          equals: email,
+        }
+      }
+    });
+
+    if (existing.totalDocs === 0) {
+      return { success: false, errorKey: 'notSubscribed' };
+    }
+
+    // Delete the subscriber
+    const subscriberId = existing.docs[0].id;
+    await payload.delete({
+      collection: 'newsletter-subscribers',
+      id: subscriberId,
+    });
+
+    return { success: true };
+  } catch (error) {
+    console.error("Error unsubscribing from newsletter:", error);
+    return { success: false, errorKey: 'unsubscribeError' };
   }
 }

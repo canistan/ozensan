@@ -81,6 +81,10 @@ export const routing = defineRouting({
     '/kullanim-sartlari': {
       tr: '/kullanim-sartlari',
       en: '/terms-of-use'
+    },
+    '/abonelikten-cik': {
+      tr: '/abonelikten-cik',
+      en: '/unsubscribe'
     }
   }
 });

@@ -37,6 +37,9 @@
     "emailError": "Please enter a valid email address.",
     "subSuccess": "Successfully subscribed to the newsletter!",
     "subError": "An error occurred.",
+    "alreadySubscribed": "This email address is already subscribed.",
+    "unsubscribeLink": "Unsubscribe",
+    "rights": "All Rights Reserved.",
     "hours": "09:00 - 18:00"
   },
   "HomePage": {
@@ -318,6 +321,16 @@
   },
   "Global": {
     "home": "Home"
+  },
+  "Unsubscribe": {
+    "title": "Unsubscribe",
+    "desc": "Please enter your email address to unsubscribe from our newsletter.",
+    "emailLabel": "Your Email Address",
+    "submit": "Unsubscribe",
+    "success": "You have been successfully unsubscribed.",
+    "notSubscribed": "This email address was not found in our system.",
+    "error": "An error occurred, please try again later.",
+    "backToHome": "Back to Home"
   },
   "CookieConsent": {
     "title": "Privacy Preferences",
