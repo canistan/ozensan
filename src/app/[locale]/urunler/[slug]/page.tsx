@@ -94,7 +94,7 @@ export default async function ProductDetailPage({ params }: Props) {
             { label: product.name }
           ]} />
           
-          <Link href={{ pathname: "/markalar/[slug]", "params": { "slug": brandInfo?.slug || product.brand.toLowerCase() } }} className="hidden sm:flex items-center text-sm font-bold text-[#8A95A5] hover:text-[#C61A1A] transition-colors uppercase tracking-widest">
+          <Link href={`/markalar/${brandInfo?.slug || product.brand.toLowerCase()}` as any} className="hidden sm:flex items-center text-sm font-bold text-[#8A95A5] hover:text-[#C61A1A] transition-colors uppercase tracking-widest">
             <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
             {locale === "en" ? `BACK TO ${product.brand.toUpperCase()}` : `${product.brand.toUpperCase()} ÜRÜNLERİNE DÖN`}
           </Link>
@@ -161,7 +161,7 @@ export default async function ProductDetailPage({ params }: Props) {
                 {t("getQuote")}
               </Link>
               <Link 
-                href={{ pathname: "/markalar/[slug]", "params": { "slug": product.brand } }} 
+                href={`/markalar/${product.brand.toLowerCase()}` as any} 
                 className="bg-[#F8F9FA] hover:bg-[#E9ECEF] border border-neutral-200 text-[#1A1E24] text-sm font-black px-8 py-4 uppercase tracking-widest rounded-sm transition-all flex items-center justify-center"
               >
                 {t("viewBrand")}
