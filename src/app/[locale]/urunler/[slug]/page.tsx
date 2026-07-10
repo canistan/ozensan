@@ -34,11 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 }
 
-export async function generateStaticParams() {
-  return productsData.map((product) => ({
-    slug: product.slug,
-  }));
-}
+
 
 import { getTranslations } from "next-intl/server";
 import Breadcrumb from "@/components/ui/Breadcrumb";

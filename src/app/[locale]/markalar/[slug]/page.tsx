@@ -34,12 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 }
 
-// Generate static params for fast rendering
-export async function generateStaticParams() {
-  return brandsData.map((brand) => ({
-    slug: brand.slug,
-  }));
-}
+
 
 import { getTranslations } from "next-intl/server";
 import Breadcrumb from "@/components/ui/Breadcrumb";
@@ -123,7 +118,7 @@ export default async function BrandDetailPage({ params }: Props) {
           {brandProducts.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {brandProducts.map((prod) => (
-                <Link href={{ pathname: "/urunler/[slug]", "params": { "slug": prod.slug } }} key={prod.slug} className="bg-white rounded-xl border border-neutral-200 overflow-hidden group hover:shadow-xl hover:border-[#C61A1A]/30 transition-all duration-300 flex flex-col">
+                <Link href={`/urunler/${prod.slug}` as any} key={prod.slug} className="bg-white rounded-xl border border-neutral-200 overflow-hidden group hover:shadow-xl hover:border-[#C61A1A]/30 transition-all duration-300 flex flex-col">
                   <div className="aspect-[4/3] w-full relative overflow-hidden bg-white p-8">
                     <img src={prod.image} alt={locale === "en" && prod.nameEn ? prod.nameEn : prod.name} className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700" />
                   </div>

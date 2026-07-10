@@ -33,18 +33,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     image: solution.image,
   });
 }
-
-export async function generateStaticParams() {
-  const params: { locale: string, slug: string }[] = [];
-  solutionsData.forEach((solution) => {
-    params.push({ locale: 'tr', slug: solution.slug });
-    if ((solution as any).slugEn) {
-      params.push({ locale: 'en', slug: (solution as any).slugEn });
-    }
-  });
-  return params;
-}
-
 import { getTranslations } from "next-intl/server";
 import Breadcrumb from "@/components/ui/Breadcrumb";
 
