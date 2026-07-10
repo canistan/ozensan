@@ -33,7 +33,7 @@ export default function MobileMenu() {
 
       {/* Mobile Menu Overlay */}
       {isOpen && (
-        <div className="fixed inset-0 z-40 bg-white/95 backdrop-blur-md pt-24 px-6 overflow-y-auto min-h-screen">
+        <div className="fixed inset-0 z-40 bg-white pt-24 px-6 overflow-y-auto min-h-screen">
           <nav className="flex flex-col gap-6 text-xl font-bold text-[#1A1E24]">
             <Link href="/" onClick={closeMenu} className="hover:text-[#C61A1A] transition-colors">{t("home") || "Anasayfa"}</Link>
             
