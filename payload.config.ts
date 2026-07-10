@@ -14,6 +14,15 @@ export default buildConfig({
   csrf: ['https://ozensanas.semsicanalbayrak.com', 'https://www.ozensanas.com', 'http://localhost:3000', 'http://localhost:3001'],
   admin: {
     user: 'users',
+    meta: {
+      titleSuffix: '- Özensan Admin',
+    },
+    components: {
+      graphics: {
+        Logo: '/src/components/admin/Logo.tsx#Logo',
+        Icon: '/src/components/admin/Icon.tsx#Icon',
+      },
+    },
   },
   plugins: [
     vercelBlobStorage({
@@ -37,6 +46,7 @@ export default buildConfig({
       slug: 'pages',
       admin: {
         useAsTitle: 'title',
+        hidden: true,
       },
       fields: [
         {
@@ -54,6 +64,7 @@ export default buildConfig({
       slug: 'brands',
       admin: {
         useAsTitle: 'name',
+        hidden: true,
       },
       fields: [
         {
@@ -76,6 +87,7 @@ export default buildConfig({
       slug: 'products',
       admin: {
         useAsTitle: 'name',
+        hidden: true,
       },
       fields: [
         {
@@ -116,6 +128,9 @@ export default buildConfig({
     },
     {
       slug: 'media',
+      admin: {
+        hidden: true,
+      },
       upload: {
         staticDir: 'media',
         imageSizes: [
@@ -149,8 +164,8 @@ export default buildConfig({
       access: {
         create: () => true, // Allow anyone to submit a contact message
         read: ({ req: { user } }) => Boolean(user), // Only admins can read
-        update: ({ req: { user } }) => Boolean(user),
-        delete: ({ req: { user } }) => Boolean(user),
+        update: () => false,
+        delete: () => false,
       },
       fields: [
         { name: 'name', type: 'text', required: true, label: 'Ad Soyad' },
@@ -173,8 +188,8 @@ export default buildConfig({
       access: {
         create: () => true, // Allow anyone to subscribe
         read: ({ req: { user } }) => Boolean(user), // Only admins can read
-        update: ({ req: { user } }) => Boolean(user),
-        delete: ({ req: { user } }) => Boolean(user),
+        update: () => false,
+        delete: () => false,
       },
       fields: [
         { name: 'email', type: 'email', required: true, label: 'E-Posta' },
