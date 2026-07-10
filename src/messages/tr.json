@@ -10,7 +10,7 @@
     "allBrands": "TÜM MARKALAR",
     "solution_road": "Yol Yapım ve Bakım",
     "solution_heavy": "Ağır Sanayi ve Metal İşleme",
-    "solution_drilling": "Profesyonel Delme ve Yıkım",
+    "solution_drilling": "Delici & Kırıcı",
     "products": "Tüm Ürünler"
   },
   "Footer": {
@@ -48,7 +48,7 @@
       "badge": "YETKİLİ TÜRKİYE DİSTRİBÜTÖRÜ",
       "title1": "Dünya Devlerinin Gücü,",
       "title2": "Türkiye'nin Altyapısında.",
-      "desc": "Cedima, DUSS, Ticab, Victor ve GCE markalarının resmi distribütörü olarak ağır sanayi, yol yapım ve profesyonel delme süreçlerinize kesintisiz mühendislik ve yedek parça çözümleri sunuyoruz.",
+      "desc": "Cedima, DUSS, Ticab, Victor ve GCE markalarının resmi distribütörü olarak ağır sanayi, yol yapım ve delici & kırıcı süreçlerinize kesintisiz mühendislik ve yedek parça çözümleri sunuyoruz.",
       "btnProducts": "Ürünlerimizi İnceleyin",
       "btnQuote": "Teklif Alın"
     },
@@ -207,11 +207,11 @@
   },
   "ProductsSEO": {
     "title": "Tüm Ürünler ve Makineler | Özensan",
-    "description": "Ağır sanayi, yol yapım ve profesyonel delme/yıkım sektörlerine yönelik dünya devlerinin sunduğu makine ve ekipman kataloğumuz."
+    "description": "Ağır sanayi, yol yapım ve delici/kırıcı sektörlerine yönelik dünya devlerinin sunduğu makine ve ekipman kataloğumuz."
   },
   "HomeSEO": {
     "title": "Özensan Sanayi Makine ve Malzemeleri A.Ş. | Resmi Distribütör",
-    "description": "Cedima, DUSS, Ticab, Victor ve GCE markalarının Türkiye resmi distribütörü. Ağır sanayi, yol yapım ve profesyonel delme süreçlerinize kesintisiz mühendislik ve yedek parça çözümleri sunuyoruz."
+    "description": "Cedima, DUSS, Ticab, Victor ve GCE markalarının Türkiye resmi distribütörü. Ağır sanayi, yol yapım ve delici/kırıcı süreçlerinize kesintisiz mühendislik ve yedek parça çözümleri sunuyoruz."
   },
   "TermsSEO": {
     "title": "Kullanım Şartları | Özensan",
