@@ -87,7 +87,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
       />
       {/* 1. HERO SECTION */}
-      <section className="relative w-full h-[85vh] min-h-[750px] flex items-center bg-[#1A1E24] overflow-hidden">
+      <section className="relative w-full min-h-[850px] lg:h-[85vh] lg:min-h-[750px] flex items-center bg-[#1A1E24] overflow-hidden pt-32 pb-16 lg:pt-0 lg:pb-0">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-[url('/hero-bg.webp')] bg-cover bg-center bg-no-repeat opacity-50" />
           <div className="absolute inset-0 bg-gradient-to-r from-[#1A1E24] via-[#1A1E24]/90 to-transparent z-10" />
