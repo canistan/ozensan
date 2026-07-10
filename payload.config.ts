@@ -17,12 +17,6 @@ export default buildConfig({
     meta: {
       titleSuffix: '- Özensan Admin',
     },
-    components: {
-      graphics: {
-        Logo: './src/components/admin/Logo.tsx#Logo',
-        Icon: './src/components/admin/Icon.tsx#Icon',
-      },
-    },
   },
   plugins: [
     vercelBlobStorage({
