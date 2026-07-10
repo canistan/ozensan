@@ -19,8 +19,8 @@ export default buildConfig({
     },
     components: {
       graphics: {
-        Logo: '/src/components/admin/Logo.tsx#Logo',
-        Icon: '/src/components/admin/Icon.tsx#Icon',
+        Logo: './src/components/admin/Logo.tsx#Logo',
+        Icon: './src/components/admin/Icon.tsx#Icon',
       },
     },
   },
