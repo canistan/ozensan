@@ -6,8 +6,8 @@ import { usePathname } from "next/navigation";
 
 export default function NotFound() {
   const pathname = usePathname();
-  // We can safely guess the locale from the pathname for the fallback not-found
-  const isEn = pathname.startsWith('/en');
+  // We can safely guess the locale from the pathname for the fallback not-found, handle null safely
+  const isEn = pathname ? pathname.startsWith('/en') : false;
   
   return (
     <div className="bg-[#F8F9FA] flex-grow flex flex-col items-center justify-center py-12 md:py-20">
