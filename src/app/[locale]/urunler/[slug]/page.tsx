@@ -56,8 +56,40 @@ export default async function ProductDetailPage({ params }: Props) {
 
   const brandInfo = brandsData.find(b => b.slug.toLowerCase() === product.brand.toLowerCase());
 
+  const isEn = locale === 'en';
+  const productName = isEn && (product as any).nameEn ? (product as any).nameEn : product.name;
+  const productDesc = isEn && (product as any).descriptionEn ? (product as any).descriptionEn : product.description;
+
+  const productSchema = {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": productName,
+    "image": `https://www.ozensanas.com${product.image}`,
+    "description": productDesc,
+    "brand": {
+      "@type": "Brand",
+      "name": product.brand
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": `https://www.ozensanas.com/${locale}/urunler/${product.slug}`,
+      "priceCurrency": "TRY",
+      "price": "0.00",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "Özensan Sanayi Makine ve Malzemeleri A.Ş."
+      }
+    }
+  };
+
   return (
-    <div className="bg-[#F8F9FA] min-h-screen pt-32 pb-24">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+      />
+      <div className="bg-[#F8F9FA] min-h-screen pt-32 pb-24">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center mb-6">
           <Breadcrumb items={[
@@ -207,6 +239,6 @@ export default async function ProductDetailPage({ params }: Props) {
         )}
 
       </div>
-    </div>
+    </>
   );
 }

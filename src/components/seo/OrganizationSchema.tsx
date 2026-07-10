@@ -9,7 +9,7 @@ export default function OrganizationSchema() {
     "logo": "https://www.ozensanas.com/logoseffaf.webp",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+90-312-385-23-45",
+      "telephone": ["+90-212-244-13-50", "+90-530-567-11-16"],
       "contactType": "customer service",
       "areaServed": "TR",
       "availableLanguage": ["Turkish", "English"]
@@ -20,10 +20,10 @@ export default function OrganizationSchema() {
     ],
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Ostim OSB Mahallesi 100. Yıl Bulvarı No: 55",
-      "addressLocality": "Yenimahalle",
-      "addressRegion": "Ankara",
-      "postalCode": "06374",
+      "streetAddress": "Arap Cami, Bereketzade Medresesi Sk. No:12/A",
+      "addressLocality": "Karaköy, Beyoğlu",
+      "addressRegion": "İstanbul",
+      "postalCode": "34421",
       "addressCountry": "TR"
     }
   };
@@ -35,19 +35,19 @@ export default function OrganizationSchema() {
     "image": "https://www.ozensanas.com/logoseffaf.webp",
     "@id": "https://www.ozensanas.com",
     "url": "https://www.ozensanas.com",
-    "telephone": "+90-312-385-23-45",
+    "telephone": ["+90-212-244-13-50", "+90-530-567-11-16"],
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Ostim OSB Mahallesi 100. Yıl Bulvarı No: 55",
-      "addressLocality": "Yenimahalle",
-      "addressRegion": "Ankara",
-      "postalCode": "06374",
+      "streetAddress": "Arap Cami, Bereketzade Medresesi Sk. No:12/A",
+      "addressLocality": "Karaköy, Beyoğlu",
+      "addressRegion": "İstanbul",
+      "postalCode": "34421",
       "addressCountry": "TR"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 39.9678,
-      "longitude": 32.7441
+      "latitude": 41.0241,
+      "longitude": 28.9740
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",

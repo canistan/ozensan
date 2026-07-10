@@ -68,8 +68,24 @@ export default function Home() {
   // Get featured products dynamically
   const featuredProducts = productsData.filter(p => p.isFeatured).slice(0, 6);
 
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Özensan Sanayi Makine ve Malzemeleri A.Ş.",
+    "url": "https://www.ozensanas.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.ozensanas.com/urunler?search={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
       {/* 1. HERO SECTION */}
       <section className="relative w-full h-[85vh] min-h-[750px] flex items-center bg-[#1A1E24] overflow-hidden">
         <div className="absolute inset-0 z-0">

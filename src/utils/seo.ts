@@ -20,7 +20,9 @@ export function generateSEOMetadata({
   image = '/hero-bg.webp',
 }: SEOProps): Metadata {
   const isTr = locale === 'tr';
-  const currentPath = isTr ? pathnameTr : pathnameEn;
+  const currentPath = isTr ? pathnameTr.split('?')[0] : pathnameEn.split('?')[0];
+  const cleanPathTr = pathnameTr.split('?')[0];
+  const cleanPathEn = pathnameEn.split('?')[0];
   const canonicalUrl = `${baseUrl}/${locale}${currentPath === '/' ? '' : currentPath}`;
 
   return {
@@ -29,8 +31,8 @@ export function generateSEOMetadata({
     alternates: {
       canonical: canonicalUrl,
       languages: {
-        tr: `${baseUrl}/tr${pathnameTr === '/' ? '' : pathnameTr}`,
-        en: `${baseUrl}/en${pathnameEn === '/' ? '' : pathnameEn}`,
+        tr: `${baseUrl}/tr${cleanPathTr === '/' ? '' : cleanPathTr}`,
+        en: `${baseUrl}/en${cleanPathEn === '/' ? '' : cleanPathEn}`,
       },
     },
     openGraph: {

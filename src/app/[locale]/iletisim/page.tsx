@@ -93,6 +93,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                       <div className="ml-5">
                         <h4 className="text-sm font-bold text-[#8A95A5] uppercase tracking-wider mb-1">{t("phone")}</h4>
                         <p className="text-lg font-medium">+90 212 244 13 50</p>
+                        <p className="text-lg font-medium">+90 530 567 11 16</p>
                       </div>
                     </div>
 
