@@ -9,6 +9,9 @@ const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
 
 export default buildConfig({
+  serverURL: process.env.NEXT_PUBLIC_SERVER_URL || 'https://ozensanas.semsicanalbayrak.com',
+  cors: ['https://ozensanas.semsicanalbayrak.com', 'https://www.ozensanas.com', 'http://localhost:3000', 'http://localhost:3001'],
+  csrf: ['https://ozensanas.semsicanalbayrak.com', 'https://www.ozensanas.com', 'http://localhost:3000', 'http://localhost:3001'],
   admin: {
     user: 'users',
   },

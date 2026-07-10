@@ -37,6 +37,9 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ loc
 
   const title = locale === "en" ? blog.titleEn : blog.title;
   const content = locale === "en" ? blog.contentEn : blog.content;
+  const tldr = locale === "en" ? blog.tldrEn : blog.tldr;
+  const readTime = locale === "en" ? blog.readTimeEn : blog.readTime;
+  const authorName = locale === "en" ? blog.authorEn : blog.author;
 
   const blogSchema = {
     "@context": "https://schema.org",
@@ -46,9 +49,8 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ loc
     "datePublished": blog.date,
     "dateModified": blog.date,
     "author": {
-      "@type": "Organization",
-      "name": "Özensan Sanayi Makine ve Malzemeleri A.Ş.",
-      "url": "https://www.ozensanas.com"
+      "@type": "Person",
+      "name": authorName
     },
     "publisher": {
       "@type": "Organization",
@@ -93,6 +95,7 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ loc
             </h1>
             <p className="text-[#8A95A5] font-medium tracking-widest text-sm uppercase">
                {new Date(blog.date).toLocaleDateString(locale === 'tr' ? 'tr-TR' : 'en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+               <span className="mx-2">•</span> {authorName} <span className="mx-2">•</span> {readTime}
             </p>
           </div>
         </div>
@@ -105,6 +108,19 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ loc
             {/* Image Banner within content */}
             <div className="w-full h-auto mb-12 rounded-xl overflow-hidden shadow-lg">
                <img src={blog.image} alt={title} className="w-full h-full object-cover" />
+            </div>
+
+            {/* TL;DR Box */}
+            <div className="bg-[#1A1E24]/5 border-l-4 border-[#C61A1A] p-6 mb-10 rounded-r-xl">
+              <h3 className="text-[#1A1E24] font-bold text-lg mb-2 flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#C61A1A]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                TL;DR (Özet)
+              </h3>
+              <p className="text-[#4A5568] italic">
+                {tldr}
+              </p>
             </div>
 
             {/* Typography Content */}
