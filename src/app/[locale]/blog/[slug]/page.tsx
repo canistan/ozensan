@@ -38,8 +38,40 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ loc
   const title = locale === "en" ? blog.titleEn : blog.title;
   const content = locale === "en" ? blog.contentEn : blog.content;
 
+  const blogSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": title,
+    "image": `https://www.ozensanas.com${blog.image}`,
+    "datePublished": blog.date,
+    "dateModified": blog.date,
+    "author": {
+      "@type": "Organization",
+      "name": "Özensan Sanayi Makine ve Malzemeleri A.Ş.",
+      "url": "https://www.ozensanas.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Özensan Sanayi Makine ve Malzemeleri A.Ş.",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.ozensanas.com/logoseffaf.webp"
+      }
+    },
+    "description": locale === "en" ? blog.descriptionEn : blog.description,
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://www.ozensanas.com/${locale}/blog/${blog.slug}`
+    }
+  };
+
   return (
-    <div className="bg-[#F8F9FA] min-h-screen">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+      />
+      <div className="bg-[#F8F9FA] min-h-screen">
       {/* Article Header */}
       <section className="bg-[#1A1E24] text-white pt-32 pb-20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
@@ -90,5 +122,6 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ loc
         </div>
       </section>
     </div>
+    </>
   );
 }
