@@ -25,6 +25,7 @@
     "corporate": "Kurumsal",
     "about": "Hakkımızda",
     "visionMission": "Vizyon & Misyon",
+    "blog": "Blog",
     "faq": "Sıkça Sorulan Sorular",
     "career": "Kariyer",
     "legal": "Yasal",
@@ -331,6 +332,17 @@
     "notSubscribed": "Bu e-posta adresi sistemimizde bulunamadı.",
     "error": "Bir hata oluştu, lütfen daha sonra tekrar deneyin.",
     "backToHome": "Anasayfaya Dön"
+  },
+  "BlogSEO": {
+    "title": "Blog | Özensan Endüstriyel Haberler",
+    "description": "Özensan blog sayfasında endüstriyel çözümler, makineler ve sektördeki en son gelişmeleri takip edin."
+  },
+  "BlogPage": {
+    "hero1": "Sektörel",
+    "hero2": "Haberler & İçgörüler",
+    "heroDesc": "Ağır sanayi ve altyapı projelerindeki son teknolojik gelişmeleri, ürün incelemelerini ve uzman tavsiyelerini keşfedin.",
+    "readMore": "Devamını Oku",
+    "backToBlog": "Tüm Yazılara Dön"
   },
   "CookieConsent": {
     "title": "Gizlilik Tercihleri",

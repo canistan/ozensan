@@ -85,6 +85,14 @@ export const routing = defineRouting({
     '/abonelikten-cik': {
       tr: '/abonelikten-cik',
       en: '/unsubscribe'
+    },
+    '/blog': {
+      tr: '/blog',
+      en: '/blog'
+    },
+    '/blog/[slug]': {
+      tr: '/blog/[slug]',
+      en: '/blog/[slug]'
     }
   }
 });

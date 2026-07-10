@@ -25,6 +25,7 @@
     "corporate": "Corporate",
     "about": "About Us",
     "visionMission": "Vision & Mission",
+    "blog": "Blog",
     "faq": "Frequently Asked Questions",
     "career": "Careers",
     "legal": "Legal",
@@ -331,6 +332,17 @@
     "notSubscribed": "This email address was not found in our system.",
     "error": "An error occurred, please try again later.",
     "backToHome": "Back to Home"
+  },
+  "BlogSEO": {
+    "title": "Blog | Özensan Industrial News",
+    "description": "Follow the latest developments in industrial solutions, machinery, and the sector on the Özensan blog."
+  },
+  "BlogPage": {
+    "hero1": "Sectoral",
+    "hero2": "News & Insights",
+    "heroDesc": "Discover the latest technological developments, product reviews, and expert advice in heavy industry and infrastructure projects.",
+    "readMore": "Read More",
+    "backToBlog": "Back to All Posts"
   },
   "CookieConsent": {
     "title": "Privacy Preferences",

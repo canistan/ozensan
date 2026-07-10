@@ -98,6 +98,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-4">
               <li><Link href="/kurumsal" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">{t("about")}</Link></li>
               <li><Link href="/vizyon-misyon" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">{t("visionMission")}</Link></li>
+              <li><Link href="/blog" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">{t("blog")}</Link></li>
               <li><Link href="/sikca-sorulan-sorular" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">{t("faq")}</Link></li>
               <li><Link href="/kariyer" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">{t("career")}</Link></li>
             </ul>
