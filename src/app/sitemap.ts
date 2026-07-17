@@ -50,12 +50,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { tr: '/kariyer', en: '/careers' },
     { tr: '/vizyon-misyon', en: '/vision-mission' },
     { tr: '/cozumler', en: '/solutions' },
-    { tr: '/yedek-parca', en: '/spare-parts' },
     { tr: '/sikca-sorulan-sorular', en: '/faq' },
     { tr: '/teklif-al', en: '/get-quote' },
     { tr: '/cerez-politikasi', en: '/cookie-policy' },
     { tr: '/gizlilik-politikasi', en: '/privacy-policy' },
-    { tr: '/kvkk', en: '/kvkk' },
+    { tr: '/kvkk', en: '/clarification-text' },
     { tr: '/kullanim-sartlari', en: '/terms-of-use' },
   ];
 

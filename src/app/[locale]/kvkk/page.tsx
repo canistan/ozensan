@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description: t("description"),
     locale,
     pathnameTr: '/kvkk',
-    pathnameEn: '/kvkk',
+    pathnameEn: '/clarification-text',
   });
 }
 
