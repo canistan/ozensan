@@ -23,9 +23,6 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://www.ozensanas.com'),
   title: "Özensan Sanayi Makine ve Malzemeleri A.Ş. | Resmi Distribütör",
   description: "Cedima, DUSS, Ticab, Victor ve GCE markalarının Türkiye resmi distribütörü. Ağır sanayi, yol yapım ve delici/kırıcı süreçlerinize kesintisiz mühendislik ve yedek parça çözümleri sunuyoruz.",
-  icons: {
-    icon: "/faviconseffaf.webp",
-  },
   robots: {
     index: true,
     follow: true,
