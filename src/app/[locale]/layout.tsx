@@ -12,6 +12,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import LanguageSwitcher from "@/components/global/LanguageSwitcher";
 import MobileMenu from "@/components/global/MobileMenu";
+import { GoogleTagManager } from '@next/third-parties/google';
 
 const inter = Inter({
   subsets: ["latin"],
@@ -26,8 +27,8 @@ export const metadata: Metadata = {
     icon: "/faviconseffaf.webp",
   },
   robots: {
-    index: false, // Intentionally kept false for subdomain development phase
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 
@@ -54,6 +55,7 @@ export default async function RootLayout({
     <html lang={locale} className={`${inter.className} h-full antialiased scroll-smooth`}>
       {/* Genel site zemini: Yapısal Açık Gri (#F8F9FA), Tipografi: Endüstriyel Antrasit (#1A1E24) */}
       <body className="min-h-full flex flex-col bg-[#F8F9FA] text-[#1A1E24]">
+        <GoogleTagManager gtmId="GTM-5DH9HGFG" />
         <OrganizationSchema />
         <NextIntlClientProvider messages={messages}>
         {/* TOP CONTACT BAR */}

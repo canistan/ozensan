@@ -37,6 +37,13 @@ export default function CookieConsent() {
   const acceptCookies = () => {
     try {
       localStorage.setItem("cookieConsent", "accepted");
+      if (typeof window !== "undefined") {
+        (window as any).dataLayer = (window as any).dataLayer || [];
+        (window as any).dataLayer.push({
+          event: "cookie_consent_update",
+          cookie_consent: "granted"
+        });
+      }
     } catch(e) {}
     setIsVisible(false);
   };
