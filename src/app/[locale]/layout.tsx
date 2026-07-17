@@ -30,6 +30,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  verification: {
+    google: "S96cEjwfyaO8Y9OCCbZk2-liTADkazXRr0pEkGG_emE",
+  },
 };
 
 import OrganizationSchema from "@/components/seo/OrganizationSchema";
