@@ -81,7 +81,7 @@ export default async function RootLayout({
         <header className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-md border-b border-[#8A95A5]/20 shadow-sm">
           <div className="container mx-auto px-4 sm:px-8 h-20 sm:h-24 flex items-center justify-between">
             {/* Logo */}
-            <Link href="/" className="flex-shrink-0 group z-50 relative">
+            <Link href="/" className="flex-shrink-0 group z-50 relative outline-none focus:outline-none">
               <div className="relative h-16 w-64 sm:h-20 sm:w-80 transition-transform group-hover:scale-[1.02]">
                 <Image 
                   src="/logoseffaf.webp" 
