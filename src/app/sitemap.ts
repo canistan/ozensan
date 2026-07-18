@@ -43,12 +43,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [
     { tr: '/', en: '/' },
     { tr: '/kurumsal', en: '/corporate' },
-    { tr: '/hakkimizda', en: '/about' },
     { tr: '/urunler', en: '/products' },
     { tr: '/markalar', en: '/brands' },
     { tr: '/iletisim', en: '/contact' },
     { tr: '/kariyer', en: '/careers' },
-    { tr: '/vizyon-misyon', en: '/vision-mission' },
     { tr: '/cozumler', en: '/solutions' },
     { tr: '/sikca-sorulan-sorular', en: '/faq' },
     { tr: '/teklif-al', en: '/get-quote' },
