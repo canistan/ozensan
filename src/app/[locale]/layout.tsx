@@ -53,6 +53,9 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} className={`${inter.className} h-full antialiased scroll-smooth`}>
+      <head>
+        <link rel="preload" href="/hero-bg.webp" as="image" type="image/webp" fetchPriority="high" />
+      </head>
       {/* Genel site zemini: Yapısal Açık Gri (#F8F9FA), Tipografi: Endüstriyel Antrasit (#1A1E24) */}
       <body className="min-h-full flex flex-col bg-[#F8F9FA] text-[#1A1E24]">
         <GoogleTagManager gtmId="GTM-5DH9HGFG" />

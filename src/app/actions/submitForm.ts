@@ -2,6 +2,7 @@
 
 import { getPayload } from 'payload';
 import configPromise from '@payload-config';
+import { sendContactNotification } from '@/lib/email';
 
 export async function submitContactMessage(data: { name: string; email: string; phone: string; subject: string; message: string }) {
   try {
@@ -16,6 +17,12 @@ export async function submitContactMessage(data: { name: string; email: string; 
         message: data.message,
       },
     });
+
+    // Send email notification (don't block the response if it fails)
+    sendContactNotification(data).catch((err) => {
+      console.error('Email notification failed:', err);
+    });
+
     return { success: true };
   } catch (error: any) {
     console.error("Error submitting contact message:", error);
