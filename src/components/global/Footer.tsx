@@ -6,7 +6,6 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { useToast } from "@/components/ui/ToastContext";
 import { subscribeNewsletter } from "@/app/actions/submitForm";
-import CTABanner from "@/components/global/CTABanner";
 
 export default function Footer() {
   const t = useTranslations("Footer");
@@ -39,9 +38,7 @@ export default function Footer() {
   };
 
   return (
-    <>
-      <CTABanner />
-      <footer className="bg-[#101317] text-white pt-20 pb-10 border-t-4 border-[#C61A1A]">
+    <footer className="bg-[#101317] text-white pt-20 pb-10 border-t-4 border-[#C61A1A]">
         <div className="container mx-auto px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
             
@@ -51,9 +48,9 @@ export default function Footer() {
                 <Image
                   src="/logoseffaf.webp"
                   alt="Özensan Logo"
-                  width={240}
-                  height={65}
-                  className="h-12 w-auto"
+                  width={177}
+                  height={48}
+                  className="object-contain"
                 />
               </Link>
             <p className="text-[#8A95A5] text-sm leading-relaxed">
@@ -69,7 +66,7 @@ export default function Footer() {
                   placeholder={t("emailPlaceholder")} 
                   className="bg-[#2A303A] text-white px-4 py-3 rounded-l-sm focus:outline-none focus:ring-1 focus:ring-[#C61A1A] w-full text-sm"
                 />
-                <button type="submit" className="bg-[#C61A1A] px-6 py-3 rounded-r-sm hover:bg-[#9D1414] transition-colors">
+                <button type="submit" aria-label="Subscribe" className="bg-[#C61A1A] px-6 py-3 rounded-r-sm hover:bg-[#9D1414] transition-colors">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                 </button>
               </form>
@@ -137,6 +134,5 @@ export default function Footer() {
         </div>
         </div>
       </footer>
-    </>
   );
 }

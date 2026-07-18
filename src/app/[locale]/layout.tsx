@@ -12,6 +12,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import LanguageSwitcher from "@/components/global/LanguageSwitcher";
 import MobileMenu from "@/components/global/MobileMenu";
+import CTABanner from "@/components/global/CTABanner";
 import { GoogleTagManager } from '@next/third-parties/google';
 
 const inter = Inter({
@@ -168,6 +169,7 @@ export default async function RootLayout({
             {children}
           </main>
 
+          <CTABanner />
           {/* Global Footer */}
           <Footer />
           

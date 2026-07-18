@@ -1,11 +1,9 @@
-"use client";
-
 import React from 'react';
 import { Link } from "@/i18n/routing";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
-export default function CTABanner() {
-  const t = useTranslations("CTA");
+export default async function CTABanner() {
+  const t = await getTranslations("CTA");
 
   return (
     <section className="bg-[#1A1E24] py-16 relative overflow-hidden">
