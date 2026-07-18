@@ -141,15 +141,71 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
       </section>
 
       {/* Map Section */}
-      <section className="h-[500px] w-full bg-neutral-200 relative">
-        <iframe 
-          src="https://maps.google.com/maps?q=Arap+Cami,+Bereketzade+Medresesi+Sk.+No:12/A,+34421+Karaköy+Beyoğlu/İstanbul&t=&z=15&ie=UTF8&iwloc=&output=embed" 
-          className="absolute inset-0 w-full h-full border-0 shadow-inner" 
-          allowFullScreen={true} 
-          loading="lazy" 
-          referrerPolicy="no-referrer-when-downgrade"
-          title="Özensan Harita"
-        ></iframe>
+      <section className="bg-[#1A1E24] py-16 md:py-24">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Section Header */}
+          <div className="text-center mb-12">
+            <div className="inline-block px-4 py-1.5 bg-[#C61A1A]/10 text-[#C61A1A] font-bold tracking-wider text-sm rounded-full mb-4">
+              {locale === 'en' ? 'OUR LOCATION' : 'KONUMUMUZ'}
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">
+              {locale === 'en' ? 'Find Us' : 'Bizi Bulun'}
+            </h2>
+          </div>
+
+          {/* Map Container */}
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10 group">
+            {/* Grayscale Map */}
+            <div className="h-[450px] md:h-[550px] w-full relative">
+              <iframe 
+                src="https://maps.google.com/maps?q=Arap+Cami,+Bereketzade+Medresesi+Sk.+No:12/A,+34421+Karaköy+Beyoğlu/İstanbul&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                className="absolute inset-0 w-full h-full border-0 grayscale contrast-[1.1] brightness-[0.8] group-hover:grayscale-[50%] transition-all duration-700" 
+                allowFullScreen={true} 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Özensan Harita"
+              ></iframe>
+
+              {/* Gradient Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-[#1A1E24]/60 via-transparent to-transparent pointer-events-none" />
+              <div className="absolute inset-0 bg-gradient-to-r from-[#1A1E24]/40 via-transparent to-transparent pointer-events-none" />
+
+              {/* Floating Location Card */}
+              <div className="absolute bottom-6 left-6 md:bottom-10 md:left-10 z-10 bg-[#1A1E24]/95 backdrop-blur-md rounded-xl p-6 md:p-8 border border-white/10 shadow-2xl max-w-sm">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-[#C61A1A] rounded-xl flex items-center justify-center shrink-0">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-white font-bold text-lg mb-1">Özensan A.Ş.</h3>
+                    <p className="text-[#8A95A5] text-sm leading-relaxed">
+                      Arap Cami, Bereketzade Medresesi Sk.<br />
+                      No:12/A, 34421 Karaköy<br />
+                      Beyoğlu / İstanbul
+                    </p>
+                    <a 
+                      href="https://maps.google.com/maps?q=Arap+Cami,+Bereketzade+Medresesi+Sk.+No:12/A,+34421+Karaköy+Beyoğlu/İstanbul" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 mt-4 text-[#C61A1A] hover:text-white text-sm font-bold transition-colors"
+                    >
+                      {locale === 'en' ? 'Get Directions' : 'Yol Tarifi Al'}
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Red accent line at bottom */}
+            <div className="h-1 bg-gradient-to-r from-[#C61A1A] via-[#C61A1A]/60 to-transparent" />
+          </div>
+        </div>
       </section>
 
     </div>
