@@ -60,7 +60,7 @@ export default async function ProductDetailPage({ params }: Props) {
     "@context": "https://schema.org/",
     "@type": "Product",
     "name": productName,
-    "image": `https://www.ozensanas.com${product.image}`,
+    "image": product.image.startsWith('http') ? product.image : `https://www.ozensanas.com${product.image}`,
     "description": productDesc,
     "brand": {
       "@type": "Brand",
