@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
-import productsData from '@/data/products.json';
-import brandsData from '@/data/brands.json';
+import { productsData } from '@/data';
+import { brandsData } from '@/data';
 import solutionsData from '@/data/solutions.json';
 import { routing } from '@/i18n/routing';
 

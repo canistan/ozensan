@@ -2,8 +2,8 @@ import React from 'react';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Link } from "@/i18n/routing";
-import brandsData from '@/data/brands.json';
-import productsData from '@/data/products.json';
+import { brandsData } from '@/data';
+import { productsData } from '@/data';
 
 import { generateSEOMetadata } from '@/utils/seo';
 

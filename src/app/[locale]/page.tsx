@@ -5,8 +5,8 @@ import { generateSEOMetadata } from '@/utils/seo';
 import { Link } from "@/i18n/routing";
 import { useTranslations, useLocale } from "next-intl";
 import WorldMap from "@/components/home/WorldMap";
-import productsData from "@/data/products.json";
-import brandsData from "@/data/brands.json";
+import { productsData } from '@/data';
+import { brandsData } from '@/data';
 
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {

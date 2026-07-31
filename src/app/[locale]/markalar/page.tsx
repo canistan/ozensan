@@ -4,7 +4,7 @@ import { generateSEOMetadata } from '@/utils/seo';
 
 import { Metadata } from 'next';
 import { Link } from "@/i18n/routing";
-import brandsData from '@/data/brands.json';
+import { brandsData } from '@/data';
 
 
 

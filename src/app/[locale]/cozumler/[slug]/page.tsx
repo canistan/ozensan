@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Link } from "@/i18n/routing";
 import solutionsData from '@/data/solutions.json';
-import productsData from '@/data/products.json';
+import { productsData } from '@/data';
 
 import { generateSEOMetadata } from '@/utils/seo';
 

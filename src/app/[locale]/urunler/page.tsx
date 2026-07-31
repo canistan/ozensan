@@ -4,8 +4,8 @@ import { generateSEOMetadata } from '@/utils/seo';
 
 import { Metadata } from 'next';
 import ProductCatalog from '@/components/products/ProductCatalog';
-import productsData from '@/data/products.json';
-import brandsData from '@/data/brands.json';
+import { productsData } from '@/data';
+import { brandsData } from '@/data';
 import solutionsData from '@/data/solutions.json';
 
 
