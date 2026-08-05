@@ -134,9 +134,9 @@ export default async function RootLayout({
                   <div className="p-3 flex flex-col gap-1">
                     <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'cedima' } }} className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">CEDIMA</Link>
                     <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'ticab' } }} className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">TICAB</Link>
-                    <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'duss' } }} className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">DUSS</Link>
                     <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'victor' } }} className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">VICTOR</Link>
                     <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'gce' } }} className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">GCE</Link>
+                    <Link href={{ pathname: '/markalar/[slug]', params: { slug: 'duss' } }} className="px-5 py-3 hover:bg-[#F8F9FA] hover:text-[#C61A1A] rounded-lg transition-all font-bold tracking-wide">DUSS</Link>
                   </div>
                 </div>
               </div>

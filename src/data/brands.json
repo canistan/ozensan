@@ -18,15 +18,6 @@
     "website": "https://ticab.eu"
   },
   {
-    "slug": "duss",
-    "name": "DUSS",
-    "logo": "/DUSS.svg",
-    "coverImage": "/brands/duss_hero.png",
-    "description": "Profesyonel kırma ve delme teknolojisinde Alman kalitesi. DUSS, hafif tasarımı ve sınıfının en yüksek darbe gücüyle ön plana çıkar. Tozsuz çalışma sistemleri ve titreşim emici teknolojileri sayesinde operatör sağlığını korurken maksimum performans sağlar.",
-    "descriptionEn": "German quality in professional breaking and drilling technology. DUSS stands out with its lightweight design and the highest impact power in its class. Thanks to dust-free working systems and vibration-absorbing technologies, it ensures maximum performance while protecting operator health.",
-    "website": "https://www.duss.de"
-  },
-  {
     "slug": "victor",
     "name": "VICTOR",
     "logo": "/victor.svg",
@@ -43,5 +34,14 @@
     "description": "Gaz kontrol ekipmanlarında Avrupa'nın lider markası. Tıbbi gazlardan endüstriyel proseslere kadar geniş bir yelpazede yüksek güvenlikli regülatörler ve valf sistemleri sunar.",
     "descriptionEn": "Europe's leading brand in gas control equipment. Provides highly secure regulators and valve systems across a wide range of applications, from medical gases to industrial processes.",
     "website": "https://www.gcegroup.com"
+  },
+  {
+    "slug": "duss",
+    "name": "DUSS",
+    "logo": "/DUSS.svg",
+    "coverImage": "/brands/duss_hero.png",
+    "description": "Profesyonel kırma ve delme teknolojisinde Alman kalitesi. DUSS, hafif tasarımı ve sınıfının en yüksek darbe gücüyle ön plana çıkar. Tozsuz çalışma sistemleri ve titreşim emici teknolojileri sayesinde operatör sağlığını korurken maksimum performans sağlar.",
+    "descriptionEn": "German quality in professional breaking and drilling technology. DUSS stands out with its lightweight design and the highest impact power in its class. Thanks to dust-free working systems and vibration-absorbing technologies, it ensures maximum performance while protecting operator health.",
+    "website": "https://www.duss.de"
   }
 ]
