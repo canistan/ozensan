@@ -1,14 +1,5 @@
 [
   {
-    "slug": "ticab",
-    "name": "TICAB",
-    "logo": "/brands/ticab_logo.png",
-    "coverImage": "/brands/ticab_hero.png",
-    "description": "Yol bakım, onarım ve asfalt ekipmanlarında modern çözümler. TICAB makine ve ekipmanları, pratik kullanım ve yüksek manevra kabiliyeti ile belediyeler ve yol yapım firmaları için vazgeçilmezdir.",
-    "descriptionEn": "Modern solutions in road maintenance, repair, and asphalt equipment. TICAB machinery and equipment are indispensable for municipalities and road construction companies with their practical use and high maneuverability.",
-    "website": "https://ticab.eu"
-  },
-  {
     "slug": "cedima",
     "name": "CEDIMA",
     "logo": "/cedima.svg",
@@ -16,6 +7,15 @@
     "description": "Elmas uçlu testereler ve delme ekipmanları konusunda dünya lideri. 1984 yılından beri ağır sanayi, yol yapım ve profesyonel yapı yıkım işlerinde profesyonellere güvenilir çözümler sunmaktadır. Yenilikçi Alman mühendisliği ile üretilen Cedima makineleri, en zorlu şantiye koşullarında yüksek verim ve dayanıklılık garantisi verir.",
     "descriptionEn": "Global leader in diamond saws and drilling equipment. Since 1984, it has been providing reliable solutions for professionals in heavy industry, road construction, and professional demolition. Cedima machines, produced with innovative German engineering, guarantee high efficiency and durability in the toughest site conditions.",
     "website": "https://www.cedima.com"
+  },
+  {
+    "slug": "ticab",
+    "name": "TICAB",
+    "logo": "/brands/ticab_logo.png",
+    "coverImage": "/brands/ticab_hero.png",
+    "description": "Yol bakım, onarım ve asfalt ekipmanlarında modern çözümler. TICAB makine ve ekipmanları, pratik kullanım ve yüksek manevra kabiliyeti ile belediyeler ve yol yapım firmaları için vazgeçilmezdir.",
+    "descriptionEn": "Modern solutions in road maintenance, repair, and asphalt equipment. TICAB machinery and equipment are indispensable for municipalities and road construction companies with their practical use and high maneuverability.",
+    "website": "https://ticab.eu"
   },
   {
     "slug": "duss",
