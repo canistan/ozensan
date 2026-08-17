@@ -85,6 +85,7 @@ export default function Footer() {
               <li><Link href="/urunler" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">{t("allProducts")}</Link></li>
               <li><Link href="/markalar" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">{t("agencies")}</Link></li>
               <li><Link href="/cozumler" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">{t("afterSales")}</Link></li>
+              <li><Link href="/docs" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">{t("catalogs")}</Link></li>
               <li><Link href="/iletisim" className="hover:text-[#C61A1A] transition-colors text-sm font-medium">{t("contactUs")}</Link></li>
             </ul>
           </div>
