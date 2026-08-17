@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: ['/admin/', '/api/'],
+      disallow: ['/admin/', '/api/', '/docs/'],
     },
     sitemap: 'https://www.ozensanas.com/sitemap.xml',
   };

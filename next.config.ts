@@ -29,7 +29,7 @@ const nextConfig: NextConfig = {
           },
           {
             key: 'X-Frame-Options',
-            value: 'DENY',
+            value: 'SAMEORIGIN',
           },
           {
             key: 'Referrer-Policy',
@@ -45,7 +45,7 @@ const nextConfig: NextConfig = {
           },
           {
             key: 'Content-Security-Policy',
-            value: "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data: https://placehold.co *.public.blob.vercel-storage.com https://www.googletagmanager.com https://www.transparenttextures.com; font-src 'self' data:; connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net https://cdn.jsdelivr.net; frame-src 'self' https://www.youtube.com https://maps.google.com https://www.google.com https://www.google.com.tr; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests;",
+            value: "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data: https://placehold.co *.public.blob.vercel-storage.com https://www.googletagmanager.com https://www.transparenttextures.com; font-src 'self' data: https://fonts.googleapis.com https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net https://cdn.jsdelivr.net; frame-src 'self' *.public.blob.vercel-storage.com https://www.youtube.com https://maps.google.com https://www.google.com https://www.google.com.tr; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests;",
           },
         ],
       },
