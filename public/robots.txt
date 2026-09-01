@@ -1,0 +1,97 @@
+# ===========================================
+# Ozensan - robots.txt
+# ===========================================
+
+# Arama motorları - TAM ERİŞİM (SEO için gerekli)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# ===========================================
+# AI Crawler Botları - ENGELLENDİ
+# ===========================================
+
+# OpenAI
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+# Anthropic
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+# ByteDance / TikTok (Çin - en büyük bot trafiği kaynağı)
+User-agent: Bytespider
+Disallow: /
+
+# Baidu (Çin arama motoru)
+User-agent: Baiduspider
+Disallow: /
+
+# Huawei (Çin)
+User-agent: PetalBot
+Disallow: /
+
+# Sogou (Çin arama motoru)
+User-agent: Sogou
+Disallow: /
+
+# Yisou (Çin)
+User-agent: YisouSpider
+Disallow: /
+
+# Common Crawl
+User-agent: CCBot
+Disallow: /
+
+# Meta / Facebook AI
+User-agent: FacebookBot
+Disallow: /
+
+# Amazon
+User-agent: Amazonbot
+Disallow: /
+
+# Apple
+User-agent: Applebot-Extended
+Disallow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Disallow: /
+
+# Cohere
+User-agent: cohere-ai
+Disallow: /
+
+# SEO Araçları (gereksiz trafik)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# ===========================================
+# Diğer tüm botlar - ERİŞİM İZNİ
+# ===========================================
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.ozensanas.com/sitemap.xml
